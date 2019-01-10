@@ -1,4 +1,4 @@
-[![Unitary Fund](http://unitary.fund/logos/small_badge.png)](http://unitary.fund)
+[![Unitary Fund](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](http://unitary.fund)
 
 # Unitary Fund
 
@@ -15,5 +15,5 @@ If you are a project affiliated with the Unitary Fund you can
 add the badge to your github project with the following snippet:
 
 ```
-[![Unitary Fund](http://unitary.fund/logos/badge.png)](http://unitary.fund)
+[![Unitary Fund](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](http://unitary.fund)
 ```
