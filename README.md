@@ -5,7 +5,7 @@
 This is the website for the Unitary Fund.
 
 The Unitary Fund is a grant program that supports the development of 
-open source quantum softare.
+the quantum technology ecosystem.
 
 You can learn more about it at [unitary.fund](http://unitary.fund).
 
