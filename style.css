@@ -1,0 +1,127 @@
+:root {
+  --color-white: #fff;
+  --color-black: #222;
+  --color-yellow: yellow;
+  --color-blue: #5522FA;
+  --color-purple: #7700a2;
+  --color-pink: #AF4D9C;
+  --color-grey: #263340;
+  --color-salmon: #ec8580;
+  --color-peach: #fee5da;
+  --color-teal: #5fddc5;
+  --color-mint: #b3f4e0;
+  --color-french-grey: #edeae6;
+  --color-text: var(--color-black);
+  --color-background: var(--color-french-grey);
+  --color-sheet: var(--color-white);
+  --color-neutral: var(--color-grey);
+  --color-link: var(--color-blue);
+  --color-accent: var(--color-teal);
+  --space-base: 1em;
+  --space-x-small: calc(var(--space-base) / 4);
+  --space-small: calc(var(--space-base) / 2);
+  --space-medium: var(--space-base);
+  --space-large: calc(var(--space-base) * 2);
+  --space-x-large: calc(var(--space-base) * 3);
+  --space-xx-large: calc(var(--space-base) * 4);
+  --space-xxx-large: calc(var(--space-base) * 6);
+  --space-navbar: var(--space-triple);
+  --space-mobile: 85%;
+  --font-serif: 'Source Serif Variable', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  --font-sans: 'Source Sans Variable', 'Helvetica Neue', helvetica, 'Apple Color Emoji', arial, sans-serif;
+  --font-mono: 'Lucida Console"', Monaco, monospace;
+  --type-base: calc(1em + 0.5vw);
+  --type-xxx-small: 55%;
+  --type-xx-small: 65%;
+  --type-x-small: 75%;
+  --type-small: 85%;
+  --type-medium: 90%;
+  --type-large: 125%;
+  --type-x-large: 150%;
+  --type-xx-large: 230%;
+  --type-xxx-large: 340%; }
+
+html {
+  font-size: 10px;
+  overflow-x: hidden; }
+
+body {
+  font-family: var(--font-mono);
+  font-size: var(--type-base);
+  color: var(--color-text);
+  background-color: var(--color-sheet);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;}
+
+h1 {
+  font-family: var(--font-mono);}
+
+.tagline {
+  font-family: var(--font-mono);
+  font-size: var(--type-small);
+  }
+
+p.subtitle {
+    font-weight: bold;
+  }
+
+a,
+a:visited {
+  color: inherit; }
+
+a:hover {
+    background-color: var(--color-yellow);
+  }
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr [main] 80vw 1fr;
+  grid-template-rows: [nav] minmax(2em, 5vmin) [main] 1fr [foot] 3em; }
+  @media (min-width: 48em) {
+    .layout {
+      grid-template-columns: 1fr [main] 80ch 1fr; } }
+
+.content {
+  grid-column: main;
+  grid-row: main; }
+
+.layout-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto; }
+
+.heavy {
+  font-size: var(--type-large);
+  font-weight: 450; }
+
+.light {
+  font-weight: 300; }
+
+.footer {
+  font-size: var(--type-x-small);
+  grid-row: foot;
+  grid-column: main;
+  align-self: end;
+  justify-self: center;
+  margin: 0 0 2em 0;
+  text-align: center; }
+
+.square-button{
+    background-color: var(--color-yellow);
+    font-size: var(--type-medium);
+    border: none;
+    padding: 11px 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input{
+    font-size: var(--type-medium);
+    padding: 9px 20px;}
