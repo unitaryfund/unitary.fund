@@ -60,15 +60,6 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;}
 
-pre,
-code,
-kbd,
-samp,
-tt{
-  font-family:monospace,monospace;
-  font-size:1em;
-}
-
 h1 {
   font-family: var(--font-mono);}
 
