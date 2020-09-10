@@ -100,6 +100,11 @@ a:hover {
   height: 90vh;
   margin: 0 auto; }
 
+.subgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
 .heavy {
   font-size: var(--type-large);
   font-weight: 450; }
