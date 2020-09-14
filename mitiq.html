@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px "Lucida Console", Monaco, monospace; width:100%;}
+        #mce-EMAIL{padding: 11px; margin: 10px;}
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-19932157-4');
+    </script>
+    <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+    <style>
+      #sign-up {
+        float: right;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: var(--type-x-small);
+        background-color: var(--color-black);
+        color: var(--color-white);
+        padding: var(--space-x-small) var(--space-small);
+      }
+      .video-container {
+        display: flex;
+      }
+      .video-container .col-1-3 {
+        width: 33.33%;
+      }
+      .video-container .col-2-3 {
+        width: 66.66%;
+      }
+      .video-container video {
+        width: 100%;
+      }
+      #mitiq-menu-container {
+        display: none;
+      }
+      @media (max-width: 768px) {
+        #mitiq-menu-container {
+          display: block;
+        }
+      }
+    </style>
+</head>
+
+<body>
+<div class="layout">
+    <main id="content" class="content">
+        <section class="heavy">
+            <div class="container">
+                <div class="col-3">
+                  <div class="hero">
+                    <a href="/"><img src="/logos/new-logo.svg" alt="Unitary Fund" /></a>
+                    <p class="tagline"><b>Because evolution is
+                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitary</a></b>.</p>
+                    <div id="mitiq-menu-container">
+                      <p class="light" id="menu">
+                          <a href="mitiq.html" class="active" style="font-size: var(--type-large)">mitiq</a>
+                      </p>
+                      <a href="#sign-up" id="sign-up">Sign up</a>
+                  </div>
+                  </div>
+                  <p class="subtitle leading-arrow">Quantum computers have errors</p>
+                  <p><b>Mitiq</b> is a cross platform compiler that makes your <br> programs robust to those errors.</p>
+                  <div class="video-container">
+                    <div class="col-2-3">
+                      <video autoplay muted loop>
+                        <source src="/assets/qiskit.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
+                      <img src="/images/qiskit.png" alt="Qiskit">
+                      <p style="margin: 0;">Mitigating errors with Qiskit</p>
+                    </div>
+                  </div>
+                  <div class="video-container">
+                    <div class="col-2-3">
+                      <video autoplay muted loop>
+                        <source src="../assets/cirq.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
+                      <img src="/images/cirq.png" alt="Cirq">
+                      <p style="margin: 0;">Mitigating errors with Cirq</p>
+                    </div>
+                  </div>
+                  <p class="subtitle leading-arrow"><a name="sign-up"></a>Sign up</a></p>
+                  <p>If you want to use Mitiq, just fill out this form.</p>
+                  <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrAdEP3XsCy4V0TA?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="853" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                  <footer class="footer leading-arrow light-arrow">
+                    This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>. <br>
+                    If you have suggestions for changes then please open up a pull request!
+                    <br>
+                    <br>
+                    &copy;2020 Unitary Fund
+                </footer>
+                </div>
+                <div class="col-1" id="menu-container">
+                    <p class="light" id="menu">
+                        <a href="mitiq.html" class="active" style="font-size: var(--type-large)">mitiq</a>
+                    </p>
+                    <a href="#sign-up" id="sign-up">Sign up</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+</body>
+
+</html>
