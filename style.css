@@ -163,16 +163,42 @@ input{
     flex-direction: row;
 }
 
+.col-3, .col-1 {
+    margin-top: -100px;
+    margin-bottom: -100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .col-3 {
     flex-grow: 3;
+    position: relative;
+    border-left: 1px dotted#D8D8D8;
+    border-right: 1px dotted#D8D8D8;
+}
+
+.col-3:before {
+  content: '';
+  margin-top: -100px;
+  margin-bottom: -100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 33.33%;
+  height: calc(100% - 200px);
+  border-left: 1px dotted#D8D8D8;
+  border-right: 1px dotted#D8D8D8;
+  position: absolute;
+  left: 33.33%;
+  z-index: -10;
 }
 
 .col-1 {
     flex-grow: 1;
+    border-right: 1px dotted#D8D8D8;
 }
 
 #menu-container {
-    padding-left: 2em;
+    padding-left: 3.75em;
 }
 
 #menu a, #mobile-menu a {
