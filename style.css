@@ -197,6 +197,11 @@ input{
     border-right: 1px dotted#D8D8D8;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #menu-container {
     padding-left: 3.75em;
 }
