@@ -27,6 +27,7 @@
   --space-xxx-large: calc(var(--space-base) * 6);
   --space-navbar: var(--space-triple);
   --space-mobile: 85%;
+  --space-pull: 3em;
   --font-serif: 'Source Serif Variable', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   --font-sans: 'Source Sans Variable', 'Helvetica Neue', helvetica, 'Apple Color Emoji', arial, sans-serif;
   --font-mono: 'Lucida Console"', Monaco, monospace;
@@ -85,7 +86,8 @@ a:hover {
 .layout {
   display: grid;
   grid-template-columns: 1fr [main] 80vw 1fr;
-  grid-template-rows: [nav] minmax(2em, 5vmin) [main] 1fr [foot] 3em; }
+  grid-template-rows: [nav] minmax(2em, 5vmin) [main] 1fr [foot] 3em;
+  overflow: hidden; }
   @media (min-width: 48em) {
     .layout {
       grid-template-columns: 1fr [main] 80ch 1fr; } }
@@ -164,10 +166,10 @@ input{
 }
 
 .col-3, .col-1 {
-    margin-top: -100px;
-    margin-bottom: -100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: calc(-1 * var(--space-pull));
+    margin-bottom: calc(-1 * var(--space-pull));
+    padding-top: var(--space-pull);
+    padding-bottom: var(--space-pull);
 }
 
 .col-3 {
@@ -179,12 +181,12 @@ input{
 
 .col-3:before {
   content: '';
-  margin-top: -100px;
-  margin-bottom: -100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: calc(-1 * var(--space-pull));
+  margin-bottom: calc(-1 * var(--space-pull));
+  padding-top: var(--space-pull);
+  padding-bottom: var(--space-pull);
   width: 33.33%;
-  height: calc(100% - 200px);
+  height: calc(100% - 2 * var(--space-pull));
   border-left: 1px dotted#D8D8D8;
   border-right: 1px dotted#D8D8D8;
   position: absolute;
