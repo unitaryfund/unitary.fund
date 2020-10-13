@@ -149,7 +149,7 @@ input{
 }
 
 .hero .tagline {
-    margin: 0 var(--space-base);
+    /* margin: 0 var(--space-base); */
 }
 
 .hero a[href="index.html"] {
