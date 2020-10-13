@@ -175,8 +175,8 @@ input{
 .col-3 {
     flex-grow: 3;
     position: relative;
-    border-left: 1px dotted#D8D8D8;
-    border-right: 1px dotted#D8D8D8;
+/*    border-left: 1px dotted#D8D8D8;
+    border-right: 1px dotted#D8D8D8; */
 }
 
 .col-3:before {
@@ -187,8 +187,8 @@ input{
   padding-bottom: var(--space-pull);
   width: 33.33%;
   height: calc(100% - 2 * var(--space-pull));
-  border-left: 1px dotted#D8D8D8;
-  border-right: 1px dotted#D8D8D8;
+/*  border-left: 1px dotted#D8D8D8;
+  border-right: 1px dotted#D8D8D8; */
   position: absolute;
   left: 33.33%;
   z-index: -10;
@@ -196,7 +196,7 @@ input{
 
 .col-1 {
     flex-grow: 1;
-    border-right: 1px dotted#D8D8D8;
+/*    border-right: 1px dotted#D8D8D8; */
 }
 
 img {
