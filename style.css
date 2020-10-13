@@ -279,7 +279,7 @@ img {
 }
 
 #grant-list li img.grant-image {
-    border: 10px solid black;
+    border: 3px solid black;
     border-left: none;
 }
 
