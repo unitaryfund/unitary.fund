@@ -142,7 +142,7 @@ input{
 
 .hero {
     position: relative;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: flex-end;
     margin-bottom: var(--space-xx-large);
