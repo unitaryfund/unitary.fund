@@ -246,11 +246,13 @@ img {
 }
 
 .leading-arrow:before {
+    transform: scale(0.8);
     content: url(logos/leading-arrow.png);
 }
 
 .light-arrow:before {
-  content: url(logos/light-leading-arrow.png);
+    transform: scale(0.8);
+    content: url(logos/light-leading-arrow.png);
 }
 
 .leading-block:before {
