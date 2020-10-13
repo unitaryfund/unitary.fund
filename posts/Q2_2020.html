@@ -14,6 +14,7 @@
     <title>Unitary Fund</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
 
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
           rel="stylesheet" type="text/css">
@@ -48,6 +49,11 @@
                         <a href="/"><img src="/logos/new-logo.svg" alt="Unitary Fund" /></a>
                         <p class="tagline"><b>Because evolution is
                         <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitary</a></b>.</p>
+                        <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
                     </div>
 
                     <p class="leading-arrow"><b>Unitary Fund</b> is a non-profit working to create a quantum
@@ -143,7 +149,7 @@
                         <a href="/ideas.html">ideas</a>
                         <a href="/mitiq.html">mitiq</a>
                         <a href="/faq.html">faq</a>
-                        <a href="/blog.html">blog</a>
+                        <a href="blog.html" class="active">blog</a>
                         <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
                     </p>
                 </div>
@@ -153,7 +159,7 @@
                         <a href="ideas.html">ideas</a>
                         <a href="mitiq.html">mitiq</a>
                         <a href="faq.html">faq</a>
-                        <a href="blog.html">blog</a>
+                        <a href="blog.html" class="active">blog</a>
                         <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
                     </p>
                 </div>
@@ -162,7 +168,14 @@
         </section>
     </main>
 </div>
-
+<script>
+    var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+    mobileMenuIcon.addEventListener("click", function() {
+        mobileMenuIcon.classList.toggle("is-active");
+        mobileMenuContainer.classList.toggle("active");
+    });
+</script>
 </body>
 
 </html>
