@@ -199,6 +199,25 @@ input{
 /*    border-right: 1px dotted#D8D8D8; */
 }
 
+summary::marker, summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  content: "+";
+  color: #000;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: -10px 10px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+details[open] summary:after {
+  content: "-";
+}
+
 img {
   max-width: 100%;
   height: auto;
