@@ -14,6 +14,7 @@
     <title>Unitary Fund</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="hamburgers.min.css">
 
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -53,13 +54,6 @@
       .video-container video {
         width: 100%;
       }
-      #mitiq-menu-container {
-        display: none;
-      }
-      @media (max-width: 768px) {
-        #mitiq-menu-container {
-          display: block;
-        }
       }
     </style>
 </head>
@@ -74,15 +68,14 @@
                     <a href="/"><img src="/logos/new-logo.svg" alt="Unitary Fund" /></a>
                     <p class="tagline"><b>Because evolution is
                     <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitary</a></b>.</p>
-                    <div id="mitiq-menu-container">
-                      <p class="light" id="menu">
-                          <a href="mitiq.html" class="active" style="font-size: var(--type-large)">mitiq</a>
-                      </p>
-                      <a href="#sign-up" id="sign-up-button">Sign up</a>
-                  </div>
+                      <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
                   </div>
                   <p class="subtitle leading-arrow">Quantum computers have errors</p>
-                  <p><b>Mitiq</b> is a cross platform compiler that makes your programs robust to those errors.</p>
+                  <p><b><a href="https://github.com/unitaryfund/mitiq">Mitiq</a></b> is a cross platform compiler that makes your programs robust to those errors.</p>
                   <div class="video-container">
                     <div class="col-2-3">
                       <video autoplay muted loop>
@@ -105,11 +98,16 @@
                       <p style="margin: 0;">Mitigating errors with Cirq</p>
                     </div>
                   </div>
+                  <p class="subtitle leading-arrow">Learn more about Mitiq</p>
+                    <p>Read our <b><a href="https://arxiv.org/abs/2009.04417">whitepaper</a></b>, check out our <b><a href="https://mitiq.readthedocs.io/en/stable/">documentation</a></b>, or watch the video below.</p>
+                  <iframe width="800" height="500"
+                  src="https://www.youtube.com/embed/mLJNDFtAmDk">
+                  </iframe>
                   <p class="subtitle leading-arrow" id="sign-up">Sign up</p>
                   <p>If you want to use Mitiq, just fill out this form.</p>
                   <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrAdEP3XsCy4V0TA?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="853" style="background: transparent; border: 1px solid #ccc;"></iframe>
                   <footer class="footer leading-arrow light-arrow">
-                    This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>. <br>
+                    This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code of conduct</a>. <br> <br>
                     If you have suggestions for changes then please open up a pull request!
                     <br>
                     <br>
@@ -118,15 +116,38 @@
                 </div>
                 <div class="col-1" id="menu-container">
                     <p class="light" id="menu">
-                        <a href="mitiq.html" class="active" style="font-size: var(--type-large)">mitiq</a>
+                        <a href="grants.html">grants</a>
+                        <a href="ideas.html">ideas</a>
+                        <a href="mitiq.html" class="active">mitiq</a>
+                        <a href="talks.html">talks</a> 
+                        <a href="faq.html">faq</a>
+                        <a href="blog.html">blog</a>
+                        <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
                     </p>
-                    <a href="#sign-up" id="sign-up-button">Sign up</a>
+                </div>
+                <div id="mobile-menu-container">
+                    <p class="light" id="mobile-menu">
+                        <a href="grants.html">grants</a>
+                        <a href="ideas.html">ideas</a>
+                        <a href="mitiq.html" class="active">mitiq</a>
+                        <a href="talks.html">talks</a> 
+                        <a href="faq.html">faq</a>
+                        <a href="blog.html">blog</a>
+                        <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                    </p>
                 </div>
             </div>
         </section>
     </main>
 </div>
-
+<script>
+    var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+    mobileMenuIcon.addEventListener("click", function() {
+        mobileMenuIcon.classList.toggle("is-active");
+        mobileMenuContainer.classList.toggle("active");
+    });
+</script>
 </body>
 
 </html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px "Lucida Console", Monaco, monospace; width:100%;}
+        #mce-EMAIL{padding: 11px; margin: 10px;}
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-19932157-4');
+    </script>
+</head>
+
+<body>
+<div class="layout">
+    <main id="content" class="content">
+        <section class="heavy">
+            <div class="container">
+                <div class="col-3">
+                    <div class="hero">
+                        <a href="/"><img src="/logos/new-logo.svg" alt="Unitary Fund" /></a>
+                        <p class="tagline"><b>Because evolution is
+                        <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitary</a></b>.</p>
+                        <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+
+                    <p class="subtitle leading-arrow"><a name="talks">Quantum Software Talks</a></p>
+                    The Unitary Fund is pleased to host a online talk series that features open source quantum software projects. All seminars will be hosted at <a href="https://www.twitch.tv/unitaryfund">twitch.tv/unitaryfund</a>, and if you want to chat with the speakers or the community more generally, check out the <a href="https://discord.gg/JqVGmpkP96">Unitary Fund Discord</a>.
+                    
+                    <p>
+                        If you work on a open source quantum software and have a project you would like to speak about, please <a href="mailto: contribute@unitary.fund">drop us a line!</a>
+                    </p>
+                    
+                    <p class="subtitle leading-arrow">Upcoming talks</p>
+
+                    <ul id="seminar-list" style="list-style-type: none;">
+                        <li class="leading-block"><span class="blog-post-date">12 November, 2020 - 12pm EST/5pm GMT</span>
+                            <h4>Intro to <a href="https://github.com/vm6502q/qrack">qrack</a>: a framework for fast quantum simulation by Daniel Strano</h4>
+
+                            <details>
+                                <summary>About the talk</summary>
+                                <p><strong><a href="https://github.com/vm6502q/qrack">vm6502q/qrack</a></strong> is a quantum computer simulation framework designed for the highest performance on the widest possible range of consumer-grade "classical" hardware platforms. It has 0 required external software dependencies besides C++11 standard, it optionally supports OpenCL accelerators back to the v1.1 standard, including multi-accelerator operation, and it prides itself on its "novel optimization layer." The speaker will outline the many features of the framework, including the theory behind the novel optimization layer, culminating in a simulator stack whose general use case is also its highest performance "Swiss Army knife" simulator, which has been integrated with a much wider developing quantum open source stack via plugins. Quantitative benchmarks will also be discussed, including performance on the quantum Fourier transform and an example of a "quantum volume"-type random universal circuit. Check out the project <a href="https://discordapp.com/invite/Gj3CHDy">Discord</a> for more info!</p>
+                            </details>
+                            <br>
+                            <details>
+                                <summary>About the speaker</summary>
+                                <p><strong>Daniel Strano</strong> is senior software developer for PDHI (Basking Ridge, NJ). He holds a B.A. in physics and has worked as a data scientist or software engineer for companies including Pacific Northwest National Laboratories (Richland, WA) and S&A Technologies, LLC (Newark, NJ). For the past three years, he is the lead developer of the vm6502q/qrack quantum computing simulation framework, along with Benn Bollay, which has received a Unitary Fund grant. His personal research and literary blog is at ultraphrenia.com, including information and videos about his open source extensions to the OpenRelativity physics module for Unity3D, by the MIT Game Lab, to which he is a community contributor via a personal fork on GitHub.  </p>
+                            </details>
+                            </li><br>
+                        <li class="leading-block"><span class="blog-post-date">03 December, 2020 - 12pm EST/5pm GMT</span>
+                            <h4>Extending C++ for Heterogeneous Quantum-Classical Computing by Alex McCaskey</h4>
+                            <details>
+                                <summary>About the talk</summary>
+                                <p>We present <strong><a href="https://qcor.ornl.gov/">qcor</a></strong> - a language extension to C++ and compiler implementation that enables heterogeneous quantum-classical programming, compilation, and execution in a single-source context. Our work provides a first-of-its-kind C++ compiler enabling high-level quantum kernel (function) expression in a quantum-language agnostic manner, as well as a hardware-agnostic, retargetable compiler workflow targeting a number of physical and virtual quantum computing backends. qcor leverages novel Clang plugin interfaces and builds upon the <a href="https://github.com/eclipse/xacc"> XACC</a> system-level quantum programming framework to provide a state-of-the-art integration mechanism for quantum-classical compilation that leverages the best from the community at-large. qcor translates quantum kernels ultimately to the XACC intermediate representation, and provides user-extensible hooks for quantum compilation routines like circuit optimization, analysis, and placement. This work details the overall architecture and compiler workflow for qcor, and provides a number of illuminating programming examples demonstrating its utility for near-term variational tasks, quantum algorithm expression, and feed-forward error correction schemes.</p>
+                            </details>
+                            <br>
+                            <details>
+                                <summary>About the speaker</summary>
+                                <p><strong>Alex McCaskey</strong> is a research scientist in the Computer Science and Mathematics Division at Oak Ridge National Laboratory. He serves as the Software Lead for the Quantum Computing Institute at ORNL and is the Project Lead for the XACC quantum framework and the QCOR quantum-classical C++ compiler. He received his Masters in Physics from Virginia Tech and BS degrees in Physics and Mathematics from the University of Tennessee.</p>
+                            </details>
+                            </li><br>
+                    </ul>
+                    <p class="subtitle leading-arrow">Previous talks</p>
+                   
+                    <footer class="footer leading-arrow light-arrow">
+                        This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>. <br>
+                        If you have suggestions for changes then please open up a pull request!
+                        <br>
+                        <br>
+                        &copy;2020 Unitary Fund
+                    </footer>
+                </div>
+                <div class="col-1" id="menu-container">
+                    <p class="light" id="menu">
+                        <a href="grants.html">grants</a>
+                        <a href="ideas.html" >ideas</a>
+                        <a href="mitiq.html">mitiq</a>
+                        <a href="talks.html" class="active">talks</a>
+                        <a href="faq.html">faq</a>
+                        <a href="blog.html">blog</a>
+                        <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                    </p>
+                </div>
+                <div id="mobile-menu-container">
+                    <p class="light" id="mobile-menu">
+                        <a href="grants.html">grants</a>
+                        <a href="ideas.html" >ideas</a>
+                        <a href="mitiq.html">mitiq</a>
+                        <a href="talks.html" class="active">talks</a>
+                        <a href="faq.html">faq</a>
+                        <a href="blog.html">blog</a>
+                        <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<script>
+    var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+        mobileMenuIcon.classList.toggle("is-active");
+        mobileMenuContainer.classList.toggle("active");
+    });
+
+</script>
+</body>
+
+</html>
