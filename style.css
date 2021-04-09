@@ -17,6 +17,7 @@
   --color-neutral: var(--color-grey);
   --color-link: var(--color-blue);
   --color-accent: var(--color-teal);
+  --color-unitaryhack:#b5f300ff ;
   --space-base: 1em;
   --space-x-small: calc(var(--space-base) / 4);
   --space-small: calc(var(--space-base) / 2);
@@ -253,6 +254,9 @@ img {
 
 #menu a.highlight, #mobile-menu a.highlight {
     background-color: var(--color-yellow);
+}
+#menu a.hackhighlight, #mobile-menu a.hackhighlight {
+  background-color: var(--color-unitaryhack);
 }
 
 .leading-arrow, .leading-block {

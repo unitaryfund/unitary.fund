@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html>
-    <script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,196 +17,202 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
 
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
-          rel="stylesheet" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px "Lucida Console", Monaco, monospace; width:100%;}
-        #mce-EMAIL{padding: 11px; margin: 10px;}
-
-
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+        
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-19932157-4');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-
+        gtag('config', 'UA-19932157-4');
     </script>
 </head>
 
 <body>
-<div class="layout">
-    <main id="content" class="content">
-        <section class="heavy">
-            <div class="container">
-                <div class="col-3">
-                    <div class="hero">
-                        <a href="/"><img src="/logos/new-logo.svg" alt="Unitary Fund" /></a>
-                        <p class="tagline"><b>Because evolution is
-                        <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitary</a></b>.</p>
-                        <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
-                            <span class="hamburger-box">
-                              <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-                    </div>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/new-logo.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
 
-                    <p class="leading-arrow"><b>Unitary Fund</b> is a non-profit working to create a quantum
-                        technology ecosystem that benefits the
-                        most people.
-                    </p>
+                        <p class="leading-arrow"><b>Unitary Fund</b> is a non-profit working to create a quantum technology ecosystem that benefits the most people.
+                        </p>
 
-                    <section class="light">
-                        <br>
+                        <section class="light">
+                            <br>
 
-                        <center>
-                            <h1 class="leading-arrow">Introducing Mitiq, an open-source software package for error mitigation on noisy quantum computers</h1>
-                        </center>
-                        <br>
-                        <br>
-                        September 10, 2020<br>
-                        <br>
-
-
-
-
-            <p dir="ltr"><p>We&rsquo;re excited to introduce <a href="https://www.github.com/unitaryfund/mitiq"><strong>Mitiq</strong></a>, a toolchain that helps reduce errors in noisy quantum computers. </p>
-                        <p>See it in action! Here's an example in <a href="http://qiskit.org/">Qiskit</a>:</p>
-                        <center>
-                        <video width="80%" autoplay muted loop>
-                                <source src="../assets/qiskit.mp4" type="video/mp4">
-                        </video>
+                            <center>
+                                <h1 class="leading-arrow">Introducing Mitiq, an open-source software package for error mitigation on noisy quantum computers</h1>
                             </center>
-                        <br>
-                        and in <a href="https://cirq.readthedocs.io/en/stable/">Cirq</a>:<br><br>
-                        <center>
-                        <video width="80%" autoplay muted loop>
-                                <source src="../assets/cirq.mp4" type="video/mp4">
-                        </video>
-                            </center>
+                            <br>
+                            <br> September 10, 2020<br>
+                            <br>
 
-            <p>Mitiq's white paper has just been uploaded on the <a href="https://arxiv.org/abs/2009.04417"><strong>arXiv</strong></a>. In it, we introduce the library and guide first users through its main features.
-                Mitiq is designed to be a thin layer between quantum programmers (and their circuits) and real quantum processors of choice, or simulators.</p>
-            <br>
 
-            <p>In the paper we show how to improve the performance of real quantum processors, running quantum programs on publicly available
-                quantum computers on the cloud, Rigetti Computing and IBM Q processors.  </p>
-            <br>
 
-            <p>To begin with, we've focused on zero-noise extrapolation, an error mitigation technique that has already been tested
-                in the lab. We show how to use zero-noise extrapolation even if you don't have low level laboratory access to your QPU.
-                Instead you can implement <a href="https://arxiv.org/abs/2005.10921"><strong>digital zero noise extrapolation</strong></a>.</p>
-            <br>
 
-            <p>If you're interested in Mitiq and in quantum error mitigation, you can find information on usage and additional
-                references in <strong>Mitiq's documentation</strong>
-                at <a href="https://mitiq.readthedocs.io/en/stable/"><strong>mitiq.readthedocs.io</strong></a>.  </p>
-            <br>
+                            <p dir="ltr">
+                                <p>We&rsquo;re excited to introduce <a href="https://www.github.com/unitaryfund/mitiq"><strong>Mitiq</strong></a>, a toolchain that helps reduce errors in noisy quantum computers. </p>
+                                <p>See it in action! Here's an example in <a href="http://qiskit.org/">Qiskit</a>:</p>
+                                <center>
+                                    <video width="80%" autoplay muted loop>
+                                    <source src="../assets/qiskit.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <br> and in <a href="https://cirq.readthedocs.io/en/stable/">Cirq</a>:<br><br>
+                                <center>
+                                    <video width="80%" autoplay muted loop>
+                                    <source src="../assets/cirq.mp4" type="video/mp4">
+                                </video>
+                                </center>
 
-            To keep up to date with Mitiq's development, you can sign up to Unitary Fund's mailing list
-            <br>
-                <!-- Begin MailChimp Signup Form -->
-                <center>
+                                <p>Mitiq's white paper has just been uploaded on the <a href="https://arxiv.org/abs/2009.04417"><strong>arXiv</strong></a>. In it, we introduce the library and guide first users through its main features. Mitiq is designed
+                                    to be a thin layer between quantum programmers (and their circuits) and real quantum processors of choice, or simulators.</p>
+                                <br>
 
-                <div id="mc_embed_signup">
-                <form action="https://fund.us18.list-manage.com/subscribe/post?u=104796c75ced8350ebd01eebd&amp;id=a2c9e5ac2a"
-                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                      target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <label for="mce-EMAIL">Sign up for Mitiq updates</label><br><br>
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_104796c75ced8350ebd01eebd_a2c9e5ac2a" tabindex="-1" value="">
+                                <p>In the paper we show how to improve the performance of real quantum processors, running quantum programs on publicly available quantum computers on the cloud, Rigetti Computing and IBM Q processors. </p>
+                                <br>
+
+                                <p>To begin with, we've focused on zero-noise extrapolation, an error mitigation technique that has already been tested in the lab. We show how to use zero-noise extrapolation even if you don't have low level laboratory access
+                                    to your QPU. Instead you can implement <a href="https://arxiv.org/abs/2005.10921"><strong>digital
+                                        zero noise extrapolation</strong></a>.</p>
+                                <br>
+
+                                <p>If you're interested in Mitiq and in quantum error mitigation, you can find information on usage and additional references in <strong>Mitiq's documentation</strong> at <a href="https://mitiq.readthedocs.io/en/stable/"><strong>mitiq.readthedocs.io</strong></a>.
+                                </p>
+                                <br> To keep up to date with Mitiq's development, you can sign up to Unitary Fund's mailing list
+                                <br>
+                                <!-- Begin MailChimp Signup Form -->
+                                <center>
+
+                                    <div id="mc_embed_signup">
+                                        <form action="https://fund.us18.list-manage.com/subscribe/post?u=104796c75ced8350ebd01eebd&amp;id=a2c9e5ac2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                            <div id="mc_embed_signup_scroll">
+                                                <label for="mce-EMAIL">Sign up for Mitiq updates</label><br><br>
+                                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                                    <input type="text" name="b_104796c75ced8350ebd01eebd_a2c9e5ac2a" tabindex="-1" value="">
+                                                </div>
+                                                <!--<div class="clear">-->
+                                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button heavy square-button">
+                                                <!--</div>-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </center>
+
+                                <!--End mc_embed_signup-->
+                                <br>
+                                <p>We're looking forward to the feedback of the quantum software community: from fixing bugs to proposing enhancements in zero-noise extrapolation to additional quantum error-mitigation techniques. We're keeping a list of
+                                    <a href="https://github.com/unitaryfund/mitiq/wiki/Mitiq-Talks-and-Events"><strong>events</strong></a> where members of the Unitary Labs team will be attending.
+                                </p>
+                                <br>
+                                <p>Best wishes,</p>
+                                <p>Unitary Labs – the Engineering team at Unitary Fund (Andrea Mari, Nathan Shammah, Peter Karalekas, Ryan LaRose and Will Zeng)</p>
+
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
                     </div>
-                    <!--<div class="clear">-->
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                               class="button heavy square-button">
-                    <!--</div>-->
-                    </div>
-                </form>
-                </div>
-                </center>
-
-                <!--End mc_embed_signup-->
-            <br>
-            <p>We're looking forward to the feedback of the quantum software community: from fixing bugs to proposing
-                enhancements in zero-noise extrapolation to additional quantum error-mitigation techniques.
-                We're keeping a list of <a href="https://github.com/unitaryfund/mitiq/wiki/Mitiq-Talks-and-Events"><strong>events</strong></a>
-                where members of the Unitary Labs team will be attending.</p>
-            <br>
-            <p>Best wishes,</p>
-            <p>Unitary Labs – the Engineering team at Unitary Fund (Andrea Mari, Nathan Shammah, Peter Karalekas, Ryan LaRose and Will Zeng)</p>
-
-
-                    </section>
-                    <footer class="footer leading-arrow light-arrow">
-                        This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code of conduct</a>. <br> <br>
-                        If you have suggestions for changes then please open up a pull request!
-                        <br>
-                        <br>
-                        <table>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
                             <tr>
-                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i class="fa fa-twitter"></i></a></th>
-                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i class="fa fa-twitch"></i></a></th>
-                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i class="fa fa-youtube"></i></a></th>
-                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i class="fab fa-discord"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
                             </tr>
-                        </table> &copy;2020 Unitary Fund
-                    </footer>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-1" id="menu-container">
-                                        <table>
-                        <tr>
-                            <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i class="fa fa-twitter"></i></a></th>
-                            <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i class="fa fa-twitch"></i></a></th>
-                            <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i class="fa fa-youtube"></i></a></th>
-                            <th style="text-align: right;"><a href="http://discord.unitary.fund"><i class="fab fa-discord"></i></a></th>
-                        </tr>
-                    </table> 
-                    <p class="light" id="menu">
-                        <a href="../grants.html">grants</a>
-                        <a href="../ideas.html">ideas</a>
-                        <a href="../mitiq.html">mitiq</a>
-                        <a href="../talks.html">talks</a>
-                        <a href="../faq.html">faq</a>
-                        <a href="../blog.html" class="active">blog</a>
-                        <a href="../careers.html">careers</a>
-                        <a href="../donate.html">donate</a>
-                        <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
-                    </p>
-                </div>
-                <div id="mobile-menu-container">
-                    <p class="light" id="mobile-menu">
-                        <a href="../grants.html">grants</a>
-                        <a href="../ideas.html">ideas</a>
-                        <a href="../mitiq.html">mitiq</a>
-                        <a href="../talks.html">talks</a>
-                        <a href="../faq.html">faq</a>
-                        <a href="../blog.html" class="active">blog</a>
-                        <a href="../careers.html">careers</a>
-                        <a href="../donate.html">donate</a>
-                        <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-</div>
-<script>
-    var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
         mobileMenuContainer = document.querySelector("#mobile-menu-container");
-    mobileMenuIcon.addEventListener("click", function() {
-        mobileMenuIcon.classList.toggle("is-active");
-        mobileMenuContainer.classList.toggle("active");
-    });
-</script>
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
 </body>
 
 </html>
