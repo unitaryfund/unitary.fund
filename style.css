@@ -362,3 +362,10 @@ img {
     display: block;
   }
 }
+
+.video {
+  top: 0;
+  left: 0;
+  width: 560;
+  height: 315;
+}
