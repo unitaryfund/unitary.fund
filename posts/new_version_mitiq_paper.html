@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19932157-4');
+    </script>
+</head>
+
+<body>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <section class="light">
+                            <right>
+                                <h1 class="leading-arrow">A new version of the Mitiq white paper</h1>
+                            </right>
+                            <br> 15 July, 2021<br> Unitary Fund Team<br>
+                            <br>
+
+
+                            <p>About a year ago, in September 2020, we released <a href="https://unitary.fund/posts/mitiq.html">Mitiq 0.1.0</a> and posted its associated <a href="https://arxiv.org/abs/2009.04417v1">white paper</a>. This was the first &ldquo;stable&rdquo; version of an open-source Python package for <a href="https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html">quantum error mitigation</a> on near-term quantum computers. <strong>Mitiq was officially born.</strong></p>
+                            <p>At that time, only one error mitigation technique was implemented in Mitiq: <strong><a href="https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html#zero-noise-extrapolation">zero-noise extrapolation</a></strong>, which was (and still is) contained in the package module <strong>mitiq.zne</strong>.</p>
+                            <p>Since then, Mitiq has developed at a rate of approximately one release per month. In this period, many new features have been added and many bugs have been fixed too :-). Some highlights include:</p>
+                            <ul>
+                            <li>A new module (<strong>mitiq.pec</strong>), implementing an error mitigation technique known as <strong><a href="https://mitiq.readthedocs.io/en/v0.9.3/guide/guide-error-mitigation.html#probabilistic-error-cancellation">probabilistic error cancellation</a></strong>. The workflow to apply probabilistic error cancellation is very similar to that of zero-noise extrapolation, as shown in this <a href="https://mitiq.readthedocs.io/en/v0.9.3/guide/guide-getting-started.html#probabilistic-error-cancellation">quickstart example</a>.&nbsp;</li>
+                            <li>A new module (<strong>mitiq.cdr</strong>), implementing a learning-based error mitigation method called <strong><a href="https://mitiq.readthedocs.io/en/v0.9.3/examples/cdr_api.html">Clifford data regression</a></strong>.</li>
+                            <li>A new module (<strong>mitiq.interfaces</strong>), re-organizing all the integrations with other quantum software libraries. In particular, support for <strong>Braket</strong> circuits was recently introduced, in addition to the existing integrations (Cirq, Qiskit, PyQuil).</li>
+                            </ul>
+                            <figure>
+                                <img style="max-width: 80%; height: auto; margin: auto; display: block;" src="../images/diagram_mitiq_modules.png" alt="unitaryHACK" />
+                            </figure>
+                            </a>
+                            <figcaption style="max-width: 60%;height: auto; margin: auto;display: block;font-size:.8em">
+                                <br>Diagram visualizing the modules of Mitiq. Extracted from <a href="https://arxiv.org/abs/2009.04417v2">arXiv:2009.04417v2</a>.
+                            </figcaption>
+                            <p><br /></p>
+                            <p>These new features, together with all the additional changes that are reported in the Mitiq <a href="https://mitiq.readthedocs.io/en/v0.9.3/changelog.html">changelog</a>, provided a strong motivation for re-submitting a <strong><a href="https://arxiv.org/abs/2009.04417v2">new updated version of the Mitiq paper</a></strong> on the arXiv server.</p>
+                            <p><strong>However, there was another important motivation too.</strong> We are excited to give proper credit to the many people, beyond the Unitary Fund team, that provided a significant contribution to the development of the library. In alphabetical order, they are:</p>
+                            <ul>
+                            <li>Andre A. Alves,</li>
+                            <li>Piotr Czarnik,</li>
+                            <li>Mohamed El Mandouh,</li>
+                            <li>Max H. Gordon,</li>
+                            <li>Yousef Hindy,</li>
+                            <li>Aaron Robertson,</li>
+                            <li>Purva Thakre.</li>
+                            </ul>
+                            <p>The re-submitted version has now 13 authors and, in the spirit of open-source projects, we hope that even more people will be involved in the future.</p>
+                            <p>All Mitiq contributors are now proudly <a href="https://github.com/unitaryfund/mitiq#contributors-">acknowledged</a> in the README page of Mitiq, where you can also find the links to their GitHub accounts.</p>
+                            </br>
+                            <p><strong>References</strong></p>
+                            <ul>
+                            <li>The second version of the Mitiq paper: <a href="https://arxiv.org/abs/2009.04417v2">arXiv:2009.04417v2</a></li>
+                            <li>The first version of the Mitiq paper: <a href="https://arxiv.org/abs/2009.04417v1">arXiv:2009.04417v1</a></li>
+                            <li>The documentation of Mitiq, pinned to the version (v0.9.3) associated to arXiv:2009.04417v2: <a href="https://mitiq.readthedocs.io/en/v0.9.3/">https://mitiq.readthedocs.io/en/v0.9.3/</a></li>
+                            </ul>
+                            <p><br /><br /></p>
+
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
+                    </div>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
+                            <tr>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
+                            </tr>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
