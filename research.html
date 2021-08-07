@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-
 <html>
 <script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-
     <title>Unitary Fund</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="hamburgers.min.css">
-
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_signup {
@@ -31,7 +27,6 @@
             margin: 10px;
         }
     </style>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
     <script>
@@ -44,6 +39,35 @@
 
         gtag('config', 'UA-19932157-4');
     </script>
+    <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+    <style>
+    #sign-up-button {
+            float: right;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: var(--type-x-small);
+            background-color: var(--color-black);
+            color: var(--color-white);
+            padding: var(--space-x-small) var(--space-small);
+        }
+        
+        .video-container {
+            display: flex;
+        }
+        
+        .video-container .col-1-3 {
+            width: 33.33%;
+        }
+        
+        .video-container .col-2-3 {
+            width: 66.66%;
+        }
+        
+        .video-container video {
+            width: 100%;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -54,8 +78,8 @@
                     <div class="col-3">
                         <div class="hero">
                             <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
-                            <p class="tagline"><b>Because evolution is
-                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                            <p class="tagline"><b>Because evolution is <a
+                                        href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
                                         target="_blank">unitary</a></b>.</p>
                             <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
                                 <span class="hamburger-box">
@@ -63,61 +87,36 @@
                                 </span>
                             </button>
                         </div>
-
-                        <p class="subtitle leading-arrow"><a name="project-ideas">Project Inspiration</a></p>
-                        Looking for inspiration? This section contains links that might inspire new Unitary Fund projects.
-
+                        <p class="subtitle leading-arrow"><a name="research">Research with Unitary Fund</a></p> The Unitary Fund believes that research is an important driver in quantum open source. We focus not only on our own research interests, but also building tools to enable the
+                        research of others and supporting that research via our microgrant program. Check out some of the many research projects we've been involved in or supported below!
+                        <p class="subtitle leading-arrow"><a name="research-uf">Unitary Labs research and collaborations</a></p>
+                        The Unitary Fund research <a href="https://github.com/unitaryfund/research">GitHub repo</a> has source code for a variety of our research projects.
                         <p>
-                            Unitary Fund is supporting the development of
-                            <a href="http://www.qutip.org/">QuTiP</a>, the Quantum Toolbox in Python. Interested students can apply to propose a code project in QuTiP and be mentored by the core developers for a 3-month period, working remotely, similarly
-                            to the Google Summer of Code. A list of
-                            <a href="https://github.com/qutip/qutip/wiki/Google-Summer-of-Code-2020">
-                                project ideas</a> is available from the QuTiP wiki. Applications are open all-year-round.
-                        </p>
-
-                        <p>
-                            <a href="https://www.cgranade.com/">Chris Granade</a> - a UF Advisory Board member and senior developer on Microsoft's open source <a href="https://www.microsoft.com/en-ca/quantum/development-kit">Quantum Development
-                                Kit</a> - has some suggestions:
                             <ul style="list-style-type: none;">
-                                <li class="leading-block">Additional Q# simulators (e.g.: open systems or CHP simulators)
-                                </li><br>
-                                <li class="leading-block">New language interoperability; currently, can call into Q# from Python, C#, F#, VB.NET, or PowerShell</li><br>
-                                <li class="leading-block">Visualization and/or debugger tools (e.g.: improving the state visualizer sample)</li><br>
-                                <li class="leading-block">New libraries for quantum algorithms (e.g.: we’ve gotten requests for
-                                    <a href="https://arxiv.org/abs/0708.1879">QRAM</a> implementations and a <a href="https://arxiv.org/abs/quant-ph/9607014">Durr–Hoyer library)</a>
-                                </li>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2009.04417">Mitiq: A software package for error mitigation on noisy quantum computers</a>, <a href="https://mitiq.readthedocs.io/en/latest/examples/mitiq-paper/mitiq-paper-codeblocks.html">source code</a></li><br>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2005.10921">Digital zero noise extrapolation for quantum error mitigation</a></li><br>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2108.02237">Extending quantum probabilistic error cancellation by noise scaling</a></li><br>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2105.09902">Pulse-level noisy quantum circuits with QuTiP</a></li><br>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2104.15044">Pulser: An open-source package for the design of pulse sequences in programmable neutral-atom arrays
+                                </a></li><br>
                             </ul>
                         </p>
-
-
+                        <p class="subtitle leading-arrow"><a name="research-staff">Unitary Fund staff research</a></p>
                         <p>
-                            <a href="http://travisscholten.com/">Travis Scholten</a> - an Advisory Board member from
-                            <a href="https://www.ibm.com/quantum-computing/">IBM Quantum</a> - suggests:
                             <ul style="list-style-type: none;">
-                                <li class="leading-block">Some of the larger issues in Qiskit Terra labelled as "<a href="https://github.com/Qiskit/qiskit-terra/labels/short%20project">short
-                                    projects</a>."</li><br>
-                                <li class="leading-block">Implementing the Solovay-Kitaev algorithm for approximating a given unitary by gates from a finite set, to arbitrary accuracy.</li><br>
-                                <li class="leading-block">Writing a simulator for parameterized quantum circuits, leveraging the Qiskit Parameter object.</li><br>
-                                <li class="leading-block">Building an encoder and decoder for quantum expander codes. (References <a href="https://arxiv.org/abs/1504.00822">here</a>, <a href="https://arxiv.org/abs/1808.03821">here</a>, and <a href="http://people.seas.harvard.edu/~madhusudan/courses/Spring2017/scribe/lect13.pdf">here</a>.)
-                                </li>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2101.05710">Symmetries and conserved quantities of boundary time crystals in generalized spin models</a></li><br>
+                                <li class="leading-block"><a href="https://arxiv.org/abs/2104.09811">Exceptional Point and Cross-Relaxation Effect in a Hybrid Quantum System</a></li><br>
                             </ul>
                         </p>
-
+                        <p class="subtitle leading-arrow"><a name="research-microgrant">Microgrant-supported
+                                research</a></p>
                         <p>
-                            <a href="www.mustythoughts.com">Michał Stęchły </a> - an Advisory Board member from
-                            <a href="https://www.zapatacomputing.com/">Zapata Computing</a> - shares his ideas:
                             <ul style="list-style-type: none;">
-                                <li class="leading-block">Visualization tools for high-dimension optimization landscapes could help get better insight into algorithms like QAOA or VQE.</li><br>
-                                <li class="leading-block">The number of new publications showing up on arxiv can be overwhelming. Some kind of an automated/community knowledge aggregator could greatly assist in research.</li><br>
-                                <li class="leading-block">At QOSF we have done <a href="https://qosf.org/evaluation/">evaluation of open source projects</a> in quantum in 2018. Help with updating and automating the process would be appreciated.
-                                </li><br>
+                                <li class="leading-block"></li><br>
                             </ul>
                         </p>
-
-                        <footer class="footer leading-arrow light-arrow">
-                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
-                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
-                            <br>
+                        <footer class="footer leading-arrow light-arrow"> This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request! <br>
                             <br>
                             <table>
                                 <tr>
@@ -139,18 +138,20 @@
                                 <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
                                             class="fa fa-twitter"></i></a></th>
                                 <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
-                                            class="fa fa-twitch"></i></a></th>
+                                            class="fa fa-twitch"></i></a>
+                                </th>
                                 <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
                                             class="fa fa-youtube"></i></a></th>
                                 <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
-                                            class="fab fa-discord"></i></a></th>
+                                            class="fab fa-discord"></i></a>
+                                </th>
                             </tr>
                         </table>
                         <p class="light" id="menu">
                             <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
                             <a href="grants.html">grants</a>
-                            <a href="ideas.html" class="active">ideas</a>
-                            <a href="research.html">research</a>
+                            <a href="ideas.html">ideas</a>
+                            <a href="research.html" class="active">research</a>
                             <a href="mitiq.html">mitiq</a>
                             <a href="talks.html">talks</a>
                             <a href="faq.html">faq</a>
@@ -165,8 +166,8 @@
                         <p class="light" id="mobile-menu">
                             <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
                             <a href="grants.html">grants</a>
-                            <a href="ideas.html" class="active">ideas</a>
-                            <a href="research.html">research</a>
+                            <a href="ideas.html">ideas</a>
+                            <a href="research.html" class="active">research</a>
                             <a href="mitiq.html">mitiq</a>
                             <a href="talks.html">talks</a>
                             <a href="faq.html">faq</a>

@@ -25,7 +25,7 @@
             font: 14px "Lucida Console", Monaco, monospace;
             width: 100%;
         }
-
+        
         #mce-EMAIL {
             padding: 11px;
             margin: 10px;
@@ -71,13 +71,17 @@
                             <br>
 
 
-                            <p>About a year ago, in September 2020, we released <a href="https://unitary.fund/posts/mitiq.html">Mitiq 0.1.0</a> and posted its associated <a href="https://arxiv.org/abs/2009.04417v1">white paper</a>. This was the first &ldquo;stable&rdquo; version of an open-source Python package for <a href="https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html">quantum error mitigation</a> on near-term quantum computers. <strong>Mitiq was officially born.</strong></p>
-                            <p>At that time, only one error mitigation technique was implemented in Mitiq: <strong><a href="https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html#zero-noise-extrapolation">zero-noise extrapolation</a></strong>, which was (and still is) contained in the package module <strong>mitiq.zne</strong>.</p>
+                            <p>About a year ago, in September 2020, we released <a href="https://unitary.fund/posts/mitiq.html">Mitiq 0.1.0</a> and posted its associated <a href="https://arxiv.org/abs/2009.04417v1">white paper</a>. This was the first &ldquo;stable&rdquo;
+                                version of an open-source Python package for <a href="https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html">quantum error mitigation</a> on near-term quantum computers. <strong>Mitiq was officially born.</strong></p>
+                            <p>At that time, only one error mitigation technique was implemented in Mitiq: <strong><a href="https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html#zero-noise-extrapolation">zero-noise extrapolation</a></strong>,
+                                which was (and still is) contained in the package module <strong>mitiq.zne</strong>.</p>
                             <p>Since then, Mitiq has developed at a rate of approximately one release per month. In this period, many new features have been added and many bugs have been fixed too :-). Some highlights include:</p>
                             <ul>
-                            <li>A new module (<strong>mitiq.pec</strong>), implementing an error mitigation technique known as <strong><a href="https://mitiq.readthedocs.io/en/v0.9.3/guide/guide-error-mitigation.html#probabilistic-error-cancellation">probabilistic error cancellation</a></strong>. The workflow to apply probabilistic error cancellation is very similar to that of zero-noise extrapolation, as shown in this <a href="https://mitiq.readthedocs.io/en/v0.9.3/guide/guide-getting-started.html#probabilistic-error-cancellation">quickstart example</a>.&nbsp;</li>
-                            <li>A new module (<strong>mitiq.cdr</strong>), implementing a learning-based error mitigation method called <strong><a href="https://mitiq.readthedocs.io/en/v0.9.3/examples/cdr_api.html">Clifford data regression</a></strong>.</li>
-                            <li>A new module (<strong>mitiq.interfaces</strong>), re-organizing all the integrations with other quantum software libraries. In particular, support for <strong>Braket</strong> circuits was recently introduced, in addition to the existing integrations (Cirq, Qiskit, PyQuil).</li>
+                                <li>A new module (<strong>mitiq.pec</strong>), implementing an error mitigation technique known as <strong><a href="https://mitiq.readthedocs.io/en/v0.9.3/guide/guide-error-mitigation.html#probabilistic-error-cancellation">probabilistic error cancellation</a></strong>.
+                                    The workflow to apply probabilistic error cancellation is very similar to that of zero-noise extrapolation, as shown in this <a href="https://mitiq.readthedocs.io/en/v0.9.3/guide/guide-getting-started.html#probabilistic-error-cancellation">quickstart example</a>.&nbsp;</li>
+                                <li>A new module (<strong>mitiq.cdr</strong>), implementing a learning-based error mitigation method called <strong><a href="https://mitiq.readthedocs.io/en/v0.9.3/examples/cdr_api.html">Clifford data regression</a></strong>.</li>
+                                <li>A new module (<strong>mitiq.interfaces</strong>), re-organizing all the integrations with other quantum software libraries. In particular, support for <strong>Braket</strong> circuits was recently introduced, in addition
+                                    to the existing integrations (Cirq, Qiskit, PyQuil).</li>
                             </ul>
                             <figure>
                                 <img style="max-width: 80%; height: auto; margin: auto; display: block;" src="../images/diagram_mitiq_modules.png" alt="unitaryHACK" />
@@ -87,25 +91,26 @@
                                 <br>Diagram visualizing the modules of Mitiq. Extracted from <a href="https://arxiv.org/abs/2009.04417v2">arXiv:2009.04417v2</a>.
                             </figcaption>
                             <p><br /></p>
-                            <p>These new features, together with all the additional changes that are reported in the Mitiq <a href="https://mitiq.readthedocs.io/en/v0.9.3/changelog.html">changelog</a>, provided a strong motivation for re-submitting a <strong><a href="https://arxiv.org/abs/2009.04417v2">new updated version of the Mitiq paper</a></strong> on the arXiv server.</p>
-                            <p><strong>However, there was another important motivation too.</strong> We are excited to give proper credit to the many people, beyond the Unitary Fund team, that provided a significant contribution to the development of the library. In alphabetical order, they are:</p>
+                            <p>These new features, together with all the additional changes that are reported in the Mitiq <a href="https://mitiq.readthedocs.io/en/v0.9.3/changelog.html">changelog</a>, provided a strong motivation for re-submitting a <strong><a href="https://arxiv.org/abs/2009.04417v2">new updated version of the Mitiq paper</a></strong>                                on the arXiv server.</p>
+                            <p><strong>However, there was another important motivation too.</strong> We are excited to give proper credit to the many people, beyond the Unitary Fund team, that provided a significant contribution to the development of the
+                                library. In alphabetical order, they are:</p>
                             <ul>
-                            <li>Andre A. Alves,</li>
-                            <li>Piotr Czarnik,</li>
-                            <li>Mohamed El Mandouh,</li>
-                            <li>Max H. Gordon,</li>
-                            <li>Yousef Hindy,</li>
-                            <li>Aaron Robertson,</li>
-                            <li>Purva Thakre.</li>
+                                <li>Andre A. Alves,</li>
+                                <li>Piotr Czarnik,</li>
+                                <li>Mohamed El Mandouh,</li>
+                                <li>Max H. Gordon,</li>
+                                <li>Yousef Hindy,</li>
+                                <li>Aaron Robertson,</li>
+                                <li>Purva Thakre.</li>
                             </ul>
                             <p>The re-submitted version has now 13 authors and, in the spirit of open-source projects, we hope that even more people will be involved in the future.</p>
                             <p>All Mitiq contributors are now proudly <a href="https://github.com/unitaryfund/mitiq#contributors-">acknowledged</a> in the README page of Mitiq, where you can also find the links to their GitHub accounts.</p>
                             </br>
                             <p><strong>References</strong></p>
                             <ul>
-                            <li>The second version of the Mitiq paper: <a href="https://arxiv.org/abs/2009.04417v2">arXiv:2009.04417v2</a></li>
-                            <li>The first version of the Mitiq paper: <a href="https://arxiv.org/abs/2009.04417v1">arXiv:2009.04417v1</a></li>
-                            <li>The documentation of Mitiq, pinned to the version (v0.9.3) associated to arXiv:2009.04417v2: <a href="https://mitiq.readthedocs.io/en/v0.9.3/">https://mitiq.readthedocs.io/en/v0.9.3/</a></li>
+                                <li>The second version of the Mitiq paper: <a href="https://arxiv.org/abs/2009.04417v2">arXiv:2009.04417v2</a></li>
+                                <li>The first version of the Mitiq paper: <a href="https://arxiv.org/abs/2009.04417v1">arXiv:2009.04417v1</a></li>
+                                <li>The documentation of Mitiq, pinned to the version (v0.9.3) associated to arXiv:2009.04417v2: <a href="https://mitiq.readthedocs.io/en/v0.9.3/">https://mitiq.readthedocs.io/en/v0.9.3/</a></li>
                             </ul>
                             <p><br /><br /></p>
 
@@ -147,6 +152,7 @@
                             <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
                             <a href="../grants.html">grants</a>
                             <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
                             <a href="../mitiq.html">mitiq</a>
                             <a href="../talks.html">talks</a>
                             <a href="../faq.html">faq</a>
@@ -162,6 +168,7 @@
                             <a href="http://hack2021.unitary.fund" target="_blank" class="hackhighlight">unitaryHACK</a>
                             <a href="../grants.html">grants</a>
                             <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
                             <a href="../mitiq.html">mitiq</a>
                             <a href="../talks.html">talks</a>
                             <a href="../faq.html">faq</a>
