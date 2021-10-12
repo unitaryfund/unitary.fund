@@ -18,8 +18,20 @@ add the badge to your github project with the following snippet:
 [![Unitary Fund](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](http://unitary.fund)
 ```
 
-## Writing a blogpost
+## Writing a blog post
 
-Blog posts are written in HTML and a template for can be found under `posts`, and images should be added to the `images` folder.
-To schedule a post going live (PR merged to master) add as the last line to the PR description`/schedule YYYY-MM-DD` and if the PR is approved, it will automatically be merged at midnight GMT on that date.
-For more info about the GH action for this automation see [here](https://www.jasongaylord.com/blog/2020/07/31/schedule-merging-pull-requests-in-github).
+Blog posts are written in markdown and a template for can be found under `posts/markdown/`. and images for the post should be added to `images` at root.
+Make a PR to this site with your new markdown file and the team can review and merge it!
+
+If you want to see how your blog post looks like, you can use pandoc and run the following command in the `posts` folder:
+
+```bash
+pandoc --standalone --template pandoc-template.html ./markdown/your_post.md -o your_post.html
+```
+
+To view the entire site hosted by Python locally, run the following command:
+
+```bash
+python -m http.server 8000 --bind 127.0.0.1
+```
+
