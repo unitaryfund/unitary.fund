@@ -1,0 +1,15 @@
+name: Schedule Blog Post Merge
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+  schedule:
+    - cron: 0 0 * * *
+jobs:
+  merge_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gr2m/merge-schedule-action@v1.x
+        env:
+          GITHUB_TOKEN: $
