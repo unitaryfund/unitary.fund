@@ -20,13 +20,13 @@ add the badge to your github project with the following snippet:
 
 ## Writing a blog post
 
-Blog posts are written in markdown and a template for can be found under `posts/markdown/`. and images for the post should be added to `images` at root.
+Blog posts are written in markdown and a template for can be found under `posts/_markdown/`. and images for the post should be added to `images` at root.
 Make a PR to this site with your new markdown file and the team can review and merge it!
 
 If you want to see how your blog post looks like, you can use pandoc and run the following command in the `posts` folder:
 
 ```bash
-pandoc --standalone --template pandoc-template.html ./markdown/your_post.md -o your_post.html
+pandoc --standalone --template pandoc-template.html ./_markdown/your_post.md -o your_post.html
 ```
 
 To view the entire site hosted by Python locally, run the following command:
