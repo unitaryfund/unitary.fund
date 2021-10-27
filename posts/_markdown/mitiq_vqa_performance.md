@@ -1,6 +1,6 @@
 ---
 title: Improving VQA Performance through Error Mitigation
-date: TBD
+date: Oct 27, 2021
 author: Danny Samuel
 ---
 ## About Me
