@@ -1,6 +1,6 @@
 ---
 title: Post Title
-date: Month DD, YYYY
+date: DD Month YYYY
 author: Your Name
 ---
 <!--

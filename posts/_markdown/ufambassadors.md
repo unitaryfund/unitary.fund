@@ -1,6 +1,6 @@
 ---
 title: Announcing the Unitary Fund Ambassador Program and introducing our first Ambassadors
-date: October 18, 2021
+date: 18 October 2021
 author: Unitary Fund Team
 ---
 

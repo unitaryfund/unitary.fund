@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="date" content=''>
+    <meta name="date" content='2021-10-27'>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
@@ -72,7 +72,7 @@
                                 <h2 class="leading-arrow">Improving VQA Performance through Error Mitigation</h2>
                                 <h3></h3>
                             </right>
-                             
+                             2021-10-27
                             <br> Danny Samuel
                         
                            
@@ -87,11 +87,10 @@
                               <h2 id="my-experience-with-mitiq">My Experience with Mitiq</h2>
                               <p>My experience with Mitiq as a user has been quite positive. With extensive <a href="https://mitiq.readthedocs.io/en/stable/">documentation</a> and an intuitive interface, Mitiq has proven to be very user friendly even for those with little experience with error mitigation such as myself. Additionally, Mitiq is constantly being updated with new features and examples.</p>
                               <p>But, what’s more impressive is my experience with Mitiq as a contributor. Mitiq has a very knowledgeable and helpful team that is always ready to review pull requests and help contributors out with any issues they have. Additionally, the Mitiq team also has weekly community meetings for Mitiq where anyone can join and ask questions about Mitiq, pose new ideas, and have discussions about how to best improve Mitiq. It’s this attitude of inviting a variety of opinions to the development of Mitiq that allows it to be constantly improving very quickly.</p>
-                              <br>
-                                <h2 id="mirror-circuits"><b>Mirror Circuits</b></h2>
+                              <h2 id="mirror-circuits">Mirror Circuits</h2>
                               <p>Although I began my project by looking at the effect of error mitigation on VQAs, it quickly became apparent that there was a lack of benchmarking methods available to measure the effectiveness of quantum processors with and without error mitigation. This is why a large amount of my time on this project was spent working on implementing the Randomized Mirror Circuits benchmarking method as presented in <a href="https://arxiv.org/abs/2008.11294">this paper</a>.</p>
                               <p>Mirror Circuits use a similar principle to <a href="https://quantumai.google/cirq/tutorials/google/echoes">Loschmidt echo circuits</a>, which are circuits that have the form <span class="math inline"><em>U</em><em>U</em><sup>†</sup></span>. This is useful because the circuit should yield the 0 bitstring 100% of the time barring any errors, meaning we can use it to measure the error rate of a quantum processor.</p>
-                              <p>However, there are multiple problems that inhibit the effectiveness of Loschmidt echo circuits, the first of which being systematic error cancellation. The simplest example of this would be if there is an error that makes <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2)</span> applied to a qubit actually apply <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2 + <em>ϵ</em>)</span>. The inverse of this gate would then be <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2 − <em>ϵ</em>)</span> and the resulting bitstring would still be 0 in spite of the error. Another limitation of Loschmidt echo circuits is that a single input state is used, so errors not impacting that single state are not accounted for. Finally, only one measurement basis is used so errors that are not apparent in that one measurement basis are not accounted for.</p>
+                              <p>However, there are multiple problems that inhibit the effectiveness of Loschmidt echo circuits, the first of which being systematic error cancellation. The simplest example of this would be if there is an error that makes <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2)</span> applied to a qubit actually apply <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2+<em>ϵ</em>)</span>. The inverse of this gate would then be <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2−<em>ϵ</em>)</span> and the resulting bitstring would still be 0 in spite of the error. Another limitation of Loschmidt echo circuits is that a single input state is used, so errors not impacting that single state are not accounted for. Finally, only one measurement basis is used so errors that are not apparent in that one measurement basis are not accounted for.</p>
                               <p>It’s these limitations with Loschmidt echo circuits that prompted the creation of the Mirror Circuits benchmarking method. Mirror Circuits take the Loschmidt echo circuits and use key changes to it to avoid the aforementioned problems with them. For these purposes, it’s best to think of the echo circuit as a series of Clifford layers followed by the inverses of each of these layers. To reduce the chances of systematic error cancellation, we insert a central random pauli layer and insert random pauli layers between each layer. Additionally, we add a layer of random single-qubit Clifford gates to the beginning of the circuit, and the inverse of that layer to the end of the circuit to avoid the problems involving preparing and measuring in only one basis. After these changes, we are left with this:</p>
                               <figure>
                               <img src="../images/mitiq_vqe_performance.png" title="An example of a simple, single layer randomized mirror circuit" alt="An example of a simple, single layer randomized mirror circuit" /><figcaption aria-hidden="true">An example of a simple, single layer randomized mirror circuit</figcaption>
