@@ -41,7 +41,7 @@ I implemented a function in Mitiq (code [here](https://github.com/unitaryfund/mi
 
 ## Other Works
 
-Although the Mirror Circuits implementation was the main result of my research, I also recently spent time reading [this paper](https://arxiv.org/abs/2109.01051) on the effects of error mitigation on VQA trainability. It seemed to have some insight about the error mitigation methods used in Mitiq so I gave a presentation on this paper to the Mitiq team recently. The slides for the presentation can be seen here: . Although the paper was largely theoretical it emphasized the difficulty of VQA trainability in the presence of noise even with error mitigation. However, it showed that Clifford Data Regression, one of the Error Mitigation methods in Mitiq, appears to have a promising effect on VQA trainability.
+Although the Mirror Circuits implementation was the main result of my research, I also recently spent time reading [this paper](https://arxiv.org/abs/2109.01051) on the effects of error mitigation on VQA trainability. It seemed to have some insight about the error mitigation methods used in Mitiq so I gave a presentation on this paper to the Mitiq team recently. The slides for the presentation can be seen [here](https://docs.google.com/presentation/d/1TOmk3kmrJ73poMeIj8pONTaglqM0DlvaPtnqyO76CQw/edit?usp=sharing). Although the paper was largely theoretical it emphasized the difficulty of VQA trainability in the presence of noise even with error mitigation. However, it showed that Clifford Data Regression, one of the Error Mitigation methods in Mitiq, appears to have a promising effect on VQA trainability.
 
 ## Final Thoughts
 
