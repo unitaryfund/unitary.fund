@@ -28,7 +28,7 @@ The book has already been used as teaching material for two different courses at
 
 This is just the beginning of our journey. In the future, the book will cover more content: new quantum algorithms and more appendices to cover advanced theoretical computer science topics. Interested MSc and Ph.D. students are encouraged to engage with the core team of the open-source project (contacts below!). We need your help in building this giant book! There are many big and small issues on GitHub that are waiting for you! New chapters are waiting to be written, and many sections could be expanded or ameliorated.
  
-We are eagerly waiting for different contributors: 
+As the book grows, we are encouraging all kinds of contributors: 
 
 - Typo Hunters, 
 - Friendly Reviewers, 
