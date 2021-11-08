@@ -1,6 +1,6 @@
 ---
 title: Meet the UF Ambassadors – Misty Wahl
-date: October 20, YYYY
+date: November 11, 2021
 author: Misty Wahl
 ---
 **I was introduced to the Unitary Fund through their inaugural hackathon, [unitaryHACK 2021](https://unitaryfund.github.io/unitaryhack/index.html).** My journey in quantum formally began in January 2021 with the MITxPro quantum computing course series. At the end of the course, I was looking for practical experience to continue my learning project, and one of the instructors suggested joining a quantum-themed hackathon. A quick search revealed that unitaryHACK was scheduled for the following month. I registered immediately and browsed the list of issues tagged for the hackathon, ultimately selecting one on [applying error mitigation to a variational problem](https://github.com/unitaryfund/mitiq/issues/529).
