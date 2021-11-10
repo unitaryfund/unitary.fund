@@ -11,7 +11,7 @@ One of the projects supported by the Unitary Fund is [Mitiq](https://mitiq.readt
 
 The challenge presented in the hackathon was to create a tutorial example demonstrating the application of one of the error mitigation techniques in Mitiq to a variational problem. Without error mitigation, noise from the quantum computer would result in poor convergence or non-convergence of the algorithm. Adding error mitigation would then allow convergence or improve convergence. **Part of what interested me about the problem was that it was more research-oriented**, since there was no guarantee that the desired behavior was actually achievable, although previous demonstrations indicated a solution was likely to exist.
 
-![Github issue from unitaryHACK](..\images\ambassador_wahl_intro_card.png "Github issue from unitaryHACK")
+![Github issue from unitaryHACK](../images/ambassador_wahl_intro_card.png "Github issue from unitaryHACK")
 
 ## Creating the tutorial example
 
@@ -27,13 +27,13 @@ I chose a simple Variational Quantum Eigensolver (VQE) problem for the tutorial 
 
 **While investigating how to make the optimization efficient on longer circuits, I learned that pyQuil supports parametric compilation**. For parametric programs, the compilation is done outside the optimization loop, and the parameters are updated via a `memory map` (in v2) or the method `program.write_memory` (in v3). When I attempted to pass a parametric program to Mitiq and apply ZNE, **I discovered that Mitiq would not accept the memory map. I filed an issue to that effect, and it was fixed within a few days!** Later I found that support for parametric programs was not entirely necessary for the VQE example, once the compilation step was removed to allow use of custom gates. Instead, I repurposed the demonstration of [ZNE with pyQuil and parametric compilation](https://mitiq.readthedocs.io/en/stable/examples/pyquil_demo.html) as a separate tutorial.
 
-![Energy landscape plot from “ZNE with pyQuil and parametric compilation” tutorial](..\images\ambassador_wahl_intro_pyquil.png "Energy landscape plot from “ZNE with pyQuil and parametric compilation” tutorial")
+![Energy landscape plot from “ZNE with pyQuil and parametric compilation” tutorial](../images/ambassador_wahl_intro_pyquil.png "Energy landscape plot from “ZNE with pyQuil and parametric compilation” tutorial")
 
 Even after adding more gates, the desired behavior of ZNE enhancing convergence to the minimum energy was still elusive on the noisy QVM. That was mainly because the circuits were still relatively short, and therefore the errors were still primarily measurement errors. Rather than continuing to add gates to the circuit and increasing the execution time, I decided to use a noiseless QVM and then manually build a depolarizing noise model on the static gates. In pyQuil, noise models can be added by defining custom gates with the Kraus operators representing the desired noise model at a given noise level. It should be noted that Mitiq does not fold custom gates, and therefore custom gates must be defined in the executor function, which is then wrapped by the function applying the chosen error mitigation technique.
 
 In the end, once I defined an appropriate circuit and noise model, I was able to show that applying ZNE enhanced convergence to the minimum energy. While the VQE algorithm is generally considered to be robust to noise (see the [VQE tutorial in pyQuil / Grove](https://grove-docs.readthedocs.io/en/latest/vqe.html)), I observed that without mitigation, the accumulation of errors still resulted in loss of accuracy and additional iterations required to reach convergence. While there was some variation from run to run, applying ZNE generally improved convergence to the minimum energy in terms of accuracy, number of iterations, or both. The performance increase from ZNE was most evident in the energy landscape plot, where the noisy landscape was noticeably flatter than the landscape generated with ZNE.
 
-![Energy landscape plot from “Variational Quantum Eigensolver improved with Zero Noise Extrapolation” tutorial](..\images\ambassador_wahl_intro_landscape.png "Energy landscape plot from “Variational Quantum Eigensolver improved with Zero Noise Extrapolation” tutorial")
+![Energy landscape plot from “Variational Quantum Eigensolver improved with Zero Noise Extrapolation” tutorial](../images/ambassador_wahl_intro_landscape.png "Energy landscape plot from “Variational Quantum Eigensolver improved with Zero Noise Extrapolation” tutorial")
 
 ## Community impact
 
