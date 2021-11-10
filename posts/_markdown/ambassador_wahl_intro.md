@@ -3,6 +3,7 @@ title: Meet the UF Ambassadors – Misty Wahl
 date: November 11, 2021
 author: Misty Wahl
 ---
+
 **I was introduced to the Unitary Fund through their inaugural hackathon, [unitaryHACK 2021](https://unitaryfund.github.io/unitaryhack/index.html).** My journey in quantum formally began in January 2021 with the MITxPro quantum computing course series. At the end of the course, I was looking for practical experience to continue my learning project, and one of the instructors suggested joining a quantum-themed hackathon. A quick search revealed that unitaryHACK was scheduled for the following month. I registered immediately and browsed the list of issues tagged for the hackathon, ultimately selecting one on [applying error mitigation to a variational problem](https://github.com/unitaryfund/mitiq/issues/529).
 
 ## Hackathon project
@@ -40,3 +41,5 @@ In the end, once I defined an appropriate circuit and noise model, I was able to
 I expect the quantum OSS community can benefit from this project and similar projects in a variety of ways. Of course, continuing to expand the collection of Mitiq examples will help educate the community on using Mitiq and the supported error mitigation techniques. Furthermore, I hope the results demonstrated in the example will encourage users to apply error mitigation to other problems of interest. For instance, it would be interesting to see [Clifford Data Regression](https://mitiq.readthedocs.io/en/stable/examples/cdr_api.html) applied to more use cases, as it is a relatively new technique. Also, more extensive use of error mitigation is likely to motivate refinement of existing methods and the development of new ones.
 
 Finally, I wish to emphasize that **as a Mitiq contributor, I have been able to connect directly with the development team and raise improvement suggestions.** In response, the team added support for pyQuil parametric programs as mentioned earlier, as well as some improvements to facilitate contributing to Mitiq for Windows users. The Mitiq team also provided many helpful suggestions during the development of the example, and I am grateful for their support. It is my hope that this iterative and collaborative approach will encourage more contributors to join the quantum OSS community and help build the ecosystem.
+
+<p class="leading-block"> Stay up to date with what Misty is working on by following her on <a href="https://twitter.com/mistyawahl" target="_blank">Twitter</a>, <a href="https://github.com/Misty-W" target="_blank">GitHub</a>, and <a href="https://www.linkedin.com/in/misty-wahl" target="_blank">LinkedIn</a>!</p>
