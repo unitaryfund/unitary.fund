@@ -1,6 +1,6 @@
 ---
 title: A Krylov Approximation Method for Quantum Evolution
-date: November 15, 2021
+date: November 17, 2021
 author: Julian Ruffinelli
 ---
 
