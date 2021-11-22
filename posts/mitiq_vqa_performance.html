@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="date" content='2021-10-27'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+        
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19932157-4');
+    </script>
+    <title>Improving VQA Performance through Error Mitigation</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <section class="light">
+
+
+                            <right>
+                                <h2 class="leading-arrow">Improving VQA Performance through Error Mitigation</h2>
+                                <h3></h3>
+                            </right>
+                             2021-10-27
+                            <br> Danny Samuel
+                        
+                           
+                            <div>
+                              <h2 id="about-me">About Me</h2>
+                              <p>I am a senior in high school with a great interest in Quantum Computing. I was able to learn about it by taking QubitxQubit’s Introduction to Quantum Computing course last year.</p>
+                              <h2 id="project-background">Project Background</h2>
+                              <p>The originally proposed purpose of this project was to improve Variational Quantum Algorithm (VQA) performance using error mitigation. VQAs use parametrized quantum circuits and a classical optimizer to minimize a cost function. VQAs have the potential to effectively address the constraints of near-term Quantum Computers, but noise poses a challenge to the effectiveness of VQAs.</p>
+                              <p>However, error mitigation strategies could solve some of the problems associated with noise in VQAs. In this project, I used the error mitigation strategies offered by <a href="https//mitiq.readthedocs.io/en/stable/guide/guide-overview.html">Mitiq</a> to assess their effect on VQAs.</p>
+                              <h2 id="mitiq-overview">Mitiq Overview</h2>
+                              <p><a href="https://github.com/unitaryfund/mitiq">Mitiq</a> is a platform agnostic error mitigation software library with three built in error mitigation methods: zero noise extrapolation, probabilistic error cancellation, and clifford data regression. Through the course of this project, I worked with the Mitiq team and contributed to the documentation and benchmarking techniques (more on that later).</p>
+                              <h2 id="my-experience-with-mitiq">My Experience with Mitiq</h2>
+                              <p>My experience with Mitiq as a user has been quite positive. With extensive <a href="https://mitiq.readthedocs.io/en/stable/">documentation</a> and an intuitive interface, Mitiq has proven to be very user friendly even for those with little experience with error mitigation such as myself. Additionally, Mitiq is constantly being updated with new features and examples.</p>
+                              <p>But, what’s more impressive is my experience with Mitiq as a contributor. Mitiq has a very knowledgeable and helpful team that is always ready to review pull requests and help contributors out with any issues they have. Additionally, the Mitiq team also has weekly community meetings for Mitiq where anyone can join and ask questions about Mitiq, pose new ideas, and have discussions about how to best improve Mitiq. It’s this attitude of inviting a variety of opinions to the development of Mitiq that allows it to be constantly improving very quickly.</p>
+                              <h2 id="mirror-circuits">Mirror Circuits</h2>
+                              <p>Although I began my project by looking at the effect of error mitigation on VQAs, it quickly became apparent that there was a lack of benchmarking methods available to measure the effectiveness of quantum processors with and without error mitigation. This is why a large amount of my time on this project was spent working on implementing the Randomized Mirror Circuits benchmarking method as presented in <a href="https://arxiv.org/abs/2008.11294">this paper</a>.</p>
+                              <p>Mirror Circuits use a similar principle to <a href="https://quantumai.google/cirq/tutorials/google/echoes">Loschmidt echo circuits</a>, which are circuits that have the form <span class="math inline"><em>U</em><em>U</em><sup>†</sup></span>. This is useful because the circuit should yield the 0 bitstring 100% of the time barring any errors, meaning we can use it to measure the error rate of a quantum processor.</p>
+                              <p>However, there are multiple problems that inhibit the effectiveness of Loschmidt echo circuits, the first of which being systematic error cancellation. The simplest example of this would be if there is an error that makes <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2)</span> applied to a qubit actually apply <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2+<em>ϵ</em>)</span>. The inverse of this gate would then be <span class="math inline"><em>R</em><sub><em>x</em></sub>(<em>π</em>/2−<em>ϵ</em>)</span> and the resulting bitstring would still be 0 in spite of the error. Another limitation of Loschmidt echo circuits is that a single input state is used, so errors not impacting that single state are not accounted for. Finally, only one measurement basis is used so errors that are not apparent in that one measurement basis are not accounted for.</p>
+                              <p>It’s these limitations with Loschmidt echo circuits that prompted the creation of the Mirror Circuits benchmarking method. Mirror Circuits take the Loschmidt echo circuits and use key changes to it to avoid the aforementioned problems with them. For these purposes, it’s best to think of the echo circuit as a series of Clifford layers followed by the inverses of each of these layers. To reduce the chances of systematic error cancellation, we insert a central random pauli layer and insert random pauli layers between each layer. Additionally, we add a layer of random single-qubit Clifford gates to the beginning of the circuit, and the inverse of that layer to the end of the circuit to avoid the problems involving preparing and measuring in only one basis. After these changes, we are left with this:</p>
+                              <figure>
+                              <img src="../images/mitiq_vqe_performance.png" title="An example of a simple, single layer randomized mirror circuit" alt="An example of a simple, single layer randomized mirror circuit" /><figcaption aria-hidden="true">An example of a simple, single layer randomized mirror circuit</figcaption>
+                              </figure>
+                              <p>This is an example of a simple, single layer randomized mirror circuit. The nice thing about randomized mirror circuits is it still only has one possible output making it easy to use for benchmarking quantum processors, while minimizing the problems present in Loschmidt echo circuits.</p>
+                              <p>I implemented a function in Mitiq (code <a href="https://github.com/unitaryfund/mitiq/blob/master/mitiq/benchmarks/mirror_circuits.py">here</a>) to generate these randomized mirror circuits for any provided computer architecture. Through conversions, users can easily get mirror circuits in any existing package supported by Mitiq, for example Cirq, Qiskit, pyQuil, Pennylane, and the Amazon Braket SDK. This function provides another benchmarking circuit to easily test error mitigation methods in Mitiq. For example, the Mitiq team has already used mirror circuits to benchmark zero-noise extrapolation on Rigetti devices through AWS (<a href="https://aws.amazon.com/blogs/quantum-computing/exploring-quantum-error-mitigation-with-mitiq-and-amazon-braket/">blogpost</a>, <a href="https://mitiq.readthedocs.io/en/stable/examples/braket_mirror_circuit.html#define-the-circuit">notebook</a>).</p>
+                              <h2 id="other-works">Other Works</h2>
+                              <p>Although the Mirror Circuits implementation was the main result of my research, I also recently spent time reading <a href="https://arxiv.org/abs/2109.01051">this paper</a> on the effects of error mitigation on VQA trainability. It seemed to have some insight about the error mitigation methods used in Mitiq so I gave a presentation on this paper to the Mitiq team recently. The slides for the presentation can be seen <a href="https://docs.google.com/presentation/d/1TOmk3kmrJ73poMeIj8pONTaglqM0DlvaPtnqyO76CQw/edit?usp=sharing">here</a>. Although the paper was largely theoretical it emphasized the difficulty of VQA trainability in the presence of noise even with error mitigation. However, it showed that Clifford Data Regression, one of the Error Mitigation methods in Mitiq, appears to have a promising effect on VQA trainability.</p>
+                              <h2 id="final-thoughts">Final Thoughts</h2>
+                              <p>I have learned very much about Error Mitigation throughout the course of this project while being able to contribute to Mitiq and the field as a whole. I want to thank the Unitary Fund team for their continued help and support. I’d especially like to thank Ryan LaRose for being my advisor throughout this project and consistently guiding me and providing advice.</p>
+                            </div>
+
+                            <!-- <p>TEXT <a href="LINK" target="_blank">LINK</a> </p>
+                            <p>TEXT <img src="LOCATION" style="max-width: 100%;height: auto; margin: auto;display: block;" alt="ALTTEXT" id="ID" /></p>
+
+                            <h3>SUB</h3>
+                            <div>
+                                <ul style="list-style-type: none;">
+                                    <li class="leading-block">One</li><br>
+                                    <li class="leading-block">Two</li><br>
+                                    <li class="leading-block">Three</li>
+                                </ul>
+                            </div>
+
+                            <h4>SUB SUB</h4>
+
+                            <div>
+                                <ul id="grant-list">
+                                    <li><img class="grant-image" src="../images/dummy.png" alt="grant" id="qleet" />
+                                        <p> TEXT ONE</p>
+                                    </li><br>
+                                </ul>
+                            </div> -->
+
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
+                    </div>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
+                            <tr>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
+                            </tr>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
