@@ -8,7 +8,7 @@ Since 2018, Unitary Fund has supported the open quantum technology ecosystem aro
 
 Today, Unitary Fund is proud to announce our new corporate member program. We thank these organizations for their support and look forward to their further contributions in the coming year.
 
-The corporate member program contributes to Unitary Fund’s work on a recurring, annual basis, and consists of two tiers: cCore members and supporting members. core members' contributions start at $100k annually and supporting member’s contributions start at $25k annually. Additionally, core members are a part of the Unitary Fund’s Strategic Board which reviews strategy, budget, impact, and recommendation’s quarterly.
+The corporate member program contributes to Unitary Fund’s work on a recurring, annual basis, and consists of two tiers: cCore members and supporting members. Core members' contributions start at $100,000 annually and supporting members' contributions start at $25,000 annually. Additionally, core members are a part of the Unitary Fund’s Strategic Board which reviews strategy, budget, impact, and recommendation’s quarterly.
 
 ## Unitary Fund Core Members: IBM and Accenture
 
