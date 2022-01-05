@@ -26,7 +26,6 @@ The Unitary Fund awards $4,000 grants to individuals and teams pursuing projects
 
 "We are delighted to support the Unitary Fund's mission. They are doing first-class work building out a quantum ecosystem for everyone. You can see the Unitary Fund's impact everywhere you look," said Nathan Killoran, Head of Software, Algorithms, & Quantum Machine Learning at Xanadu, a photonic quantum computer company in Canada.
 
-Quantum computers have the potential to be revolutionary for many industries with its capability to develop efficient solutions for computational problems beyond the scope of a conventional machine and uncover unimaginable new possibilities.
 
 “The backing from these important members of the quantum ecosystem emphasizes the importance of our programs and the shared goals we all have in realizing the potential of quantum technology,” said Will Zeng, President of Unitary Fund. “There’s lots more work to do and we welcome new support!”
 
