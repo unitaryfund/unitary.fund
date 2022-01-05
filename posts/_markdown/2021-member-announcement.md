@@ -22,7 +22,7 @@ The Unitary Fund awards $4,000 grants to individuals and teams pursuing projects
 
 ![](../images/supporting-members-2021.png "Unitary Fund Supporting Members: Xanadu, IonQ, BCG, Pasqal, IQM, and DoraHacks")
 
-"It was important for Pasqal to reaffirm its support to open-source initiatives in quantum software by becoming a sponsor of Unitary Fund” says Loic Henreit, CTO at France-based quantum computing startup Pasqal. “We are thrilled to join the efforts led by Unitary Fund to build a solid ecosystem in this field."
+"It was important for Pasqal to reaffirm its support to open-source initiatives in quantum software by becoming a sponsor of Unitary Fund” says Loïc Henriet, Chief Technology Officer of Pasqal, a French startup building quantum processors out of neutral atoms. “We are thrilled to join the efforts led by Unitary Fund to build a solid ecosystem in this field."
 
 "We are delighted to support the Unitary Fund's mission. They are doing first-class work building out a quantum ecosystem for everyone. You can see the Unitary Fund's impact everywhere you look," said Nathan Killoran, Head of Software, Algorithms, & Quantum Machine Learning at Xanadu, a photonic quantum computer company in Canada.
 
