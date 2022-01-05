@@ -60,3 +60,5 @@ docker run -it qcor/cli-unitary-blog bash
 
 Within the container, lower to MLIR and QIR, and build quantum-classical executables:
 <script src="_markdown/snippets/unitary_docker.js"></script>
+
+<p class="leading-block"> If you'd like to connect with Alex and learn more about the work in this blog, check out his <a href="https://www.linkedin.com/in/alex-mccaskey-17a35636/" target="_blank">LinkedIn</a> and <a href="https://github.com/amccaskey" target="_blank">GitHub</a> profiles!</p>
