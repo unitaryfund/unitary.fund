@@ -1,17 +1,9 @@
 ---
 title: A Bird’s-Eye View of Upcoming System-Level Quantum-Classical Compilers
-date: December 14, 2021
+date: January 5, 2022
 author: Alex McCaskey
 ---
 
-<!-- 
-Didn't have too many notes, but some thoughts below:
-- AJM CHECK : Now that the QIR alliance is public, should there be a description/links to that? There are some links to the MSFT/ORNLrepos for such too that at least should be changed to the new org.
-- Any artifacts from the QED-C workshop that are public we can link to?
-- Is it worth mentioning the IEEE workshop as well on IR? Maybe the intent is to make it a report of sorts from the QED-C efforts, and if so that's np!
-- Gists are not public yet so I can't see the figures but that's ok :)
-- AJM CHECK : Might be worth noting that while the bell example does not really have classical hybridization, that is another huge plus of leveraging LLVM for classical components of your quantum program.
--->
 As quantum computers mature, software systems for compilation and control will necessarily need to improve in order to enable the full performant capabilities of a heterogeneous quantum-classical compute node. We envision the need for system-level compiler toolchains akin to those we have today for classical computing --- extensible, modular systems with unified intermediate representations that enable a wide array of optimization and code-generation techniques. What is the current state-of-the-art for system-level quantum compiler technologies today, and how is the quantum computer science community organizing to deploy these novel, next-generation software systems? In this blog post, I hope to answer that question and specifically highlight two recent developments that leverage the software infrastructure from the LLVM ecosystem --- the Quantum Intermediate Representation (QIR) and the MLIR Quantum Dialect. These two projects represent the latest with respect to deploying familiar, open-source, system-level compilation toolchains for quantum-classical computing today.
 
 ## Community Efforts on Quantum Compilers 
