@@ -114,3 +114,7 @@ It is a tremendous learning opportunity that can likely also lead to an academic
 My idea is to create a database of all articles on the topic from Reuters and the Associated Press, and then perform sentiment analysis on those articles.
 Once the analysis is complete, I plan to analyze how reporting and sentiment have changed before and after the emissions scandal.
 If that is successful, I can then turn my analysis towards Twitter.
+
+<p class="leading-block">
+    Stay up to date with what Andre is working on by following him on <a href="https://github.com/andre-a-alves" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/andre-a-alves/" target="_blank">LinkedIn</a>!
+</p>
