@@ -1,6 +1,6 @@
 ---
 title: Meet the UF Ambassadors – Andre Alves
-date: 18 January 2022
+date: 25 January 2022
 author: Andre Alves
 ---
 
@@ -19,7 +19,7 @@ Fast-forward one tuition-free semester spent studying information engineering, a
 (For those who do not know, most university programs in Germany are tuition-free, even for foreigners, and many are in English.
 I do not speak German.)
 For a curious student like myself, the first lockdown was a perfect opportunity to explore my interests and get involved with whatever projects seemed like a fun way to spend my spare time.
-Building keyboards and designing custom PCBs became a special interest for a while, but it seemed to quickly get expensive.
+Building keyboards and designing custom printed circuit boards (PCBs) became a special interest for a while, but it seemed to quickly get expensive.
 
 Eventually, I stumbled upon a TikTok video talking about quantum computing.
 Having heard of the topic before but not knowing much about it, I took advantage of my free time and looked into this emerging and exciting field that seemed like the perfect way to combine my earlier education in physics with my current education in information engineering.
@@ -29,7 +29,7 @@ Since I first started learning more about it, I have been hooked on quantum comp
 While possibly over-hyped and over-promised by the media, the future impact this field of computing will likely have remains significant.
 I liken it to having the opportunity to get involved in learning about classical computing in the 1950s when computers consisted of mammoth, building-sized machines that could accomplish relatively little compared to what we now think of and associate with a computer.
 But the major difference between then and now is that in the 1950s, most people did not have access to those computers.
-Meanwhile today, anyone with a laptop and an internet connection can not only learn about quantum computing, but they can even [run code on real quantum hardware for free](https://quantum-computing.ibm.com/)!
+Meanwhile today, anyone with a laptop and an internet connection can not only [learn about quantum computing](https://stem.mitre.org/quantum/), but they can even [run code on real quantum hardware for free](https://quantum-computing.ibm.com/)!
 
 ## Getting Involved with Unitary Fund
 
@@ -39,7 +39,7 @@ Consequently, I built a small, Python-based [quantum simulator](https://github.c
 Although I had already learned to code in C and Java, that simulator was my first Python project and the vehicle by while I learned that programming language, which I have since used for several open-source contributions as well as work, school, and personal projects.
 
 Once I started attending the weekly Mitiq meetings (every Friday at 17:00 UTC on [discord](http://discord.unitary.fund/)) to understand what was going on, I was amazed at the open and welcoming community I found at Unitary Fund.
-Along with that sense of community, following along during the meetings helped me understand what were priority issues, and I decided to tackle creating decorators for PEC error correction.
+Along with that sense of community, following along during the meetings helped me understand what were priority issues, and I decided to tackle creating [decorators for PEC](https://mitiq.readthedocs.io/en/stable/apidoc.html#mitiq.pec.pec.pec_decorator), a quantum error mitigation technique available in Mitiq.
 Decorators already existed for ZNE at the time, so this task was essentially making it so users could have the same or similar options for how to implement both techniques within their programs.
 In addition to that contribution, I made a few others that were mostly focused on organizing testing and improving documentation.
 
@@ -77,7 +77,7 @@ Building this device is obviously a multi-step process, and I am currently at th
 At this point, I have designed and conventionally simulated the circuit.
 When I get back home in mid-February, I will order the necessary components, build it, and test it out.
 If the circuit works as I imagine, the next step will be to program an FPGA to work with the incoming signal.
-The final step will be to put it all on a small PCB that can interact with another electrical device, hopefully by USB.
+The final step will be to put it all on a small printed circuit board (PCB) that can interact with another electrical device, hopefully by USB.
 Depending upon a number of factors, I am considering approaching some of my professors with this idea as the basis for a bachelor’s thesis project later this year.
 
 As an aside, drawing the circuit using [CircuiTikZ](https://github.com/circuitikz/circuitikz) required creating a laser diode component, since that was not part of the package, yet.
@@ -102,18 +102,6 @@ Her design looks great, and the prototype will form the basis for building the U
 ![Frances Poblete's Prototype for a QuNetSim Web-Based User Interface](../../images/ambassador_alves_intro_QuNetSim_UI.png)
 
 While I have not found the time to dedicate to improving my front-end development skills during this last semester, I still plan to be a major contributor to this UI as it gets built later this year.
-
-### Quantum Computing Media Coverage Sentiment Analysis
-
-During a conversation with [Sarah Kaiser](https://www.sckaiser.com/), she mentioned her theory that the [Volkswagen’s 2015 emissions cheating scandal](https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal) was a catalytic event in popularizing quantum computing.
-Her very plausible idea is that soon after the scandal, Volkswagen bought a D-Wave quantum annealer, which garnered significant media attention and made other large corporations look into the technology themselves.
-At that point, coverage of quantum computing allegedly both increased and the sentiment within that coverage improved.
-
-Since I have little experience with web scraping and sentiment analysis, this seemed like a great project to tackle.
-It is a tremendous learning opportunity that can likely also lead to an academic paper.
-My idea is to create a database of all articles on the topic from Reuters and the Associated Press, and then perform sentiment analysis on those articles.
-Once the analysis is complete, I plan to analyze how reporting and sentiment have changed before and after the emissions scandal.
-If that is successful, I can then turn my analysis towards Twitter.
 
 <p class="leading-block">
     Stay up to date with what Andre is working on by following him on <a href="https://github.com/andre-a-alves" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/andre-a-alves/" target="_blank">LinkedIn</a>!
