@@ -1,5 +1,5 @@
 ---
-title: On the pulse of open-source quantum simulation with Pulser and QuTiP
+title: Stay on the pulse of open-source quantum simulation with Pulser and QuTiP
 date: 24 January 2022
 author:
 ---
