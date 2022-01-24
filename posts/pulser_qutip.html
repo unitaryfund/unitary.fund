@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="date" content='2022-01-24'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+        
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19932157-4');
+    </script>
+    <title>On the pulse of open-source quantum simulation with Pulser and QuTiP</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <section class="light">
+
+
+                            <right>
+                                <h2 class="leading-arrow">On the pulse of open-source quantum simulation with Pulser and QuTiP</h2>
+                                <h3></h3>
+                            </right>
+                            2022-01-24
+                            <br> 
+
+
+                            <div>
+                                <p>Today two papers [<a href="https://quantum-journal.org/papers/q-2022-01-24-629/"><u>H. Silvério &amp; S. Grijalva</u> <em><u>et al.</u></em></a>, <a href="https://quantum-journal.org/papers/q-2022-01-24-630/"><u>B. Li</u> <em><u>et al.</u></em></a>] on quantum open source software projects supported by the Unitary Fund are published in the open-access, community-driven journal <a href="https://quantum-journal.org/"><em><u>Quantum</u></em></a>. The papers provide information on <strong>Pulser</strong> and <strong>qutip-qip</strong>, two Python packages for the pulse-level simulation of quantum programs on quantum computers.</p>
+                                <p><a href="https://github.com/pasqal-io/Pulser"><strong><u>Pulser</u></strong></a> is a software for controlling and simulating neutral-atom quantum processors. It enables users to control the arrangement of qubits in arbitrary geometries on Pasqal chips and to write sequences of laser pulses to be applied on the system. A custom emulator relying on QuTiP is included to reproduce the expected behavior of the hardware. The Pulser manuscript can be found <a href="https://quantum-journal.org/papers/q-2022-01-24-629/"><u>here</u></a>.</p>
+                                <p><img src="../../images/pulser.png" style="width:6.5in;height:3.16667in" /></p>
+                                <p>An example of a pulse sequence for Bell state preparation created in Pulser. Each channel changes its target qubit along the sequence and is populated with pulses addressing a specific energy transition, thus executing the necessary quantum gates. A detailed explanation can be found in section 3.2 of the Pulser paper. <a href="https://quantum-journal.org/papers/q-2022-01-24-629/"><u>H. Silvério &amp; S. Grijalva</u> <em><u>et al. Quantum</u></em> <u><strong>6</strong>, 629 (2022)<em>.</em></u></a></p>
+                                <p><em>“We set out to develop Pulser based on the conviction that neutral-atom quantum devices can only be fully put to use when the programmer has hardware-specific knowledge and control. We are very proud to have created an open-source tool that enables anyone to program and simulate neutral-atom devices. Particularly, it opens the door to using the devices as quantum simulators and analog quantum computers, giving users the power to go beyond the quantum circuit model.”</em> said Henrique Silvério, head of the Quantum Libraries team at Pasqal and the main developer behind Pulser.</p>
+                                <p>The second paper illustrates the possibility to simulate noisy quantum processors with the <a href="https://github.com/qutip/qutip-qip/"><strong><u>qutip-qip</u></strong></a> package from the Quantum Toolbox in Python. It bridges the gap between the gate-level circuit simulation and the simulation of quantum dynamics following the master equation for various hardware models. Provided a Hamiltonian model and a map between the quantum gate and control pulses, it can be used to compile the circuit into the native gates of a given hardware, generate the physical model described by control pulses and use QuTiP's dynamical solvers to obtain the full-state time evolution.</p>
+                                <p>The QuTiP QIP manuscript can be found <a href="https://quantum-journal.org/papers/q-2022-01-24-630/"><u>here</u></a>.</p>
+                                <p><img src="../../images/qutip-qip.png" style="width:6.47314in;height:4.51563in" /></p>
+                                <p>Figure 3 from <a href="https://quantum-journal.org/papers/q-2022-01-24-630/"><u>B. Li</u> <em><u>et al., Quantum</u></em> <u><strong>6</strong>, 630 (2022)<em>.</em></u></a></p>
+                            </div>
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
+                    </div>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
+                            <tr>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
+                            </tr>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
