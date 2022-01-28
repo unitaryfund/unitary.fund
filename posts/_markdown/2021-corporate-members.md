@@ -1,6 +1,6 @@
 ---
 title: Unitary Fund Announces New Support through New Membership Program
-date: January 10, 2022
+date: January 31, 2022
 author: UF Team
 ---
 
@@ -8,15 +8,19 @@ Since 2018, Unitary Fund has supported the open quantum technology ecosystem aro
 
 Today, Unitary Fund is proud to announce our new corporate member program. We thank these organizations for their support and look forward to their further contributions in the coming year.
 
-The corporate member program contributes to Unitary Fund’s work on a recurring, annual basis, and consists of two tiers: cCore members and supporting members. Core members' contributions start at $100,000 annually and supporting members' contributions start at $25,000 annually. Additionally, core members are a part of the Unitary Fund’s Strategic Board which reviews strategy, budget, impact, and recommendation’s quarterly.
+The corporate member program contributes to Unitary Fund’s work on a recurring, annual basis, and consists of two tiers: Core members and Supporting members. Core members are a part of the Unitary Fund’s Strategic Board which reviews strategy, budget, impact, and recommendation’s quarterly.
+
+“The backing from these important members of the quantum ecosystem emphasizes the importance of our programs and the shared goals we all have in realizing the potential of quantum technology,” said Will Zeng, President of Unitary Fund. “There’s lots more work to do and we welcome new support!”
 
 ## Unitary Fund Core Members: IBM and Accenture
 
 ![](../images/core-members-2021.png "Core members IBM and Accenture")
 
+“Our support of Unitary Fund is an important part of IBM’s effort to develop an open ecosystem around our Qiskit software, community and quantum computing platform” said Liz Durst, Director, IBM Quantum & Qiskit Community.
+
 “Helping talented individuals with the opportunity to advance their innovative ideas is a core part to growing the quantum ecosystem.  We are especially excited to enable underrepresented entrepreneurs through the Unitary Fund as part of our Corporate Citizenship efforts,” said Carl Dukatz, Accenture Quantum Program Lead.  “Additionally, Accenture has a long history of contributing to open-source and is glad to work with the Unitary Fund to create the important foundations for quantum.”
 
-The Unitary Fund awards $4,000 grants to individuals and teams pursuing projects that leverage quantum technologies to benefit humanity. Projects could be open source quantum software, educational materials and workshops, a new quantum sensor prototype, or much more. The program is unique in its inclusivity (no credentials are required to apply) and low friction (awards are no-strings-attached).
+The Unitary Fund awards $4,000 [grants](https://unitary.fund/grants.html) to individuals and teams pursuing projects that leverage quantum technologies to benefit humanity. The program is unique in its inclusivity (no credentials are required to apply) and low friction (awards are no-strings-attached).
 
 ## Unitary Fund Supporting Members: Xanadu, IonQ, BCG, Pasqal, IQM, and DoraHacks
 
@@ -25,9 +29,6 @@ The Unitary Fund awards $4,000 grants to individuals and teams pursuing projects
 "It was important for Pasqal to reaffirm its support to open-source initiatives in quantum software by becoming a sponsor of Unitary Fund” says Loïc Henriet, Chief Technology Officer of Pasqal, a French startup building quantum processors out of neutral atoms. “We are thrilled to join the efforts led by Unitary Fund to build a solid ecosystem in this field."
 
 "We are delighted to support the Unitary Fund's mission. They are doing first-class work building out a quantum ecosystem for everyone. You can see the Unitary Fund's impact everywhere you look," said Nathan Killoran, Head of Software, Algorithms, & Quantum Machine Learning at Xanadu, a photonic quantum computer company in Canada.
-
-
-“The backing from these important members of the quantum ecosystem emphasizes the importance of our programs and the shared goals we all have in realizing the potential of quantum technology,” said Will Zeng, President of Unitary Fund. “There’s lots more work to do and we welcome new support!”
 
 To learn more about our new member program, email info@unitary.fund.
 
