@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="date" content='2022-02-03'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+        
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19932157-4');
+    </script>
+    <title>Implementing a Variational Quantum Algorithms module in QuTiP</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <section class="light">
+
+
+                            <right>
+                                <h2 class="leading-arrow">Implementing a Variational Quantum Algorithms module in QuTiP</h2>
+                                <h3></h3>
+                            </right>
+                            2022-02-03
+                            <br> Ben Braham
+
+
+                            <div>
+                                <h2 id="about-me">About me</h2>
+                                <p>???</p>
+                                <h2 id="background">Background</h2>
+                                <p>Many “famous” quantum algorithms (Shor’s, Grover’s, etc) require quantum computers with a large number of qubits and high fault-tolerance to produce useful output. While this is likely some time away, there exist algorithms that aim to leverage the current power of noisy intermediate–scale quantum (NISQ) systems. Variational Quantum Algorithms (VQAs) are a hybrid classical-quantum type of algorithm in which parameterized quantum circuits (PQCs) are optimized, with an objective function being evaluated on quantum hardware, and the parameter update occuring on a classical machine.</p>
+                                <p>One current area of interest in VQAs is that of the “initialization” for the algorithm. Problems are described by a quantum circuit, with its structure based on a circuit Ansatz - usually inspired by the problem one wishes to solve. The initial conditions for the parameters of the circuit, as well as the circuit structure itself, heavily influence the performance of the algorithm. It is therefore worthwhile to have the tools to test VQA formulations on a classical simulation of a quantum system, before expending time and resources to apply it on real quantum hardware.</p>
+                                <p><code>QuTiP</code> is a open-source <code>python</code> library for simulating quantum systems. In this project, I propose an implementation of a <code>VQA</code> module for <code>QuTiP</code> which allows users to define and evaluate the effectivess of VQAs on their local machines.</p>
+                                <h2 id="module-overview">Module Overview</h2>
+                                <p>At the base level, we’re dealing with quantum circuits, which are made up of quantum gates. In <code>QuTiP</code>, there exists classes <code>QubitCircuit</code> and <code>Gate</code> which simulate the dynamics of quantum circuits.</p>
+                                <p>For VQAs, we now want these gates to be parameterized. As well as that, we want global “hyperparameters” — parameters which don’t change during the optimization process — to be easily defined in one object. For these purposes, we define two new classes which are abstractions on <code>Gate</code> and <code>QubitCircuit</code>, respectively.</p>
+                                <h3 id="the-vqa_block-class">The VQA_Block class</h3>
+                                <p>The <code>VQA_Block</code> class stands for a component of our circuit. Within it could be the action of one or more quantum gates. It can hold parameters, or keep note of how many free parameters it needs as input to be translated into a gate on the quantum circuit.</p>
+                                <p>In quantum computing, all quantum gates can be described by unitary operators. Our <code>VQA_Block</code> class has a method that will generate a unitary operator for the quantum circuit; but crucially, the exact value of this operator can change based on the parameters the <code>VQA_Block</code> receives.</p>
+                                <p>The <code>VQA_Block</code> holds information about the operator it can generate, the parmeters it needs, and methods to compute derivates of its operator — so that the algorithm can compute gradients of its cost function.</p>
+                                <h3 id="the-vqa-class">The VQA class</h3>
+                                <p>The <code>VQA</code> class holds information about the problem being optimized, and has callable methods to run optimization procedures with various options, such as the number of qubits required, the number of layers — or repetitions — of the circuit, and the optimization method to use.</p>
+                                <p>One part of the optimization process is specifying a “cost function” which the optimizer can use to determine how good a particular parameter set is. In the case of a real quantum computer, the only output we have comes from taking measurements of the system. In quantum computing, these are usually represented as “bitstrings”, which encode the measurement outcome. For example, a two qubit system with one qubit measured in the |0&gt; state, and another in the |1&gt; state can be represented by the bitstring |01&gt;.</p>
+                                <p>If the cost method is set to <code>BITSTRING</code>, then the user needs to provide a function that takes in this string of 1’s and 0’s, and returns the associated cost.</p>
+                                <p>Because we’re performing a quantum simulation, we don’t just have to deal with measurements — we can “peak under the hood” of the simulation and get more information, such as the actual state of the system before measurement. With this, we allow two more methods for specifying a cost.</p>
+                                <p>If the cost method is set to <code>STATE</code>, then the user can provide a function that takes in a quantum state and returns a cost.</p>
+                                <p>If the cost method is set to <code>OBSERVABLE</code>, then the user can provide an observable - and the cost becomes the expectation value of that observable in the final state of the circuit.</p>
+                                <p>The <code>VQA</code> class stores a list of <code>VQA_Block</code> instances, and can perform an optimization of their free parmeters with a number of different options.</p>
+                                <h1 id="todo-flexibility---talk-about-quantum-control">TODO: Flexibility - talk about quantum control</h1>
+                                <h2 id="example">Example</h2>
+                                <p>Here we will look at how one might implement a VQA in this module. To begin, we’ll introduce the <code>partition</code> problem.</p>
+                                <p>The <code>partition</code> problem asks if there is a way to partition a set <span class="math inline"><em>S</em> = [<em>s</em><sub>0</sub>,<em>s</em><sub>1</sub>,…<em>s</em><sub><em>n</em></sub>]</span>, of integers, in to two subsets <span class="math inline"><em>S</em>1</span> and <span class="math inline"><em>S</em>2</span> such that the sum of elements in each of these sets is equal. For example, the set <span class="math inline"><em>S</em> = [1,4,3]</span> can be partitioned into the sets <span class="math inline"><em>S</em>1 = [1,3]</span>, <span class="math inline"><em>S</em>2 = [4]</span>. The optimization version of this algorithm asks for the partitioning that minimizes the difference in these two sums.</p>
+                                <p>This problem is known to be NP-Hard, so there is no known efficient classical algorithm for solving it. One way of finding approximate solutions to this, and other combinatorial problems is through a VQA known as the “quantum approximation optimization algorithm” (QAOA).</p>
+                                <p>Without addressing the theory behind QAOA, it gives us a circuit ansatz that we can use to approximate solutions to the <code>partition</code> problem. In general, if we can encode the solution to our problem in the ground state of a Hamiltonian, <span class="math inline"><em>H</em><sub><em>P</em></sub></span>, and we can pick another Hamiltonian, <span class="math inline"><em>H</em><sub><em>B</em></sub></span> that doesn’t commute with <span class="math inline"><em>H</em><sub><em>P</em></sub></span>, then our circuit takes the form:</p>
+                                <p><span class="math display"><em>U</em>(<em>β</em>,<em>γ</em>) = ∏<sup><em>p</em></sup>​<sub><em>j</em> = 0</sub>  <em>e</em><sup>−<em>i</em><em>β</em><sub><em>j</em></sub><em>H</em><sub><em>B</em></sub></sup><em>e</em><sup>−<em>i</em><em>γ</em><sub><em>j</em></sub><em>H</em><sub><em>P</em></sub></sup></span></p>
+                                <p>where each <span class="math inline"><em>γ</em><sub><em>j</em></sub></span> and <span class="math inline"><em>β</em><sub><em>j</em></sub></span> is a free parameter, and we repeatedly apply <span class="math inline"><em>H</em><sub><em>P</em></sub></span> and <span class="math inline"><em>H</em><sub><em>B</em></sub></span> <span class="math inline"><em>p</em></span> times.</p>
+                                <p>The encoding of our particular problem comes as follows:</p>
+                                <p>The cost of our solution is given by the difference of the sums of the two sets, i.e. <code>sum(S1) - sum(S2)</code>. As <span class="math inline"><em>S</em>1 ∪ <em>S</em>2 = <em>S</em></span>, this is equivalent to taking a weighted sum over <span class="math inline"><em>S</em></span>, where we assign a weight of <span class="math inline"> − 1</span> to elements partitioned into <span class="math inline"><em>S</em>2</span>. We can describe this with the Hamiltonian</p>
+                                <p><span class="math display"><em>H</em><sub><em>P</em></sub> = (∑<sub><em>i</em> ∈ <em>S</em></sub>  <em>σ</em><sub><em>z</em></sub><sup>(<em>i</em>)</sup><em>s</em><sub><em>i</em></sub>)<sup>2</sup></span></p>
+                                <p>Where <span class="math inline"><em>σ</em><sub><em>z</em></sub></span> is the Pauli <span class="math inline"><em>z</em></span> operator, and the superscript indicates it acts on the <span class="math inline"><em>i</em></span>th qubit. Clearly the lowest energy state for this Hamiltonian corresponds to a partitioning of the elements of <span class="math inline"><em>S</em></span> that minimizes the difference between <span class="math inline"><em>S</em>1</span> and <span class="math inline"><em>S</em>2</span>.</p>
+                                <p>After defining our <span class="math inline"><em>H</em><sub><em>P</em></sub></span> and <span class="math inline"><em>H</em><sub><em>B</em></sub></span> as quantum objects (a matrix with more bells and whistles) with <code>QuTiP</code>’s <code>Qobj</code> class, we can define our VQA as follows</p>
+                                <figure>
+                                <img src="../images/vqa_in_qutip_code1.png" title="Code defining VQA instance" alt="Code defining VQA instance" /><figcaption aria-hidden="true">Code defining VQA instance</figcaption>
+                                </figure>
+                                <p>This has constructed a quantum circuit that looks as follows</p>
+                                <figure>
+                                <img src="../images/vqa_in_qutip_circuit.png" title="Circuit generated by VQA" alt="Circuit generated by VQA" /><figcaption aria-hidden="true">Circuit generated by VQA</figcaption>
+                                </figure>
+                                <p>Now, we can call the <code>optimize_parameters</code> method.</p>
+                                <figure>
+                                <img src="../images/vqa_in_qutip_code1.png" title="Code calling optimize_parameters method" alt="Code calling optimize_parameters method" /><figcaption aria-hidden="true">Code calling optimize_parameters method</figcaption>
+                                </figure>
+                                <figure>
+                                <img src="../images/vqa_in_qutip_plot.png" title="Plot of measurement outcomes from circuit" alt="Plot of measurement outcomes from circuit" /><figcaption aria-hidden="true">Plot of measurement outcomes from circuit</figcaption>
+                                </figure>
+                                <p>Here, we have passed in the <code>label_sets</code> parameter to the plot function, which labels measurement outcomes by their corresponding set partitioning of the problem instance.</p>
+                            </div>
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
+                    </div>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
+                            <tr>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
+                            </tr>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">talks</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
