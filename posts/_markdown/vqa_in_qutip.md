@@ -21,7 +21,7 @@ One current area of interest in VQAs is that of the "initialization" for the alg
 
 Most quantum algorithms deal with quantum circuits, which are made up of quantum gates. In `QuTiP`, there exist classes --- `QubitCircuit` and `Gate` --- which simulate the dynamics of quantum circuits.
 
-For VQAs, we now want these gates to be parameterized. In addition to the gate parameters, we want initialization options, which are fixed throughout the optimization process, to be easily defined in one object. For these purposes, we define two new classes which are abstractions on `Gate` and `QubitCircuit`, respectively.
+For VQAs, we now want these gates to be parameterized. In addition to the gate parameters, we want initialization options, which are fixed throughout the optimization process, to be easily defined in one object. For these purposes, we define two new classes, `VQA_Block` and `VQA`, which are abstractions on `Gate` and `QubitCircuit`, respectively.
 
 ### 1. The VQA_Block class
 
@@ -39,27 +39,27 @@ One part of the optimization process is specifying a "cost function" which the o
 
 If the cost method is set to `BITSTRING`, then the user needs to provide a function that takes in this string of 1's and 0's, and returns the associated cost.
 
-Because we're performing a quantum simulation, we don't just have to deal with measurements --- we can "peak under the hood" of the simulation to get more information, including the actual state of the system before measurement. With this, we allow two more methods for specifying a cost.
+Because we're performing a quantum simulation, we don't just have to deal with measurements --- we can "peak under the hood" of the simulation to get more information, including the actual state of the system before measurement. With this, we allow two more methods for specifying a cost:
 
-If the cost method is set to `STATE`, then the user can provide a function that takes in a quantum state and returns a cost.
+- If the cost method is set to `STATE`, then the user can provide a function that takes in a quantum state and returns a cost.
 
-If the cost method is set to `OBSERVABLE`, then the user can provide an observable and the cost becomes the expectation value of that observable in the final state of the circuit.
+- If the cost method is set to `OBSERVABLE`, then the user can provide an observable and the cost becomes the expectation value of that observable in the final state of the circuit.
 
 The `VQA` class stores a list of `VQA_Block` instances, and can perform an optimization of their free parameters with a number of different options. 
 
-By allowing `VQA_Block` instances to take more complicated structures and custom functions which generate their unitaries, we also allow a range of quantum control problems to be approached within the framework of a PQC. One such abstraction is the `Parameterized_Hamiltonian` class, which can sit in a `VQA_Block` within the circuit. On the side of the user, it's easy to define different types of VQA_Blocks with different methods for generating unitaries, and let the module decide how to compute gradients for you.
+By allowing `VQA_Block` instances to take more complicated structures and custom functions that generate their unitaries, we enable a range of quantum control problems to be approached within the framework of a PQC. One such abstraction is the `Parameterized_Hamiltonian` class, which can sit in a `VQA_Block` within the circuit. On the side of the user, it's easy to define different types of `VQA_Block`s with different methods for generating unitaries, and let the module decide how to compute gradients for you.
 
-A general example of the module in which we solve a combinatorial optimization problem using VQAs is detailed below.
+Below I have included a general example of how the module can be used, in which a combinatorial optimization problem is approached using a VQA.
 
 ## Example
 
 Here we will look at how one might implement a VQA in this module. To begin, we'll introduce the `partition` problem.
 
-The `partition` problem asks if there is a way to partition a set $S = [s_0, s_1, \dots s_n]$, of integers, into two subsets $S1$ and $S2$ such that the sum of elements in each of these sets is equal. For example, the set $S = [1, 4, 3]$ can be partitioned into the sets $S1 = [1, 3]$, $S2 = [4]$. The optimization version of this algorithm asks for the partitioning that minimizes the difference in these two sums.
+The `partition` problem asks if there is a way to partition a set of integers, $S = [s_0, s_1, \dots s_n]$, into two subsets $S1$ and $S2$ such that the sum of elements in each of these sets is equal. For example, the set $S = [1, 4, 3]$ can be partitioned into the sets $S1 = [1, 3]$, $S2 = [4]$. The optimization version of this algorithm asks for the partitioning that minimizes the difference in these two sums.
 
 This problem is known to be NP-Hard, so there is no known efficient classical algorithm for solving it. One way of finding approximate solutions to this (although it is not yet clear if VQAs give a speed-up here), and other combinatorial problems is through a VQA known as the Quantum Approximation Optimization Algorithm (QAOA).
 
-The QAOA gives us a circuit ansatz that we can use to approximate solutions to combinatorial problems. In general, if we can encode the solution to our problem in the ground state of a Hamiltonian, $H_P$, and we can pick another Hamiltonian, $H_B$ that doesn't commute with $H_P$, then our circuit takes the form:
+The QAOA gives us a circuit ansatz that we can use to approximate solutions to combinatorial problems. In general, if we can encode the solution to our problem in the ground state of a Hamiltonian, $H_P$, and we can pick another Hamiltonian, $H_B$, that doesn't commute with $H_P$, then our circuit takes the form:
 
 $$
 U(\beta, \gamma) = \prod^p ​_{j=0} \quad e^{-i\beta_j H_B} e^{-i \gamma_j H_P}
@@ -67,35 +67,35 @@ $$
 
 where each $\gamma_j$ and $\beta_j$ is a free parameter, and we repeatedly apply unitaries generated by $H_P$ and $H_B$, $p$ times.
 
-We now need to work out how to encode our problem in terms of the ground state of a Hamiltonian. The cost of our solution is given by the difference of the sums of the two sets, i.e. `sum(S1)` $-$ sum(S2)`. As $S1 \cup S2 = S$ and $S1 \cap S2 = \emptyset$, this is equivalent to taking a weighted sum over $S$, where we assign a weight of $-1$ to elements partitioned into $S2$. We can describe this with the Hamiltonian
+We now need to work out how to encode our problem in terms of the ground state of a Hamiltonian. The cost of our solution is given by the difference of the sums of the two sets, i.e. `sum(S1)` $-$ `sum(S2)`. As $S1 \cup S2 = S$ and $S1 \cap S2 = \emptyset$, this is equivalent to taking a weighted sum over $S$, where we assign a weight of $-1$ to elements partitioned into $S2$. We can describe this with the Hamiltonian
 
 $$
-H_P = \left(\sum_{i \in S} \quad s_i \sigma_z^(i) \right)^2
+H_P = \left(\sum_{s_i \in S} \quad s_i \sigma_z^(i) \right)^2
 $$
 
 where $\sigma_z$ is the Pauli $z$ operator, and the superscript indicates it acts on the $i$th qubit. Clearly the lowest energy state for this Hamiltonian corresponds to the partitioning of the elements of $S$ that minimizes the difference between sum($S1$) and sum($S2$). Now that we have encoded the cost minimization into the energy levels of a Hamiltonian, we're ready to translate our idea into code.
 
-After defining our $H_P$ and $H_B$ as quantum objects (matrices with more bells and whistles) with `QuTiP`'s `Qobj` class, we can define our VQA as follows
+After defining our Hamiltonians as quantum objects (matrices with more bells and whistles) with `QuTiP`'s `Qobj` class, we can define our VQA as follows:
 
 <script src="https://gist.github.com/EnBr55/e9a63c0ef1de1faef0b5f5d2fe4df223.js"></script>
 
-This code has constructed a quantum circuit that looks as follows
+This code has constructed a quantum circuit that looks as follows:
 
-![Circuit generated by VQA.](../images/vqa_in_qutip_circuit.png "Circuit generated by VQA.")
+![](../images/vqa_in_qutip_circuit.png "Circuit generated by VQA.")
 
 After calling the `optimize_parameters` method, we can plot the results of the optimization process in terms of the measurement outcome probabilities.
 
-![Plot of measurement outcome probabilities from circuit.](../images/vqa_in_qutip_plot.png "Plot of measurement outcome probabilities from circuit.")
+![](../images/vqa_in_qutip_plot.png "Plot of measurement outcome probabilities from circuit.")
 
 Here, we have passed in the `label_sets` parameter to the plot function, which labels measurement outcomes by their corresponding set partitioning of the problem instance. 
 
-There are many parameters to tweak here, such as the number of layers used, initialization conditions, the optimization algorithm parameters and constraints as well as gradient computations. It is my hope that this tool allows anyone to dive straight into VQAs.
+There are many parameters to tweak here, such as the number of layers used, initialization conditions, the optimization algorithm parameters and constraints, as well as gradient computations. It is my hope that this tool allows anyone to dive straight into VQAs.
 
 Other examples, including the `max-cut` problem examined in the [original QAOA paper](https://arxiv.org/abs/1411.4028), can currently be found on [my GitHub](https://github.com/EnBr55/qutip-vqa-examples/).
 
 ## Future work
 
-There are always possible optimizations and additions for a tool with this kind of scope. There have already been some great suggestions on the associated [GitHub Issue](https://github.com/qutip/qutip-qip/issues/118) for integrating this with other `QuTiP` tools, and when the pull request goes up there will likely be more. Please feel free to contribute or join the discussion!
+There are always possible optimizations and additions for a tool with this kind of scope. There have already been some great suggestions on the associated [GitHub Issue](https://github.com/qutip/qutip-qip/issues/118) for integrating this with other `QuTiP` tools, and when the pull request goes up, there will likely be more. Please feel free to contribute or join the discussion!
 
 This project has laid the foundations for a very general set of tools to define VQA problems. The code written should be robust enough that expansions to allow more specific formulations are possible.
 
