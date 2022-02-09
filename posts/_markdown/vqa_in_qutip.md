@@ -1,6 +1,6 @@
 ---
 title: Implementing a Variational Quantum Algorithms module in QuTiP
-date: 03 February 2022
+date: 09 February 2022
 author: Ben Braham
 ---
 ## About me 
@@ -15,21 +15,21 @@ Many groundbreaking quantum algorithms (e.g. Shor's, Grover's) require quantum c
 One current area of interest in VQAs is that of the "initialization" for the algorithm. Problems are described by a quantum circuit, with its structure based on a circuit ansatz - usually inspired by the problem one wishes to solve. The performance of the algorithm is heavily influenced by the circuit structure, as well as the initial parameters of the circuit. It is therefore worthwhile to have the tools to test VQA formulations on a classical simulation of a quantum system, before expending time and resources to apply it on real quantum hardware.
 
 
-`QuTiP` is a open-source `python` library for simulating quantum systems. In this project, I designed and wrote an implementation of a `VQA` module for `QuTiP` which allows users to define and evaluate the effectiveness of VQAs on their local machines.
+[`QuTiP`](https://qutip.org/) is a open-source `python` project for simulating quantum systems. In this project, I designed and wrote an implementation of a `VQA` module for `QuTiP`'s [`qutip-qip`](https://qutip-qip.readthedocs.io/) package, which allows users to define and evaluate the effectiveness of VQAs on their local machines.
 
 ## Module Overview
 
-Most quantum algorithms deal with quantum circuits, which are made up of quantum gates. In `QuTiP`, there exist classes --- `QubitCircuit` and `Gate` --- which simulate the dynamics of quantum circuits.
+Most quantum algorithms deal with quantum circuits, which are made up of quantum gates. In `QuTiP`'s `qutip-qip` [package](https://github.com/qutip/qutip-qip/), there exist classes --- `QubitCircuit` and `Gate` --- which simulate the dynamics of quantum circuits.
 
-For VQAs, we now want these gates to be parameterized. In addition to the gate parameters, we want initialization options, which are fixed throughout the optimization process, to be easily defined in one object. For these purposes, we define two new classes, `VQA_Block` and `VQA`, which are abstractions on `Gate` and `QubitCircuit`, respectively.
+For VQAs, we now want these gates to be parameterized. In addition to the gate parameters, we want initialization options, which are fixed throughout the optimization process, to be easily defined in one object. For these purposes, we define two new classes, `VQABlock` and `VQA`, which are abstractions on `Gate` and `QubitCircuit`, respectively.
 
 ### 1. The VQA_Block class
 
-The `VQA_Block` class encapsulates one component of our circuit and can store the action of one or more quantum gates. It can hold parameters, or keep note of how many free parameters it needs as input to be translated into a gate on the quantum circuit.
+The `VQABlock` class encapsulates one component of our circuit and can store the action of one or more quantum gates. It can hold parameters, or keep note of how many free parameters it needs as input to be translated into a gate on the quantum circuit.
 
-In quantum computing, all quantum gates can be described by unitary operators. Our `VQA_Block` class has a method that will generate a unitary operator for the quantum circuit; but crucially, the value of this operator can change based on the parameters the `VQA_Block` receives.
+In quantum computing, all quantum gates can be described by unitary operators. Our `VQABlock` class has a method that will generate a unitary operator for the quantum circuit; but crucially, the value of this operator can change based on the parameters the `VQABlock` receives.
 
-The `VQA_Block` holds information about the operator it can generate, the parameters it needs, and methods to compute derivates of its operator. Using this information, the algorithm can compute gradients of its cost function. The optimization process is thus a loop in which `VQA_Block`s are evaluated to inform the minimization of the cost of a circuit.
+The `VQABlock` holds information about the operator it can generate, the parameters it needs, and methods to compute derivates of its operator. Using this information, the algorithm can compute gradients of its cost function. The optimization process is thus a loop in which `VQABlock`s are evaluated to inform the minimization of the cost of a circuit.
 
 ### 2. The VQA class
 
@@ -39,15 +39,15 @@ One part of the optimization process is specifying a "cost function" which the o
 
 If the cost method is set to `BITSTRING`, then the user needs to provide a function that takes in this string of 1's and 0's, and returns the associated cost.
 
-Because we're performing a quantum simulation, we don't just have to deal with measurements --- we can "peak under the hood" of the simulation to get more information, including the actual state of the system before measurement. With this, we allow two more methods for specifying a cost:
+Because we're performing a quantum simulation, we don't just have to deal with measurements --- we can "peek under the hood" of the simulation to get more information, including the actual state of the system before measurement. With this, we allow two more methods for specifying a cost:
 
 - If the cost method is set to `STATE`, then the user can provide a function that takes in a quantum state and returns a cost.
 
 - If the cost method is set to `OBSERVABLE`, then the user can provide an observable and the cost becomes the expectation value of that observable in the final state of the circuit.
 
-The `VQA` class stores a list of `VQA_Block` instances, and can perform an optimization of their free parameters with a number of different options. 
+The `VQA` class stores a list of `VQABlock` instances, and can perform an optimization of their free parameters with a number of different options. 
 
-By allowing `VQA_Block` instances to take more complicated structures and custom functions that generate their unitaries, we enable a range of quantum control problems to be approached within the framework of a PQC. One such abstraction is the `Parameterized_Hamiltonian` class, which can sit in a `VQA_Block` within the circuit. On the side of the user, it's easy to define different types of `VQA_Block`s with different methods for generating unitaries, and let the module decide how to compute gradients for you.
+By allowing `VQABlock` instances to take more complicated structures and custom functions that generate their unitaries, we enable a range of quantum control problems to be approached within the framework of a PQC. One such abstraction is the `Parameterized_Hamiltonian` class, which can sit in a `VQABlock` within the circuit. On the side of the user, it's easy to define different types of `VQABlock`s with different methods for generating unitaries, and let the module decide how to compute gradients for you.
 
 Below I have included a general example of how the module can be used, in which a combinatorial optimization problem is approached using a VQA.
 
@@ -91,7 +91,10 @@ Here, we have passed in the `label_sets` parameter to the plot function, which l
 
 There are many parameters to tweak here, such as the number of layers used, initialization conditions, the optimization algorithm parameters and constraints, as well as gradient computations. It is my hope that this tool allows anyone to dive straight into VQAs.
 
-Other examples, including the `max-cut` problem examined in the [original QAOA paper](https://arxiv.org/abs/1411.4028), can currently be found on [my GitHub](https://github.com/EnBr55/qutip-vqa-examples/).
+## References 
+Other examples, including the `max-cut` problem examined in the [original QAOA paper](https://arxiv.org/abs/1411.4028), can currently be found on [my GitHub](https://github.com/EnBr55/qutip-vqa-examples/). 
+
+I [opened an issue](https://github.com/qutip/qutip-qip/issues/118) to discuss with the QuTiP admins how to best include these features into the main `qutip-qip` project codebase.  
 
 ## Future work
 
