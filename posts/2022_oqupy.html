@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="date" content='2022-02-07'>
+    <meta name="date" content='2022-03-14'>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
@@ -72,11 +72,14 @@
                                 <h2 class="leading-arrow">OQuPy: Open Quantum Systems in Python</h2>
                                 <h3>A Python 3 package to efficiently compute non-Markovian open quantum systems.</h3>
                             </right>
-                            2022-02-28
+                            2022-03-14
                             <br> Dominic Gribben &amp; Gerald E. Fux
 
                             <div>
-                                <p>When an open quantum system is strongly coupled to a structured environment, describing the dynamics of that system becomes a challenging problem. Moreover, traditional approaches, based on time evolution of the reduced density matrix are generally not able to correctly calculate higher-order or multi-time correlations. In the past few years efficient tensor network techniques based on an influence functional approach have been developed to address both these issues [1-5]. With the development of the <a href="https://oqupy.readthedocs.io">OQuPy</a> package we open up these methods to a much wider audience by placing the complex algorithms behind a simple and intuitive interface.</p>
+                                <h2 id="about-us">About Us</h2>
+                                <p>We are both PhD students (one recently finished) in the Keeling/Lovett groups at the University of St Andrews where our work has focused on building tensor network algorithms to simulate non-Markovian open quantum systems. We began developing the <a href="https://oqupy.readthedocs.io">OQuPy</a> package to open up these methods to a much wider audience by placing the complex algorithms behind a simple and intuitive interface. We applied to the Unitary Fund to help support the extension of <a href="https://oqupy.readthedocs.io">OQuPy</a> to include a few new tools for open quantum systems analysis recently developed in our groups. We'll get on to those but first a brief background on the key ideas.</p>
+                                <h2 id="about-oqupy">About OQuPy</h2>
+                                <p>When an open quantum system is strongly coupled to a structured environment, describing the dynamics of that system becomes a challenging problem. Moreover, traditional approaches, based on time evolution of the reduced density matrix are generally not able to correctly calculate higher-order or multi-time correlations. In the past few years tensor network techniques based on an influence functional approach have been developed to address both these issues [1-5]. Here the tensor network representation is used to efficiently capture the non-Markovianity or "memory effects" that arise from the non-trivial coupling. This efficient representation lies at the heart of the <a href="https://oqupy.readthedocs.io">OQuPy</a> package and is what every module builds upon.</p>
                                 <h2 id="extending-oqupy">Extending OQuPy</h2>
                                 <p>Beyond the core functionality there have been a number of extensions developed in recent years that, while proven effective in published work, were relatively detached from the existing package and lacked a well maintained code base. Here we will focus on two of these:</p>
                                 <ol type="1">
@@ -107,9 +110,9 @@
                                 <li><strong>[4]</strong> Jørgensen and Pollock, <a href="http://dx.doi.org/10.1103/PhysRevLett.123.240602">Phys. Rev. Lett. 123, 240602</a> (2019).</li>
                                 <li><strong>[5]</strong> Fux <em>et al.</em>, <a href="https://link.aps.org/doi/10.1103/PhysRevLett.126.200401">Phys. Rev. Lett. 126, 200401</a> (2021).</li>
                                 <li><strong>[6]</strong> Gribben <em>et al.</em>, <a href="http://arxiv.org/abs/2106.04212">arXiv:2106.04212</a> (2021).</li>
-                                <li><strong>[7]</strong> Gribben <em>et al.</em>, <a href="https://doi.org/10.1103/PRXQuantum.3.010321"><em>PRX Quantum</em> 3, 010321</a> (2022).</li>
+                                <li><strong>[7]</strong> Gribben <em>et al.</em>, <a href="https://doi.org/10.1103/PRXQuantum.3.010321">PRX Quantum 3, 010321</a> (2022).</li>
                                 <li><strong>[8]</strong> Fux <em>et al.</em>, <a href="http://arxiv.org/abs/2201.05529">arXiv:2201.05529</a> (2022).</li>
-                                <li><strong>[9]</strong> Fowler-Wright <em>et al.</em> <a href="https://arxiv.org/abs/2112.09003">arXiv:2112.09003</a> 2021.</li>
+                                <li><strong>[9]</strong> Fowler-Wright <em>et al.</em>, <a href="https://arxiv.org/abs/2112.09003">arXiv:2112.09003</a> (2021).</li>
                                 </ul>
                                 <!--
                                 Thanks for contributing a blog post to the UF site!
