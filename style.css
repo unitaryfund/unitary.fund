@@ -68,6 +68,11 @@ h1 {
     font-family: var(--font-mono);
 }
 
+h4.grant-year {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .tagline {
     font-family: var(--font-mono);
     font-size: var(--type-small);
@@ -85,6 +90,10 @@ a:visited {
 
 a:hover {
     background-color: var(--color-yellow);
+}
+
+li:not(:last-child) {
+    margin-bottom: 25px;
 }
 
 .layout {
@@ -308,28 +317,28 @@ img {
     background-color: var(--color-black);
 }
 
-#grant-list {
+.grant-list {
     list-style-type: none;
     padding: 0;
 }
 
-#grant-list li {
+.grant-list li {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-#grant-list li a.recipient-link {
+.grant-list li a.recipient-link {
     font-weight: bold;
 }
 
-#grant-list li img.grant-image {
+.grant-list li img.grant-image {
     border: 3px solid black;
     border-left: none;
 }
 
-#grant-list li p {
+.grant-list li p {
     margin: 0;
     margin-left: var(--space-base);
 }
