@@ -1,0 +1,5 @@
+# Ignore everything
+/*
+
+# Except html files in the root
+!*.html
