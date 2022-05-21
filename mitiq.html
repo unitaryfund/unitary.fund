@@ -1,210 +1,240 @@
 <!DOCTYPE html>
 
-<html>
-<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
 
     <title>Unitary Fund</title>
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="hamburgers.min.css" />
 
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px "Lucida Console", Monaco, monospace;
-            width: 100%;
-        }
-        
-        #mce-EMAIL {
-            padding: 11px;
-            margin: 10px;
-        }
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" />
+    <style>
+      #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        font: 14px "Lucida Console", Monaco, monospace;
+        width: 100%;
+      }
+
+      #mce-EMAIL {
+        padding: 11px;
+        margin: 10px;
+      }
     </style>
 
+    <script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || []
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
 
-        gtag('config', 'UA-19932157-4');
+      gtag("config", "UA-19932157-4")
     </script>
     <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
     <style>
-    #sign-up-button {
-            float: right;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: var(--type-x-small);
-            background-color: var(--color-black);
-            color: var(--color-white);
-            padding: var(--space-x-small) var(--space-small);
-        }
-        
-        .video-container {
-            display: flex;
-        }
-        
-        .video-container .col-1-3 {
-            width: 33.33%;
-        }
-        
-        .video-container .col-2-3 {
-            width: 66.66%;
-        }
-        
-        .video-container video {
-            width: 100%;
-        }
-    }
+      #sign-up-button {
+        float: right;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: var(--type-x-small);
+        background-color: var(--color-black);
+        color: var(--color-white);
+        padding: var(--space-x-small) var(--space-small);
+      }
+
+      .video-container {
+        display: flex;
+      }
+
+      .video-container .col-1-3 {
+        width: 33.33%;
+      }
+
+      .video-container .col-2-3 {
+        width: 66.66%;
+      }
+
+      .video-container video {
+        width: 100%;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="layout">
-        <main id="content" class="content">
-            <section class="heavy">
-                <div class="container">
-                    <div class="col-3">
-                        <div class="hero">
-                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
-                            <p class="tagline"><b>Because evolution is
-                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
-                                        target="_blank">unitary</a></b>.</p>
-                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
-                        <p class="subtitle leading-arrow">Quantum computers have errors</p>
-                        <p><b style="background-color:var(--color-yellow);"><a
-                                    href="https://github.com/unitaryfund/mitiq">Mitiq</a></b> is a cross platform compiler that makes your programs robust to those errors.</p>
-                        <div class="video-container">
-                            <div class="col-2-3">
-                                <video autoplay muted loop>
-                                    <source src="/assets/qiskit.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                            <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
-                                <img src="/images/qiskit.png" alt="Qiskit">
-                                <p style="margin: 0;">Mitigating errors with Qiskit</p>
-                            </div>
-                        </div>
-                        <div class="video-container">
-                            <div class="col-2-3">
-                                <video autoplay muted loop>
-                                    <source src="../assets/cirq.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                            <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
-                                <img src="/images/cirq.png" alt="Cirq">
-                                <p style="margin: 0;">Mitigating errors with Cirq</p>
-                            </div>
-                        </div>
-
-                        <p class="subtitle leading-arrow">Want help using mitiq?</p>
-                        You can find us in the #mitiq channel on our <b style="background-color:var(--color-yellow);"><a
-                                href="http://discord.unitary.fund">discord</a></b> or email us at <a href="mailto:mitiq@unitary.fund">mitiq@unitary.fund</a>.
-
-                        <p class="subtitle leading-arrow">Learn more about Mitiq</p>
-                        <p>Read our <b><a href="https://arxiv.org/abs/2009.04417">whitepaper</a></b>, check out our
-                            <b><a href="https://mitiq.readthedocs.io/en/stable/">documentation</a></b>, or watch the video below.
-                        </p>
-
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QK3Vkn2MCCg?start=558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        <footer class="footer leading-arrow light-arrow">
-                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
-                                of conduct</a>.
-                            <br> <br> If you have suggestions for changes then please open up a pull request!
-                            <br>
-                            <br>
-                            <table>
-                                <tr>
-                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
-                                                class="fa fa-twitter"></i></a></th>
-                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
-                                                class="fa fa-twitch"></i></a></th>
-                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
-                                                class="fa fa-youtube"></i></a></th>
-                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
-                                                class="fab fa-discord"></i></a></th>
-                                </tr>
-                            </table> &copy;2020 Unitary Fund
-                        </footer>
-                    </div>
-                    <div class="col-1" id="menu-container">
-                        <table style="width:auto; margin-right:0px; margin-left: auto;">
-                            <tr>
-                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
-                                            class="fa fa-twitter"></i></a></th>
-                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
-                                            class="fa fa-twitch"></i></a>
-                                </th>
-                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
-                                            class="fa fa-youtube"></i></a></th>
-                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
-                                            class="fab fa-discord"></i></a>
-                                </th>
-                            </tr>
-                        </table>
-                        <p class="light" id="menu">
-                            <a href="grants.html">grants</a>
-                            <a href="ideas.html">ideas</a>
-                            <a href="research.html">research</a>
-                            <a href="mitiq.html" class="active">mitiq</a>
-                            <a href="talks.html">events</a>
-                            <a href="faq.html">faq</a>
-                            <a href="blog.html">blog</a>
-                            <a href="careers.html">careers</a>
-                            <a href="donate.html">donate</a>
-                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
-                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
-                        </p>
-                    </div>
-                    <div id="mobile-menu-container">
-                        <p class="light" id="mobile-menu">
-                            <a href="grants.html">grants</a>
-                            <a href="ideas.html">ideas</a>
-                            <a href="research.html">research</a>
-                            <a href="mitiq.html" class="active">mitiq</a>
-                            <a href="talks.html">events</a>
-                            <a href="faq.html">faq</a>
-                            <a href="blog.html">blog</a>
-                            <a href="careers.html">careers</a>
-                            <a href="donate.html">donate</a>
-                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
-                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
-                        </p>
-                    </div>
+      <main id="content" class="content">
+        <section class="heavy">
+          <div class="container">
+            <div class="col-3">
+              <div class="hero">
+                <a href="/"><img src="logos/logov3.svg" alt="Unitary Fund" /></a>
+                <p class="tagline">
+                  <b
+                    >Because evolution is
+                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitary</a></b
+                  >.
+                </p>
+                <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
+              </div>
+              <p class="subtitle leading-arrow">Quantum computers have errors</p>
+              <p>
+                <b style="background-color: var(--color-yellow)"
+                  ><a href="https://github.com/unitaryfund/mitiq">Mitiq</a></b
+                >
+                is a cross platform compiler that makes your programs robust to those errors.
+              </p>
+              <div class="video-container">
+                <div class="col-2-3">
+                  <video autoplay muted loop>
+                    <source src="assets/qiskit.mp4" type="video/mp4" />
+                  </video>
                 </div>
-            </section>
-        </main>
+                <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
+                  <img src="images/qiskit.png" alt="Qiskit" />
+                  <p style="margin: 0">Mitigating errors with Qiskit</p>
+                </div>
+              </div>
+              <div class="video-container">
+                <div class="col-2-3">
+                  <video autoplay muted loop>
+                    <source src="assets/cirq.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
+                  <img src="images/cirq.png" alt="Cirq" />
+                  <p style="margin: 0">Mitigating errors with Cirq</p>
+                </div>
+              </div>
+
+              <p class="subtitle leading-arrow">Want help using mitiq?</p>
+              You can find us in the #mitiq channel on our
+              <b style="background-color: var(--color-yellow)"><a href="http://discord.unitary.fund">discord</a></b>
+              or email us at
+              <a href="mailto:mitiq@unitary.fund">mitiq@unitary.fund</a>.
+
+              <p class="subtitle leading-arrow">Learn more about Mitiq</p>
+              <p>
+                Read our
+                <b><a href="https://arxiv.org/abs/2009.04417">whitepaper</a></b
+                >, check out our <b><a href="https://mitiq.readthedocs.io/en/stable/">documentation</a></b
+                >, or watch the video below.
+              </p>
+
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/QK3Vkn2MCCg?start=558"
+                title="YouTube video player"
+                style="border: none"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+
+              <footer class="footer leading-arrow light-arrow">
+                This website is hosted on
+                <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community
+                follows this
+                <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code of conduct</a
+                >. <br />
+                <br />
+                If you have suggestions for changes then please open up a pull request!
+                <br />
+                <br />
+                <table>
+                  <tr>
+                    <th style="text-align: right">
+                      <a href="https://twitter.com/unitaryfund"><i class="fa fa-twitter"></i></a>
+                    </th>
+                    <th style="text-align: right">
+                      <a href="https://twitch.tv/unitaryfund"><i class="fa fa-twitch"></i></a>
+                    </th>
+                    <th style="text-align: right">
+                      <a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"
+                        ><i class="fa fa-youtube"></i
+                      ></a>
+                    </th>
+                    <th style="text-align: right">
+                      <a href="http://discord.unitary.fund"><i class="fab fa-discord"></i></a>
+                    </th>
+                  </tr>
+                </table>
+                &copy;2020 Unitary Fund
+              </footer>
+            </div>
+            <div class="col-1" id="menu-container">
+              <table style="width: auto; margin-right: 0px; margin-left: auto">
+                <tr>
+                  <th style="text-align: right">
+                    <a href="https://twitter.com/unitaryfund"><i class="fa fa-twitter"></i></a>
+                  </th>
+                  <th style="text-align: right">
+                    <a href="https://twitch.tv/unitaryfund"><i class="fa fa-twitch"></i></a>
+                  </th>
+                  <th style="text-align: right">
+                    <a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i class="fa fa-youtube"></i></a>
+                  </th>
+                  <th style="text-align: right">
+                    <a href="http://discord.unitary.fund"><i class="fab fa-discord"></i></a>
+                  </th>
+                </tr>
+              </table>
+              <p class="light" id="menu">
+                <a href="grants.html">grants</a>
+                <a href="ideas.html">ideas</a>
+                <a href="research.html">research</a>
+                <a href="mitiq.html" class="active">mitiq</a>
+                <a href="talks.html">events</a>
+                <a href="faq.html">faq</a>
+                <a href="blog.html">blog</a>
+                <a href="careers.html">careers</a>
+                <a href="donate.html">donate</a>
+                <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+              </p>
+            </div>
+            <div id="mobile-menu-container">
+              <p class="light" id="mobile-menu">
+                <a href="grants.html">grants</a>
+                <a href="ideas.html">ideas</a>
+                <a href="research.html">research</a>
+                <a href="mitiq.html" class="active">mitiq</a>
+                <a href="talks.html">events</a>
+                <a href="faq.html">faq</a>
+                <a href="blog.html">blog</a>
+                <a href="careers.html">careers</a>
+                <a href="donate.html">donate</a>
+                <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <script>
-        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
-        mobileMenuContainer = document.querySelector("#mobile-menu-container");
-        mobileMenuIcon.addEventListener("click", function() {
-            mobileMenuIcon.classList.toggle("is-active");
-            mobileMenuContainer.classList.toggle("active");
-        });
+      var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+      mobileMenuContainer = document.querySelector("#mobile-menu-container")
+      mobileMenuIcon.addEventListener("click", function () {
+        mobileMenuIcon.classList.toggle("is-active")
+        mobileMenuContainer.classList.toggle("active")
+      })
     </script>
-</body>
-
+  </body>
 </html>
