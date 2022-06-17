@@ -1,6 +1,6 @@
 ---
 title: Adding Digital Dynamical Decoupling to Mitiq
-date: 17 June 2022
+date: 24 June 2022
 author: UF Team
 ---
 
@@ -14,7 +14,7 @@ Dynamical decoupling is a technique originally developed at the pulse level and 
 Here is a sketch of how digital dynamical decoupling is applied in Mitiq.
 
 
-![Quantum-based Comparator Circuit](../../images/ddd_workflow.png)
+![Digital Dynamical Decoupling workflow in Mitiq](../images/ddd_workflow.png)
 
 
 ## Learn more in the documentation
