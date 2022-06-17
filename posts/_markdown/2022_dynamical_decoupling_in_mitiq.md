@@ -1,6 +1,6 @@
 ---
 title: Adding Digital Dynamical Decoupling to Mitiq
-date: 24 June 2022
+date: 21 June 2022
 author: UF Team
 ---
 
