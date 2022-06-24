@@ -21,7 +21,7 @@ Here is a sketch of how digital dynamical decoupling is applied in Mitiq.
 ## Learn more in the documentation
 
 You can find a lot of details about the actual use of this technique in Mitiq in the [Users Guide](https://mitiq.readthedocs.io/en/latest/guide/ddd.html) part of the documentation, covering all about [how to easily apply DDD](https://mitiq.readthedocs.io/en/latest/guide/ddd-1-intro.html), [pros and cons](https://mitiq.readthedocs.io/en/latest/guide/ddd-2-use-case.html) of when to use this technique, what [additional options](https://mitiq.readthedocs.io/en/latest/guide/ddd-3-options.html) are available when using DDD,
-what happens at the [code level](https://mitiq.readthedocs.io/en/latest/guide/ddd-4-low-level.html), and information about the [theory behind DDD](https://mitiq.readthedocs.io/en/latest/guide/ddd-5-theory.html)
+what happens at the [code level](https://mitiq.readthedocs.io/en/latest/guide/ddd-4-low-level.html), and information about the [theory behind DDD](https://mitiq.readthedocs.io/en/latest/guide/ddd-5-theory.html).
 
 
 ## A Mitiq community achievement
