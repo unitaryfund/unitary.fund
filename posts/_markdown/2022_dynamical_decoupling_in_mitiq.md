@@ -8,7 +8,8 @@ author: UF Team
 The Unitary Fund team is excited to announce the addition of dynamical decoupling features to Mitiq, the open-source quantum toolbox in Python that mitigates errors of NISQ devices.
 
 
-Dynamical decoupling is a technique originally developed at the pulse level and in order to make it straightforward to apply also with most gate-based quantum computers and simulators, the Mitiq community has designed a **digital dynamical decoupling** (DDD) module for Mitiq, `mitiq.ddd`.
+Dynamical decoupling is a technique originally developed at the pulse level and has been modified to work in the context of gate-based quantum computers in **digital dynamical decoupling** (DDD).
+The Mitiq community has designed and implemented this technique into it's own module `mitiq.ddd`.
 
 
 Here is a sketch of how digital dynamical decoupling is applied in Mitiq.
