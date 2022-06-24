@@ -29,7 +29,7 @@ what happens at the [code level](https://mitiq.readthedocs.io/en/latest/guide/dd
 The code design document was drafted by [Aaron Robertson](https://github.com/Aaron-Robertson) in collaboration with the Unitary Fund technical staff: Aaron is a [Unitary Fund ambassador](https://unitary.fund/posts/uf_ambassadors.html), and rightly so – thank you, Aaron!
 
 
-The dynamical decoupling module has been deployed into Mitiq since version 0.16.0 and it is marks a major milestone in the [2022 Mitiq Roadmap](https://github.com/unitaryfund/mitiq/wiki#mitiq-2022-roadmap).
+The dynamical decoupling module has been deployed into Mitiq since version 0.16.0 and it marks a major milestone in the [2022 Mitiq Roadmap](https://github.com/unitaryfund/mitiq/wiki#mitiq-2022-roadmap).
 
 This is a reminder for everyone to join the Mitiq community calls, which are held weekly on Fridays at 6pm CET / 12pm ET on the [Unitary Fund Discord](http://discord.unitary.fund).
 
