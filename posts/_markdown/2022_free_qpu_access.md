@@ -9,10 +9,10 @@ Today there are a lot of options for free cloud-access to quantum computing serv
 
 
 # IBM Q
-IBMQ regularly releases free to access hardware on an  a-la-carte selection of QPUs (although some get routinely decommissioned, such as the beloved ibmq-armonq, the first to provide [pulse-level access]([first to provide pulse-level access](https://www.youtube.com/watch?v=CcB6nRQNB7Y))). Many IBM Q QPUs are free to access, while some are only for partnerships.
+IBMQ regularly releases free to access hardware on an a-la-carte selection of QPUs (although some get routinely decommissioned, such as the beloved ibmq-armonq, the first to provide [pulse-level access]([first to provide pulse-level access](https://www.youtube.com/watch?v=CcB6nRQNB7Y))). Many IBM Q QPUs are free to access, while some are only for partnerships.
 
 # AWS Braket
-AWS Braket is fully integrated in the AWS dashboard as one of existing service and has many devices. It provides one hour per month of free credits for simulation but not yet a default mechanism to access QPUs or free credits for QPUs. They run a wider [cloud credit for research program](https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/) that includes quantum, although you need to be full-time in academia to apply. Unitary Fund obtained several credits by asking, so it is always worth trying to contact the Braket team.
+AWS Braket is fully integrated in the AWS dashboard as one of its existing services and has many devices. It provides one hour per month of free credits for simulation but not yet a default mechanism to access QPUs or free credits for QPUs. They run a wider [cloud credit for research program](https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/) that includes quantum, although you need to be full-time in academia to apply. Unitary Fund obtained several credits by asking, so it is always worth trying to contact the Braket team.
 
 # Azure Quantum
 Azure Quantum provides $500 free per each provider (IonQ, Quantinuum, etc.) upon signing in + more credits for approved [research projects](https://docs.microsoft.com/en-us/azure/quantum/credits-faq).
