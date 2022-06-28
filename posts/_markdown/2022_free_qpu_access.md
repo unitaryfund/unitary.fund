@@ -8,8 +8,9 @@ The Unitary Fund team and Advisory Board often get asked this question: “How c
 Today there are a lot of options for free cloud-access to quantum computing services and we’ve taken a shot at summarizing some of the well known ones. If you know of platforms or programs that we have missed then please do reach out to info@unitary.fund
 
 
-# IBM Q
-IBMQ regularly releases free to access hardware on an a-la-carte selection of QPUs (although some get routinely decommissioned, such as the beloved ibmq-armonq, the first to provide [pulse-level access]([first to provide pulse-level access](https://www.youtube.com/watch?v=CcB6nRQNB7Y))). Many IBM Q QPUs are free to access, while some are only for partnerships.
+# IBM Quantum
+IBM Quantum regularly releases free to access hardware on an a-la-carte selection of QPUs (although some get routinely decommissioned, such as the beloved ibmq-armonq, the first to provide [pulse-level access](https://www.youtube.com/watch?v=CcB6nRQNB7Y)). Many IBM Quantum QPUs are free to access, while some are only for partnerships.
+There are also special access programs for [educators](https://quantum-computing.ibm.com/programs/educators) and [researchers](https://quantum-computing.ibm.com/programs/researchers).
 
 # AWS Braket
 AWS Braket is fully integrated in the AWS dashboard as one of its existing services and has many devices. It provides one hour per month of free credits for simulation but not yet a default mechanism to access QPUs or free credits for QPUs. They run a wider [cloud credit for research program](https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/) that includes quantum, although you need to be full-time in academia to apply. Unitary Fund obtained several credits by asking, so it is always worth trying to contact the Braket team.
