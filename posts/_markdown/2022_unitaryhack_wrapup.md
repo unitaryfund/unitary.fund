@@ -6,7 +6,7 @@ author: Nathan Shammah
 
 
 Whether you were a participant, maintainer, bounty hacker, or community
-member: Thank you for participating in unitaryHACK 2022! It was a blast
+member: Thank you for participating in [unitaryHACK](https://unitaryhack.dev/) 2022! It was a blast
 💛🌴. We give a short summary of the event below.
 
 **\#\# Community voices**
@@ -68,18 +68,17 @@ hackers**. More stats and graphics are below:
 
 - Leaderboard of the unitaryHACK bounty winners:
 
-![](../images/unitaryhack-2022-winners-project){width="6.5in" height="3.458in"}
+![](../images/unitaryhack-2022-winners-project.png)
 
 -  Completed bounties by project per users:
 
-![](../images/unitaryhack-2022-project-winners.png){width="6.5in" height="3.458in"}
+![](../images/unitaryhack-2022-project-winners.png)
 
 -  Completed bounties per participating project
-![](../images/unitaryhack-2022-bounty-project.png){width="6.5in" height="3.458in"}
+![](../images/unitaryhack-2022-bounty-project.png)
 
 -  Hackers per country
-![](../images/
-unitaryhack-2022-bounty-hackers-country.png){width="6.5in" height="3.458in"}
+![](../images/unitaryhack-2022-bounty-hackers-country.png)
 
 
 Once again, unitaryHACK would not be possible if it was not supported by
