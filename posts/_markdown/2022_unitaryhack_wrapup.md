@@ -28,7 +28,10 @@ including:
 -   **Filippo Vincentini**, postdoc at EPFL and maintainer of NetKet
     > \[[[Video]{.ul}](https://www.youtube.com/watch?v=KtRqreNV2Wk&list=PL-VMs2BCTI_lhMY4SxVkJQpwwQL-wi14F&index=3&t=1s)\]
 
-For **Alberto Maldonado**, maintainer from the Quantum Universal
+ 
+ Hear what our community members had to say about unitaryHACK!
+ 
+ From **Alberto Maldonado**, maintainer from the Quantum Universal
 Education project,
 
 \"UnitaryHack is an event where you can demonstrate your skills and
