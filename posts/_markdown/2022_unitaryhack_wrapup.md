@@ -7,7 +7,7 @@ author: Nathan Shammah
 
 Whether you were a participant, maintainer, bounty hacker, or community
 member: Thank you for participating in [unitaryHACK](https://unitaryhack.dev/) 2022! It was a blast
-💛🌴. We give a short summary of the event below.
+💛🌴. Check out some of the highlights from the event!
 
 **\#\# Community voices**
 
