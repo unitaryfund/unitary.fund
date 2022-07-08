@@ -1,6 +1,6 @@
 ---
 title: Wrapping up unitaryHACK 2022!
-date: 7 July 2022
+date: 8 July 2022
 author: Nathan Shammah
 ---
 
