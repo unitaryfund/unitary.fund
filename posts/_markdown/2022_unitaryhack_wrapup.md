@@ -82,7 +82,7 @@ hackers**. More stats and graphics are below:
 
 
 Once again, unitaryHACK would not be possible without the support of
-generous donations from **Microsoft Azure Quantum**, **DoraHacks**,
+generous donors including **Microsoft Azure Quantum**, **DoraHacks**,
 **Jens Koch**, and **Unitary Fund's members**, including IBM, Accenture,
 Xanadu, IonQ, Boston Consulting Group, Pasqal, IQM, DoraHacks, and
 Agnostiq.
