@@ -81,7 +81,7 @@ hackers**. More stats and graphics are below:
 ![](../images/unitaryhack-2022-bounty-hackers-country.png)
 
 
-Once again, unitaryHACK would not be possible if it was not supported by
+Once again, unitaryHACK would not be possible without the support of
 generous donations from **Microsoft Azure Quantum**, **DoraHacks**,
 **Jens Koch**, and **Unitary Fund's members**, including IBM, Accenture,
 Xanadu, IonQ, Boston Consulting Group, Pasqal, IQM, DoraHacks, and
