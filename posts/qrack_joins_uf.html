@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="date" content='2022-05-24'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19932157-4');
+    </script>
+    <title>Qrack and PyQrack join the Unitary Fund Organization</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <section class="light">
+
+
+                            <right>
+                                <h2 class="leading-arrow">Qrack and PyQrack join the Unitary Fund Organization</h2>
+                                <h3></h3>
+                            </right>
+                            2022-07-21
+                            <br> Daniel Strano
+
+
+                            <div>
+                                <p>We announce with great pleasure and excitement that the quantum computer simulator libraries <a href="https://github.com/unitaryfund/qrack/">vm6502q/qrack</a> and <a href="https://github.com/unitaryfund/pyqrack/">vm6502q/pyqrack</a> have officially joined the Unitary Fund GitHub organization of open source quantum computing repositories! Get started with Qrack from the docs <a href="https://qrack.readthedocs.io/en/latest/">here</a>.</p>
+                                <p>Started by Daniel Strano (technical staff member of Unitary Fund) and Benn Bollay (CTO of Fusebit) in 2017 and winner of a Unitary Fund microgrant in 2019, Qrack is a quantum computer gate model simulator written in C++11. Qrack is intended to provide maximum performance and minimum memory footprint for quantum computing workloads run on “classical” computer hardware. PyQrack is Qrack’s dependency-free pure Python “ctypes” wrapper, to expose Qrack shared library binaries directly for just-in-time (JIT) execution via a Python interpreter. Plugins and providers are available for Qiskit, XACC, and even the Unity video game engine, with plans to expand plugin support to virtually every major quantum open source framework in the global ecosystem. Supported platforms include all available OEM combinations of x86_64, x86, ARMv7, and ARM64 instruction sets with Linux, Windows, Mac, iOS, and Android operating systems, as well as WebAssembly (Wasm).</p>
+                                <p><a href="https://qrack.net">Given Qrack’s support for Wasm</a>, we’ve joked at the Unitary Fund that Qrack can theoretically run on literal <a href="https://deviceatlas.com/blog/which-devices-have-browsers">internet-of-things enabled smart refrigerators</a>, but <a href="https://github.com/unitaryfund/qrack/issues/">open an issue ticket on the repository</a> if we’re blowing smoke and you still need developer support for your smart fridge, seriously!</p>
+                                <p style="font-weight: bold"><strong>QFT Benchmark</strong></p>
+                                <p>A standard example of Qrack (and PyQrack) performance is the quantum Fourier transform (QFT). Comparative results from benchmarking are in the graph below and are <a href="https://metriq.info/Task/64">available on Metriq</a> (as single-valued exponential trendline slope comparisons). Historically, Qrack measures this benchmark with an initialization by random 3-parameter unitary single qubit gates across the register width for a fair comparison, because Qrack QFT performance on computational basis states is classically efficient because of the underlying Schmidt decomposition. That wouldn’t be representative of general demands for cases of the QFT. While Qrack would perform worse for a random fully entangled case, our choice of randomly initialized separable qubits generally become fully entangled by the end of the circuit, paying a representative performance penalty for potentially “composing” every initially separable qubit. Hence this has historically been deemed a “fair” benchmark by the Qrack team.<p>
+                                <p>PyQrack has a commanding performance lead on this benchmark compared to other popular quantum computer simulators like Qiskit Aer (GPU) and QCGPU, where these three candidates are GPU-based simulators. Qiskit Aer (CPU) has been included on the chart, run on the same stock gaming laptop as the three GPU simulators, but remember that these software benchmarks are most fairly compared on identical hardware, whereas it isn’t possible for a CPU model and a GPU model to be the exact same hardware instance, obviously. However, PyQrack’s “hybrid CPU/GPU” methods utilize CPU simulation at the low qubit width end of the trend, which should be a fair comparison against Qiskit Aer (CPU) until the user-selectable GPU switching threshold, which is 9 qubits in this case.</p>
+                                <p style="font-weight: bold"><strong>Qrack Architecture</strong></p>
+                                <p>Qrack is a collection of stacking and interchangeable optimization “layers,” which include OpenCL-based, scalable multi-device GPU, CPU, and GPU/CPU “hybrid” state vector simulation at base, “hybrid stabilizer” simulation with full and transparent recourse to state vector representation as fallback, an auxiliary “quantum binary decision tree” layer, and Schmidt decomposition techniques layered over stabilizer and state vector simulation for proactively and reactively identifying separable “cuts” in qubit subsystem representations to reduce memory footprint and improve execution speed. Floating point precision options available from source build include half, float, and double, with even limited support for quad math. By design, most users don’t need to worry about complicated custom configuration of the layers and settings at all; just instantiate a default C++11 “QInterface” or Python “QrackSimulator” class and go! The highly-optimized default layer stack will automatically leverage hybrid stabilizer simulation for a Clifford circuit or preamble, for example.</p>
+                                <p><img src="../images/qrack_qft_full_width.png"/><p>
+                                <p><span style="font-weight: bold">Check out the repositories</span> on the Unitary Fund GitHub organization, “star” and share, and get Qrackin’! You rock!</p>
+                            </div>
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
+                    </div>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
+                            <tr>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
+                            </tr>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">events</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="../talks.html">events</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
