@@ -102,14 +102,14 @@ li:not(:last-child) {
 
 .layout {
     display: grid;
-    grid-template-columns: 1fr [main] 100vw 1fr;
+    grid-template-columns: 1fr [main] 80vw 1fr;
     grid-template-rows: [nav] minmax(2em, 5vmin) [main] 1fr [foot] 3em;
     overflow: hidden;
 }
 
 @media (min-width: 48em) {
     .layout {
-        grid-template-columns: 1fr [main] 100ch 1fr;
+        grid-template-columns: 1fr [main] 80ch 1fr;
     }
 }
 
