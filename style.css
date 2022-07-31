@@ -31,7 +31,7 @@
     --space-pull: 3em;
     --font-serif: 'Source Serif Variable', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     --font-sans: 'Source Sans Variable', 'Helvetica Neue', helvetica, 'Apple Color Emoji', arial, sans-serif;
-    --font-mono: 'Lucida Console"', Monaco, monospace;
+    --font-mono: Fira Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     --type-base: calc(1em + 0.5vw);
     --type-xxx-small: 55%;
     --type-xx-small: 65%;
@@ -76,6 +76,10 @@ h4.grant-year {
 .tagline {
     font-family: var(--font-mono);
     font-size: var(--type-small);
+}
+
+.relaxed {
+    line-height:1.625;
 }
 
 p.subtitle {
