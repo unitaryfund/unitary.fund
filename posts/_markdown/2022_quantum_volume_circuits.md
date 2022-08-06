@@ -47,5 +47,5 @@ helpful!
 
 
 ## About me
-I am a graduate student at Stanford interested in quantum computing,
-focusing on quantum error correction. I've begun contributing to Mitiq within the Stanford University course "Quantum Computing: Open-Source Project Experience" ([CS59SI](https://bulletin.stanford.edu/courses/2232631)).
+I am a graduate student at Stanford University interested in quantum computing,
+focusing on quantum error correction. Working on a team with Nyle Wong and Zhaoyi Li, I began contributing to Mitiq in the Stanford course "Quantum Computing: Open-Source Project Experience" ([CS59SI](https://bulletin.stanford.edu/courses/2232631)).
