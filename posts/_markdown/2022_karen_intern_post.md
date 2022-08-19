@@ -1,7 +1,7 @@
 2022-08-01
 Karen Rezkalla
 
-About Me
+## About Me
 
 I am one of the Unitary Fund’s interns here for Summer 2022. I am a rising sophomore Computer Engineering and Applied Mathematics double major at the University of Maryland, College Park, MD. I participated in the Qubit by Qubit training program for future quantum leaders before working with Unitary Fund. At my university I am a research assistant for the characterization of cosmic dust research for the NASA DART mission with UMD. I’m also in the Quantum Machine Learning research program with the Joint Quantum Institute (JQI) at UMD. I am very passionate about quantum computing and its application in the space industry.
 
