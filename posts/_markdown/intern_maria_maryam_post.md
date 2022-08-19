@@ -9,7 +9,7 @@ I was introduced to the Unitary Fund through [The Coding School’s](https://the
 
 ## MY BACKGROUND
 
-I am a second-year student at CUNY Queens College where I am double majoring in Computer Science and Linguistics.  I am interested in machine learning, NLP, quantum computing, and any form of software development that is able to reach and help people
+I am a second-year student at CUNY Queens College where I am double majoring in Computer Science and Linguistics.  I am interested in machine learning, NLP, quantum computing, and any form of software development that is able to reach and help people.
 
 ## THE INTERNSHIP
 
