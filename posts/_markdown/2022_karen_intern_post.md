@@ -12,7 +12,7 @@ Weeks 1-4: Full time training with Qubit by Qubit. We learned Quantum Mechanics,
 Weeks 5-6: Maria and I worked part-time with the Unitary Fund team and built the first open source Randomized Compiler with a group of my classmates from Qubit by Qubit.
 Weeks 7-10: Full time work with the Unitary fund team.
 
-Metriq: Working at Unitary Fund Part-Time
+## Metriq: Working at Unitary Fund Part-Time
 
 During my two weeks of part time with Unitary Fund, Maria and I were assigned to work on the Metriq Project with Daniel Strano and Vincent Russo. Metriq is focused on making accessible benchmarks available for anyone in the quantum computing community. We made 10 submissions a week to the website adding tasks, methods, platforms, tags, and results to build the Metriq database as well as submitting issues regarding the website. I also started participating in the Discord and learning wonderful things from such a diverse community. 
 
