@@ -10,7 +10,7 @@ I am one of the Unitary Fund’s interns here for Summer 2022. I am a rising sop
 The Coding School aims to bring the opportunity of learning the skill of computing to primary and secondary education cohorts. Qubit by Qubit, which is part of The Coding School, created the Early Quantum Career Immersion Training and Internship Program aiming to provide undergraduate students that come from disadvantaged backgrounds and minorities to learn and have a voice in the quick paced growth of the quantum computing field. As a first generation Egyptian immigrant with a passion to grow my knowledge in quantum computing, the training program taught me all the essential physics, quantum mechanics, computer science, and leadership skills to use in my internship at Unitary Fund but also to add on to the growth of the quantum computing field. Moreover, it provided me with a wonderful community of like minded people to learn with and from but also friends that I will always stay in touch with. Here is the rundown of the 10-week program:
 Weeks 1-4: Full time training with Qubit by Qubit. We learned Quantum Mechanics, Linear Algebra, and Computer Science from our instructor Phil Labrum. We got python interview questions to increase professency. Katherine Hanna and Lana Martin provided the leadership and professional development courses.
 Weeks 5-6: Maria and I worked part-time with the Unitary Fund team and built the first open source Randomized Compiler with a group of my classmates from Qubit by Qubit.
-Weeks 7-10: Full time work with the Unitary fund team.
+Weeks 7-10: Full time work with the Unitary Fund team.
 
 ## Metriq: Working at Unitary Fund Part-Time
 
