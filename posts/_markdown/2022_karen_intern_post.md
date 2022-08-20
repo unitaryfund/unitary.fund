@@ -1,6 +1,6 @@
 ---
 title: Meet the UF Interns - Karen Rezkalla
-date: 01 August 2022
+date: 22 August 2022
 author: Karen Rezkalla
 ---
 
