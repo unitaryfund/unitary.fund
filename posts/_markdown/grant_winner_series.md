@@ -1,12 +1,12 @@
 ---
 title: Inaugurating the Grant Winner Video Series
-date: 18 February 2022
+date: 26 August 2022
 author: Alowina Yap
 ---
 
-We are very excited to share our first video for Unitary Fund’s Grant Winner series! The series will feature some of our grant winners, their projects, their experience after winning the grant, and what they’re working on now.
+We are very excited to share our first episodes of Unitary Fund’s Grant Winner video series! Watch to learn more about our featured grant winners, their projects, their experience after winning the grant, and what they’re working on now.
 
-Hosted by our very own, Misty Wahl– our first video features Pedro Rivero, author of QRAND and our second video is with Lia Yeh, Samanvay Sharma, and Alberto Maldonado with PIQUE.
+Hosted by UF Technical Staff Member Misty Wahl– our first video features Pedro Rivero, author of QRAND and our second video is with Lia Yeh, Samanvay Sharma, and Alberto Maldonado with PIQUE.
 
 <a href="https://youtu.be/LSOCHWSPvUc">About QRAND</a>: QRAND introduces a versatile interface layer between NumPy and several quantum computing platforms (qiskit, cirq, qsharp...), along with some useful functionality that enables the production of quantum random numbers (QRN) according to different quantum protocols, and for a wide variety of probability distributions.
 
