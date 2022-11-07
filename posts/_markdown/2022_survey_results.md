@@ -1,7 +1,7 @@
 ---
 title: Results Are in for the 2022 Quantum Open Source Software Survey!
 date: 07 November 2022
-author: Nathan Shammah
+author: Unitary Fund Team
 ---
 
 We are excited to share the results for the 2022 Quantum Open Source Software (OSS) Survey organized by Unitary Fund. Collectively, over 1000 responses were provided by the community to the main software survey (Part I) and to the community survey on Diversity & Inclusion (Part II).
@@ -42,15 +42,33 @@ The most popular programming language is definitely Python, and this was to be e
 
 With respect to the quantum software **community**, 56% find it very welcoming, 28% somewhat welcoming and 10% somewhat welcoming or worse: There is definitely the opportunity to work on this data. 94% of respondents have a positive view of OSS in the quantum software community, with 78% finding it has a very positive impact and 16% a somewhat positive impact. With respect to the most sought after sources of answers or information when developing quantum software, project documentation or project websites are the most popular ones (84%), with project repositories and codebase coming in third; also important are deemed the Quantum Computing Stack Exchange, Stack Overflow, and servers such as Slack and Discord, and Youtube videos. Suprisingly, other forums are slightly less popular nowadays (8%). It is also quite surprising to read that among the types of resources most helpful for learning or contributing to quantum open source projects, video resources fare first (67% find them useful), followed by digital education text resources, hackathons, participative courses, mentorship programs and certificate or degrees (all above 40%).
 
+**Open-ended Feedback** on the quantum OSS ecosystem and community from respondents can be found at [this link](https://it.surveymonkey.com/results/SM-z7pUkwNxTheoIVncvcuKfg_3D_3D/). We highlight just a few, that emphasize the work needed and requested to support quantum open source software:
 
-Part II of the survey (shared as a separate survey for anonimity and hence in principle with a different or overlapping pool of respondents) focuses on providing a snapshot of the **diversity and inclusion** of the quantum software community. Similarly to the software survey of Part I, it shows that the USA and India are the most represented countries of residence. About a half of respondents are in the 25-34 age range, with 20% of respondents below 25 (and only 1% under 18 years old).
+- "*I wish that everyone could assist to quantum OSS community to accelerate its development.*"
+- "*I think there are projects of high quality that are unfortunately underrepresented because they lack polish, industrial support, and/or advertising.*"
+- "*I’d love to see more community-building; interviews with the personalities behind the tech that emphasize the humanity over the math and physics. We already have the math and physics bits, but do we really know each other?*"
+- "*I would like to see a quantum sdk that is not owned by a company and is of high quality. All research-related projects I have seen were not easy to use.*"
+- "*In my experience the supportiveness and inclusivity of the quantum OSS community has been wonderful (I have most experience with Unitary Fund and Qiskit communities). As a student, finding a good and supportive teacher/mentor has always been the thing that decides which subject areas I end up falling in love with. The same has been true for learning about quantum computing, and quantum OSS. [..] the extent to which the quantum OSS community is welcoming and encouraging (and correspondingly does not fetishize "brilliance", "innate intellectual ability", or formal training in the way many STEM fields do)--will determine, more than anything else, the extent to which quantum computing can become a diverse, open and truly meritocratic (in the positive sense) field in the future. The idea that this kind of social-political progress in STEM can be part of what QC contributes to humanity is part of what motivates me to pursue a career in QC (in addition to the intrinsic fascination/wonder of QC, which is for me the primary reason).*"
+
+- "*It's something I've noticed in traditional open source software, and something I hope doesn't carry through to quantum open source software: OSS is taken for granted and doesn't get the recognition it deserves (which has hindered it), I think that we should publically recognise and celebrate the impact of Q-OSS, even if it's under a proprietary company (eg Cirq, Qiskit etc)*"
+
+
+## Community: Diversity & Inclusion
+
+**Part II** of the survey (shared as a separate survey for anonimity and hence in principle with a different or overlapping pool of respondents) focuses on providing a snapshot of the **diversity and inclusion** of the quantum software community. Similarly to the software survey of Part I, it shows that the USA and India are the most represented countries of residence. About a half of respondents are in the 25-34 age range, with 20% of respondents below 25 (and only 1% under 18 years old).
+
+With regrds to ethnicity, about a half of respondents identifies as White or of European descent, 12% as South Asian, 8% as Hispanic or Latino/a/x, 6% as Black or of African descent, and 4% or below as East Asian, South East Asian, Multiracial, Middle Eastern, Other, or prefers not to say. 73% of the respondents identify as males, 19% as females, 3% as non-binary, genderqueer, or gender non-conforming, 1% other and 7% prefer not to say. With respect to ducational background, the largest group holds a PhD (36%) or multiple ones (2%), 33% have Masters or other non-doctoral post-graduate degree, 22% have a university degree and 8% high school/secondary school degree, other degrees, or prefer not to say. With respect to sexual orientation, 77% are straight/heterosexual, 9% bisexual, 9% prefer not to say, 2% are queer, 2% are gay or lesbian, and 1% have another orientation.
+
+With respect to disabilities 86% do not report any, while 7% prefer not to say and 5% replied Other. 1% each are blind or have difficulty seeing, are deaf or hard of hearing and unable to(/find it difficult to) walk or stand without assistance. With regards to mental health, 66% are not diagnosed with any mental health condition and 12% prefer not to say. Other respondents are most affected by Anxiety (12%), Mood or emotional disorders (9%), Concentration and/or memory disorder (8%), Other (2%), Autism (1%), and Schizophrenia(1%).
 
 
 
+
+We wish to repeat the survey in following years and track changes and trends in responses. Thank you to all that have participated!
 
 
 ## Methodology
 
 The survey has been open  Sept. 7 – Oct. 7, 2022. The data is stored at [github.com/unitaryfund/qoss-survey](https://github.com/unitaryfund/qoss-survey).
 
-Unitary Fund circulated the surveys on its social media platforms (Discord, Twitter, LinkedIn, UF blog) and contacting major blogs (QC Report, Qiskit blog, PennyLane blog, etc.), newsletters (UF mailing list, QuTiP mailing list, ORNL quantum computing newsletter, IEEE Quantum Week, QED-c newsletter, academic networks, etc.), UF members, supporters and partners.
+Unitary Fund circulated the surveys on its social media platforms (Discord, Twitter, LinkedIn, UF blog) and contacting major blogs (QC Report, Qiskit blog, PennyLane blog, etc.), newsletters (UF mailing list, QuTiP mailing list, ORNL quantum computing newsletter, IEEE Quantum, QED-c newsletter, academic networks, etc.), UF members, supporters and partners.
