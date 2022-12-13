@@ -4,25 +4,25 @@ date: 13 December 2022
 author: Unitary Fund Team
 ---
 
-We are glad to announce the new cohort of Unitary Fund Quantum Ambassadors.
+We are excited to announce the new cohort of Unitary Fund Quantum Ambassadors!
 
 
 ## About the Ambassadors program
 
-The Unitary Fund Quantum Ambassadors program [has been established](https://unitary.fund/posts/uf_ambassadors.html) as a way of recognizing individuals that are directly addressing the challenges of the growing quantum community. Unitary Fund Quantum Ambassadors bring together their peers to learn new skills, develop open source tools, and build the open quantum community all over the world.
+The Unitary Fund [Quantum Ambassadors program](https://unitary.fund/posts/uf_ambassadors.html) recognizes individuals that are directly addressing the challenges of the growing quantum community. Unitary Fund Quantum Ambassadors bring together their peers to learn new skills, develop open source tools, and build the open quantum community all over the world.
 
 Anyone is eligible to become an ambassador, and winners are nominated by the Unitary Fund team on a rolling basis. We expect that ambassadors exemplify Unitary Fund values and conduct themselves with respect whenever they engage with others within and outside the open quantum community.
 
 
 ## New Ambassadors
-The new ambassadors join a previously [announced cohort of ambassadors](https://unitary.fund/posts/uf_ambassadors.html). We are excited to announce the list below:
+The new ambassadors join the previous [cohort of ambassadors](https://unitary.fund/posts/uf_ambassadors.html). We are excited to announce the list below:
 
 ![](../images/2022_ambassadors.png)
 
 - **Alberto Maldonado Romo**, [Github](https://github.com/maldoalberto), [Twitter](https://twitter.com/AlbertoMaldoQC), [LinkedIn](https://www.linkedin.com/in/albertomaldonadoromo/). Alberto is a PhD student at the Instituto Politécnico Nacional, in Mexico and has been active in the Quantum Universal Education and Quantum Open Source Foundation activities. He has an interest in quantum algorithms and their application of Grove's algorithm; quantum machine learning using tensor networks, error mitigation using zero-noise extrapolation.
 
 - **Amir Ebrahimi**, [Github](https://github.com/amirebrahimi/), [Twitter](https://twitter.com/amir_e), [LinkedIn](https://www.linkedin.com/mynetwork/).
-Amir, now at Photonic Inc. first interacted with the Unitary Fund in 2021 and then took QWorld's QCourse511 (funded by Unitary Fund) where he first used Mitiq. Amir recently contributed a readout-error mitigation technique to the project and describes Unitary Fund as "at the heart of the "indie QC community"".
+Amir, now at Photonic Inc. / U. T. Austin, first interacted with the Unitary Fund in 2021 and then took QWorld's QCourse511 (funded by Unitary Fund) where he first used Mitiq. Amir recently contributed a readout-error mitigation technique to the project and describes Unitary Fund as "at the heart of the "indie QC community"".
 
 - **Nick Gardner**, [Github](https://github.com/nickdgardner), [LinkedIn](https://www.linkedin.com/in/nick-gardner-b52b11222/), is a PhD student at Stanford University. His first contribution to Mitiq was adding [quantum volume circuits to the suite of benchmarking circuits](https://unitary.fund/posts/2022_quantum_volume_circuits.html). Nick is working on a [glossary](https://github.com/unitaryfund/mitiq/issues/1582) of background concepts related to quantum error mitigation.
 
