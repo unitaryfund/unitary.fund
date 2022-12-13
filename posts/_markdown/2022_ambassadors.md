@@ -17,6 +17,8 @@ Anyone is eligible to become an ambassador, and winners are nominated by the Uni
 ## New Ambassadors
 The new ambassadors join a previously [announced cohort of ambassadors](https://unitary.fund/posts/uf_ambassadors.html). We are excited to announce the list below:
 
+![](../images/2022_ambassadors.png)
+
 - **Alberto Maldonado Romo**, [Github](https://github.com/maldoalberto), [Twitter](https://twitter.com/AlbertoMaldoQC), [LinkedIn](https://www.linkedin.com/in/albertomaldonadoromo/). Alberto is a PhD student at the Instituto Politécnico Nacional, in Mexico and has been active in the Quantum Universal Education and Quantum Open Source Foundation activities. He has an interest in quantum algorithms and their application of Grove's algorithm; quantum machine learning using tensor networks, error mitigation using zero-noise extrapolation.
 
 - **Amir Ebrahimi**, [Github](https://github.com/amirebrahimi/), [Twitter](https://twitter.com/amir_e), [LinkedIn](https://www.linkedin.com/mynetwork/).
@@ -31,4 +33,4 @@ Amir, now at Photonic Inc. first interacted with the Unitary Fund in 2021 and th
 We will be hosting blog posts from all the Ambassadors in the coming months so stay tuned right here! You can read more from previous ambassadors' spotlights: [Misty Wahl](https://unitary.fund/posts/ambassador_wahl_intro.html) and
 [Andre Alves](https://unitary.fund/posts/ambassador_alves_intro.html).
 
-Join our [newsletter](https://mailchi.mp/46a677be77cd/uf) to get updates about this blog in your inbox, follow us on [Twitter](https://twitter.com/unitaryfund), or join our [Discord](http://discord.unitary.fund) to hang out with the open quantum community 💛🌴s
+Join our [newsletter](https://mailchi.mp/46a677be77cd/uf) to get updates about this blog in your inbox, follow us on [Twitter](https://twitter.com/unitaryfund), or join our [Discord](http://discord.unitary.fund) to hang out with the open quantum community 💛🌴.
