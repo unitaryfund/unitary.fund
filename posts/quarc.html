@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="date" content='2023-01-23'>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
@@ -45,6 +45,7 @@
 
         gtag('config', 'UA-19932157-4');
     </script>
+    <title>QUARC</title>
 </head>
 
 <body>
@@ -64,35 +65,27 @@
                                 </span>
                             </button>
                         </div>
-
-                        <p class="leading-arrow"><b>Unitary Fund</b> is a non-profit working to create a quantum technology ecosystem that benefits the most people.
-                        </p>
-
                         <section class="light">
-                            <br>
 
-                            <center>
-                                <h1 class="leading-arrow">QUARC: A Hybrid System for Bounded Model Checking</h1>
-                            </center>
-                            <br>
-                            <br> January 23, 2023<br>
-                            <br>
-                            
-                            <p>Bounded Model Checking (BMC) is a well-established technique used to ensure the correctness of critical software. Given a number <i>n</i> representing the number of state transitions, it builds the Finite State Machine (FSM) of a program and searches for the input(s) that make a set <i>S</i> of machine states (e.g. division by zero, non-zero exit codes) reachable within <i>n</i> state transitions.</p>
 
-                            <p>
-                                BMC algorithms use heuristics and Satisfiability Modulo Theory (SMT) solvers that do not scale in general since all solve an SAT formula whose solutions grow exponentially in the number of paths of length <i>n</i> due to branching and loop conditions that depend on input values
-                            </p>
+                            <right>
+                                <h2 class="leading-arrow">QUARC</h2>
+                                <h3></h3>
+                            </right>
+                            2023-01-23
+                            <br> Christoph Kirsch and Stefanie Muroya Lei
 
-                            <p>This is the reason why we created QUARC a backend that is included in the <a href="https://github.com/cksystemsgroup/unicorn" target="_blank">Unicorn toolchain</a>. Unicorn supports RISC-V, and it takes binaries of arbitrary programs to produce an inner representation of an FSM that it then optimizes through SAT and Satisfiability-Modulo Theory Solvers.</p>
 
-                            <p>QUARC takes as input a number <i>n</i> and the FSM of a program to produce an oracle that represent <i>n</i> state transitions of these programs. This oracle outputs true whenever some state of <i>S</i> happens in <i>n</i> or less state transitions. </p>
-
-                            <p>On its side, QUARC does bit level optimizations, reduces as much as it can the width of MCX gates, and also implements an algorithm to reuse ancillae. However, what QUARC focuses the most, is to reduce the domain of the function that the oracle is representing so fewer iterations are needed to find the input(s) that cause any state of <i>S</i>.</p>
-
-                            <p>In general, the oracle will output true with bad memory accesses, non-zero exit codes, or whenever a division by zero happens. </p>
-
-                            <p>Finally, QUARC has help us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master's in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism. </p>
+                            <div>
+                                <p>Bounded Model Checking (BMC) is a well-established technique used to ensure the correctness of critical software. Given a number <em>n</em> representing the number of state transitions, it builds the Finite State Machine (FSM) of a program and searches for the input(s) that make a set <em>S</em> of machine states (e.g. division by zero, non-zero exit codes) reachable within <em>n</em> state transitions.</p>
+                                <p>BMC algorithms use heuristics and Satisfiability Modulo Theory (SMT) solvers that do not scale in general since all solve an SAT formula whose solutions grow exponentially in the number of paths of length <em>n</em> due to branching and loop conditions that depend on input values</p>
+                                <p>This is the reason why we created QUARC a backend that is included in the <a href="https://github.com/cksystemsgroup/unicorn">Unicorn toolchain</a>. Unicorn supports RISC-V, and it takes binaries of arbitrary programs to produce an inner representation of an FSM that it then optimizes through SAT and Satisfiability-Modulo Theory Solvers.</p>
+                                <p>QUARC takes as input a number <em>n</em> and the FSM of a program to produce an oracle that represent <em>n</em> state transitions of these programs. This oracle outputs true whenever some state of <i>S</i> happens in <em>n</em> or less state transitions.</p>
+                                <p>On its side, QUARC does bit level optimizations, reduces as much as it can the width of MCX gates, and also implements an algorithm to reuse ancillae. However, what QUARC focuses the most, is to reduce the domain of the function that the oracle is representing so fewer iterations are needed to find the input(s) that cause any state of <em>S</em>.</p>
+                                <p>In general, the oracle will output true with bad memory accesses, non-zero exit codes, or whenever a division by zero happens.</p>
+                                <p>Finally, QUARC has help us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master’s in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism.</p>
+                                <p>The unicorn team.</p>
+                            </div>
 
                         </section>
                         <footer class="footer leading-arrow light-arrow">
@@ -159,6 +152,7 @@
                         </p>
                     </div>
                 </div>
+
             </section>
         </main>
     </div>
