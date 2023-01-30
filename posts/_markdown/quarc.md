@@ -1,5 +1,5 @@
 ---
-title: QUARC
+title: QUARC: : A Hybrid System for Bounded Model Checking
 date: January 23, 2023
 author: Christoph Kirsch and Stefanie Muroya Lei
 ---
