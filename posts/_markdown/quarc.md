@@ -10,7 +10,7 @@ Bounded Model Checking (BMC) is a well-established technique used to ensure the 
 BMC algorithms use heuristics and Satisfiability Modulo Theory (SMT) solvers that do not scale in general since all solve an SAT formula whose solutions grow exponentially in the number of paths of length *n* due to branching and loop conditions that depend on input values.
  
 
-That is the reason why we created QUARC: a backend included in the [Unicorn toolchain](https://github.com/cksystemsgroup/unicorn). Unicorn supports RISC-V, and it takes binaries of arbitrary programs to produce an inner representation of an FSM that it then optimizes through SAT and Satisfiability-Modulo Theory Solvers.
+That is the reason why we created QUARC: a backend included in the [Unicorn toolchain](https://github.com/cksystemsgroup/unicorn). Unicorn is written in Rust and supports the [RISC-V](https://en.wikipedia.org/wiki/RISC-V) architecture: It takes binaries of arbitrary programs to produce an inner representation of a finite state machine (FSM) that it then optimizes through SAT and Satisfiability-Modulo Theory Solvers.
 
 QUARC takes as input a number *n* and the FSM of a program to produce an oracle that represents *n* state transitions of these programs. This oracle outputs true whenever some state of *S* happens in *n* or fewer state transitions.
 
