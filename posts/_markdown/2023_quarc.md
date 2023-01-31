@@ -30,7 +30,7 @@ During the grant, we designed QUARC such that it does qubit level optimizations,
 
 Right now QUARC can deal with only a subset of RISC-V, that even though is Turing-complete, we are still working to cover all of RISC-V. Therefore, since RISC-V is applicable to all languages compiled by GCC, QUARC targets a wide public that wants to make their software safer. Moreover, we are writing a paper for QUARC and polishing and optimizing our algorithm for reusing ancillae. As far as we know, QUARC is the first hybrid bounded-model checking and we believe there are certain kind of programs that can get a substancial speedup because of QUARC's encoding.
 
-You can try QUARC with rust using this [link](https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper), and also with python by checking this link [link](https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper/unicorn_api).
+You can try QUARC with rust using this [link](https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper), and also with python by checking this [link](https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper/unicorn_api).
 
 Finally, QUARC has help us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master's in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism.
 
