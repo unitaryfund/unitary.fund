@@ -34,7 +34,7 @@ You can try QUARC with Rust using this [link](https://github.com/cksystemsgroup/
 
 Finally, QUARC has helped us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master's in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism.
 
-We thank very much UnitaryFund for their support. The grant allowed us to push further QUARC, which was initially only in our TO-DO list. The grant motivated us to do even more than was expected since we ended developing an algorithm that reduced substancially the number of ancillae that the final quantum program requires.
+We thank very much Unitary Fund for their support. The grant allowed us to push further QUARC, which was initially only in our TO-DO list. The grant motivated us to do even more than was expected since we ended developing an algorithm that reduced substantially the number of ancillae that the final quantum program requires.
 
 The unicorn team.
 
