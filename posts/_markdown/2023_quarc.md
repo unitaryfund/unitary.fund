@@ -32,7 +32,7 @@ Right now QUARC can deal only with a subset of RISC-V, and even it is Turing-com
 
 You can try QUARC with Rust using this [link](https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper), and also with Python by checking this [link](https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper/unicorn_api).
 
-Finally, QUARC has help us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master's in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism.
+Finally, QUARC has helped us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master's in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism.
 
 We thank very much UnitaryFund for their support. The grant allowed us to push further QUARC, which was initially only in our TO-DO list. The grant motivated us to do even more than was expected since we ended developing an algorithm that reduced substancially the number of ancillae that the final quantum program requires.
 
