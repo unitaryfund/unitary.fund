@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="date" content='2023-02-03'>
+    <meta name="date" content='2023-01-17'>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
@@ -26,7 +26,7 @@
             font: 14px "Lucida Console", Monaco, monospace;
             width: 100%;
         }
-        
+
         #mce-EMAIL {
             padding: 11px;
             margin: 10px;
@@ -45,7 +45,7 @@
 
         gtag('config', 'UA-19932157-4');
     </script>
-    <title>QUARC<code>:</code> A Hybrid System for Bounded Model Checking</title>
+    <title>QUARC: A Hybrid System for Bounded Model Checking</title>
 </head>
 
 <body>
@@ -69,35 +69,29 @@
 
 
                             <right>
-                                <h2 class="leading-arrow">QUARC<code>:</code> A Hybrid System for Bounded Model Checking</h2>
+                                <h2 class="leading-arrow">QUARC: A Hybrid System for Bounded Model Checking</h2>
                                 <h3></h3>
                             </right>
-                            2023-02-03
+                            2023-02-06
                             <br> Christoph Kirsch and Stefanie Muroya Lei
 
 
                             <div>
+
                                 <p>Bounded Model Checking (BMC) is a well-established technique used to ensure the correctness of critical software. Some examples are verifying properties of software systems and malware detection. However BMC techniques do not generally scale. Thereafter, the aim of our project is to develop a compiler that encodes efficiently classical programs so that quantum computers can help accelerating bounded model checking even in the NISQ-era.</p>
                                 <p><strong>QUARC</strong> is a compiler that is included in the <a href="https://github.com/cksystemsgroup/unicorn">Unicorn toolchain</a>. While Unicorn provides a word-level representation and some word-level optimizations such as the integration of powerful solvers for the Boolean satisfiability problem (SAT) and satisfiability modulo theories (SMT). SMT are a generalization of SAT, and refer to the problem of determining whether a mathematical formula is satisfiable. QUARC takes this word-level representation to generate an oracle for quantum computers so that we can search for inputs that may cause that certain properties of programs are not satisfied. More concretely, QUARC searches for inputs to programs that cause division by zero, invalid memory accesses, or exit codes different than 0.</p>
                                 <p>For example, if you look at the following pseudocode</p>
-                                <div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
-                                <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span> <span class="op">{</span></span>
-                                <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>   <span class="dt">int</span> x<span class="op">;</span></span>
-                                <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>   read_input<span class="op">(&amp;</span>x<span class="op">);</span> <span class="co">// read input and store it in x</span></span>
-                                <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-                                <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>   <span class="cf">if</span> <span class="op">(</span>x <span class="op">==</span> <span class="dv">100</span><span class="op">)</span> <span class="op">{</span></span>
-                                <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="dv">1</span><span class="op">;</span></span>
-                                <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>   <span class="op">}</span></span>
-                                <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>   <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
-                                <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+                                <script src="https://gist.github.com/nathanshammah/75283301457f4f342fbd51725e341c50.js"></script>
+
                                 <p>the oracle that QUARC produces will evaluate to true only when the qubits that represent <i>x</i> are equal to 100, because for all other value of <i>x</i> the exit code will be 0.</p>
                                 <p>During the grant, we designed QUARC such that it does qubit level optimizations, reduces as much as it can the width of multi-controlled X gates, and also implements an algorithm to reuse ancillae. Moreover, we focus the most in reducing the domain of the function that the oracle is representing so fewer iterations are needed to find the input(s) to programs that cause specific machine states.</p>
                                 <p>Right now QUARC can deal only with a subset of RISC-V, and even it is Turing-complete, we are still working to cover all of RISC-V. Therefore, since RISC-V is applicable to all languages compiled by GCC, QUARC targets a wide public that wants to make their software safer. Moreover, we are writing a paper for QUARC and polishing and optimizing our algorithm for reusing ancillae. As far as we know, QUARC is the first hybrid bounded-model checking and we believe there are certain kind of programs that can get a substantial speedup because of QUARC’s encoding.</p>
                                 <p>You can try QUARC with Rust using this <a href="https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper">link</a>, and also with Python by checking this <a href="https://github.com/cksystemsgroup/unicorn/tree/opt-quarc-paper/unicorn_api">link</a>.</p>
                                 <p>Finally, QUARC has helped us explain concepts such as unitary matrices, oracles, qubits, superposition to computer science students doing their master’s in topics related to formal methods. This is due to the fact that bounded model checking is deeply related with symbolic execution, and symbolic execution is a nice way to perceive quantum parallelism.</p>
                                 <p>We thank very much Unitary Fund for their support. The grant allowed us to push further QUARC, which was initially only in our TO-DO list. The grant motivated us to do even more than was expected since we ended developing an algorithm that reduced substantially the number of ancillae that the final quantum program requires.</p>
-                                <p>The unicorn team.</p>
+                                <p>The unicorn team</p>
                             </div>
+
 
                         </section>
                         <footer class="footer leading-arrow light-arrow">
