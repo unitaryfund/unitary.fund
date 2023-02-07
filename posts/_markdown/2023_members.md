@@ -32,11 +32,12 @@ at Unitary Fund.
 
 We are excited to announce the 2023 Member cohort!
 
-**Core Member:**[IBM](https://quantum-computing.ibm.com/)
+## **Core Member:**
 
-![](../images/IBM_quantum.png)
+[![](../images/IBM_quantum.png)](https://quantum-computing.ibm.com/)
 
-**Supporting Members:** [Agnostiq](https://www.covalent.xyz/),
+## **Supporting Members:**
+[Agnostiq](https://www.covalent.xyz/),
 [AWS](https://aws.amazon.com/braket/),
 [Cisco](https://www.cisco.com/),
 [Dorahacks](https://dorahacks.io/),
@@ -64,21 +65,21 @@ Ware](https://www.qcware.com/),
 ecosystem is of vital importance to IBM Quantum and Qiskit. We are
 thrilled to be a part of this initiative which has already demonstrated
 its value to the broader quantum community" said ***Luciano Bello***,
-Developer Advocacy Lead at IBM Quantum.
+Developer Advocacy Lead at **IBM Quantum**.
 
 "Democratizing quantum technologies will take a diverse village -- from
 PhDs through software developers and beyond. While Amazon Braket is a
 town square for hardware providers, Unitary Fund provides a unique role
 on the path to democratization by establishing a community for quantum
 software developers, said ***Sebastian Hassinger***, worldwide business
-development and go-to-market strategy for quantum computing at AWS.
+development and go-to-market strategy for quantum computing at **AWS**.
 "Microgrants like those provided by Unitary Fund open the aperture even
 further for those who want to experiment with quantum computing projects
 through the lens of their expertise and without having to think about
 equations. This will be key for helping the industry move from theory
 papers to running code."
 
-***Loïc Henriet***, the Chief Technology Officer of Pasqal added, \"I
+***Loïc Henriet***, the Chief Technology Officer of **Pasqal** added, \"I
 strongly believe that a robust quantum software ecosystem will be needed
 if we want to make quantum processors useful. UF\'s vision to support
 new and innovative open source projects has already proved to be
@@ -91,14 +92,14 @@ active community play an important role in enabling the largest group of
 people to contribute and collaborate in meaningful ways. Not only that,
 but for those who are new to the quantum field, it provides a starting
 point to ask questions and discover," noted ***Stephen DiAdamo***,
-research scientist on the Quantum Systems team at Cisco. "Unitary Fund
+research scientist on the Quantum Systems team at **Cisco**. "Unitary Fund
 reduces the challenging entry barrier to quantum science allowing the
 quantum ecosystem to flourish. Cisco being a supporting member allows us
 to contribute to and support the Unitary Fund community, and moreover
 allows us to open new learning opportunities for those interested in
 quantum communication and networks."
 
-Said ***Jiannan Zhang***, Founder and CEO of DoraHacks, \"Quantum
+Said ***Jiannan Zhang***, Founder and CEO of **DoraHacks**, \"Quantum
 computing can potentially solve many challenges we face today. While
 quantum computing hardware develops, it is important to build a strong
 and inclusive ecosystem that allows people to innovate with quantum
