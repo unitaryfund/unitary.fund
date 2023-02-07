@@ -44,7 +44,7 @@ We are excited to announce the 2023 Member cohort!
 [Quandela](https://www.quandela.com/),
 [Qyber](https://www.qyber.ai/)
 
-![.](../images/2023_supporting_members.png)
+![](../images/2023_supporting_members.png)
 
 We would also like to thank the following organizations for their
 support of Unitary Fund's mission:
