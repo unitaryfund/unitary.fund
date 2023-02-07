@@ -34,28 +34,29 @@ We are excited to announce the 2023 Member cohort!
 
 **Core Member:**
 
-[IBM](https://quantum-computing.ibm.com/)
+![[IBM](https://quantum-computing.ibm.com/)](../images/IBM_quantum.png)
 
 **Supporting Members:**
 
-[Agnostiq](https://www.covalent.xyz/),
+![[[Agnostiq](https://www.covalent.xyz/),
 [AWS](https://aws.amazon.com/braket/),
 [Cisco](https://www.cisco.com/),
 [Dorahacks](https://dorahacks.io/),
 [Pasqal](https://www.pasqal.com/),
 [Quandela](https://www.quandela.com/),
-[Qyber](https://www.qyber.ai/)
+[Qyber](https://www.qyber.ai/)](https://quantum-computing.ibm.com/)](../images/2023_supporting_members.png)
 
 We would also like to thank the following organizations for their
 support of Unitary Fund's mission:
 
-[[Atom Computing]{.ul}](https://atom-computing.com/), [[Boston
-Consulting Group]{.ul}](https://www.bcg.com/), [[IQT
-Labs]{.ul}](https://www.iqt.org/labs/), [[QC
-Ware]{.ul}](https://www.qcware.com/),
-[[QuEra]{.ul}](https://www.quera.com/),
-[[Riverlane]{.ul}](https://www.riverlane.com/), and
-[[Xanadu]{.ul}](https://www.xanadu.ai/).
+![[Atom Computing](https://atom-computing.com/), [Boston
+Consulting Group](https://www.bcg.com/), [IQT
+Labs](https://www.iqt.org/labs/), [QC
+Ware](https://www.qcware.com/),
+[QuEra](https://www.quera.com/),
+[Riverlane](https://www.riverlane.com/), and
+[Xanadu](https://www.xanadu.ai/).](../images/2023_supporters.png)
+
 
 Testimonials from our Members:
 
