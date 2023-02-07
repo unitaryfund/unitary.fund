@@ -32,19 +32,19 @@ at Unitary Fund.
 
 We are excited to announce the 2023 Member cohort!
 
-**Core Member:**
+**Core Member:**[IBM](https://quantum-computing.ibm.com/)
 
-![[IBM](https://quantum-computing.ibm.com/)](../images/IBM_quantum.png)
+![](../images/IBM_quantum.png)
 
-**Supporting Members:**
-
-![[[Agnostiq](https://www.covalent.xyz/),
+**Supporting Members:** [Agnostiq](https://www.covalent.xyz/),
 [AWS](https://aws.amazon.com/braket/),
 [Cisco](https://www.cisco.com/),
 [Dorahacks](https://dorahacks.io/),
 [Pasqal](https://www.pasqal.com/),
 [Quandela](https://www.quandela.com/),
-[Qyber](https://www.qyber.ai/)](https://quantum-computing.ibm.com/)](../images/2023_supporting_members.png)
+[Qyber](https://www.qyber.ai/)
+
+![.](../images/2023_supporting_members.png)
 
 We would also like to thank the following organizations for their
 support of Unitary Fund's mission:
@@ -58,7 +58,7 @@ Ware](https://www.qcware.com/),
 [Xanadu](https://www.xanadu.ai/).](../images/2023_supporters.png)
 
 
-Testimonials from our Members:
+***Testimonials from our Members***:
 
 "The mission of the Unitary Fund to establish an open quantum software
 ecosystem is of vital importance to IBM Quantum and Qiskit. We are
