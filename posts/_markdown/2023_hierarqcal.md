@@ -52,7 +52,7 @@ Which touches on the idea of a robot building another, in some way hierarqcal is
 There's a bunch of [docs and tutorials](https://matt-lourens.github.io/hierarqcal/getting_started.html#basic-usage) that can get you started with building QCNNs or creating algorithms that generate them. Some useful things to mention are:
 
 - The package is quantum computing framework agnostic, so you can use it with any framework (Qiskit, Cirq, Pennylane) or your own, as long as it's in python. This is because the architecture representation is just a data structure and the package allows you to interact with it.
-- It's quick and easy to create a space of architectures which you can randomly sample to find a good-performing circuits for your specific problem/data. This is a nice way get baseline performance for your model. See this [tutorial](https://matt-lourens.github.io/hierarqcal/examples/examples_cirq.html#random-qcnns) on how to do it. 
+- It's quick and easy to create a space of architectures which you can randomly sample to find good-performing circuits for your specific problem/data. This is a nice way get baseline performance for your model. See this [tutorial](https://matt-lourens.github.io/hierarqcal/examples/examples_cirq.html#random-qcnns) on how to do it. 
 - It's open source! So if you have cool ideas for quantum circuit primitives, feel free to add them. So far we have Qconv, Qpool and Qdense, but there are many possibilities that can be explored based on symmetry, locality, etc.
 
 In all examples so far we've used CRZ and CNOT gates for convolutions and pooling, but this is arbitrary, it's easy to create a custom unitary which you pass to a primitive, for instance:
