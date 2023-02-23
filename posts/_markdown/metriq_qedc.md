@@ -16,7 +16,7 @@ from QED-C provided an open-source suite of quantum benchmarks
 measure the effectiveness of quantum computing hardware for specific
 applications (further information provided in this
 [preprint](https://arxiv.org/abs/2110.03137)). This provided some of the first
-application-oriented benchmarks that we made public with supporting data along
+application-oriented benchmarks that were made public with supporting data along
 with a preprint–an incredibly valuable asset to the benchmarking community.
 Recently, the QED-C benchmarks suite was updated and new optimization
 benchmarks ([preprint](https://arxiv.org/abs/2302.02278)).
