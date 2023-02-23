@@ -6,9 +6,9 @@ author: Metriq Team
 
 We are excited to announce the integration of an automated pipeline to add
 state-of-the-art benchmark from the Quantum Economic Development Consortium
-([QED-C](https://quantumconsortium.org/)) into **Metriq**, the open platform that
-makes transparent, accessible benchmarks available to everyone in the quantum
-computing community.
+([QED-C](https://quantumconsortium.org/)) into
+[**Metriq**](https://metriq.info/), the open platform that makes transparent,
+accessible benchmarks available to everyone in the quantum computing community.
 
 The Technical Advisory Committee (TAC) for Standards and Performance Metrics
 from QED-C provided an open-source suite of quantum benchmarks
