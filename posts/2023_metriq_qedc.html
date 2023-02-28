@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/22ffc91bdd.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="date" content='2023-02-28'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+    <title>Unitary Fund</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../hamburgers.min.css">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px "Lucida Console", Monaco, monospace;
+            width: 100%;
+        }
+        
+        #mce-EMAIL {
+            padding: 11px;
+            margin: 10px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-19932157-4');
+    </script>
+    <title>Automatically running QED-C benchmarks on Metriq</title>
+</head>
+
+<body>
+    <div class="layout">
+        <main id="content" class="content">
+            <section class="heavy">
+                <div class="container">
+                    <div class="col-3">
+                        <div class="hero">
+                            <a href="/"><img src="/logos/logov3.svg" alt="Unitary Fund" /></a>
+                            <p class="tagline"><b>Because evolution is
+                                    <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+                                        target="_blank">unitary</a></b>.</p>
+                            <button id="mobile-menu-icon" class="hamburger hamburger--squeeze" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                        <section class="light">
+
+
+                            <right>
+                                <h2 class="leading-arrow">Automatically running QED-C benchmarks on Metriq</h2>
+                                <h3></h3>
+                            </right>
+                            2023-02-28
+                            <br> Metriq Team
+
+
+                            <div>
+                                <p>We are excited to announce the integration of an automated pipeline to add state-of-the-art benchmark from the Quantum Economic Development Consortium (<a href="https://quantumconsortium.org/">QED-C</a>) into <a href="https://metriq.info/"><strong>Metriq</strong></a>, the open platform that makes transparent, accessible benchmarks available to everyone in the quantum computing community.</p>
+                                <p>The Technical Advisory Committee (TAC) for Standards and Performance Metrics from QED-C provided an open-source suite of quantum benchmarks (<a href="https://github.com/SRI-International/QC-App-Oriented-Benchmarks">GitHub</a>) to measure the effectiveness of quantum computing hardware for specific applications (further information provided in this <a href="https://arxiv.org/abs/2110.03137">preprint</a>). This provided some of the first application-oriented benchmarks that were made public with supporting data along with a preprint, an incredibly valuable asset to the benchmarking community. Recently, the QED-C benchmarks suite was updated and new optimization benchmarks (<a href="https://arxiv.org/abs/2302.02278">preprint</a>).</p>
+                                <p>The results of running these benchmarks can be found via this <a href="https://zenodo.org/record/6972744#.Y9v-oBzMJkg">Zenodo posting</a>. On <a href="https://metriq.info/">Metriq</a>, we have integrated these results <a href="https://metriq.info/Submission/14">into a submission</a> that captures these results. While this submission on Metriq captures the results obtained by QED-C it also is a “living” result in that it is <em>automatically</em> updated with benchmarks obtained by running the QED-C code on a variety of hardware offerings.</p>
+                                <p>On <a href="https://metriq.info/">Metriq</a>, we have established an <a href="https://github.com/unitaryfund/metriq-api/tree/main/benchmark">automated pipeline</a> that is able to run and update our submission via a <a href="https://github.com/unitaryfund/QC-App-Oriented-Benchmarks">fork</a> of the QED-C benchmarking suite. This pipeline enables anyone to automatically run benchmarks for a specific algorithm, hardware provider, and quantum processor. This allows the Metriq community to continually extend the benchmarking foundation provided by QED-C to expand their results by running on further hardware providers to obtain up-to-date results.</p>
+                                <p>The backbone of the pipeline is powered by the <a href="https://github.com/unitaryfund/metriq-client">metriq-client</a> project. This client allows the user to interface with the Metriq platform via a Python API. The user can perform queries or upload batched results via a Python script for submissions that may entail a sizeable amount of results that would be cumbersome to upload manually via the website.</p>
+                                <p>Many new results have been added to the <a href="https://metriq.info/Submission/14">QED-C</a> submission for the <a href="https://metriq.info/Task/150">Bernstein-Vazarani</a> task on Metriq thanks to the automatic QED-C to Metriq pipeline.</p>
+                                <p>The automated QED-C to Metriq pipeline will be continuing to run on more algorithms and platforms to generate further benchmarking results to be displayed on <a href="https://metriq.info/">Metriq</a>!</p>
+                            </div>
+
+                        </section>
+                        <footer class="footer leading-arrow light-arrow">
+                            This website is hosted on <a href="https://github.com/unitaryfund/unitary-fund" target="_blank">github</a>, and our community follows this <a href="https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md">code
+                                of conduct</a>. <br> <br> If you have suggestions for changes then please open up a pull request!
+                            <br>
+                            <br>
+                            <table>
+                                <tr>
+                                    <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                                class="fa fa-twitter"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                                class="fa fa-twitch"></i></a></th>
+                                    <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                                class="fa fa-youtube"></i></a></th>
+                                    <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                                class="fab fa-discord"></i></a></th>
+                                </tr>
+                            </table> &copy;2020 Unitary Fund
+                        </footer>
+                    </div>
+                    <div class="col-1" id="menu-container">
+                        <table style="width:auto; margin-right:0px; margin-left: auto;">
+                            <tr>
+                                <th style="text-align: right;"><a href="https://twitter.com/unitaryfund"><i
+                                            class="fa fa-twitter"></i></a></th>
+                                <th style="text-align: right;"><a href="https://twitch.tv/unitaryfund"><i
+                                            class="fa fa-twitch"></i></a></th>
+                                <th style="text-align: right;"><a href="https://www.youtube.com/channel/UCDbDLAzGRTHnhkoMMOX7D1A"><i
+                                            class="fa fa-youtube"></i></a></th>
+                                <th style="text-align: right;"><a href="http://discord.unitary.fund"><i
+                                            class="fab fa-discord"></i></a></th>
+                            </tr>
+                        </table>
+                        <p class="light" id="menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="https://metriq.info/About">metriq</a>
+                            <a href="../talks.html">events</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                    <div id="mobile-menu-container">
+                        <p class="light" id="mobile-menu">
+                            <a href="../grants.html">grants</a>
+                            <a href="../ideas.html">ideas</a>
+                            <a href="../research.html">research</a>
+                            <a href="../mitiq.html">mitiq</a>
+                            <a href="https://metriq.info/About">metriq</a>
+                            <a href="../talks.html">events</a>
+                            <a href="../faq.html">faq</a>
+                            <a href="../blog.html" class="active">blog</a>
+                            <a href="../careers.html">careers</a>
+                            <a href="../donate.html">donate</a>
+                            <a href="https://shop.spreadshirt.com/unitaryfund/">shop</a>
+                            <a href="https://unitaryfund.typeform.com/to/j0kAOd" target="_blank" class="highlight">apply</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+        var mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+        mobileMenuContainer = document.querySelector("#mobile-menu-container");
+        mobileMenuIcon.addEventListener("click", function() {
+            mobileMenuIcon.classList.toggle("is-active");
+            mobileMenuContainer.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
