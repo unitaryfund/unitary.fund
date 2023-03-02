@@ -342,6 +342,10 @@ img {
     border-left: none;
 }
 
+.grant-list li a img.grant-image {
+    max-width: none;
+}
+
 .grant-list li p {
     margin: 0;
     margin-left: var(--space-base);
