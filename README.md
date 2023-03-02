@@ -2,10 +2,7 @@
 
 # Unitary Fund
 
-This is the website for the Unitary Fund.
-
-The Unitary Fund is a non-profit that supports the open development of 
-the quantum technology ecosystem.
+Unitary Fund is a non-profit that supports the open development of the quantum technology ecosystem.
 
 You can learn more about it at [unitary.fund](https://unitary.fund).
 
@@ -20,7 +17,7 @@ add the badge to your github project with the following snippet:
 
 ## Writing a blog post
 
-Blog posts are written in markdown and a template for can be found under `posts/_markdown/`. and images for the post should be added to `images` at root.
+Blog posts are written in markdown and a template for can be found under `posts/_markdown/` and images for the post should be added to `images` at root.
 Make a PR to this site with your new markdown file and the team can review and merge it!
 
 If you want to see how your blog post looks like, you can use pandoc and run the following command in the `posts` folder:
