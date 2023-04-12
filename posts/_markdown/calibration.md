@@ -1,6 +1,6 @@
 ---
 title: Calibrating Error Mitigation with Mitiq
-date: 3 April 2023
+date: 17 April 2023
 author: Nate Stemen
 ---
 
