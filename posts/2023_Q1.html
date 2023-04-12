@@ -124,6 +124,12 @@
                                 <ul>
                                 <li>New paper and code for the <a href="https://latticesurgery.com/">Lattice Surgery Compiler</a><strong>:</strong> “A High Performance Compiler for Very Large Scale Surface Code Computations” <a href="https://arxiv.org/abs/2302.02459">https://arxiv.org/abs/2302.02459</a></li>
                                 </ul></li>
+                                <li><p><strong>Qrack</strong></p>
+                                <ul>
+                                <li>We started distributing standalone library and utility installers for major operating systems, no source build required.</li>
+                                <li>Thanks to @andreamari for help on approximate simulations: Qrack can now internally estimate its own random circuit sampling fidelity without any significant overhead.</li>
+                                <li>Qrack now supports CUDA as an alternative to OpenCL for GPU acceleration, with very comparable performance, but expanding hardware support to NVLink and SLI and also adding a GPU-acceleration option to Windows Subsystem for Linux.</li>
+                                </ul></li>
                                 <li><p><strong>PyMatching</strong></p>
                                 <ul>
                                 <li>Paper on sparse blossom (pymatching v2) <a href="https://arxiv.org/abs/2303.15933">https://arxiv.org/abs/2303.15933</a>. The paper is on <a href="https://github.com/oscarhiggott/PyMatching/releases/tag/v2.0.0">version 2</a> (released last quarter) of PyMatching, which is 100x-1000x faster than earlier versions. The headline figure is that it can decode both X and Z bases of surface code circuits in under 1 microsecond per round on a single core up to distance 17 at 0.1% circuit noise, which matches the throughput of superconducting quantum computers. Pymatching <a href="https://github.com/oscarhiggott/PyMatching/releases/tag/v2.1.0">version 2.1.0</a> was released in January 2023 with some more minor feature additions.</li>
