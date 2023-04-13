@@ -30,6 +30,6 @@ Our goal with creating this module is twofold:
 1. Make error mitigation more accessible by requiring less expert use in order to operate.
 2. Encourage quantum programmers to experiment with error mitigation.
 
-Futher documentation related to this feature can be found in our [user guide](https://mitiq.readthedocs.io/en/latest/guide/calibrators.html), as well as a new tutorial demonstrating the [module in action on a fake Qiskit device](https://mitiq.readthedocs.io/en/latest/examples/calibration-tutorial.html).
+Futher documentation related to this feature can be found in our [user guide](https://mitiq.readthedocs.io/en/latest/guide/calibrators.html), as well as a new tutorial demonstrating the [module in action on a fake Qiskit device](https://mitiq.readthedocs.io/en/latest/examples/calibration-tutorial.html) (along with a [video walkthrough](https://www.youtube.com/watch?v=dB_3R84ewig) of the tutorial).
 Since this module is still relatively new, we'd love to hear your feedback!
 Whether it's a bug, feature request, or comment, feel free to get in contact at [nate@unitary.fund](mailto:nate@unitary.fund), or [open an issue](https://github.com/unitaryfund/mitiq/issues/new)!
