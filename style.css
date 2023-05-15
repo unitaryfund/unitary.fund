@@ -226,6 +226,12 @@ input {
     /*    border-right: 1px dotted#D8D8D8; */
 }
 
+.uhack-banner {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0px;
+}
+
 summary:after {
     content: "+";
     color: #000;
