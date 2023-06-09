@@ -226,6 +226,12 @@ input {
     /*    border-right: 1px dotted#D8D8D8; */
 }
 
+.uhack-banner {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0px;
+}
+
 summary:after {
     content: "+";
     color: #000;
@@ -340,6 +346,10 @@ img {
 .grant-list li img.grant-image {
     border: 3px solid black;
     border-left: none;
+}
+
+.grant-list li a img.grant-image {
+    max-width: none;
 }
 
 .grant-list li p {
