@@ -75,10 +75,6 @@
   </head>
 
   <body>
-    <div class="uhack-banner">
-      <a href="https://unitaryhack.dev/">unitaryHACK</a> has begun, and will run until <b>Jun 13</b>! Get rewarded for
-      contributing to open source quantum software!
-    </div>
     <div class="layout">
       <main id="content" class="content">
         <section class="heavy">
@@ -98,75 +94,47 @@
                   </span>
                 </button>
               </div>
-              <p class="subtitle leading-arrow">Quantum computers have errors</p>
+              <p class="subtitle leading-arrow">Sometimes, you just want a simulator to run your quantum circuits as fast as possible.</p>
               <p>
                 <b style="background-color: var(--color-yellow)"
-                  ><a href="https://github.com/unitaryfund/mitiq">Mitiq</a></b
+                  ><a href="https://github.com/unitaryfund/qrack">Qrack</a></b
                 >
-                is a cross platform compiler that makes your programs robust to those errors.
+                is a gate-based quantum computer simulator designed to ideally or approximately run your quantum program with the fastest
+                execution time and in the smallest memory footprint we know how to achieve, with a simple and low-frustration API,
+                on hardware scales from supercomputers, to a single laptop, to even embedded systems and mobile devices.
               </p>
-              <div class="video-container">
-                <div class="col-2-3">
-                  <img
-                    src="images/mitiq-cirq.png"
-                    alt="Qiskit code demonstration comparing results with and without using mitiq."
-                  />
-                </div>
-                <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
-                  <img src="images/cirq.png" alt="Qiskit" style="max-width: 60%" />
-                  <p style="margin: 0">Mitigating errors with Cirq</p>
-                </div>
-              </div>
-              <div class="video-container">
-                <div class="col-1-3" style="padding-left: var(--space-small); font-size: var(--type-small)">
-                  <img src="images/qiskit.png" alt="Cirq Logo" style="max-width: 55%" />
-                  <p style="margin: 0">Mitigating errors with Qiskit</p>
-                </div>
-                <div class="col-2-3">
-                  <img
-                    src="images/mitiq-qiskit.png"
-                    alt="Cirq code demonstration comparing results with and without using mitiq."
-                    style="max-width: 95%"
-                  />
-                </div>
-              </div>
-
-              <p class="subtitle leading-arrow">Quantum Error Mitigation Calibration</p>
+              <p class="subtitle leading-arrow">Quantum doesn't have to be hard.</p>
               <p>
-                Unsure what error mitigation strategy and parameters to use? Check out the mitiq calibration module
-                demonstrated below to help find one that works for you!
+                <b style="background-color: var(--color-yellow)"
+                  ><a href="https://github.com/unitaryfund/pyqrack">PyQrack</a></b
+                >
+                is the Python wrapper for (C++) Qrack. If you've ever written quantum circuits before, you can likely get up-and-running 
+                with a PyQrack installation and the <a href="https://pyqrack.readthedocs.io/en/latest/autoapi/index.html">PyQrack API</a>
+                in a matter of minutes. Default simulator settings "hybridize" the advantages of your GPU, CPU, and stabiilizer
+                simulation. Qubit subsystems are proactively and reactively "factored" or "Schmidt decomposed" to reduce execution time and
+                memory footprint, all without any special user consideration for choice of simulation method. Qrack and PyQrack have no
+                required dependencies, an installation footprint that can be less than 20 MB, and support for all GPU and accelerator
+                vendors that offer an OpenCL ICD. (A CUDA back end is also available to support NVLink and SLI.)
               </p>
-              <div class="video-container">
-                <video autoplay muted loop>
-                  <source src="assets/calibration.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <p>
-                Practice using calibration by following our tutorial on finding the right error mitigation protocol to
-                use on an IBM Quantum fake device available
-                <a href="https://mitiq.readthedocs.io/en/stable/examples/calibration-tutorial.html">here</a>, or watch
-                the <a href="https://www.youtube.com/watch?v=dB_3R84ewig">video walkthrough</a>!
-              </p>
-
-              <p class="subtitle leading-arrow">Want help using mitiq?</p>
-              You can find us in the #mitiq channel on our
+              <p class="subtitle leading-arrow">Do you use Qrack? Want help using Qrack?</p>
+              You can find us in the #qrack channel on our
               <b style="background-color: var(--color-yellow)"><a href="http://discord.unitary.fund">discord</a></b>
-              or email us at
-              <a href="mailto:info@unitary.fund">info@unitary.fund</a>.
+              or email the lead developer at
+              <a href="mailto:dan@unitary.fund">dan@unitary.fund</a>. If you're already using Qrack, or if you're wondering about a
+              collaboration, we'd really like to hear from you!
 
-              <p class="subtitle leading-arrow">Learn more about Mitiq</p>
+              <p class="subtitle leading-arrow">Learn more about Qrack</p>
               <p>
                 Read our
-                <b><a href="https://doi.org/10.22331/q-2022-08-11-774">whitepaper</a></b> published in
-                <a href="https://quantum-journal.org/">Quantum</a>, check out our
-                <b><a href="https://mitiq.readthedocs.io/en/stable/">documentation</a></b
+                <b><a href="https://arxiv.org/abs/2304.14969">whitepaper</a></b>, check out our
+                <b><a href="https://qrack.readthedocs.io/en/latest/">documentation</a></b
                 >, or watch the video below.
               </p>
 
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube-nocookie.com/embed/QK3Vkn2MCCg?start=116"
+                src="https://www.youtube-nocookie.com/embed/_woPESbqXFY"
                 title="YouTube video player"
                 style="border: none"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -201,7 +169,7 @@
                     </th>
                   </tr>
                 </table>
-                &copy;2020-2023 Unitary Fund
+                &copy;2023 Unitary Fund
               </footer>
             </div>
             <div class="col-1" id="menu-container">
@@ -225,9 +193,9 @@
                 <a href="grants.html">grants</a>
                 <a href="ideas.html">ideas</a>
                 <a href="research.html">research</a>
-                <a href="mitiq.html" class="active">mitiq</a>
+                <a href="mitiq.html">mitiq</a>
                 <a href="https://metriq.info/About">metriq</a>
-                <a href="qrack.html">qrack</a>
+                <a href="qrack.html" class="active">qrack</a>
                 <a href="talks.html">events</a>
                 <a href="faq.html">faq</a>
                 <a href="blog.html">blog</a>
@@ -242,9 +210,9 @@
                 <a href="grants.html">grants</a>
                 <a href="ideas.html">ideas</a>
                 <a href="research.html">research</a>
-                <a href="mitiq.html" class="active">mitiq</a>
+                <a href="mitiq.html">mitiq</a>
                 <a href="https://metriq.info/About">metriq</a>
-                <a href="qrack.html">qrack</a>
+                <a href="qrack.html" class="active">qrack</a>
                 <a href="talks.html">events</a>
                 <a href="faq.html">faq</a>
                 <a href="blog.html">blog</a>
