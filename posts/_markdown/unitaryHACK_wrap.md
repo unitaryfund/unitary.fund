@@ -17,7 +17,7 @@ date 💛🌴.
 Over **700 participants joined unitaryHACK 2023** **from over 80
 countries** (!!) with a strong representation of India (30%) and the USA
 (18%). Of these, 72 hackers claimed 99 bounties, with more than \$11k
-awarded
+awarded.
 
 \[A considerable bump in participation from
 [_2022_](https://2022.unitaryhack.dev/) that saw about 400 participants,
