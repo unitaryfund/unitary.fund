@@ -67,7 +67,7 @@ Provider_](https://unitaryhack.dev/projects/qiskit-braket-provider/),
 Live_](https://unitaryhack.dev/projects/zx-live/).
 
 These projects span a variety of languages such as **Python, Julia, Rust, C++, and Jupyter Notebooks**.
-Project topics span from open hardware and diagnostics (KQCircuits, scqubits) to measurement based quantum computing (Graphix), from quantum error correction (Error Correction Zoo, QECFT book) to compilers (BQSKit, Mitiq), to quantum machine learning (HierarQcal, TorchQuantum, PennyLane, lambeq), from efficient quantum circuit simulators (qrack, Symmer, PyClifford, pauliopt) to analog quantum computing simulators (Bloqade, Pulser) to full-stack SDKs (Qiskit, Amazon Braket SDK, Yao), from projects orchestration and APIs (Covalent, Qiskit Braket Provider) to quantum games (Toqito), quantum network simulations (QuNetSim) and open quantum systems (QuTiP).
+Project topics span from open hardware and diagnostics (KQCircuits, scqubits) to measurement based quantum computing (Graphix), from quantum error correction (Error Correction Zoo, QECFT book) to compilers (BQSKit, Mitiq), to quantum machine learning (HierarQcal, TorchQuantum, PennyLane, lambeq), from efficient quantum circuit simulators (qrack, Symmer, PyClifford, pauliopt) to analog quantum computing simulators (Bloqade, Pulser) to full-stack SDKs (Qiskit, Amazon Braket SDK, Yao), from projects orchestration and APIs (Covalent, Qiskit Braket Provider) to quantum information and nonlocal games (Toqito), from quantum network simulations (QuNetSim) to open quantum systems (QuTiP).
 
 Thanks so much to all the unitaryHACK supporters:
 [_AWS_](https://aws.amazon.com/braket/),
