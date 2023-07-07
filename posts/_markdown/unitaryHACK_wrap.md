@@ -1,6 +1,6 @@
 ---
 title: Wrapping up unitaryHACK 2023!
-date: 8 July 2023
+date: 7 July 2023
 author: Nate Stemen and Nathan Shammah
 ---
 
