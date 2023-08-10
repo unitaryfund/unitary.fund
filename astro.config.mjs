@@ -21,9 +21,13 @@ export default defineConfig({
     '/faq': '/faqs',
     '/faq.html': '/faqs',
     '/research': '/research/publications',
+    '/research.html': '/research/publications',
     '/mitiq': '/research/mitiq',
+    '/mitiq.html': '/research/mitiq',
     '/talks': '/community/events',
     '/talks.html': '/community/events',
+    '/meetup': '/community/events',
+    '/meetup.html': '/community/events',
   },
   experimental: {
     redirects: true,
