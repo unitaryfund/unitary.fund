@@ -2,7 +2,7 @@
 title: "Unitary Fund launches Metriq"
 author: Dan Strano, Vincent Russo
 day: 17
-month: 05
+month: 5
 year: 2022
 ---
 

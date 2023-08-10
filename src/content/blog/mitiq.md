@@ -2,7 +2,7 @@
 title: "Introducing Mitiq, an open-source software package for error mitigation on noisy quantum computers"
 author: Andrea Mari, Nathan Shammah, Peter Karalekas, Ryan LaRose, Will Zeng
 day: 10
-month: 09
+month: 9
 year: 2022
 ---
 
