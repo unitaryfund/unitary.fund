@@ -8,6 +8,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
+env:
+  PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
+  # TODO: Fix typo
+  PUBLIC_CLOUDNIARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
+
 # Allow this job to clone the repo and create a page deployment
 permissions:
   contents: read
