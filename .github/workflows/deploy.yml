@@ -25,7 +25,6 @@ jobs:
         uses: withastro/action@v0
         env:
           PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
-          # TODO: Fix typo
           PUBLIC_CLOUDINARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
 
   deploy:
