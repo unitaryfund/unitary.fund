@@ -19,9 +19,11 @@ export default defineConfig({
   site: 'https://unitary.fund',
   redirects: {
     '/faq': '/faqs',
+    '/faq.html': '/faqs',
     '/research': '/research/publications',
     '/mitiq': '/research/mitiq',
     '/talks': '/community/events',
+    '/talks.html': '/community/events',
   },
   experimental: {
     redirects: true,
