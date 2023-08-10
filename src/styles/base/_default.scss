@@ -1,0 +1,60 @@
+html {
+  font-size: 16px;
+
+  @media (min-width: theme('screens.md')) {
+    font-size: 18px;
+  }
+}
+
+mark {
+  --reduce-mark-color: #fff;
+  box-shadow: inset 0px 0.33em 0px 0px var(--reduce-mark-color),
+    inset 0px -0.28em 0px 0px var(--reduce-mark-color);
+}
+
+h1 {
+  @apply antialiased font-normal;
+}
+
+h2 {
+  @apply font-bold font-mono uppercase;
+}
+
+h3 {
+  @apply font-bold font-mono uppercase;
+}
+
+h4 {
+  @apply font-bold font-mono uppercase;
+}
+
+a {
+  @apply font-bold underline;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  @apply mb-6;
+
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
+p {
+  &.only-strong {
+    strong {
+      @apply font-inherit text-xl md:text-2xl;
+    }
+  }
+}
+
+ul {
+  @apply arrow-list;
+}
+
+hr {
+  @apply border-black my-6;
+}

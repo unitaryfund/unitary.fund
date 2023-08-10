@@ -1,0 +1,39 @@
+---
+export interface Props {
+  columns: 1 | 2 | 3 | 4;
+}
+
+const { columns = 1 } = Astro.props;
+
+import { getEntry } from 'astro:content';
+import { getTextListStyles } from '~/components/Ui/Content/List/List';
+import { advisorSchema } from '~/content/config';
+
+const advisorEntry = (await getEntry('advisor', 'main')) as unknown;
+const advisorParse = advisorSchema.safeParse(
+  advisorEntry && typeof advisorEntry === 'object' && 'data' in advisorEntry
+    ? advisorEntry.data
+    : null
+);
+
+let advisors = advisorParse.success ? advisorParse.data : null;
+---
+
+<ul class:list={['py-2 md:py-5 px-2 pb-0 gap-5 list-image-none', ...getTextListStyles(columns)]}>
+  {
+    advisors?.advisors.map((advisor) => (
+      <li class="py-2 md:py-1">
+        {!!advisor.url && (
+          <a class="break-words" href={advisor.url} title={advisor.title}>
+            <span class="text-base md:text-lg">{advisor.title} &rarr;</span>
+          </a>
+        )}
+        {!advisor.url && (
+          <span class="break-words">
+            <span class="text-base md:text-lg">{advisor.title}</span>
+          </span>
+        )}
+      </li>
+    ))
+  }
+</ul>

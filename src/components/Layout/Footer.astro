@@ -1,0 +1,70 @@
+---
+import { Container, TwoColumn, Column } from '~/components/Ui';
+import { discord } from '~/data/social.json';
+import Section from './Footer/Section.astro';
+import MiniFormLayout from './Footer/MiniFormLayout.astro';
+import ContentDiscordJoin from './Footer/Content/discord-join.md';
+import ContentHosted from './Footer/Content/hosted.md';
+import ContentCredit from './Footer/Content/credit.md';
+---
+
+<footer class="mt-24 antialiased max-md:[body.page-home_&]:mt-4">
+  <Container className="bleed-bg bleed-purple-500 text-white pt-8 pb-20">
+    <TwoColumn className="md:flex-wrap" columnGap="medium">
+      <Column isCollapsible={false} className="md:min-w-[580px]">
+        <Section title="Stay updated on our work">
+          <div class="flex flex-col gap-6">
+            <form
+              action="https://fund.us18.list-manage.com/subscribe/post?u=104796c75ced8350ebd01eebd&id=a2c9e5ac2a"
+              method="post"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate="">
+              <MiniFormLayout>
+                <input
+                  slot="input"
+                  type="email"
+                  value=""
+                  placeholder="Enter your email"
+                  name="EMAIL"
+                  class="w-full placeholder:text-inherit"
+                  required
+                />
+                <input slot="button" type="submit" value="Subscribe" name="subscribe" />
+              </MiniFormLayout>
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  type="text"
+                  name="b_104796c75ced8350ebd01eebd_a2c9e5ac2a"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+            </form>
+            <a href={discord} class="no-underline">
+              <MiniFormLayout>
+                <div slot="input">
+                  <ContentDiscordJoin />
+                </div>
+                <div slot="button">Join</div>
+              </MiniFormLayout>
+            </a>
+          </div>
+        </Section>
+      </Column>
+      <Column isCollapsible={false}>
+        <Section className="max-md:[&_h2]:hidden max-sm:text-sm">
+          <ContentHosted />
+
+          <div class="flex justify-between mt-4 text-sm max-sm:flex-col max-sm:gap-2">
+            <div>&copy; {new Date().getFullYear()} Unitary Fund</div>
+            <div>
+              <ContentCredit />
+            </div>
+          </div>
+        </Section>
+      </Column>
+    </TwoColumn>
+  </Container>
+</footer>

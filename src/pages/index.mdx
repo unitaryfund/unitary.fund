@@ -1,0 +1,127 @@
+---
+layout: '~/layouts/Layout.astro'
+title: Home
+bodyClassName: home
+---
+
+import {
+  ReducedWidth,
+  AboveTheFold,
+  NumberPoints,
+  PreIntroText,
+  IntroText,
+  HomeSection,
+  Column,
+  TwoColumn,
+  SupportersList,
+  AdvisorsList,
+  TeamList,
+  Quote,
+  BlogSlider,
+  ButtonLink,
+} from '~/components/Ui';
+
+<AboveTheFold>
+  <PreIntroText>
+    Because evolution is unitary.
+  </PreIntroText>
+  <IntroText>
+    # **Unitary Fund** is a <mark>501(c)(3) non-profit</mark> helping create a **quantum technology ecosystem** that <mark>benefits the most people</mark>.
+  </IntroText>
+
+  <NumberPoints title="We do three main things">
+    1. ### Microgrants
+        We run a microgrant program to fund explorers across the world to work on quantum technologies. Do you have an idea for a project?
+        
+        [Apply for a microgrant.](https://unitaryfund.typeform.com/to/j0kAOd?typeform-source=unitary.fund)<br />
+        See our [FAQ](/faqs) and [previous grants](/grants).
+
+    2.  ### Research
+        We do our own research to help the ecosystem as a whole. For example, we are developing [(1)mitiq](/research/mitiq), an open source compiler for error-mitigated quantum programming, and [(2)metriq](/research/metriq), an open community platform for sharing quantum tech benchmarks.
+
+    3.  ### Community
+        We host an open source quantum tech community that runs [hackathons](https://unitaryhack.dev) and events on our [Discord](https://discord.com/invite/JqVGmpkP96). Have a look at our [Calendar.](community/events)
+
+  </NumberPoints>
+</AboveTheFold>
+
+<HomeSection
+  title="We give $4k cash grants to <mark>quantum tech projects</mark>"
+  topSpacing="large"
+  bottomSpacing="large"
+  titleStyle="secondary"
+>
+  <ReducedWidth smaller>
+    **Project could be open source quantum sofware, education materials and workshops, a new quantum sensor prototype, or much more.**
+
+    Our program is designed to be as simple as possible. No organizational affiliation required. **Just a short form and a two minute video.**
+
+    For more information or to check on your application email: [**info@unitary.fund**](mailto:info@unitary.fund)
+
+    <ButtonLink url="https://unitaryfund.typeform.com/to/j0kAOd?typeform-source=unitary.fund">Apply</ButtonLink>
+
+  </ReducedWidth>
+</HomeSection>
+
+<HomeSection
+  title="Latest Updates"
+  topSpacing="medium"
+  bottomSpacing="medium"
+  titleStyle="secondary"
+  backgroundColor="light-grey">
+  <BlogSlider />
+</HomeSection>
+
+<HomeSection
+  title="Supporters"
+  topSpacing="extra-large"
+  bottomSpacing="large"
+  subtitle="Learn more about our corporate membership program."
+  button={{
+    url: 'https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NYN7D2ADDYQ78&source=url&ssrt=1687535763619',
+    text: 'Donate Now',
+  }}
+  titleStyle="primary">
+  <TwoColumn>
+    <Column title="Core Members" titleStyle="marked">
+      <SupportersList type="core" />
+    </Column>
+    <Column title="Supporting Members">
+      <SupportersList type="supporting" columns={2} />
+    </Column>
+  </TwoColumn>
+  <Column title="Other Supporters" isCollapsible={true}>
+    <SupportersList type="other" columns={4} />
+  </Column>
+</HomeSection>
+
+<HomeSection title="Testimonials" topSpacing="small" bottomSpacing="large">
+  <TwoColumn>
+    <Column>
+      <Quote person="Peter Johnson" position="Co-Founder, Zapata Computing">
+        I imagine that years from now, some of the biggest contributors in quantum computing will
+        have come through the Unitary Fund program. The grants provide avenues for creative,
+        motivated folks to meaningfully contribute to this new industry. Awardees are using the
+        program to launch their careers in quantum computing, landing jobs at Zapata and elsewhere.
+      </Quote>
+    </Column>
+    <Column>
+      <Quote person="Travis L. Scholten" position="IBM Quantum">
+        Our support of the Unitary Fund enables continued growth of the quantum computing ecosystem.
+        It is an opportunity to connect with and help quantum developers from a diverse range of
+        skill sets and backgrounds.
+      </Quote>
+    </Column>
+  </TwoColumn>
+</HomeSection>
+
+<HomeSection topSpacing="none" bottomSpacing="large">
+  <TwoColumn>
+    <Column title="Advisors" isCollapsible={true}>
+      <AdvisorsList columns={2} />
+    </Column>
+    <Column title="Unitary Fund Team" isCollapsible={true}>
+      <TeamList />
+    </Column>
+  </TwoColumn>
+</HomeSection>

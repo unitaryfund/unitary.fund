@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Content from './Content';
+
+// Get the events content collection
+const events = await getCollection('event');
+---
+
+<Content events={events} client:only />
+
+<style lang="scss" is:global>
+  .event {
+    main {
+      h2 {
+        @apply border-l-2 border-black cursor-pointer select-none -ml-2 pl-[calc(theme('spacing.2')-1px)] max-sm:py-1;
+
+        ~ :not(h2) {
+          @apply hidden;
+        }
+
+        + p {
+          @apply mt-0;
+        }
+      }
+
+      p {
+        @apply mb-0 mt-1 py-1;
+      }
+    }
+  }
+</style>

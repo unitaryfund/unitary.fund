@@ -1,0 +1,31 @@
+---
+import Svg from '~/components/Util/Svg.astro';
+---
+
+<div class="flex max-md:flex-col font-mono md:h-8">
+  <div class="flex flex-grow">
+    <div
+      class:list={[
+        'flex items-center svg-child:w-[9px] svg-child:h-[9px] bg-black text-yellow-400 px-1',
+        'md:mr-3 md:text-white md:svg-path-child:fill-white md:svg-child:w-[11px] md:svg-child:h-[11px]',
+      ]}>
+      <Svg name="arrow" />
+    </div>
+    <div
+      class:list={[
+        'bg-white grow',
+        'direct-child:flex direct-child:items-center direct-child:h-full direct-child:px-2 direct-child:text-black direct-child:uppercase direct-child:font-normal',
+      ]}>
+      <slot name="input" />
+    </div>
+  </div>
+  <div
+    class:list={[
+      'bg-black text-yellow-400',
+      'md:w-32 md:text-white',
+      'max-md:w-fit max-md:px-3 max-md:py-0.5',
+      'direct-child:h-full direct-child:text-center direct-child:uppercase direct-child:w-full direct-child:font-bold',
+    ]}>
+    <slot name="button" />
+  </div>
+</div>

@@ -1,0 +1,35 @@
+---
+import { twitter, twitch, youtube, discord } from '~/data/social.json';
+
+const socials = [
+  ['twitter', twitter],
+  ['twitch', twitch],
+  ['youtube', youtube],
+  ['discord', discord],
+].filter((tuple) => !!tuple[1]);
+---
+
+{
+  !!socials.length && (
+    <div class="fixed bottom-0 right-0 bg-gray-200 z-50 max-md:hidden">
+      <div class="bg-black font-mono text-xs py-1 pl-1 pr-3 leading-none text-yellow-400 w-fit antialiased">
+        Community
+      </div>
+      <ul class="py-3 px-2 flex no-arrow-list">
+        {socials.map(([name, url]) => (
+          <li class="flex pl-0.5 pr-7">
+            <a
+              href={url}
+              class="flex p-1 -m-1 hover:bg-yellow-400"
+              target="_blank"
+              rel="noopener noreferrer">
+              <span class="flex w-4 h-4">
+                <img class="h-full w-full" src={`/images/social-${name}.png`} />
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}

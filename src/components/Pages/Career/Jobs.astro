@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import { ButtonLink } from '~/components/Ui';
+
+const jobs = await getCollection('job');
+---
+
+<div class="mb-12 sm:ml-4">
+  <div class="solid-heading">
+    <h2>Open Positions</h2>
+  </div>
+  {jobs.length === 0 && <p>There are currently no open positions</p>}
+  {
+    jobs.length > 0 && (
+      <ul class="flex flex-col gap-4 list-image-none">
+        {jobs.map((job) => (
+          <li>
+            <div class="flex gap-4 max-sm:flex-col max-sm:items-start">
+              <span class="text-xl">{job.data.title}</span>
+              <ButtonLink url={`/jobs/${job.slug}`}>More Info</ButtonLink>
+            </div>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</div>

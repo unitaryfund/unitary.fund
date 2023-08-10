@@ -1,0 +1,32 @@
+---
+import ReducedWidth from '~/components/Ui/ReducedWidth.astro';
+
+export interface Props {
+  onlyTitle?: boolean;
+  spacingBelow: 'small' | 'large' | false;
+}
+
+const { onlyTitle = false, spacingBelow = false } = Astro.props;
+---
+
+<ReducedWidth
+  className={[
+    'pt-8 text-xl md:text-2xl',
+    'button-link-first-part:mt-7',
+    'page-title:text-[2rem] page-title:leading-tight page-title:font-normal page-title:mt-2 page-title:mb-7 page-title-direct-child:my-0',
+    'only-strong:text-xl',
+    'md:page-title:text-3xl md:only-strong:text-3xl md:has-only-strong:text-2xl',
+    'md:pt-32 md:page-title:text-4xl md:no-only-strong:text-2xl',
+    !onlyTitle && 'paragraph:my-4 direct-child-last:mb-0',
+    spacingBelow === 'small' && 'md:pb-10',
+    spacingBelow === 'large' && 'pb-16 md:pb-24',
+  ]}>
+  {!onlyTitle && <slot />}
+  {
+    onlyTitle && (
+      <h1>
+        <slot />
+      </h1>
+    )
+  }
+</ReducedWidth>

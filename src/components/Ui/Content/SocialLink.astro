@@ -1,0 +1,26 @@
+---
+import { twitter, twitch, youtube, discord } from '~/data/social.json';
+
+export interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+const socialLinks = { twitter, twitch, youtube, discord };
+
+let link = '';
+
+if (name in socialLinks) {
+  link = socialLinks[name as keyof typeof socialLinks];
+}
+---
+
+{
+  link && (
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <slot />
+    </a>
+  )
+}
+{!link && <slot />}

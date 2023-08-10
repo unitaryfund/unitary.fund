@@ -1,0 +1,86 @@
+---
+import Layout from '~/layouts/Layout.astro';
+const cloudName = import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME;
+const uploadPreset = import.meta.env.PUBLIC_CLOUDNIARY_UPLOAD_PRESET;
+---
+
+<Layout>
+  <p class="mb-10">
+    Upload images placing within content here. Refer to the Unitary Fund website
+    README for more information.
+  </p>
+
+  <div
+    id="upload-widget"
+    data-cloud-name={cloudName}
+    data-upload-preset={uploadPreset}
+  >
+  </div>
+
+  <div id="upload-results" class="mt-10 flex flex-col gap-8"></div>
+
+  <script
+    is:inline
+    src="https://upload-widget.cloudinary.com/global/all.js"
+    type="text/javascript"
+  ></script>
+  <script is:inline>
+    const uploadWidgetElem = document.getElementById('upload-widget');
+    const { cloudName, uploadPreset } = uploadWidgetElem.dataset;
+
+    const widget = cloudinary.applyUploadWidget(
+      uploadWidgetElem,
+      {
+        cloudName,
+        uploadPreset,
+        thumbnails: false,
+      },
+      (error, result) => {
+        if (!error && result && result.event === 'success') {
+          console.log('Done uploading..: ', result.info);
+
+          const url = result.info.secure_url;
+          const id = result.info.public_id;
+
+          const results = document.getElementById('upload-results');
+          results.innerHTML += `
+          <div class="upload">
+            <a href="${url}" target="_blank">
+              <img src="${url}" />
+            </a>
+            <div class="upload__info"><span>Image ID:</span><code>${id}</code></div>
+          </div>
+          `;
+        }
+      }
+    );
+
+    document.getElementById('upload-widget').addEventListener(
+      'click',
+      function () {
+        widget.open();
+      },
+      false
+    );
+  </script>
+</Layout>
+
+<style lang="scss" is:global>
+  #upload-results {
+    .upload {
+      @apply flex flex-col gap-4 w-fit;
+
+      img {
+        @apply max-w-full h-auto;
+      }
+
+      .upload__info {
+        @apply flex gap-2 items-center;
+
+        code {
+          @apply grow border border-gray-400 p-4;
+        }
+      }
+    }
+  }
+</style>

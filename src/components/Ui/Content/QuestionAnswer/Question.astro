@@ -1,0 +1,12 @@
+---
+import Svg from '~/components/Util/Svg.astro';
+---
+
+<h2
+  class="flex font-bold font-manrope antialiased normal-case justify-between items-center border-black cursor-pointer select-none border-b pb-4 text-lg m-0 mt-4 mb-2 first:mt-0">
+  <slot />
+  <span class="[&_svg:last-of-type]:hidden">
+    <Svg name="plus" />
+    <Svg name="minus" />
+  </span>
+</h2>

@@ -1,0 +1,24 @@
+---
+import QuestionAnswerAccordion from '~/components/Ui/Content/QuestionAnswer/Accordion';
+---
+
+<QuestionAnswerAccordion className="flex flex-col pb-4" client:load>
+  <slot />
+</QuestionAnswerAccordion>
+<style lang="scss" is:global>
+  .question-answer-accordion {
+    h2 {
+      p {
+        @apply m-0;
+      }
+
+      * {
+        @apply pointer-events-none;
+      }
+
+      ~ :not(h2) {
+        @apply hidden;
+      }
+    }
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import { getCollection, getEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const jobEntries = await getCollection('job');
+
+  return jobEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { slug: entry.slug },
+  }));
+}
+
+export interface Props {
+  slug: CollectionEntry<'job'>['slug'];
+}
+
+const { slug } = Astro.props;
+
+const entry = await getEntry('job', slug);
+
+const { Content } = await entry.render();
+
+const { title } = entry.data;
+---
+
+<Layout title={entry.data.title} contained>
+  <a
+    href="/careers"
+    slot="page-start"
+    class="font-mono font-bold bg-yellow-400 text-black uppercase py-0.5 px-4 no-underline"
+    >&larr; Back to Jobs</a
+  >
+  <article class="mt-12">
+    <header>
+      <h1 class="text-3xl my-6">{title}</h1>
+    </header>
+    <div class="prose max-w-none">
+      <Content />
+    </div>
+  </article>
+</Layout>

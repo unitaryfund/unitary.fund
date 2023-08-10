@@ -1,0 +1,33 @@
+---
+import Trigger from '~/components/Layout/Header/Navigation/Trigger';
+import Menu from '~/components/Layout/Header/Navigation/Menu';
+
+export interface Props {
+  className?: string[];
+}
+
+const { className } = Astro.props;
+
+import { getEntry } from 'astro:content';
+import { navigationSchema } from '~/content/config';
+
+const navigationEntry = (await getEntry('navigation', 'main')) as unknown;
+const navigationParse = navigationSchema.safeParse(
+  navigationEntry &&
+    typeof navigationEntry === 'object' &&
+    'data' in navigationEntry
+    ? navigationEntry.data
+    : null
+);
+
+let navigation = navigationParse.success ? navigationParse.data : null;
+---
+
+<nav
+  id="main-navigation"
+  class:list={className}
+  style={{ '--menu-trigger-width': '90px' }}
+>
+  <Trigger client:only />
+  <Menu menu={navigation} client:only />
+</nav>

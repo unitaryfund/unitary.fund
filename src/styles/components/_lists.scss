@@ -1,0 +1,13 @@
+@layer components {
+  .arrow-list:not(.no-arrow-list):not(.list-image-none) {
+    @apply list-none list-inside;
+
+    li {
+      @apply relative pl-8;
+
+      &:before {
+        @apply absolute top-0 left-0 content-[''] bg-[url(/images/bullet.svg)] bg-no-repeat bg-center h-[1lh] w-2;
+      }
+    }
+  }
+}

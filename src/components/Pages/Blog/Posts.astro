@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import type { FilterSpec } from '~/hooks/useFilter';
+import Content from './Content';
+
+// Get the blog content collection, BlogOutput will handle rendering via React
+const posts = (await getCollection('blog')).sort((a, b) => {
+  const dateA = new Date(`${a.data.year}-${a.data.month}-${a.data.day}`);
+  const dateB = new Date(`${b.data.year}-${b.data.month}-${b.data.day}`);
+  return dateB.getTime() - dateA.getTime();
+});
+
+// Define filters, only a maximum of 4 will render
+export const filters: Array<FilterSpec['grant']['keys']> = ['year', 'month'];
+---
+
+<Content filters={filters} items={posts} client:load />

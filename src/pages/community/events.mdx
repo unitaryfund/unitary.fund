@@ -1,0 +1,52 @@
+---
+layout: '~/layouts/Layout.astro'
+title: Events
+---
+
+import {
+  PageIntro,
+  SolidHeading,
+  ReducedWidth,
+  AddEventCalendar,
+  SocialLink,
+  ButtonLink,
+} from '~/components/Ui';
+import Events from '~/components/Pages/Events/Events.astro';
+
+<PageIntro spacingBelow='small'>
+# Unitary Fund Community Calendar
+
+Want to keep up to date with all the cool stuff the Unitary Fund community is up to? Take a look at the calendar below and add it to your favorite calendar app!
+
+</PageIntro>
+
+<AddEventCalendar id="kn360162" />
+
+<ReducedWidth>
+  Interested in hosting a community call for your project on our
+  <SocialLink name="discord">Discord</SocialLink>? Fill out the application form, and we'll get back
+  to you with more details!
+</ReducedWidth>
+
+<SolidHeading>
+## Quantum Wednesday Talks
+
+</SolidHeading>
+
+<ReducedWidth>
+
+On Wednesdays at 5:30PM UTC the Unitary Fund hosts "Quantum Wednesday" (QW). The event is an hour long and generally pertains to quantum computing related topics. The main types of events are:
+
+- Invited speaker
+- Paper review
+- Focussed discussion/forum
+- Social coding
+- Mitiq office hours
+
+The events are hosted on our :social-link-discord[Discord], and are open for all to attend, regardless of quantum computing knowledge/skill. We encourage questions, and engagement from community members, but listening in is also completely acceptable. Hope to see you there!
+
+<ButtonLink url="#">More info</ButtonLink>
+
+</ReducedWidth>
+
+<Events />

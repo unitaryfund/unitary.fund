@@ -1,0 +1,53 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import { getCollection, getEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { slug: entry.slug },
+  }));
+}
+
+export interface Props {
+  slug: CollectionEntry<'blog'>['slug'];
+}
+
+const { slug } = Astro.props;
+
+const entry = await getEntry('blog', slug);
+
+const { Content } = await entry.render();
+
+const { title, author, day, month, year } = entry.data;
+---
+
+<Layout title={entry.data.title} contained>
+  <div class="flex flex-col">
+    <a
+      href="/blog"
+      slot="page-start"
+      class:list={[
+        'font-mono font-bold no-underline bg-yellow-400 text-black uppercase py-0.5 px-4',
+        'max-sm:ml-auto max-sm:-mr-6 max-sm:pr-6 max-sm:pl-28',
+      ]}>&larr; Back to Blog</a
+    >
+    <article class="mt-12">
+      <header>
+        <div class="flex text-sm mb-8 max-xs:flex-col">
+          <date class="py-1 px-2 bg-yellow-400 text-black font-mono">{day}.{month}.{year}</date>
+          <div class="py-1 px-2 font-bold bg-black text-yellow-400 min-w-[15em]">
+            {author}
+          </div>
+        </div>
+        <h1 class="text-5xl mb-6 font-normal">{title}</h1>
+      </header>
+      <div class="prose max-w-none">
+        <Content />
+      </div>
+    </article>
+  </div>
+</Layout>

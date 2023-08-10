@@ -1,0 +1,60 @@
+---
+export interface Props {
+  type: 'core' | 'supporting' | 'other';
+  columns: 1 | 2 | 3 | 4;
+}
+
+const { type, columns = 1 } = Astro.props;
+
+import { getEntry } from 'astro:content';
+import SupporterImage from '~/components/Ui/Content/Image/SupporterImage';
+import { supporterSchema } from '~/content/config';
+import { getTextListStyles } from '~/components/Ui/Content/List/List';
+
+const supporterEntry = (await getEntry('supporter', type)) as unknown;
+const supporterParse = supporterSchema.safeParse(
+  supporterEntry && typeof supporterEntry === 'object' && 'data' in supporterEntry
+    ? supporterEntry.data
+    : null
+);
+
+let supporters = supporterParse.success ? supporterParse.data : null;
+---
+
+<ul
+  class:list={[
+    'list-image-none',
+    (type === 'core' || type === 'supporting') &&
+      'md:py-5 md:px-2 md:pb-0 bg-light-grey md:bg-transparent',
+    type === 'other' && 'py-2 md:py-5 px-2 pb-0 gap-5',
+    ...getTextListStyles(columns),
+  ]}>
+  {
+    supporters?.supporters.map((supporter) => (
+      <li
+        class:list={[
+          (type === 'core' || type === 'supporting') && 'my-1',
+          type === 'other' && 'py-2 md:py-1',
+        ]}>
+        {!!supporter.url && (
+          <a class="break-words font-normal" href={supporter.url} title={supporter.title}>
+            {supporter?.imageId ? (
+              <SupporterImage imageId={supporter.imageId} />
+            ) : (
+              <span class="text-base md:text-lg">{supporter.title} &rarr;</span>
+            )}
+          </a>
+        )}
+        {!supporter.url && (
+          <span class="break-words">
+            {supporter?.imageId ? (
+              <SupporterImage imageId={supporter.imageId} />
+            ) : (
+              <span class="text-base md:text-lg">{supporter.title}</span>
+            )}
+          </span>
+        )}
+      </li>
+    ))
+  }
+</ul>

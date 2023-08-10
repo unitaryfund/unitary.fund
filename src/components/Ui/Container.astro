@@ -1,0 +1,21 @@
+---
+import ReducedWidth from '~/components/Ui/ReducedWidth.astro';
+
+export interface Props {
+  className?: string;
+  reducedWidth?: boolean;
+}
+
+const { className, reducedWidth = false } = Astro.props;
+---
+
+<div class:list={['2xl:container mx-auto md:px-10 px-6 max-w-none', className]}>
+  {!reducedWidth && <slot />}
+  {
+    reducedWidth && (
+      <ReducedWidth center>
+        <slot />
+      </ReducedWidth>
+    )
+  }
+</div>

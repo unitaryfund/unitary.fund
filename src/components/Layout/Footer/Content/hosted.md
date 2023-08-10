@@ -1,0 +1,1 @@
+This website is hosted on [GitHub](https://github.com/unitaryfund/unitary-fund), and our community follows this [code of conduct](https://github.com/unitaryfund/unitary-fund/blob/master/CODE_OF_CONDUCT.md). If you have suggestions for changes then please open up a pull request!

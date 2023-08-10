@@ -1,0 +1,10 @@
+.remark-oembed {
+  &-you-tube,
+  &-vimeo {
+    @apply w-full aspect-video;
+
+    iframe {
+      @apply w-full h-full;
+    }
+  }
+}

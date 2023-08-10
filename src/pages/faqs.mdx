@@ -1,0 +1,186 @@
+---
+layout: '~/layouts/Layout.astro'
+title: F.A.Q.
+contained: true
+---
+
+import { PageIntro, QuestionAnswer } from '~/components/Ui';
+
+<PageIntro onlyTitle>
+  F.A.Q.
+</PageIntro>
+
+<QuestionAnswer.Accordion>
+<QuestionAnswer.Question>
+  Can anyone apply for a grant?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+  Yes - applicants can be any age and from any country. No credentials are
+  required.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What type of project qualifies for consideration?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We are interested in projects that leverage and support quantum technology to benefit humanity. Projects are not strictly required to be open source or open publication - though we recommend it as a starting point. It is, however, important to provide a rationale in your application for any exceptions (for example, if you think it'd be best for the world to reserve the IP for a company).
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Is there a recommended duration for projects?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We prefer projects that can be completed within 3-6 months. However, if there is a reason that your project should have a longer timeline, then include that in your application and we will consider it.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Do I need to start my project immediately when accepted?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+No. We prefer for projects to start within six months of acceptance. If you are planning a scheduled start, then let us know in your proposal. If accepted, then we will send the first batch of funds on your scheduled start.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What happens next if I win?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We'll publish a list of all the winners on [unitary.fund](https://unitary.fund/) and you will receive 50% of your grant up front. Payment will come by Paypal or wire transfer. Additionally, you can opt in to receive expanded access to cloud-based quantum hardware from [Rigetti QCS](https://www.rigetti.com/), [Azure Quantum](https://azure.microsoft.com/en-us/services/quantum/#overview) and [IBM Quantum](https://www.ibm.com/quantum-computing/) (read our blog post about the IBM Quantum benefits [here](https://unitary.fund/posts/ibmq_access.html)).
+
+Around the midpoint of your project, we'll check in with you for a progress update before sending the second half of your grant. Finally, we'll do a follow-up phone call or email upon the completion of your project to hear how it went, and we'll ask you to submit a short summary that can be posted online.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What happens at the halfway check-in?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We'll have a call with you and our advisors where we want to know:
+
+- What have you built so far?
+- What are you building next?
+- What lessons have you learned so far?
+- How can we help with what is coming next?
+
+This helps us evaluate if the project is on-track to merit the second half of grant funding.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What happens if my project doesn't progress sufficiently in the first half?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We expect this to happen sometimes because we fund risky, early stage projects. If all projects succeeded, then we wouldn't be taking on sufficient risk. If this happens with your project, then the second half won't be funded. Still, we'd encourage you to think about failure as a critical part of learning and exploration. Furthermore, we'll be happy to look at future proposals from previous grantees who didn't succeed in their first attempt. We know you'll have learned from the experience.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What are the key dates for applying?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+There are no key dates! Applications are rolling until all grant money has been allocated.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What kind of projects are you looking for?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Quantum technology is a nascent field, so we're open-minded. Your project can be:
+
+- contributing to an existing open source project
+- creating a new framework or tool
+- researching a new algorithm
+- building a quantum hardware prototype
+- running a new workshop or course
+- applying an existing algorithm to a new problem
+- relevant to quantum technology beyond quantum computing, including topics like quantum networks or sensors
+- creating or curating a free dataset that others can use
+- educating, explaining, or otherwise helping people learn new or existing techniques
+
+…or anything else that you feel would accelerate the utility of quantum technology.
+
+In some cases, particularly for projects involving hardware, we know that our grant likely won't be enough for the whole project. We're happy for our grant to supplement existing work, though we would like to see justification in your application for why the project could use our support.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Do you fund projects that are contributions to existing open source packages and not just stand alone projects?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Yes! In many cases, contributing to an existing project/package will help your work have a lot more impact. We have often recommended this approach to applicants.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+How will you select the winners?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We're looking for smart people with interesting ideas that could be useful to the world. We pay extra attention to projects that seem like they won't get funded another way.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+What are project funds often used for?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+In your application, we ask how you plan to use the funds. Each project is different and we encourage creative suggestions for how to best make use of the grants. Previous successful grants have used funds for:
+
+- developer or researcher time
+- hardware or software licenses
+- publication or distribution costs
+- hosting and computing resources
+- contributions to open source tools used by the project
+- travel expenses
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+I have a job. Can I still apply?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Yes! Anyone can apply. You just need to make sure that you don't conflict with any IP contract you've signed with your employer.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Can teams apply?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Yes. Multiple people can apply together as a team. Please fill out a single application and provide background information for each person on the team. You should designate a lead person to coordinate the application, as well as to receive and distribute the money.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Can I apply multiple times?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Yes, you can apply as often as you like. You can win multiple times, and we will consider repeat funding to continue to grow a project to the next level.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+I love this idea and I want to help! Can I provide additional funding, datasets, mentorship, or help reviewing applications?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Yes! Thank you for being awesome! If you want to contribute in any way, please email us at [contribute@unitary.fund](mailto:contribute@unitary.fund).
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Are there any strings attached?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+The money is a gift. It's not an equity investment or loan, and we won't own any of your intellectual property. Our only request is that you think about how to pay it forward to others.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+How long after applying should I expect a reply?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+We aim to get back to applicants within a month.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Are applications private?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+Yes. Applications are only reviewed by the Unitary Fund team and advisors. They are kept confidential.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+Where did you get the idea to do this?
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+This program is inspired by, and directly borrows from [Nat Friedman](https://twitter.com/natfriedman) and [Daniel Gross](https://twitter.com/danielgross) and their [AI Grant Program](https://aigrant.org/). Thanks, Nat and Daniel!
+
+That program is inspired by, and directly borrows many elements from [Nadia Eghbal](https://twitter.com/nayafia) and her [no-strings-attached grant program](https://medium.com/@nayafia/5-000-no-strings-attached-9e7b95d33e50). Thanks, Nadia!
+</QuestionAnswer.Answer>
+</QuestionAnswer.Accordion>

@@ -1,0 +1,79 @@
+---
+import ButtonLink from './ButtonLink.astro';
+
+export interface Props {
+  title: string;
+  subtitle?: string;
+  topSpacing?: 'none' | 'small' | 'medium' | 'large' | 'extra-large';
+  bottomSpacing?: 'none' | 'small' | 'medium' | 'large' | 'extra-large';
+  titleStyle?: 'primary' | 'secondary';
+  backgroundColor?: 'light-grey';
+  button?: {
+    text: string;
+    url: string;
+  };
+}
+
+const {
+  title,
+  subtitle,
+  button,
+  topSpacing = 'medium',
+  bottomSpacing = 'medium',
+  titleStyle = 'primary',
+  backgroundColor,
+} = Astro.props;
+---
+
+<div
+  class:list={[
+    'relative',
+    topSpacing === 'small' && 'pt-5',
+    topSpacing === 'medium' && 'pt-10 md:pt-14',
+    topSpacing === 'large' && 'pt-14 md:pt-20',
+    topSpacing === 'extra-large' && 'pt-14 md:pt-28',
+    bottomSpacing === 'small' && 'pb-5',
+    bottomSpacing === 'medium' && 'pb-8 md:pb-14',
+    bottomSpacing === 'large' && 'pb-12 md:pb-20',
+    bottomSpacing === 'extra-large' && 'pb-14 md:pb-28',
+    backgroundColor && 'bleed-bg bleed-light-grey',
+    backgroundColor === 'light-grey' && 'bg-light-grey',
+  ]}>
+  <div
+    class="grid grid-cols-section-header grid-rows-section-header grid-areas-section-header gap-x-5 relative">
+    {
+      title && (
+        <h2
+          class:list={[
+            'grid-in-title font-manrope normal-case',
+            titleStyle === 'primary' && 'font-normal text-3xl md:text-5xl ',
+            titleStyle === 'secondary' && 'font-bold text-xl md:text-3xl ',
+          ]}
+          set:html={title}
+        />
+      )
+    }
+    {
+      subtitle && (
+        <div class="font-normal text-xl md:text-3xl mt-6 grid-in-subtitle">{subtitle}</div>
+      )
+    }
+    {
+      button && (
+        <ButtonLink url={button.url} className="grid-in-button self-center hidden md:flex">
+          {button.text}
+        </ButtonLink>
+      )
+    }
+  </div>
+  <div class:list={['flex flex-col gap-6', title && 'mt-5 md:mt-10']}>
+    <slot />
+  </div>
+  {
+    button && (
+      <ButtonLink url={button.url} className="mt-10 justify-start md:hidden">
+        {button.text}
+      </ButtonLink>
+    )
+  }
+</div>

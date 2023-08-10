@@ -1,0 +1,81 @@
+---
+import '~/styles/main.scss';
+import Container from '~/components/Ui/Container.astro';
+import Header from '~/components/Layout/Header.astro';
+import Footer from '~/components/Layout/Footer.astro';
+import FloatingSocial from '~/components/Layout/FloatingSocial.astro';
+
+interface LayoutProps {
+  title?: string;
+  contained?: boolean;
+  bodyClassName?: string;
+}
+
+export interface Props extends LayoutProps {
+  frontmatter?: LayoutProps;
+}
+
+const { title, contained, bodyClassName } = Astro.props.frontmatter || Astro.props;
+
+const titleSeparator = '-';
+const titleName = 'Unitary Fund';
+
+let metaTitle = titleName;
+
+if (title) {
+  if (title === titleName) {
+    metaTitle = title;
+  } else {
+    metaTitle = `${title} ${titleSeparator} ${titleName}`;
+  }
+}
+---
+
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Space+Grotesk:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noindex" />
+    <title>{metaTitle}</title>
+  </head>
+  <body
+    class:list={[
+      !!bodyClassName && `page-${bodyClassName}`,
+      'font-manrope overflow-x-hidden overscroll-none',
+    ]}>
+    <Header />
+    <FloatingSocial />
+    <div class="min-h-[calc(100vh-200px)] nav-mobile-open:bg-gray-300">
+      <Container>
+        <slot name="page-start" />
+      </Container>
+      {
+        contained && (
+          <Container className="prose nav-mobile-open:invisible" reducedWidth>
+            <slot />
+          </Container>
+        )
+      }
+      {
+        !contained && (
+          <Container className="nav-mobile-open:invisible">
+            <slot />
+          </Container>
+        )
+      }
+      <Container>
+        <slot name="page-end" />
+      </Container>
+    </div>
+    <Footer />
+  </body>
+</html>

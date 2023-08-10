@@ -1,0 +1,25 @@
+---
+export interface Props {
+  person: string;
+  position: string;
+}
+
+const { person, position } = Astro.props;
+---
+
+<div class="ml-10 md:mx-10">
+  <blockquote class="text-lg md:text-xl mb-5 md:mb-7">
+    <div
+      class:list={[
+        'relative direct-child:inline',
+        'before:inline before:content-[open-quote] before:absolute before:text-[5rem] before:-left-10 before:top-5',
+        'after:content-[close-quote] after:ml-[-5px] after:inline',
+      ]}>
+      <slot />
+    </div>
+    <cite
+      class="text-base md:text-lg mt-2 not-italic border-b-5 px-2 border-yellow-400 inline-block">
+      <strong class="block md:inline-block mr-0 md:mr-1">{person},</strong><span>{position}</span>
+    </cite>
+  </blockquote>
+</div>

@@ -1,0 +1,41 @@
+---
+export interface Props {
+  id: string;
+}
+
+const { id } = Astro.props;
+---
+
+<div
+  class="ae-emd-cal mb-8"
+  data-calendar={id}
+  data-calendars={id}
+  data-calendars-selected={id}
+  data-configure="true"
+  data-title=""
+  data-title-show="true"
+  data-today="true"
+  data-datenav="true"
+  data-date="true"
+  data-monthweektoggle="true"
+  data-subscribebtn="true"
+  data-swimonth="true"
+  data-swiweek="true"
+  data-swischedule="true"
+  data-print="false"
+  data-timezone="true"
+  data-logo="false"
+  data-defaultview="schedule"
+  data-firstday="0"
+  data-datetimeformat="2">
+</div>
+<script type="text/javascript" is:inline>
+  (function () {
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.async = true;
+    e.src = 'https://cdn.addevent.com/libs/cal/js/cal.embed.t1.init.js';
+    e.className = 'ae-emd-script';
+    document.getElementsByTagName('body')[0].appendChild(e);
+  })();
+</script>

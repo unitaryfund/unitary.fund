@@ -1,0 +1,10 @@
+@layer components {
+  .solid-heading {
+    @apply bg-black text-white py-1 px-2 mt-10 mb-6 font-mono antialiased;
+
+    h2,
+    &:is(h2) {
+      @apply uppercase;
+    }
+  }
+}

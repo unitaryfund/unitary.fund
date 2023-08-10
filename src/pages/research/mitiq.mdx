@@ -1,0 +1,55 @@
+---
+title: Mitiq
+layout: '~/layouts/Layout.astro'
+---
+
+import { PageIntro, TwoColumn, Column, ReducedWidth } from '~/components/Ui';
+
+<PageIntro>
+# Quantum computers have errors
+
+[Mitiq](#) is a cross platform compiler that makes your programs robust to those errors.
+
+</PageIntro>
+
+<TwoColumn>
+  <Column title="With Cirq" titleStyle="solid">
+    <img src="/images/mitiq-cirq.png" />
+  </Column>
+  <Column title="With Qiskit" titleStyle="solid">
+    <img src="/images/mitiq-qiskit.png" />
+  </Column>
+</TwoColumn>
+
+---
+
+<ReducedWidth>
+**Quantum Error Mitigation Calibration**
+
+Unsure what error mitigation strategy and parameters to use? 
+Check out the mitiq calibration module demonstrated below to help find one 
+that works for you!
+
+<p>
+  <video autoplay muted loop>
+    <source src="/assets/calibration.mp4" type="video/mp4" />
+  </video>
+</p>
+
+Practice using calibration by following our tutorial on finding the right error
+mitigation protocol to use on an IBM Quantum fake device available 
+[here](https://mitiq.readthedocs.io/en/stable/examples/calibration-tutorial.html), 
+or watch the [video walkthrough](https://www.youtube.com/watch?v=dB_3R84ewig)!
+
+**Want help using mitiq?**
+
+You can find us in the #mitiq channel on our 
+:social-link-discord[Discord] or email us at 
+[info@unitary.fund](mailto:info@unitary.fund).
+
+**Learn more about Mitiq**
+
+Read our **[whitepaper](https://doi.org/10.22331/q-2022-08-11-774)** published in [Quantum](https://quantum-journal.org/), check out our **[documentation](https://mitiq.readthedocs.io/en/stable/)**, or watch the video below.
+
+https://www.youtube.com/watch?v=QK3Vkn2MCCg
+</ReducedWidth>

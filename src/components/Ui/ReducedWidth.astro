@@ -1,0 +1,21 @@
+---
+import type { AstroBuiltinAttributes } from 'astro';
+export interface Props {
+  className?: AstroBuiltinAttributes['class:list'];
+  smaller?: boolean;
+  center?: boolean;
+}
+
+const { className, smaller = false, center = false } = Astro.props;
+---
+
+<div
+  class:list={[
+    !smaller && 'w-[870px]',
+    smaller && 'w-[642px]',
+    center && 'mx-auto',
+    'max-w-full',
+    className,
+  ]}>
+  <slot />
+</div>

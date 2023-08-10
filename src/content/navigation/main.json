@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "text": "Microgrants",
+      "link": "",
+      "children": [
+        {
+          "text": "Apply",
+          "link": "https://unitaryfund.typeform.com/to/j0kAOd?typeform-source=unitary.fund"
+        },
+        {
+          "text": "Grants",
+          "link": "/grants/"
+        },
+        {
+          "text": "Project Inspiration",
+          "link": "/ideas/"
+        },
+        {
+          "text": "FAQ",
+          "link": "/faqs/"
+        }
+      ]
+    },
+    {
+      "text": "Research",
+      "link": "",
+      "children": [
+        {
+          "text": "Mitiq",
+          "link": "/research/mitiq/"
+        },
+        {
+          "text": "Metriq",
+          "link": "/research/metriq/"
+        },
+        {
+          "text": "Publications",
+          "link": "/research/publications/"
+        }
+      ]
+    },
+    {
+      "text": "Community",
+      "link": "",
+      "children": [
+        {
+          "text": "Discord",
+          "link": "{social.discord}"
+        },
+        {
+          "text": "Events",
+          "link": "/community/events/"
+        },
+        {
+          "text": "Work with us",
+          "link": "/careers/"
+        }
+      ]
+    },
+    {
+      "text": "Blog",
+      "link": "/blog/"
+    },
+    {
+      "text": "Donate",
+      "link": "/donate/"
+    },
+    {
+      "text": "Shop",
+      "link": "https://unitaryfund.myspreadshop.com/"
+    }
+  ]
+}

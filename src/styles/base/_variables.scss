@@ -1,0 +1,18 @@
+:root {
+  --header-pt: 0;
+  --logo-height: 68px;
+  --logo-width: 191px;
+  --logo-height-mobile: 57px;
+  --logo-width-mobile: 160px;
+  --header-height: calc(var(--logo-height) + var(--header-pt));
+  --navigation-trigger-height-mobile: calc(var(--logo-height-mobile) * 0.64);
+  --navigation-trigger-height: calc(var(--logo-height) * 0.64);
+  --navigation-row-height: 48px;
+}
+
+@media (min-width: theme('screens.lg')) {
+  :root {
+    --header-pt: theme('spacing.3');
+    --navigation-row-height: 32px;
+  }
+}
