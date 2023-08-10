@@ -28,7 +28,7 @@ Check out this overview for a quick tour of Metriq:
 The tasks in Metriq span different [categories](https://metriq.info/Tasks) from applications and hardware to compilers, simulators and error mitigation/correction.
 
 <div style="text-align: center;">
-    <img src="../images/metriq_quantum_volume.png" />
+    <img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/q0me4zcf4vnqc2h65ho2.png" />
 </div>
 
 We believe it is important both to have new results as well as new tasks, because, in a space as new as quantum computing, we can’t be sure what the most useful benchmarks will be yet. This is why we have adopted a wiki-like approach, where users can submit, edit, and discuss the presented results.
@@ -36,19 +36,6 @@ We believe it is important both to have new results as well as new tasks, becaus
 Metriq already includes more than 150 submissions across quantum computing applications, compilers, hardware, simulators and more. Submissions are from researchers and developers across the quantum computing community. Results include sources and are openly accessible for free.
 
 **Metriq organizes benchmark information transparently, by and for the community.**
-
-This short video gives a walkthrough of how to make your own submission to Metriq:
-
-<div style="text-align: center;">
-    <iframe
-        id="video"
-        width="100%"
-        height="400"
-        src="https://www.youtube-nocookie.com/embed/uZK6L1wIofM?rel=0&amp;controls=0&amp;showinfo=0"
-        frameborder="0"
-        allowfullscreen="">
-    </iframe>
-</div>
 
 The full source code of all components of Metriq app are free and public via the Unitary Fund GitHub organization, including [web front end](https://github.com/unitaryfund/metriq-app), [REST API back end](https://github.com/unitaryfund/metriq-api), and [PostgreSQL database schema creation scripts](https://github.com/unitaryfund/metriq-postgres). Code is provided under [Apache License 2.0](https://github.com/unitaryfund/metriq-app/blob/main/LICENSE), and content is contributed under (Creative Commons) [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
 
