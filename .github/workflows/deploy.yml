@@ -24,9 +24,9 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         env:
-          PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ env.PUBLIC_CLOUDINARY_CLOUD_NAME }}
+          PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
           # TODO: Fix typo
-          PUBLIC_CLOUDNIARY_UPLOAD_PRESET: ${{ env.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
+          PUBLIC_CLOUDNIARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
 
   deploy:
     needs: build
