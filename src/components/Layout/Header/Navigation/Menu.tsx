@@ -83,7 +83,8 @@ export default function Menu({ menu }: NavigationProps) {
               'nav-mobile:flex-col',
               'nav-desktop:absolute nav-desktop:top-0 nav-desktop:left-0 nav-desktop:flex-wrap nav-desktop:gap-[2px]',
               !isOpen && 'hidden',
-            ])}>
+            ])}
+            role="navigation">
             {item.children.map(({ link, text }) => (
               <li className="flex grow" key={link}>
                 <Button
@@ -160,7 +161,8 @@ export default function Menu({ menu }: NavigationProps) {
         className={cn([
           'm-0 flex flex-col fixed top-[--logo-height-mobile] left-0 right-0 no-arrow-list',
           (!isOpen || !isMobile) && 'hidden',
-        ])}>
+        ])}
+        role="navigation">
         {menuItems}
       </ul>
       {/* Desktop */}
