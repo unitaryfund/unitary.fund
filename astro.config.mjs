@@ -16,7 +16,16 @@ import svgr from 'vite-plugin-svgr';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://unitaryfund.tghp.co.uk',
+  site: 'https://unitary.fund',
+  redirects: {
+    '/faq': '/faqs',
+    '/research': '/research/publications',
+    '/mitiq': '/research/mitiq',
+    '/talks': '/community/events',
+  },
+  experimental: {
+    redirects: true,
+  },
   integrations: [
     tailwind({ config: { applyBaseStyles: false } }),
     mdx(),
