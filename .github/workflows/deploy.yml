@@ -26,7 +26,7 @@ jobs:
         env:
           PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
           # TODO: Fix typo
-          PUBLIC_CLOUDNIARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
+          PUBLIC_CLOUDINARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
 
   deploy:
     needs: build
