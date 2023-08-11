@@ -8,7 +8,7 @@ type BlogItemProps = {
 
 export function BlogItem({ className, post: { data: post, slug } }: BlogItemProps) {
   return (
-    <article className={cn(['flex flex-col border-l border-black max-sm:bg-gray-200', className])}>
+    <a href={`/posts/${slug}`} className={cn(['flex flex-col border-l border-black max-sm:bg-gray-200 no-underline font-normal', className])} aria-label={`Read article: ${post.title}`}>
       <header className="flex flex-col p-2 pl-3 mdpl-4 border-b border-black md:flex-row">
         <time
           className="font-mono max-md:text-lg"
@@ -26,17 +26,16 @@ export function BlogItem({ className, post: { data: post, slug } }: BlogItemProp
         {post.title}
       </div>
       <footer className=" mb-0">
-        <a
+        <div
           className={cn([
             'font-bold no-underline border-l-4 block border-black',
             'md:text-xl md:pl-4',
             'max-md:pl-[calc(theme(spacing.4)-5px)] max-md:py-1 max-md:text-lg',
           ])}
-          href={`/posts/${slug}`}
-          title={post.title}>
+          >
           Read More
-        </a>
+        </div>
       </footer>
-    </article>
+    </a>
   );
 }
