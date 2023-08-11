@@ -1,8 +1,8 @@
 const plugin = require('tailwindcss/plugin');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
-const fontFamilyManrope = ['Manrope', ...defaultTheme.fontFamily.serif];
-const fontFamilyGrotesk = ['Space Grotesk', ...defaultTheme.fontFamily.serif];
+const fontFamilyManrope = ['Manrope', ...defaultTheme.fontFamily.sans];
+const fontFamilyGrotesk = ['Space Grotesk', ...defaultTheme.fontFamily.sans];
 const fontFamilyMono = ['Space Mono', ...defaultTheme.fontFamily.mono];
 
 const round = (num) =>
