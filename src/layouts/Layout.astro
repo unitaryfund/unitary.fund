@@ -9,13 +9,14 @@ interface LayoutProps {
   title?: string;
   contained?: boolean;
   bodyClassName?: string;
+  metaDescription?: string;
 }
 
 export interface Props extends LayoutProps {
   frontmatter?: LayoutProps;
 }
 
-const { title, contained, bodyClassName } = Astro.props.frontmatter || Astro.props;
+const { title, contained, bodyClassName, metaDescription } = Astro.props.frontmatter || Astro.props;
 
 const titleSeparator = '-';
 const titleName = 'Unitary Fund';
@@ -45,6 +46,7 @@ if (title) {
     />
     <meta name="viewport" content="width=device-width" />
     <title>{metaTitle}</title>
+    {metaDescription && <meta name="description" content={metaDescription} />}
   </head>
   <body
     class:list={[
