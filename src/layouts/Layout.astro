@@ -49,18 +49,6 @@ if (title) {
     <meta name="viewport" content="width=device-width" />
     <title>{metaTitle}</title>
     {metaDescription && <meta name="description" content={metaDescription} />}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || []
-
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
-
-      gtag("config", "UA-19932157-4")
-    </script>
   </head>
   <body
     class:list={[
@@ -92,5 +80,17 @@ if (title) {
       </Container>
     </div>
     <Footer />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || []
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-19932157-4")
+    </script>
   </body>
 </html>
