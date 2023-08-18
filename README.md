@@ -17,17 +17,18 @@ add the badge to your github project with the following snippet:
 
 ## Writing a blog post 
 To add a blog post, you just need to add a markdown file (`YYYY_your_title.md`) under the `src/content/blog/` folder. 
-An example file is this [one on 2023 UF members](https://raw.githubusercontent.com/unitaryfund/unitary.fund/main/src/content/blog/2023_members.md), which renders [here](https://unitary.fund/posts/2023_members/). Make sure to edit the keys correctly, e.g., below
+An example file is this [one on 2023 UF members](./src/content/blog/2023_members.md), which renders [here](https://unitary.fund/posts/2023_members/).
+The following template post can be used to start from scratch:
 ```
 ---
-title: Announcing the 2023 Unitary Fund Members
-author: Unitary Fund Team
+title: post title
+author: author one and author two
 day: 7
 month: 2
 year: 2023
 ---
 
-Since its launch last year...
+your markdown content
 ```
 
 Once you open a pull request (PR) with edits, you get to see the preview via the Vercel automation. If you click on the "Visit preview" link that shows up in the bot comment, you can see how the edits will look like once the PR is merged. If they look good, you can ask for a review by calling one of the UF team members (e.g., @nathanshammah). 
