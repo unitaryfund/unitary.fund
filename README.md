@@ -34,7 +34,7 @@ your markdown content
 Once you open a pull request (PR) with edits, you get to see the preview via the Vercel automation. If you click on the "Visit preview" link that shows up in the bot comment, you can see how the edits will look like once the PR is merged. If they look good, you can ask for a review by calling one of the UF team members (e.g., @nathanshammah). 
 
 ### Adding images to a blog post
-To add images, you can include in the website source under `public/images/` folder, and embed them in a page using the markdown syntax (e.g., `![](/images/your_image.png)`) markdown file like this one). 
+To add images, add the image file under the `public/images/` folder, and embed it in the markdown page using the `![](/images/your_image.png)` syntax.
 
 ## Adding a new grant 
 To add a new grant, you just need to add a markdown file (`YYYY_project_name.md`) under the `src/content/grant/` folder. 
