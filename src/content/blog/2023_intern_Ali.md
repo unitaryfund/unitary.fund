@@ -1,7 +1,7 @@
 ---
 title: Meet the UF interns - Ali Gedawi
 author: Ali Gedawi
-day: 11
+day: 18
 month: 8
 year: 2023
 ---
