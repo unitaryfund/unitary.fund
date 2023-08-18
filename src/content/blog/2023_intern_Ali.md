@@ -9,6 +9,8 @@ year: 2023
 ## About Me
 I am one of the 2023 Summer interns at Unitary Fund. I am a rising Senior at New York institute of Technology, studying Physics. Besides school, I am a research assistant with my professor, researching non-Markovian open quantum dynamics in squeezed environments.  I was introduced to quantum computing through Qubit by Qubit Early immersion program, and I hope to continue it. After all, I just spent my Summer working on it. 
 
+![](/images/ali.png)
+
 ## Internship
 Getting into this, I didn't really know what to expect. First, I am working remote, second, I am way out of my field, and third, what is GitHub? Even though I had daunting questions (*and a near existential crisis*) I had truly a great team behind me, and to support me. Dan, Vincent, Ben, Misty, Nate, Will, Nathan, and literally everyone I spoke to, either offered me help, advice, or generally good tips. When we started, we were tasked with getting the [Metriq Client](https://github.com/unitaryfund/metriq-client) to run (*I highly recommend for anyone else to do this as well, such a satisfying feeling once it all starts to work*). Once that was completed, we focused on some [Metriq](https://metriq.info/) submissions, and worked on some issues for the client or the website. 
 
