@@ -3,7 +3,6 @@ title: Community Manager, Full Time, Remote
 ---
 Posted on August 18th, 2023. 
 
-**Applications are [open](https://airtable.com/appbH8Vrpz5msbGRd/shrmhaBhB2sYil6o9). Submit your application [here](https://airtable.com/appbH8Vrpz5msbGRd/shrmhaBhB2sYil6o9).**
 <!-- **Applications are closed at this time.** -->
 <!-- We currently have no open positions for which to hire. However, check back here for when positions become available! -->
 
