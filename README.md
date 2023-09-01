@@ -30,16 +30,50 @@ month: 2
 year: 2023
 ---
 
-your markdown content
+# This is a heading style one
+
+**This is a featured Paragraph it cannot contain bold text but can contain [links](https://www.unitary.fund).**
+
+More text
+
+::image[d394zg4utwqxynenamqf]
+
+## This is a heading in heading style two
+
+This is a standard paragraph with a [LINK](https://www.google.com). **This is bold paragraph text**
+
+- this is a list item
+- this is **bold** list item
+- this is a long list item which has lots of words in it and will probably break onto a second or even a third line so we can see how that looks at differnt sizes adn make sure it looks as it is intended too
+- this is a list item with a [LINK](https://www.google.com) or [two)](https://www.google.com) added in it. 
+
+### This is a heading in heading style three introducing a video
+
+https://www.youtube.com/watch?v=dB_3R84ewig
+
+#### This is a heading in heading style four
+
+::gist[6cc14d37209de07abd707804f1b0219e]
+
+With slashes
+
+::gist[matt-lourens/6cc14d37209de07abd707804f1b0219e/]
+
+::gist[/matt-lourens//6cc14d37209de07abd707804f1b0219e/]
 ```
 
 Once your post is ready, open a pull request (PR)!
+
 The Vercel automation will create a preview you can access by clicking the "Visit preview" link that shows up in the bot comment.
 If the changes look good, request a review by tagging one of the UF team members (e.g., `@nathanshammah`).
 
-### Adding images to a blog post
+## Adding images
 
-To add an image in a document, upload the image to `public/images/`, and embed it into the desired page using the `![alt text](/images/your_image.png)` syntax.
+To add an image in a page, there are two options:
+
+1. (**No Code option**): Go to https://unitary-fund.vercel.app/author/image + copy the code (e..g, d394zg4utwqxynenamqf) + paste it in the markdown file as "::image[d394zg4utwqxynenamqf]". This option is the one required for adding the cover image to a new `event`.
+
+2. Upload the image under `public/images/` + embed image links in markdown files e.g., ![(images/image.png), and embed it into the desired page, e.g., using the `![alt text](/images/your_image.png)` syntax.
 
 ## Adding a new grant
 
