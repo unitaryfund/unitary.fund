@@ -2,13 +2,18 @@
 layout: '~/layouts/Layout.astro'
 title: 'unitaryCON'
 ---
-<div>
+
+import { PageIntro } from '~/components/Ui';
+
 <p align="center">
-  <img src="/images/unitaryCON_2023.png" style="width: 80%" />
+  <img src="/images/unitaryCON_2023.png" style="width: 50%" />
 </p>
 
+<PageIntro spacingBelow='large'>
 unitaryCON is an invitation-only collaborative workshop for the extended Unitary Fund community. The workshop is an opportunity to share ongoing projects, connect with collaborators and supporters, and work with our community to advance the quantum open-source software ecosystem with the leading contributors from around the world.
+</PageIntro>
 
+<div>
 Hosted at the [Tecnopolo Roma](https://www.tecnopolo.it/tecnopolo-roma/?lang=en), unitaryCON will provide a unique opportunity for Unitary Fund advisors, grantees, staff, ambassadors and friends to gather, talk, learn and share ideas about how to move the field forward.
 
 The workshop will feature talks and interactive activities, revolving around various topics in open source software for quantum computing and quantum technologies, including compilers, error mitigation and error correction toolkits, platforms for quantum computing, SDKs, cloud platforms, open hardware in quantum tech.
