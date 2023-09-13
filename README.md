@@ -73,7 +73,8 @@ If the changes look good, request a review by tagging one of the UF team members
 
 To add an image in a page, there are two options:
 
-1. (**No Code option**): Go to https://unitary-fund.vercel.app/author/image + copy the code (e..g, d394zg4utwqxynenamqf) + paste it in the markdown file as "::image[d394zg4utwqxynenamqf]". This option is the one required for adding the cover image to a new `event`.
+1. (**No Code option**): Go to https://unitary-fund.vercel.app/author/image and upload your desired image. 
+ Copy the code it returns after upload and use such and such syntax to insert. (e.g, d394zg4utwqxynenamqf). Note that this option is the required one for adding a cover image to a new `event`.
 
 2. Upload the image under `public/images/` + embed image links in markdown files e.g., ![(images/image.png), and embed it into the desired page, e.g., using the `![alt text](/images/your_image.png)` syntax.
 
