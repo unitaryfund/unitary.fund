@@ -53,13 +53,15 @@ https://www.youtube.com/watch?v=dB_3R84ewig
 
 #### This is a heading in heading style four
 
+
+## Including code snippets with gists
+A supported way to include code snippets is by embedding gists. Gists are code snippets that you can create on Github. Make sure that they are public. For example, navigating to [gist.github.com/matt-lourens/](https://gist.github.com/matt-lourens/) one can click on one of the gists and obtain the url  https://gist.github.com/matt-lourens/6cc14d37209de07abd707804f1b0219e. In order to embed the related code in the blog post, you can do one of the following:
+
 ::gist[6cc14d37209de07abd707804f1b0219e]
 
-With slashes
+or with slashes
 
 ::gist[matt-lourens/6cc14d37209de07abd707804f1b0219e/]
-
-::gist[/matt-lourens//6cc14d37209de07abd707804f1b0219e/]
 ```
 
 Once your post is ready, open a pull request (PR)!
