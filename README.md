@@ -32,7 +32,7 @@ year: 2023
 
 # This is a heading style one
 
-**This is a featured Paragraph it cannot contain bold text but can contain [links](https://www.unitary.fund).**
+**This is a featured paragraph it cannot contain bold text but can contain [links](https://www.unitary.fund).**
 
 More text
 
