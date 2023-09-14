@@ -40,7 +40,7 @@ More text
 
 ## This is a heading in heading style two
 
-This is a standard paragraph with a [LINK](https://www.google.com). **This is bold paragraph text**
+This is a standard paragraph with a [hyperlink](https://www.example.com). **This is bold paragraph text**.
 
 - this is a list item
 - this is **bold** list item
