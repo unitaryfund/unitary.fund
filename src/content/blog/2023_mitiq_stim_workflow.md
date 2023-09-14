@@ -8,8 +8,8 @@ year: 2023
 
 
 In Mitiq v0.29.0 we added a [tutorial demonstrating a method of combining quantum error mitigation (QEM) and quantum error correction (QEC)](https://mitiq.readthedocs.io/en/stable/examples/zne_logical_rb_cirq_stim.html), with the goal of reducing the effective logical error rate of the computation.
-While QEM techniques such as zero noise extrapolation (ZNE) and probabilistic error cancellation are typically thought of as belonging to the NISQ regime, recently it has been shown that they can also benefit applications within the fault-tolerant regime [^1],[^2],[^3].
-The example applies ZNE with noise scaling by global unitary folding on logical randomized benchmarking (RB) circuits, and it introduces the use of Mitiq’s ZNE functions with Cirq as the frontend and the Stim stabilizer simulator as the backend.
+While QEM techniques such as zero noise extrapolation (ZNE) and probabilistic error cancellation are typically thought of as belonging to the NISQ regime, recently it has been shown that they can also benefit applications within the fault-tolerant regime [^1][^2][^3].
+In this example ZNE is applied with noise scaling by global unitary folding on logical randomized benchmarking (RB) circuits, and the use of Mitiq with the Stim stabilizer simulator as the backend is introduced.
 
 ## About Mitiq
 [Mitiq](https://mitiq.readthedocs.io/en/latest/) is a compiler that makes programs more robust to errors in quantum computers.
