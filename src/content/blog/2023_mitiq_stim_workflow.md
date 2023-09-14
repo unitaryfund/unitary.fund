@@ -26,7 +26,10 @@ More information about the Mitiq and Stim workflow can be found in the [tutorial
 
 ## A Mitiq + Stim tutorial for applying error mitigation on logical circuits
 
-![Mitiq and Stim logos](/images/mitiq_stim_logo.png)
+<div style="text-align: center;">
+    <img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1694724821/uihac8qtevmlkgrzvfyl.png" alt="Mitiq and Stim logos" />
+</div>
+
 
 The idea for a tutorial with Stim was first inspired by a comment regarding Ref. [3] from a community member on [SciRate](https://scirate.com/) (also an open access scientific platform!), suggesting the use of deeper circuits on the numerical example demonstrating a novel noise scaling technique proposed in the paper. 
 The team agreed with the suggestion and quickly determined that a performant stabilizer simulator was necessary to run the deeper circuit simulations.
