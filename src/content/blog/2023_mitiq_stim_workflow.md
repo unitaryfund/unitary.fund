@@ -24,7 +24,7 @@ Although Mitiq does not support Stim directly as a frontend, it can interface wi
 
 ## A Mitiq + Stim tutorial for applying error mitigation on logical circuits
 
-![](images/mitiq_stim_logo.png)
+![Mitiq and Stim logos](/images/mitiq_stim_logo.png)
 
 The idea for a tutorial with Stim was first inspired by a comment from a community member on the arXiv pre-print of Ref ~ {cite}`Wahl_2023_arXiv_ds_zne`, suggesting the use of deeper circuits on the numerical example demonstrating a novel noise scaling technique proposed in the paper. 
 The team agreed with the suggestion and quickly determined that a performant stabilizer simulator was necessary to run the deeper circuit simulations.
