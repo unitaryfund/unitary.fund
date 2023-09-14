@@ -45,7 +45,7 @@ This is a standard paragraph with a [hyperlink](https://www.example.com). **This
 - this is a list item
 - this is **bold** list item
 - this is a long list item which has lots of words in it and will probably break onto a second or even a third line so we can make sure it looks as it is intended too. Can even have multiple sentences within a list item.
-- this is a list item with a [LINK](https://www.google.com) or [two)](https://www.google.com) added in it. 
+- this is a list item with a [link](https://unitaryhack.dev/) added in it. 
 
 ### This is a heading in heading style three introducing a video
 
