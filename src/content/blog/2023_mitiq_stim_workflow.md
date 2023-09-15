@@ -27,7 +27,10 @@ More information about the Mitiq and Stim workflow can be found in the [tutorial
 ## A Mitiq + Stim tutorial for applying error mitigation on logical circuits
 
 <div style="text-align: center;">
-    <img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1694724821/uihac8qtevmlkgrzvfyl.png" alt="Mitiq and Stim logos" />
+    <img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1694724821/uihac8qtevmlkgrzvfyl.png" 
+    alt="Mitiq and Stim logos" 
+    width=400px 
+    height=auto />
 </div>
 
 
