@@ -29,7 +29,7 @@ More information about the Mitiq and Stim workflow can be found in the [tutorial
     |<img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1694724821/uihac8qtevmlkgrzvfyl.png" 
     alt="Mitiq and Stim logos" 
     width=500px 
-    height=auto />|
+    height=auto>|
     |---|
 
 
