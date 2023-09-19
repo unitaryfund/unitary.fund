@@ -19,7 +19,7 @@ You will build sustainable and community-oriented open source practices to ensur
 **This position is full time with a competitive salary range, commensurate with experience. Unitary Fund is a fully remote team and this role is also remote.**
 
 ## About You:
-- 4-6 years in community engagement/management experience with diverse set of stakeholders with an emphasis on growth
+- 4-6 years in ecosystem engagement/management experience with diverse set of stakeholders with an emphasis on growth
 - Successful track record of digital and in-person event management
 - Experience in digital marketing and communication
 - Track record of streamlining administrative processes and procedures
