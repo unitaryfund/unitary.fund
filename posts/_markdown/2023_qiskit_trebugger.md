@@ -1,6 +1,8 @@
 ---
 title: Timeline Debugger for the Qiskit Transpiler
-date: 31 07 2023
+day: 31
+month: 07 
+year: 2023
 author: Harshit Gupta
 ---
 
