@@ -11,7 +11,7 @@ Qiskit transpiler is an important tool used to map any arbitrary quantum circuit
 
 **Qiskit Trebugger (transpiler-debugger)** is a tool which provides a visual representation of the transpilation process. It was developed as an interactive tool with multiple views catering to the needs of different users. Available as a [python package on PyPI](https://pypi.org/project/qiskit-trebugger/), it can be used as a jupyter widget or  a lightweight CLI tool to understand how a circuit goes through the qiskit transpiler. The following image shows a preview of the CLI view -
 
-::image[kbterfivegd0mfdbjgvf]
+![](/images/2023_qiskit_trebugger_cli_full.png)
 
 The debugger is divided into three main components -
 
