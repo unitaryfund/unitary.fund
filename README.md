@@ -98,3 +98,6 @@ tags:
 ---
 To **Hanrui Wang** to further develop **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)**, a Quantum classical simulation framework based on PyTorch.
 ```
+
+## Run the website locally
+Information on how to run the website locally are given in the [Getting Started]([url](https://github.com/unitaryfund/unitary.fund/wiki/Getting-Started)https://github.com/unitaryfund/unitary.fund/wiki/Getting-Started) wiki. 
