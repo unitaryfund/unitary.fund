@@ -45,7 +45,7 @@ This is a standard paragraph with a [hyperlink](https://www.example.com). **This
 - this is a list item
 - this is **bold** list item
 - this is a long list item which has lots of words in it and will probably break onto a second or even a third line so we can make sure it looks as it is intended too. Can even have multiple sentences within a list item.
-- this is a list item with a [link](https://unitaryhack.dev/) added in it. 
+- this is a list item with a [link](https://unitaryhack.dev/) added in it.
 
 ### This is a heading in heading style three introducing a video
 
@@ -73,8 +73,8 @@ If the changes look good, request a review by tagging one of the UF team members
 
 To add an image in a page, there are two options:
 
-1. (**No Code option**): Go to https://unitary-fund.vercel.app/author/image and upload your desired image. 
- Copy the code it returns after upload, e.g, d394zg4utwqxynenamqf, and use the syntax `::image[d394zg4utwqxynenamqf]` to insert it. Note that this option is the required one for adding a cover image to a new `event`.
+1. (**No Code option**): Go to https://unitary-fund.vercel.app/author/image and upload your desired image.
+   Copy the code it returns after upload, e.g, d394zg4utwqxynenamqf, and use the syntax `::image[d394zg4utwqxynenamqf]` to insert it. Note that this option is the required one for adding a cover image to a new `event`.
 
 2. Upload the image to `public/images/` and embed it into the desired page using the `![alt text](/images/your_image.png)` syntax.
 
@@ -98,3 +98,7 @@ tags:
 ---
 To **Hanrui Wang** to further develop **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)**, a Quantum classical simulation framework based on PyTorch.
 ```
+
+## Run the website locally
+
+Information on how to run the website locally are given in the [developer docs](https://github.com/unitaryfund/unitary.fund/wiki/Developer-docs) wiki.
