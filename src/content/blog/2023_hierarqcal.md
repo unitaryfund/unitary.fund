@@ -35,7 +35,7 @@ The motifs on the first level we call primitives, the bottom-to-top QCNN has two
 
 This hierarchical view is particularly useful for architecture search, algorithms that automatically design model architectures (such as for the QCNN). The main idea is to use smaller operations as building blocks for larger ones which result in an expressive representation that mimics design elements typically performed by humans. In classical machine learning literature, the field of neural architecture search (NAS) explores architecture representations as part of automated neural network construction. In particular, hierarqcal was inspired by the hierarchical representation presented in this paper by [Liu et al.](https://openreview.net/pdf?id=BJQRKzbA-).
 
-<img class="center"src="/images/2023_hierarqcal_dalle_img.png" style="width:200px;border: 1px black solid; margin-right: 10px;" align="left"/>
+![](images/2023_hierarqcal_dalle_img.png)
 
 Speaking of inspiration, our logo comes from [Dall E 2](https://openai.com/dall-e-2/) presented with the following prompt: *A robot building itself with artificial intelligence, pencil drawing*
 
