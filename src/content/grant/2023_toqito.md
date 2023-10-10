@@ -9,4 +9,4 @@ tags:
   - UPB
   - software
 ---
-To **Purva Thakre** to grow **[Toqito](https://github.com/purva-thakre)**, toward a mature open-source project and utilize it for further research in UPB.
+To **Purva Thakre** to grow **[Toqito](https://github.com/purva-thakre)**, toward a mature open-source project and utilize it for further research in unextendible product bases.
