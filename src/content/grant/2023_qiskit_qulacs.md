@@ -3,7 +3,7 @@ name: Qiskit-Qulacs
 year: 2023
 month: 8
 day: 28
-country: US
+country: IN
 tags:
   - Qiskit
   - simulator
