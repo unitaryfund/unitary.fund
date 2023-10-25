@@ -9,7 +9,7 @@ As lead developer of the Qrack project, I recently flew to Bellevue, WA, to pres
 
 Qrack was founded 6 years ago by Daniel Strano (technical staff member of Unitary Fund) and Benn Bollay (CTO of Fusebit) in 2017 with a relatively simple (but surprisingly overlooked) vision: create world's best open-source quantum computer gate model simulator software for the specific use case of running "quantum" workloads (by logical programming paradigm) as quickly and efficiently as possible on any "classical" computer. Released under the "permissive copyleft" LGPL-3.0 license, Qrack has built out support to virtually all major operating systems and processor instruction sets, to ensure that the floor of global, public, "free" access to quantum workload throughput utility is never lower than the Qrack team's best efforts, shared openly.
 
-Before lead developer Daniel Strano joined Unitary Fund as a technical staff member, Qrack was awarded a Unitary Fund microgrant, and [the software is now affiliated with Unitary Fund](https://unitary.fund/posts/qrack_joins_uf/). As of the publication date of this blog post, PyQrack has over [685,000 total downloads](https://www.pepy.tech/projects/pyqrack), with 4-to-5 thousand downloads per week.
+Before I joined Unitary Fund as a technical staff member, Qrack was awarded a Unitary Fund microgrant, and [the software is now affiliated with Unitary Fund](https://unitary.fund/posts/qrack_joins_uf/). As of the publication date of this blog post, PyQrack has over [685,000 total downloads](https://www.pepy.tech/projects/pyqrack), with 4-to-5 thousand downloads per week.
 
 **"Universally" compatible, and a "team player"**
 
