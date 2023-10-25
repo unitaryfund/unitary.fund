@@ -1,7 +1,7 @@
 ---
-title: "Qrack and PyQrack publish their first formal report"
+title: "Simulating 54 qubits with Qrack – on a single GPU"
 author: Daniel Strano
-day: 24
+day: 25
 month: 10
 year: 2023
 ---
