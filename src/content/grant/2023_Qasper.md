@@ -9,4 +9,4 @@ tags:
   - software
   - finance
 ---
-To **Michael Hellman** to further develop **Qasper**, a library that includes both common quantum representations of standard financial notation and classical assets.
+To [**Michael Hellman**](https://www.linkedin.com/in/mhellman15/) to further develop **Qasper**, a library that includes both common quantum representations of standard financial notation and classical assets.
