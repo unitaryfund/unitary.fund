@@ -53,7 +53,7 @@ Then we use our preferred framework and simulator for sampling the result; this 
 
 ::image[w2ikly26ebyfteracjnt]
 
-And this is the result of the simulation, where we can see that the pre-image that leds to `h(x) = 0xca` is the list `[12,12]`.
+And this is the result of the simulation, where we can see that the pre-image that leads to `h(x) = 0xca` is the list `[12,12]`.
 
 ::image[de2y6kbgcdaljnc8tsrc]
 
