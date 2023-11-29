@@ -49,7 +49,7 @@ Now we use our quantum function as an oracle for a Grover search, in order to fi
 ::image[iuftocskxxqn2wbpzcik]
 
 
-Then we use our prefered framework and simulator for sampling the result; this is an example using `qiskit` with `aer_simulator`.
+Then we use our preferred framework and simulator for sampling the result; this is an example using `qiskit` with `aer_simulator`.
 
 ::image[w2ikly26ebyfteracjnt]
 
