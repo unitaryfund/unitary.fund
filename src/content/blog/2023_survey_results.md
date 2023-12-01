@@ -1,7 +1,7 @@
 ---
 title: The State of 2023 Quantum Open Source Software 2023: Survey Results
 author: Unitary Fund Team
-day: 4
+day: 04
 month: 12
 year: 2023
 ---
