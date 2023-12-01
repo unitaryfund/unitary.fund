@@ -1,5 +1,5 @@
 ---
-title: "The State of 2023 Quantum Open Source Software 2023: Survey Results"
+title: "The State of Quantum Open Source Software 2023: Survey Results"
 author: Unitary Fund Team
 day: 4
 month: 12
