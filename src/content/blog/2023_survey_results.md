@@ -46,21 +46,21 @@ Project documentation or project websites remain the most sought after sources o
 ### Open-ended Feedback 
 We highlight just a few responses giving feedback on the quantum OSS ecosystem below, that emphasize the work needed and requested to support quantum open source software:
 
-_“I think the community channels (e.g. discord) and GitHub discussions can be super useful.
+*“I think the community channels (e.g. discord) and GitHub discussions can be super useful.
 Especially for the libraries that are not yet so big, it is fantastic how much help you can get
-directly from the developers.”_
+directly from the developers.”*
 
-_“We need strong policies that keep the technology open to every human being, regardless of their ethnicity, belief, country, etc.”_
+*“We need strong policies that keep the technology open to every human being, regardless of their ethnicity, belief, country, etc.”*
 
-_“This is the most inviting and friendly community out there. Folks are extremely helpful and
+*“This is the most inviting and friendly community out there. Folks are extremely helpful and
 resourceful. People want to improve this field and want to help others to make it happen.
 Making the resources open source is the best move by researchers in the field. To those
-wondering, get involved and start contributing.”_
+wondering, get involved and start contributing.”*
 
-_“Thank you. Keep doing what you are doing right now. If not for the quantum OSS community, I would not be doing research in quantum right now.”_
+*“Thank you. Keep doing what you are doing right now. If not for the quantum OSS community, I would not be doing research in quantum right now.”*
 
-_“We've made progress in growing the community and making it more welcoming, but there is
-still much work to be done in inclusion and retention of underrepresented groups.”_
+*“We've made progress in growing the community and making it more welcoming, but there is
+still much work to be done in inclusion and retention of underrepresented groups.”*
 
 ### Community: Diversity & Inclusion
 About 43% of respondents are in the 25-34 age range, with 23% of respondents below 25 (but less than1% under 18 years old).
