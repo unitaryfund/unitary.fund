@@ -12,7 +12,7 @@ We hope this snapshot of our field can help the many diverse stakeholders of qua
 
 [**You can find the results at this link.**](https://unitaryfund.github.io/survey-website/)
 
-## Demographics
+## Demographics [[link]](https://unitaryfund.github.io/survey-website/#Demographics)
 **Demographics**: As in 2022, the majority of quantum OSS users are researchers (53.8%), however, sizable communities identify themselves as developers (39%), students (27.5%), hobbyists (16%) and educators (12%). This data speaks for the balanced heterogeneity of interests and sub-communities among quantum OSS users and developers. Almost 45% of respondents do not have a background in quantum research.
 
 Most have selected their main reason for involvement as advancing quantum science and knowledge. The respondents are also mainly associated with an academic institution (43%), enterprise organization (32%) or a startup (25%).
