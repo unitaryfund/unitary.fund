@@ -1,6 +1,6 @@
 ---
 title: "The State of Quantum Open Source Software 2023: Survey Results"
-author: Unitary Fund Team
+author: Ben Castanon and Nathan Shammah
 day: 4
 month: 12
 year: 2023
