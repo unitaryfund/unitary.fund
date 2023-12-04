@@ -43,6 +43,14 @@ With respect to the quantum software **community**, 85% find it very welcoming o
 
 Project documentation or project websites remain the most sought after sources of answers or information when developing quantum software (84%), with project repos (77%), a close second. Quantum Computing Stack Exchange, Stack Overflow, Slack, Discord, and YouTube, remain popular platforms, while less popular are standard forums (7%) and Reddit (6%). Among the types of resources most helpful for learning or contributing to quantum open source projects, video resources continue to rank highest, though lower this year by 6% (61%), followed very closely by digital education text resources (60%), as well as hackathons (53%), and participative courses, mentorship programs and certificate or degrees (all above 40%).
 
+
+### Community: Diversity & Inclusion
+About 43% of respondents are in the 25-34 age range, with 23% of respondents below 25 (but less than1% under 18 years old).
+
+With regards to ethnicity, about a 44% of respondents identifies as White or of European descent, 18% as South Asian, 9.4% as Hispanic or Latino/a/x, 6.8% as East Asian, and as Black or of African descent, and 4% or below as Black or African Descent, Multiracial, Middle Eastern, Other. Notably, 10% prefered not to say. 76% of the respondents identify as a man, 15.4% as a woman, 1.6% as non-binary, genderqueer, or gender non-conforming, 0.8% self describe and 6% prefer not to say. 
+
+With respect to educational background, the largest group holds a PhD (34%) or multiple ones (2.6%), 33% have Masters or other non-doctoral post-graduate degree, 23% have a university degree and 4% high school/secondary school degree, other degrees, or prefer not to say.
+
 ### Open-ended Feedback 
 We highlight just a few responses giving feedback on the quantum OSS ecosystem below, that emphasize the work needed and requested to support quantum open source software:
 
@@ -62,12 +70,6 @@ wondering, get involved and start contributing.”*
 *“We've made progress in growing the community and making it more welcoming, but there is
 still much work to be done in inclusion and retention of underrepresented groups.”*
 
-### Community: Diversity & Inclusion
-About 43% of respondents are in the 25-34 age range, with 23% of respondents below 25 (but less than1% under 18 years old).
-
-With regards to ethnicity, about a 44% of respondents identifies as White or of European descent, 18% as South Asian, 9.4% as Hispanic or Latino/a/x, 6.8% as East Asian, and as Black or of African descent, and 4% or below as Black or African Descent, Multiracial, Middle Eastern, Other. Notably, 10% prefered not to say. 76% of the respondents identify as a man, 15.4% as a woman, 1.6% as non-binary, genderqueer, or gender non-conforming, 0.8% self describe and 6% prefer not to say. 
-
-With respect to educational background, the largest group holds a PhD (34%) or multiple ones (2.6%), 33% have Masters or other non-doctoral post-graduate degree, 23% have a university degree and 4% high school/secondary school degree, other degrees, or prefer not to say.
 
 
 ## Acknowledgements
