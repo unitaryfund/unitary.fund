@@ -10,6 +10,8 @@ We are excited to share the results for the 2023 Quantum Open Source Survey orga
 
 We hope this snapshot of our field can help the many diverse stakeholders of quantum technologies to get a holistic understanding of the users, tools, needs and strengths of the ecosystem today. As the second annual survey we are also excited to provide certain comparative metrics to view how things may have evolved since last year. 
 
+![](/images/qoss-2023-results-language-yoy.png "Language of Choice for QOSS development with Year-on-year (YoY) comparison 2022-2023.")
+
 [**You can find the results at this link.**](https://unitaryfund.github.io/survey-website/)
 
 ## Demographics [[link]](https://unitaryfund.github.io/survey-website/#Demographics)
