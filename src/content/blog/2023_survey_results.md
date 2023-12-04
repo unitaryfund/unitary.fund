@@ -19,7 +19,7 @@ We hope this snapshot of our field can help the many diverse stakeholders of qua
 
 Most have selected their main reason for involvement as advancing quantum science and knowledge. The respondents are also mainly associated with an academic institution (43%), enterprise organization (32%) or a startup (25%).
 
-The most represented country continues to be the United States (25%), with the UK making the largest leap, up to 13% from 9% last year. India (10%),, Canada (7), and Germany (4.5%) round out the top five. EU countries sum up roughly 18. In all, 56 countries are represented in the survey, speaking to the continued spread of access and enthusaism for the field. veloped (e.g, fewer startups or regional programs compared to Europe).
+The most represented country continues to be the United States (25%), with the UK making the largest leap, up to 13% from 9% last year. India (10%), Canada (7), and Germany (4.5%) round out the top five. EU countries sum up roughly 18. In all, 56 countries are represented in the survey, speaking to the continued spread of access and enthusiasm for the field. 
 
 The majority of respondents either work full time (53.6%) or part time (9.2%) in the quantum industry, and among those, about 27% work fully remote, about 36% employ a hybrid format, and only 15% are fully in-person. Fully remote work featured the only large change (7%) YoY, with the others holding at similar percentages to last year.
 
