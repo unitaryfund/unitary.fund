@@ -10,7 +10,7 @@ We are excited to share the results for the 2023 Quantum Open Source Survey orga
 
 We hope this snapshot of our field can help the many diverse stakeholders of quantum technologies to get a holistic understanding of the users, tools, needs and strengths of the ecosystem today. As the second annual survey we are also excited to provide certain comparative metrics to view how things may have evolved since last year. 
 
-You can find the results at this link.
+[**You can find the results at this link.**](https://unitaryfund.github.io/survey-website/)
 
 ## Demographics
 **Demographics**: As in 2022, the majority of quantum OSS users are researchers (53.8%), however, sizable communities identify themselves as developers (39%), students (27.5%), hobbyists (16%) and educators (12%). This data speaks for the balanced heterogeneity of interests and sub-communities among quantum OSS users and developers. Almost 45% of respondents do not have a background in quantum research.
