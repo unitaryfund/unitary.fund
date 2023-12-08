@@ -1,8 +1,8 @@
 ---
 title: A new simple benchmark for quantum computers
-author: author one and author two
-day: 7
-month: 2
+author: Andrea Mari
+day: 8
+month: 12
 year: 2023
 ---
 
