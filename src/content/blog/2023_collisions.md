@@ -27,16 +27,16 @@ If we repeat the procedure _N_ times, we'll get _N_ measurement shots and theref
 
 <div align="center">
 
-_b_1_ = 0110110110001100,
+_b<sub>1</sub>_ = 0110110110001100,
 
 
 
-_b_2_ = 1100010100111110,
+_b<sub>2</sub>_ = 1100010100111110,
 
 ...
 
 
-_b_N_ = 1101001101010001.
+_b<sub>N</sub>_ = 1101001101010001.
 
 </div>
 
