@@ -8,12 +8,12 @@ year: 2023
 
 **Run and measure a random quantum circuit many times and count the number of repeated outcomes. That's it.**
 
-This blog post is an introduction to the recent arXiv preprint[^1]: _Counting collisions in random circuit sampling for benchmarking quantum computers_, [arXiv:2312.04222](https://arxiv.org/abs/2312.04222). In this paper we introduce a new method to measure the performance of current quantum computers that may be quite useful for the important task of monitoring and tracking the [technological progress of quantum devices](https://metriq.info/). 
+This blog post is an introduction to the recent arXiv preprint[^1]: _Counting collisions in random circuit sampling for benchmarking quantum computers_, [arXiv:2312.04222](https://arxiv.org/abs/2312.04222). In this paper we introduce a new method to measure the performance of current quantum computers that may be quite useful for monitoring and tracking the ongoing [progress in quantum technologies](https://metriq.info/). 
 
 
 ## Random circuit sampling
 
-_Random circuit sampling_ is a particular quantum computing protocol in which a given random quantum circuit _C_ is applied to _n_ qubits initialized in the |0⟩ state and a final measurement is performed in the computational basis (if you are not familiar with quantum circuits, you can imagine it as the simplest program for a quantum computer, similar to a list of instructions). The result is a bitstring which looks quite random. For example, for 16 qubits, a possible result could be something like this:
+_Random circuit sampling_ is a particular quantum computing protocol in which a given random quantum circuit _C_ is applied to _n_ qubits initialized in the |0⟩ state and a final measurement is performed in the computational basis (if you are not familiar with a quantum circuit, you can imagine it as the simplest program for a quantum computer, similar to a list of instructions). The result is a bitstring which looks quite random. For example, for 16 qubits, a possible result could be something like this:
 
 <div align="center">
 
@@ -48,7 +48,7 @@ This fact can be turned into rigorous operational benchmarks such as the _cross-
 
 Is it possible to distinguish quantum samples from trivial uniform samples **without using any classical computing**? In our recent work[^1], we show that counting the number of repeated bitstrings (also called *collisions* in statistics) can be a very straightforward way of doing it. Indeed, it turns out that samples obtained from a pure random state tend to have more collisions with respect to samples drawn from the uniform distribution. 
 
-Basically, all we need to do to verify that a quantum computer is behaving in a "quantum" way is running a random quantum circuit many times checking if the number of observed repeated outcomes is larger than the expected number of collisions for the uniform distribution.
+Basically, all we need to do to verify that a quantum computer is behaving in a "quantum" way is running a random quantum circuit many times and checking if the number of re-sampled bitstrings is larger than the expected number of collisions for the uniform distribution.
 
 For example, when measuring a random state of _n=16_ qubits with _N=10<sup>4</sup>_ shots, the expected number of collisions is ≃1324. For the uniform distribution over _2<sup>16</sup>_ bitstrings instead, the expected number of collisions in _N_ samples is ≃726.
 The below figure, extracted from the paper, is a numerical simulation of the number of observed collisions for different values of _N_.
