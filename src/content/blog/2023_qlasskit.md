@@ -18,7 +18,17 @@ Thanks to the Grover search algorithm, we are able to find a pre-image with only
 
 We write a toy hash function `hash_simp` which operates on messages composed of two 4 bit values and uses bitwise xor to create an 8 bit hash value. 
 
-![](/images/2023-qlasskit/hash_simp_code.png)
+```python
+from qlasskit import qlassf, Qint4, Qint8, Qlist
+
+@qlassf
+def hash_simp(m: Qlist[Qint4, 2]) -> Qint8:
+    hv = 0
+    for i in m:
+        hv = ((hv << 4) ^ (hv >> 1) ^ i) & 0xff
+
+    return hv
+```
 
 The first things you can notice in this code are:
 
@@ -28,7 +38,9 @@ The first things you can notice in this code are:
 
 To see the resulting quantum circuit we can export and draw in qiskit:
 
-![](/images/2023-qlasskit/circuit_draw_code.png)
+```python
+hash_simp.export('qiskit').draw('mpl')
+```
 
 And this is the resulting circuit, produced by the *qlasskit* internal compiler:
 
@@ -36,7 +48,13 @@ And this is the resulting circuit, produced by the *qlasskit* internal compiler:
 
 Thanks to the fact that *qlasskit* functions are standard Python functions, we can call the `original_f` to perform some kind of analysis and test on the hash function. Since the input space is tiny (it is a toy hash function), we can check if the hash function is uniform (if it maps equally to the output space).
 
-![](/images/2023-qlasskit/output_space.png)
+```python
+from collections import Counter
+
+d = Counter(hex(hash_simp.original_f((x, y))) for x in range(2**4) for y in range(2**4))
+
+print('Hash function output space:', len(d))
+```
 
 ![](/images/2023-qlasskit/output_space_result.png)
 
@@ -45,12 +63,29 @@ We got that `hash_simp` is following an uniform distribution.
 
 Now we use our quantum function as an oracle for a Grover search, in order to find which input maps to the value `0xca`.
 
-![](/images/2023-qlasskit/grover_search.png)
+```python
+from qlasskit.algorithms import Grover
+
+q_algo = Grover(hash_simp, Qint8(0xca))
+```
 
 
 Then we use our preferred framework and simulator for sampling the result; this is an example using `qiskit` with `aer_simulator`.
 
-![](/images/2023-qlasskit/simulation_code.png)
+```python
+from qiskit import Aer, QuantumCircuit, transpile
+from qiskit.visualization import plot_histogram
+
+qc = q_algo.export('qiskit')
+qc.measure_all()
+simulator = Aer.get_backend("aer_simulator")
+circ = transpile(qc, simulator)
+result = simulator.run(circ).result()
+counts = result.get_counts(circ)
+
+counts_readable = q_algo.decode_counts(counts, discard_lower=5)
+plot_histogram(counts_readable)
+```
 
 And this is the result of the simulation, where we can see that the pre-image that leads to `h(x) = 0xca` is the list `[12,12]`.
 
@@ -59,7 +94,11 @@ And this is the result of the simulation, where we can see that the pre-image th
 
 Using `QlassF.original_f` we can double check the result without invoking a quantum simulator; calling it with the list `[12,12]` must result in the hash value `0xca`.
 
-![](/images/2023-qlasskit/result_check.png)
+
+```python
+print(hex(hash_simp.original_f((12,12))))
+```
+
 ![](/images/2023-qlasskit/result.png)
 
 
