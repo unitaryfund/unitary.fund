@@ -34,7 +34,7 @@ And this is the resulting circuit, produced by the *qlasskit* internal compiler:
 
 ![](/images/2023-qlasskit/circuit_result.png)
 
-Thanks to the fact that *qlasskit* function are standard Python functions, we can call the `original_f` to perform some kind of analysis and test on the hash function. Since the input space is tiny (it is a toy hash function), we can check if the hash function is uniform (if it maps equally to the output space).
+Thanks to the fact that *qlasskit* functions are standard Python functions, we can call the `original_f` to perform some kind of analysis and test on the hash function. Since the input space is tiny (it is a toy hash function), we can check if the hash function is uniform (if it maps equally to the output space).
 
 ![](/images/2023-qlasskit/output_space.png)
 
