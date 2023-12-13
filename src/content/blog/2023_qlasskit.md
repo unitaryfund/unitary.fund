@@ -1,8 +1,8 @@
 ---
 title: Qlasskit - A bridge between Python and quantum algorithms
 author: Davide Gessa
-day: 29
-month: 11
+day: 13
+month: 12
 year: 2023
 ---
 
