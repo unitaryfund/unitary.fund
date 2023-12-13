@@ -10,7 +10,7 @@ Traditionally, creating quantum circuits requires specialized knowledge in quant
 
 **Qlasskit**, an open-source Python library developed with the support of a Unitary Fund microgrant, addresses this challenge head-on by allowing direct translation of standard Python code into invertible quantum circuits without any modification to the original code. Furthermore, *qlasskit* implements some well-known quantum algorithms and offers a comprehensive interface for implementing new ones.
 
-*Qlasskit* adopts a distinctive method where it constructs a single boolean expression for each output qubit of the entire function, rather than translating individual operations into quantum circuits and then combining them. This approach enables advanced optimization by leveraging boolean algebraic properties.
+*Qlasskit* adopts a distinctive method where it constructs a *single boolean expression* for each output qubit of the entire function, rather than translating individual operations into quantum circuits and then combining them. This approach enables advanced optimization by leveraging boolean algebraic properties.
 
 For instance, let assume we have the following function:
 
@@ -28,9 +28,8 @@ def f_comp(b: bool, n: Qint2) -> Qint2:
 The first things you can notice in this code are:
 
 - the `qlassf` decorators, indicating that the function will be translated to a quantum circuit.
-- special bit-sized types Qint4, and Qint8. These are required as qubits are a precious resource, and we want to use as few as possible.
+- special bit-sized types `Qint4`, and `Qint8`. These are required as qubits are a precious resource, and we want to use as few as possible.
 - and, it is normal Python code.
-
 
 If we decompose the algorithm in 3 separate additions and we compile them separately, we obtain the following circuit:
 
@@ -48,7 +47,6 @@ for i in range(3):
 ![](/images/2023-qlasskit/decomposed_circuit.png)
 
 While if we compile the whole function to a quantum circuit using *qlasskit*, we obtain the following quantum circuit:
-
 ![](/images/2023-qlasskit/optimized_circuit.png)
 
 As we can see from the circuit drawings, *qlasskit* approach needs half the number of qubits and half the number of gates.
@@ -85,7 +83,6 @@ hash_simp.export('qiskit').draw('mpl')
 ```
 
 And this is the resulting circuit, produced by the *qlasskit* internal compiler:
-
 ![](/images/2023-qlasskit/circuit_result.png)
 
 Thanks to the fact that *qlasskit* functions are standard Python functions, we can call the `original_f` to perform some kind of analysis and test on the hash function. Since the input space is tiny (it is a toy hash function), we can check if the hash function is uniform (if it maps equally to the output space).
@@ -102,7 +99,6 @@ print('Hash function output space:', len(d))
 
 We got that `hash_simp` is following an uniform distribution.
 
-
 Now we use our quantum function as an oracle for a Grover search, in order to find which input maps to the value `0xca`.
 
 ```python
@@ -110,7 +106,6 @@ from qlasskit.algorithms import Grover
 
 q_algo = Grover(hash_simp, Qint8(0xca))
 ```
-
 
 Then we use our preferred framework and simulator for sampling the result; this is an example using `qiskit` with `aer_simulator`.
 
@@ -130,7 +125,6 @@ plot_histogram(counts_readable)
 ```
 
 And this is the result of the simulation, where we can see that the pre-image that leads to `h(x) = 0xca` is the list `[12,12]`.
-
 ![](/images/2023-qlasskit/simulation_result.png)
 
 
