@@ -71,10 +71,10 @@ Once created, use the hash from the gist URL with the syntax below.
 ### with code-blocks
 Another way is to use markdown code-blocks' like the following example:
 
-```python
+\```python
 def hello():
   print('hello world!')
-```
+\```
 
 ```
 
