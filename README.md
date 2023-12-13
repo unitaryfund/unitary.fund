@@ -28,6 +28,10 @@ author: author one and author two
 day: 7
 month: 2
 year: 2023
+tags: 
+  - python
+  - simulator
+  - quantum
 ---
 
 # This is a heading style one
@@ -54,14 +58,24 @@ https://www.youtube.com/watch?v=dB_3R84ewig
 #### This is a heading in heading style four
 
 
-## Including code snippets with gists
+## Including code snippets 
+
+### with gists
 A supported way to include code snippets is by embedding gists.
 Gists are code snippets that you can create on Github.
 Learn how to create one [here](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), and don't forget to ensure it is public!
 Once created, use the hash from the gist URL with the syntax below.
 
-
 ::gist[matt-lourens/6cc14d37209de07abd707804f1b0219e/]
+
+### with code-blocks
+Another way is to use markdown code-blocks' like the following example:
+
+```python
+def hello():
+  print('hello world!')
+```
+
 ```
 
 Once your post is ready, open a pull request (PR)!
