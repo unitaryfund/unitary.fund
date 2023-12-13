@@ -4,6 +4,11 @@ author: Davide Gessa
 day: 13
 month: 12
 year: 2023
+tags: 
+- python 
+- compiler
+- qiskit 
+- quantum algorithms 
 ---
 
 Traditionally, creating quantum circuits requires specialized knowledge in quantum programming. This requirement holds true when encoding a classical algorithm inside a quantum circuit, for instance, for an oracle or a black-box component of a quantum algorithm. This often becomes a time wasting job, since we almost always already have a classical implementation in a traditional high level language.
@@ -28,8 +33,8 @@ def f_comp(b: bool, n: Qint2) -> Qint2:
 The first things you can notice in this code are:
 
 - the `qlassf` decorators, indicating that the function will be translated to a quantum circuit.
-- special bit-sized types `Qint4`, and `Qint8`. These are required as qubits are a precious resource, and we want to use as few as possible.
-- and, it is normal Python code.
+- special bit-sized types `Qint4`, and `Qint2`. These are required as qubits are a precious resource, and we want to use as few as possible.
+- it all reads as normal Python code.
 
 If we decompose the algorithm in 3 separate additions and we compile them separately, we obtain the following circuit:
 
