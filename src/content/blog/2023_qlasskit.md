@@ -10,7 +10,54 @@ Traditionally, creating quantum circuits requires specialized knowledge in quant
 
 **Qlasskit**, an open-source Python library developed with the support of a Unitary Fund microgrant, addresses this challenge head-on by allowing direct translation of standard Python code into invertible quantum circuits without any modification to the original code. Furthermore, *qlasskit* implements some well-known quantum algorithms and offers a comprehensive interface for implementing new ones.
 
-To illustrate *qlasskit*'s capabilities, we will demonstrate its use in performing a pre-image attack on a cryptographic hash function using Grover's search algorithm, obtaining a quadratic speedup compared to classical approaches. The beauty of *qlasskit* lies in its simplicity – you can write the entire software without needing to understand any concept of quantum computing.
+*Qlasskit* adopts a distinctive method where it constructs a single boolean expression for each output qubit of the entire function, rather than translating individual operations into quantum circuits and then combining them. This approach enables advanced optimization by leveraging boolean algebraic properties.
+
+For instance, let assume we have the following function:
+
+```python
+from qlasskit import qlassf, Qint2, Qint4
+from qiskit import QuantumCircuit
+
+@qlassf
+def f_comp(b: bool, n: Qint2) -> Qint2:
+      for i in range(3):
+            n += (1 if b else 2)
+      return n
+```
+
+The first things you can notice in this code are:
+
+- the `qlassf` decorators, indicating that the function will be translated to a quantum circuit.
+- special bit-sized types Qint4, and Qint8. These are required as qubits are a precious resource, and we want to use as few as possible.
+- and, it is normal Python code.
+
+
+If we decompose the algorithm in 3 separate additions and we compile them separately, we obtain the following circuit:
+
+```python
+@qlassf
+def f1(b: bool, n: Qint2) -> Qint2:
+    return n + (1 if b else 2)
+
+qc = QuantumCircuit(f_comp.num_qubits * 2 - 1)
+
+for i in range(3):
+    qc.append(f1.gate(), [0] + list(range(1 + i * 2, 5 + i * 2)))
+```
+
+![](/images/2023-qlasskit/decomposed_circuit.png)
+
+While if we compile the whole function to a quantum circuit using *qlasskit*, we obtain the following quantum circuit:
+
+![](/images/2023-qlasskit/optimized_circuit.png)
+
+As we can see from the circuit drawings, *qlasskit* approach needs half the number of qubits and half the number of gates.
+
+
+
+## An use-case: pre-image attack on a cryptographic function
+
+To further illustrate *qlasskit*'s capabilities, we will demonstrate its use in performing a pre-image attack on a cryptographic hash function using Grover's search algorithm, obtaining a quadratic speedup compared to classical approaches. The beauty of *qlasskit* lies in its simplicity – you can write the entire software without needing to understand any concept of quantum computing.
 
 A pre-image attack, in cryptography, targets a hash function `h(m)` with the aim to discover an original message `m` that corresponds to a specific hash value. On a traditional computer, to perform this attack without any hints, we must run `h(m)` with every possible input (`N=2**n`).
 
@@ -30,11 +77,6 @@ def hash_simp(m: Qlist[Qint4, 2]) -> Qint8:
     return hv
 ```
 
-The first things you can notice in this code are:
-
-- the `qlassf` decorators, indicating that the function will be translated to a quantum circuit.
-- special bit-sized types Qlist, Qint4, and Qint8. These are required as qubits are a precious resource, and we want to use as few as possible.
-- and, it is normal Python code.
 
 To see the resulting quantum circuit we can export and draw in qiskit:
 
