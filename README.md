@@ -21,7 +21,7 @@ This will be rendered as:
 To add a blog post, create a new markdown file (`YYYY_your_title.md`) in the `src/content/blog/` directory.
 The following template post can be used to start from scratch, or check out one of the existing blog posts ([markdown example](src/content/blog/2023_members.md), [live render](https://unitary.fund/posts/2023_members/)).
 
-```
+````
 ---
 title: post title
 author: author one and author two
@@ -71,12 +71,12 @@ Once created, use the hash from the gist URL with the syntax below.
 ### with code-blocks
 Another way is to use markdown code-blocks' like the following example:
 
-\```python
+```python
 def hello():
   print('hello world!')
-\```
-
 ```
+
+````
 
 Once your post is ready, open a pull request (PR)!
 
