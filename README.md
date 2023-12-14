@@ -31,7 +31,7 @@ year: 2023
 tags: 
   - python
   - simulator
-  - quantum
+  - qiskit
 ---
 
 # This is a heading style one
