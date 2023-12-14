@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=dB_3R84ewig
 
 ## Including code snippets 
 
-### with gists
+### With gists
 A supported way to include code snippets is by embedding gists.
 Gists are code snippets that you can create on Github.
 Learn how to create one [here](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), and don't forget to ensure it is public!
