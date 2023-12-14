@@ -68,7 +68,7 @@ Once created, use the hash from the gist URL with the syntax below.
 
 ::gist[matt-lourens/6cc14d37209de07abd707804f1b0219e/]
 
-### with code-blocks
+### With code blocks
 Another way is to use markdown code-blocks' like the following example:
 
 ```python
