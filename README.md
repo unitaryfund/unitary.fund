@@ -21,13 +21,17 @@ This will be rendered as:
 To add a blog post, create a new markdown file (`YYYY_your_title.md`) in the `src/content/blog/` directory.
 The following template post can be used to start from scratch, or check out one of the existing blog posts ([markdown example](src/content/blog/2023_members.md), [live render](https://unitary.fund/posts/2023_members/)).
 
-```
+````
 ---
 title: post title
 author: author one and author two
 day: 7
 month: 2
 year: 2023
+tags: 
+  - python
+  - simulator
+  - qiskit
 ---
 
 # This is a heading style one
@@ -54,15 +58,25 @@ https://www.youtube.com/watch?v=dB_3R84ewig
 #### This is a heading in heading style four
 
 
-## Including code snippets with gists
+## Including code snippets 
+
+### With gists
 A supported way to include code snippets is by embedding gists.
 Gists are code snippets that you can create on Github.
 Learn how to create one [here](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), and don't forget to ensure it is public!
 Once created, use the hash from the gist URL with the syntax below.
 
-
 ::gist[matt-lourens/6cc14d37209de07abd707804f1b0219e/]
+
+### With code blocks
+Another way is to use markdown code-blocks' like the following example:
+
+```python
+def hello():
+  print('hello world!')
 ```
+
+````
 
 Once your post is ready, open a pull request (PR)!
 
