@@ -8,7 +8,7 @@ year: 2024
 
 # Looking back at unitaryCON
 
-::image[d394zg4utwqxynenamqf]
+![group photo](/images/UnitaryCON.png)
 
 Last November in Rome, Italy we wrapped up our first [unitaryCON](https://unitary.fund/community/unitaryCON/), an invitation-only collaborative workshop for the extended Unitary Fund community. The workshop was an opportunity to share ongoing projects, connect with collaborators and supporters, and work with our community to advance the quantum open-source software ecosystem with the leading contributors from around the world. A huge thank you to our core member [Scientifica Venture Capital](https://scientifica.vc/#/home), whose collaboration and support made unitaryCON possible. 
 
@@ -28,4 +28,4 @@ On a scale of 1-10, participants gave unitaryCON an average rating of 9.3, findi
 
 We can’t wait to see everyone again at the next unitaryCON! If you want to get involved or support our future events, please email info@unitary.fund. 
 
-::image[ygik6bopesrnh39z7nbm]
+![group of people mingling and chatting](/images/uconphoto.png)
