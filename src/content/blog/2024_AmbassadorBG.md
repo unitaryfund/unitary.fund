@@ -6,9 +6,9 @@ month: 1
 year: 2024
 ---
 
-# Unitary Fund Announces Brian Goldsmith as Newest Ambassador
+**We're excited to host in this interview Brian Goldsmith, who is awarded a UF Ambassadorship for his active role in the Unitary Fund community.**
 
-<img src="/images/bdg_cropped.jpg" alt="Photo of Brian Goldsmith" width="300">
+<img src="/images/bdg_cropped.jpg" alt="Photo of Brian Goldsmith" width="500">
 
 ## Meet Brian
 
