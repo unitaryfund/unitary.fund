@@ -22,7 +22,7 @@ Brian: After 14 years as a software support engineer at IBM, I went back to scho
 
 _Q: What's the first thing you did within the Unitary Fund community? What's the thing you're most proud of that you've been involved in?_
 
-Brian: After lurking for some time, I opened and worked on a PR related to installing Mitiq with z-shell. Since the PR consisted of adding quotes to a single line of documentation, it was a gentle introduction to contributing. I am quite proud of recent work done simplifying the expectation_estimation_shadow function. Though there were some complications, I enjoyed the challenge and appreciated the assistance and guidance from the team (including Andrea, Min, and Nate.)
+Brian: After lurking for some time, I opened and worked on a pull request (PR) related to installing Mitiq with z-shell. Since the PR consisted of adding quotes to a single line of documentation, it was a gentle introduction to contributing. I am quite proud of recent work done simplifying the [`expectation_estimation_shadow`](https://mitiq.readthedocs.io/en/stable/apidoc.html#mitiq.shadows.classical_postprocessing.expectation_estimation_shadow) function in the [*classical shadows*](https://mitiq.readthedocs.io/en/stable/guide/shadows.html) protocol in Mitiq. The protocol is based on the idea of shadow tomography, which is a technique for reconstructing a quantum state from a small number of measurements. Though there were some complications, I enjoyed the challenge and appreciated the assistance and guidance from the team (including Andrea, Min, and Nate.)
 
 _Q: What do you like most about Unitary Fund? What suggestions do you have for folks to get involved?_
 
