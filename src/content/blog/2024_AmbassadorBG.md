@@ -1,6 +1,6 @@
 ---
 title: Unitary Fund Announces Brian Goldsmith as Newest Ambassador
-author: Kallie Ferguson
+author: Kallie Ferguson and Brian Goldsmith
 day: 22
 month: 1
 year: 2024
