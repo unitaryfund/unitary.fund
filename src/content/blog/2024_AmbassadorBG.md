@@ -18,7 +18,7 @@ Brian: During a series of workshops put on by Zapata Computing, error mitigation
 
 _Q: Tell the community a bit about yourself. For example, how you got into quantum and your current interests._
 
-Brian: After 14 years as a software support engineer at IBM, I went back to school to get a Master's in Computer Science from Vanderbilt University. During my studies, I took an Introduction to Quantum Computing which sparked my interest in the field. I have enjoyed each aspect of quantum computing that I have been exposed to including error mitigation, simulation, and resource estimation. Outside of quantum computing, I am married to a high school science teacher and we have two boys and a dog.
+Brian: After 14 years as a software support engineer at IBM, I went back to school to get a Master's in Computer Science from Vanderbilt University. During my studies, I took an Introduction to Quantum Computing course which sparked my interest in the field. I have enjoyed each aspect of quantum computing that I have been exposed to including error mitigation, simulation, and resource estimation. Outside of quantum computing, I am married to a high school science teacher and we have two boys and a dog.
 
 _Q: What's the first thing you did within the Unitary Fund community? What's the thing you're most proud of that you've been involved in?_
 
