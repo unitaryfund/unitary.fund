@@ -14,7 +14,7 @@ year: 2024
 
 _Q: How did you learn about Unitary Fund?_
 
-Brian: During a series of workshops put on by Zapata Computing, error mitigation was explored in which we used Mitiq for ZNE. Later when looking to engage in an open source project, I looked closer into Mitiq and found the Unitary Fund.
+Brian: During a series of workshops put on by Zapata Computing, error mitigation was explored in which we used [Mitiq](https://mitiq.readthedocs.io/en/stable/index.html) for zero-noise extrapolation (ZNE). Later when looking to engage in an open source project, I looked closer into Mitiq and found the Unitary Fund.
 
 _Q: Tell the community a bit about yourself. For example, how you got into quantum and your current interests._
 
