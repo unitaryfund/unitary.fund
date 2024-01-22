@@ -26,7 +26,7 @@ Brian: After lurking for some time, I opened and worked on a pull request (PR) r
 
 _Q: What do you like most about Unitary Fund? What suggestions do you have for folks to get involved?_
 
-Brian: While the work by the Unitary Fund is fantastic, it is the people and community that make it unique. From Nate, Misty, and Dan hanging out and talking with me at QCE23, to Andrea reviewing PRs and providing valuable suggestions, to Farrokh taking time to go over his Wednesday talk in more detail, to Nathan asking my opinion on the community calls, it is the people of Unitary Fund that make it special.
+Brian: While the work by the Unitary Fund is fantastic, it is the people and community that make it unique. From Nate, Misty, and Dan hanging out and talking with me at QCE23, to Andrea reviewing PRs and providing valuable suggestions, to Farrokh taking time to go over his [Wednesday talk](https://github.com/unitaryfund/quantum-wednesday) in more detail, to Nathan asking my opinion on the community calls, it is the people of Unitary Fund that make it special.
 
 ## About the Ambassadors Program
 
