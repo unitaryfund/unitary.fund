@@ -8,7 +8,7 @@ year: 2024
 
 # Unitary Fund Announces Brian Goldsmith as Newest Ambassador
 
-![Photo of Brian Goldsmith](/images/bdg_cropped.jpg)
+<img src="/images/bdg_cropped.jpg" alt="Photo of Brian Goldsmith" width="300">
 
 ## Meet Brian
 
