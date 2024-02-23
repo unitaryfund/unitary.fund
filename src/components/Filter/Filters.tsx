@@ -1,5 +1,5 @@
 import { useStore } from '@nanostores/react';
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { FilterContext } from '~/components/Filter/FilterContextProvider';
 import { FilterRenderer } from '~/components/Filter/Renderer/FilterRenderer';
 import { Button } from '~/components/Ui/Form/Button';
@@ -8,6 +8,11 @@ import { cn } from '~/util/cn';
 import { FilterMode, filterMap, filterModeAtom } from '~/util/store';
 
 export function Filters() {
+  // Values come from /src/styles/base/_variables.scss and are used to prevent a top-gap in the filter
+  // when scrolling on mobile
+  const logoHeightMobilePx = 57 // from /src/styles/base/_variables.scss
+  const scrollThreshold = Math.ceil(logoHeightMobilePx * 0.64);
+
   const filterContext = useContext(FilterContext);
 
   if (!filterContext) {
@@ -17,6 +22,7 @@ export function Filters() {
   const { filterKeys } = filterContext;
 
   const filterMode = useStore(filterModeAtom);
+  const [fixToTop, setFixToTop] = useState(false);
 
   const handleClearClick = () => {
     filterMap.set({});
@@ -30,9 +36,24 @@ export function Filters() {
     }
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollDistance = window.scrollY || document.documentElement.scrollTop;
+      setFixToTop(scrollDistance >= scrollThreshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
+  const getCorrectFilterClassForMobile = () => {
+    return fixToTop ?
+        "md:hidden flex flex-col fixed top-0 w-full left-0 z-30" :
+        "md:hidden flex flex-col fixed top-[--navigation-trigger-height-mobile] w-full left-0 z-30"
+  }
+
   return (
     <>
-      <div className="md:hidden flex flex-col fixed top-[--navigation-trigger-height-mobile] w-full left-0 z-30">
+      <div className={getCorrectFilterClassForMobile()}>
         <div className="flex border-b border-b-black">
           <Button
             variant="base"
