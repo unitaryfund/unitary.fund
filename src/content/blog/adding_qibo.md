@@ -69,19 +69,16 @@ as scale factors 1, 2 and 3 and using RichardsonFactory. For each scaling factor
 
 ```python
 from mitiq import zne
-from mitiq.zne.inference import RichardsonFactory
 
 unmitigated = executor(c) 
 print(f"Unmitigated result {unmitigated:.3f}")
-scale_factors = [1.0,2.0,3.0]
-factory = RichardsonFactory(scale_factors=scale_factors) #default ZNE configuration
-mitigated = zne.execute_with_zne(c, executor, factory = factory, num_to_average = 3)
+mitigated = zne.execute_with_zne(c, executor)
 print(f"Mitigated result {mitigated:.3f}")
 ```
 Output: 
 ```
-Unmitigated result 0.757
-Mitigated result 0.997
+Unmitigated result 0.788
+Mitigated result 0.967
 ```
 The mitigated result is noticeably closer to the noiseless result compared to the result without mitigation.
 
