@@ -64,8 +64,7 @@ def executor(circuit, shots = 1000):
 
 ### Applying Zero Noise Extrapolation
 
-We can now test the mitigated version of the circuit against the unmitigated one to ensure it is working as expected. We apply ZNE using 
-as scale factors 1, 2 and 3 and using RichardsonFactory. For each scaling factor we average over three circuits. 
+We can now test the mitigated version of the circuit against the unmitigated one to ensure it is working as expected. 
 
 ```python
 from mitiq import zne
