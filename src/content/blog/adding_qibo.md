@@ -78,12 +78,12 @@ factory = RichardsonFactory(scale_factors=scale_factors) #default ZNE configurat
 mitigated = zne.execute_with_zne(c, executor, factory = factory, num_to_average = 3)
 print(f"Mitigated result {mitigated:.3f}")
 ```
-The mitigated result is closer to the noiseless result, wich is one. 
-In addition, we can show the interpolation performed: 
-```python
-import matplotlib.pyplot as plt
-factory.plot_fit()
-plt.show()
+Output: 
 ```
+Unmitigated result 0.757
+Mitigated result 0.997
+```
+The mitigated result is noticeably closer to the noiseless result compared to the result without mitigation.
+
 
 [^1]: S. Efthymiou, S. Ramos-Calderer, C. Bravo-Prieto, A. Pérez-Salinas, D. Garcı́a-Martı́n, A. Garcia-Saez, J. I. Latorre, S. Carrazza, Qibo: a framework for quantum simulation with hardware acceleration, Quantum Science and Technology 7 (1) (2021) 015018. doi:10.1088/2058-9565/ac39f5, [arXiv:2009.01845](https://arxiv.org/abs/2009.01845).
