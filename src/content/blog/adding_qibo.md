@@ -24,7 +24,7 @@ Additionally, Qibo is a fully collaborative and open-source project, as anyone c
 
 For simplicity, we will use a single-qubit circuit with ten Pauli $X$ gates that compiles to the identity, defined below.
 
-```{code-cell} ipython3
+```python 
 from qibo import Circuit,gates
 
 c = Circuit(1) 
@@ -39,7 +39,7 @@ In this example, we will use the probability of obtaining the $|0\rangle$ state 
 
 We define the executor function in the following code block. In the executor, we create a noise map and apply it to the circuit. Finally we simulate the noisy circuit and obtain the desired observable as output of the executor function. For more detailed information about the noise map features see [Qibo noisy simulation](<https://qibo.science/qibo/stable/code-examples/advancedexamples.html#adding-noise-after-every-gate>).  
 
-```{code-cell} ipython3
+```python
 def executor(circuit, shots = 1000):
     """Returns the expectation value to be mitigated. 
     In this case the expectation value is the probability to get the |0> state. 
@@ -68,7 +68,7 @@ def executor(circuit, shots = 1000):
 We can now test the mitigated version of the circuit against the unmitigated one to ensure it is working as expected. We apply ZNE using 
 as scale factors 1, 2 and 3 and using RichardsonFactory. For each scaling factor we average over three circuits. 
 
-```{code-cell} ipython3
+```python
 from mitiq import zne
 from mitiq.zne.inference import RichardsonFactory
 
@@ -81,7 +81,7 @@ print(f"Mitigated result {mitigated:.3f}")
 ```
 The mitigated result is closer to the noiseless result, wich is one. 
 In addition, we can show the interpolation performed: 
-```{code-cell} ipython3
+```python
 import matplotlib.pyplot as plt
 factory.plot_fit()
 plt.show()
