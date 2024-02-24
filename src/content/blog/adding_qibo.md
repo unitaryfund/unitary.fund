@@ -1,84 +1,90 @@
 ---
-title: Timeline Debugger for the Qiskit Transpiler
-author: Harshit Gupta
-day: 20
-month: 9
-year: 2023
+title: Adding Qibo as a new supported frontend for Mitiq
+author: Francesc Sabater
+day: 24
+month: 2
+year: 2024
 ---
 
-Qiskit transpiler is an important tool used to map any arbitrary quantum circuit into a physically runnable one, compatible with the properties of its target quantum backend. This process, called transpilation, includes expanding a circuit to the backend's qubit count, breaking down higher level quantum operations in terms of the supported basis set, and routing qubits according to the chip connectivity and optimization of the final circuit. While Qiskit's transpiler has built-in logging and callback mechanisms to help users understand about transpilation, most users don’t know about these methods, nor have sufficient knowledge about using them. This is where the project comes with an aim to provide an **insight into the qiskit transpiler**.
+In the latest Mitiq release [v0.34.0](https://github.com/unitaryfund/mitiq/discussions/2194), support for [Qibo](https://qibo.science/) has been announced as a newly integrated frontend. This addition expands Mitiq's list of supported frontends, formerly consisting of Cirq, Qiskit, pyQuil, Bracket, and PennyLane, to now include Qibo.
 
+## Qibo, the newest frontend supported by Mitiq
+Qibo is an end-to-end open source platform for quantum simulation, self-hosted quantum hardware control, calibration and characterization. 
+Some of the key features of Qibo, as higlighted in its [GitHub](https://github.com/qiboteam/qibo) page, include:
+- Definition of a standard language for the construction and execution of quantum circuits with device agnostic approach to simulation and quantum hardware control based on plug and play backend drivers.
+- A continuously growing code-base of quantum algorithms applications presented with examples and tutorials.
+- Efficient simulation backends with GPU, multi-GPU and CPU with multi-threading support.
+- Simple mechanism for the implementation of new simulation and hardware backend drivers.
 
-**Qiskit Trebugger (transpiler-debugger)** is a tool which provides a visual representation of the transpilation process. It was developed as an interactive tool with multiple views catering to the needs of different users. Available as a [python package on PyPI](https://pypi.org/project/qiskit-trebugger/), it can be used as a jupyter widget or  a lightweight CLI tool to understand how a circuit goes through the qiskit transpiler. The following image shows a preview of the CLI view -
+Additionally, Qibo is a fully collaborative and open-source project, as anyone can contribute to its development. Qibo is actively utilized on real quantum computers; for example, it serves as the frontend for the recently deployed quantum computer at the Barcelona Supercomputing Center [BSC-CNS](https://www.bsc.es/). More detailed information regarding the features and performance of Qibo can be found in the Qibo white paper [^1].
 
-![](/images/2023_qiskit_trebugger_cli_full.png)
+## A quick tutorial on using Qibo alongside Mitiq 
 
-The debugger is divided into three main components -
+### Setup: Defining a circuit
 
-**1. Overview of the Transpilation Process**
-There are two panels which highlight crucial information about the transpilation process. Some basic information such as the quantum backend, optimization level and version information is specified as the first level of information. The second level contains the total number of passes executed, and a comparison of the different statistics for the original and final circuits.
+For simplicity, we will use a single-qubit circuit with ten Pauli $X$ gates that compiles to the identity, defined below.
 
-**2. Details of the Transpilation Process**
-The transpilation process in qiskit consists of multiple passes. Each of these passes either changes the circuit (Transformation) or the property set (Analysis). Moreover, the circuit properties such as its depth, width, operation count and type of gates change after each pass is executed. Both of the jupyter and CLI views provide a consolidated dashboard for this evolution.
+```{code-cell} ipython3
+from qibo import Circuit,gates
 
-**3. Pass Level Details**
-On a more granular level, users can also see a detailed view of each pass. This consists of the current circuit diagram, property set, logs emitted, documentation and the time of execution for the pass.
-
-The `pip install qiskit-trebugger` command can be used to install the package in your python environment.
-
-### Views
-
-#### - Jupyter
-The debugger was originally built using the [ipywidgets](https://ipywidgets.readthedocs.io/en/stable/) package for the jupyter notebook environment. Whenever our package is used to debug a quantum circuit, an interactive widget is rendered consisting of the transpilation overview and the transpiler pass information. Some special features supported by this view are circuit diffs and property set hierarchy. Using our circuit diff feature, users can see what exactly changed between the circuits of two transpiler passes whereas an expandable property set is provided for users to look at its internals.
-
-**Running the `jupyter` view**
-
-```python
-
-from qiskit.providers.fake_provider import FakeCasablanca
-from qiskit.circuit.random import random_circuit
-from qiskit_trebugger import Debugger
-import warnings
-
-warnings.simplefilter('ignore')
-debugger = Debugger(view_type = "jupyter")
-backend = FakeCasablanca()
-circuit = random_circuit(num_qubits = 4, depth = 5 , seed = 44)
-
-# replace qiskit's transpile call
-debugger.debug(circuit, optimization_level = 2, backend = backend)
+c = Circuit(1) 
+for _ in range(10): 
+    c.add(gates.X(0))
+c.add(gates.M(0))
 ```
 
-#### - CLI
+In this example, we will use the probability of obtaining the $|0\rangle$ state as our observable to mitigate, the expectation value of which should evaluate to one in the noiseless setting.
 
-The command line view for the debugger is a more recent development. Built using the [ncurses](https://docs.python.org/3/howto/curses.html) and [tabulate](https://pypi.org/project/tabulate/) packages, it is a lightweight alternative to the jupyter view. It has minimal overhead for loading and can be used to debug circuits in a terminal environment. The CLI view is also interactive, with action keys for navigation and a status bar. Users can index into the pass list to see the details of each pass and toggle through different views. Most features of the jupyter view are supported in the CLI view as well. Note that this view can only be rendered in the terminal and not in a jupyter notebook.
+### Setup: Defining the executor 
 
-**Running the `cli` view**
+We define the executor function in the following code block. In the executor, we create a noise map and apply it to the circuit. Finally we simulate the noisy circuit and obtain the desired observable as output of the executor function. For more detailed information about the noise map features see [Qibo noisy simulation](<https://qibo.science/qibo/stable/code-examples/advancedexamples.html#adding-noise-after-every-gate>).  
 
-```python
+```{code-cell} ipython3
+def executor(circuit, shots = 1000):
+    """Returns the expectation value to be mitigated. 
+    In this case the expectation value is the probability to get the |0> state. 
 
-from qiskit.providers.fake_provider import FakeCasablanca
-from qiskit.circuit.random import random_circuit
-from qiskit_trebugger import Debugger
-import warnings
-
-warnings.simplefilter('ignore')
-debugger = Debugger(view_type = "cli")
-backend = FakeCasablanca()
-circuit = random_circuit(num_qubits = 4, depth = 5 , seed = 44)
-
-# replace qiskit's transpile call
-debugger.debug(circuit, optimization_level = 2, backend = backend)
+    Args:
+        circuit: Circuit to run.
+        shots: Number of times to execute the circuit to compute the expectation value.
+    """
+    # Apply noisy map (simulate noisy backend)
+    noise_map = {0: list(zip(["X", "Z"], [0.03, 0.03]))}
+    noisy_c = circuit.with_pauli_noise(noise_map)
+    
+    result = noisy_c(nshots=shots)
+    result_freq = result.frequencies(binary=True)
+    counts_0 = result_freq.get("0")
+     
+    if counts_0 is None:
+        expectation_value = 0.
+    else:
+        expectation_value = counts_0 / shots  
+    return expectation_value
 ```
 
-With that said, more information about the internals of the tool can be found in the following links -
+### Applying ZNE
 
-1. [Qiskit Blog Post](https://medium.com/qiskit/qiskit-trebugger-f7242066d368)
-2. [Github Repository](https://github.com/TheGupta2012/qiskit-timeline-debugger/tree/main)
-3. [Python Package](https://pypi.org/project/qiskit-trebugger/)
-4. [Demo Video](https://drive.google.com/file/d/1XXXOYcwehxFYAaAE0PUUfOCR4kEp8auv/view?usp=sharing)
+We can now test the mitigated version of the circuit against the unmitigated one to ensure it is working as expected. We apply ZNE using 
+as scale factors 1, 2 and 3 and using RichardsonFactory. For each scaling factor we average over three circuits. 
 
+```{code-cell} ipython3
+from mitiq import zne
+from mitiq.zne.inference import RichardsonFactory
 
-The development of the project is under way with more upcoming features in both the CLI and the jupyter view. These include enhancing the logs and property set of the transpiler passes in the CLI view and introducing new elements in the widget such as the backend coupling maps, timeline drawer for qiskit pulse schedule and routing maps for the qubits.
+unmitigated = executor(c) 
+print(f"Unmitigated result {unmitigated:.3f}")
+scale_factors = [1.0,2.0,3.0]
+factory = RichardsonFactory(scale_factors=scale_factors) #default ZNE configuration
+mitigated = zne.execute_with_zne(c, executor, factory = factory, num_to_average = 3)
+print(f"Mitigated result {mitigated:.3f}")
+```
+The mitigated result is closer to the noiseless result, wich is one. 
+In addition, we can show the interpolation performed: 
+```{code-cell} ipython3
+import matplotlib.pyplot as plt
+factory.plot_fit()
+plt.show()
+```
 
- A very big thanks goes out to Unitary Fund for supporting this project and giving us the opportunity to work on it. Moreover, we would also like to thank the Qiskit team for their support in the [Qiskit Advocate Mentorship Program](), and our mentors [Kevin Krsulich](https://github.com/kdk) and [Matthew Treinish](https://github.com/mtreinish) for their constant guidance and feedback. 
+[^1]: S. Efthymiou, S. Ramos-Calderer, C. Bravo-Prieto, A. Pérez-Salinas, D. Garcı́a-Martı́n, A. Garcia-Saez, J. I. Latorre, S. Carrazza, Qibo: a framework for quantum simulation with hardware acceleration, Quantum Science and Technology 7 (1) (2021) 015018. doi:10.1088/2058-9565/ac39f5, [arXiv:2009.01845](https://arxiv.org/abs/2009.01845).
