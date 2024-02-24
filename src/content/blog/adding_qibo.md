@@ -20,7 +20,7 @@ Additionally, Qibo is a fully collaborative and open-source project, as anyone c
 
 ## A quick tutorial on using Qibo alongside Mitiq 
 
-### Setup: Defining a circuit
+### Setup: Defining a circuit using Qibo
 
 For simplicity, we will use a single-qubit circuit with ten Pauli $X$ gates that compiles to the identity, defined below.
 
@@ -62,7 +62,7 @@ def executor(circuit, shots = 1000):
     return expectation_value
 ```
 
-### Applying ZNE
+### Applying Zero Noise Extrapolation
 
 We can now test the mitigated version of the circuit against the unmitigated one to ensure it is working as expected. We apply ZNE using 
 as scale factors 1, 2 and 3 and using RichardsonFactory. For each scaling factor we average over three circuits. 
@@ -85,5 +85,7 @@ Mitigated result 0.997
 ```
 The mitigated result is noticeably closer to the noiseless result compared to the result without mitigation.
 
+## About the contribution 
+This contribution to Mitiq is the outcome of my internship at the Barcelona Supercomputing Center, conducted from October 2023 to February 2024, under the guidance of Alba Cervera-Lierta. This intership was part of the [master's program in Quantum Science and Technology](https://quantummasterbarcelona.eu/) based in Barcelona.
 
 [^1]: S. Efthymiou, S. Ramos-Calderer, C. Bravo-Prieto, A. Pérez-Salinas, D. Garcı́a-Martı́n, A. Garcia-Saez, J. I. Latorre, S. Carrazza, Qibo: a framework for quantum simulation with hardware acceleration, Quantum Science and Technology 7 (1) (2021) 015018. doi:10.1088/2058-9565/ac39f5, [arXiv:2009.01845](https://arxiv.org/abs/2009.01845).
