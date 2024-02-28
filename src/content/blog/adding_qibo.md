@@ -18,6 +18,13 @@ Some of the key features of Qibo, as higlighted in its [GitHub](https://github.c
 
 Additionally, Qibo is a fully collaborative and open-source project, as anyone can contribute to its development. Qibo is actively utilized on real quantum computers; for example, it serves as the frontend for the recently deployed quantum computer at the Barcelona Supercomputing Center [BSC-CNS](https://www.bsc.es/). More detailed information regarding the features and performance of Qibo can be found in the Qibo white paper [^1].
 
+## Adding Qibo to Mitiq 
+To carry out the contribution and make it possible for Qibo circuits to be used in Mitiq, I've had to define two main functions:
+- The first one is `from_qibo`, which takes a Qibo-type circuit and converts it into a Cirq-type circuit, the type of circuit internally used by Mitiq. Converting from a Qibo circuit to a Cirq one is, in principle, quite straightforward by first converting the Qibo-type circuit to QASM, and from QASM defining the Cirq-type circuit. However, there are gates known by both Qibo and QASM that are not defined in Cirq. To deal with these gates, I've had to define an auxiliary function for each of them, where these problematic gates are decomposed into gates that are defined in Cirq. An example of this type of gate is the CRX gate.
+- The other main function I've had to define is `to_qibo`. This function performs the opposite action of the previous one, converting a Cirq-type circuit into a Qibo-type circuit.
+
+Contributing to Mitiq has truly been a rewarding journey. It has provided me with a profound understanding of the processes involved in quantum computing development and open-source contribution. I would encorage anyone who has an idea that might improve Mitiq to try and contribute. Before any contribution is made, rigorous testing ensures that every aspect functions seamlessly, so there is no reason to be afraid of messing up. Encountering failures during these tests is not uncommon; in my case some tests  failed not only on the first try but also on subsequent attempts. However, these failing tests served as a great opportunity to learn new coding techinques and work alongside the Mitiq team to resolve them. The unwavering support and guidance from the Mitiq team has been instrumental in navigating through these challenges, ensuring that the contribution succedeed. 
+
 ## A quick tutorial on using Qibo alongside Mitiq 
 
 ### Setup: Defining a circuit using Qibo
