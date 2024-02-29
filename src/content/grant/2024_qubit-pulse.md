@@ -1,5 +1,5 @@
 ---
-name: Qubit_Pulse: An educational qubit pulse engineering game
+name: Qubit-Pulse: An educational qubit pulse engineering game
 year: 2024
 month: 2
 day: 26
