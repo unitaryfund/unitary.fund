@@ -29,7 +29,7 @@ Contributing to Mitiq has truly been a rewarding journey. It has provided me wit
 
 ### Setup: Defining a circuit using Qibo
 
-For simplicity, we will use a single-qubit circuit with ten Pauli $X$ gates that compiles to the identity, defined below.
+For simplicity, we will use a single-qubit circuit with ten Pauli _X_ gates that compiles to the identity, defined below.
 
 ```python 
 from qibo import Circuit,gates
