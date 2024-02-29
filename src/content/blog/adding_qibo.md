@@ -1,7 +1,7 @@
 ---
 title: Adding Qibo as a new supported frontend for Mitiq
 author: Francesc Sabater
-day: 24
+day: 29
 month: 2
 year: 2024
 ---
