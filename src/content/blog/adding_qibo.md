@@ -40,7 +40,7 @@ for _ in range(10):
 c.add(gates.M(0))
 ```
 
-In this example, we will use the probability of obtaining the $|0\rangle$ state as our observable to mitigate, the expectation value of which should evaluate to one in the noiseless setting.
+In this example, we will use the probability of obtaining the |0⟩ state as our observable to mitigate, the expectation value of which should evaluate to one in the noiseless setting.
 
 ### Setup: Defining the executor 
 
