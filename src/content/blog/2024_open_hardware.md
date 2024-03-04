@@ -17,6 +17,9 @@ The phases for opening hardware in quantum technology projects can be split as: 
 For all these phases and steps, there exist already several projects and frameworks. As software tools are ubiquitious, e.g., in the modern design phase of processors, instead of simple blueprints, "open hardware" often involves software packages and frameworks developed to standardize, automate and process specific actions.  
 Notable examples of software tools for design include pyEPR, KQCircuits and [Qiskit Metal](https://qiskit-community.github.io/qiskit-metal/). For control and data acquisition from quantum processing units, projects such as [ARTIQ](https://github.com/m-labs/artiq), [QICK](https://github.com/openquantumhardware/qick) and [QubiC](https://ieeexplore.ieee.org/document/9552516) leverage FPGAs and pulse-level radio-frequency signals for faster operation.
 
+![Photomask layout and chip design with KQCircuits for superconducting circuit-based processors.](/images/2024_open_hardware_kqcircuits.png)
+
+
 As detailed in the [review article](https://pubs.aip.org/aip/apq/article/1/1/011501/3267254/Open-hardware-solutions-in-quantum-technology), the number of projects and open hardware solutions varies broadly depending on the qubit architecture: The most represented one is superconducting circuits.
 
 ## Ecosystem growth
