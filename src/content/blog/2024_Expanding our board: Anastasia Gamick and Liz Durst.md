@@ -24,4 +24,6 @@ We are glad to have their leadership and guidance as part of the Unitary Fund co
 
 Liz and Anastasia join Unitary Fund's existing board members: Christophe Jurczak, Travis Scholten and Nathan Shammah, to whom I am so grateful for their ongoing work and advocacy.  
 
-![Liz Durst](/images/Liz Durst - Profile Photo.png)
+| Liz Durst | Anastasia Gamick |
+|-----------|-----------------|
+| ![Liz Durst](/images/LizDurst.png) | ![Anastasia Gamick](/images/AnastasiaGamick.png) |
