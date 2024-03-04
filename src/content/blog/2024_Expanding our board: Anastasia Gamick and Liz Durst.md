@@ -23,5 +23,3 @@ Liz built and ran the IBM Quantum and Qiskit ecosystem to the huge open communit
 We are glad to have their leadership and guidance as part of the Unitary Fund community as we continue to build a greater platform in open quantum technology. 
 
 Liz and Anastasia join Unitary Fund's existing board members: Christophe Jurczak, Travis Scholten and Nathan Shammah, to whom I am so grateful for their ongoing work and advocacy.  
-
-![Anastasia Gamick & Liz Durst](/images/Anastasia_Liz.png)
