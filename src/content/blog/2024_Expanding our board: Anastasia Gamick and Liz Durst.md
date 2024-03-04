@@ -17,3 +17,9 @@ Anastasia is Co-founder and Chief Operating Officer at Convergent Research, wher
 Liz built and ran the IBM Quantum and Qiskit ecosystem to the huge open community success that they are today. That community and approach has had the kind of beneficial impact on quantum technology that we strive for at Unitary Fund. She has been a partner of our work at Unitary Fund for several years now and is a global leader in the open quantum ecosystem. We’re excited to learn from her and to have her support as we take our community and ecosystem to the next level.
 
 “I’m excited to continue supporting the Unitary Fund in building the open quantum technology ecosystem. The next several years will be critical for driving better benchmarking transparency, stability, and performance standards as we learn from our diverse global community of quantum computing users.” - Liz Durst
+
+We are glad to have their leadership and guidance as part of the Unitary Fund community as we continue to build a greater platform in open quantum technology. 
+
+Liz and Anastasia join Unitary Fund's existing board members: Christophe Jurczak, Travis Scholten and Nathan Shammah, to whom I am so grateful for their ongoing work and advocacy.  
+
+![Anastasia Gamick & Liz Durst](/images/Anastasia_Liz.png)
