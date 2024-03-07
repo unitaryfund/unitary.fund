@@ -64,7 +64,7 @@ def executor(circuit, shots = 1000):
     
     result = noisy_c(nshots=shots)
     result_freq = result.frequencies(binary=True)
-    counts_0 = result_freq.get(0)
+    counts_0 = result_freq.get('0')
     if counts_0 is None:
         expectation_value = 0.
     else:
