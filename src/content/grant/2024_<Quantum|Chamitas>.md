@@ -3,7 +3,7 @@ name: <Quantum|Chamitas>
 year: 2024
 month: 1
 day: 24
-country: FR
+country: FR, VE
 tags:
   - quantum education
   - physics
