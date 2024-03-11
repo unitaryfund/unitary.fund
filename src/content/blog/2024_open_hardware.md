@@ -18,7 +18,7 @@ For all these phases and steps, there exist already several projects and framewo
 Notable examples of software tools for design include pyEPR, KQCircuits and [Qiskit Metal](https://qiskit-community.github.io/qiskit-metal/). For control and data acquisition from quantum processing units, projects such as [ARTIQ](https://github.com/m-labs/artiq), [QICK](https://github.com/openquantumhardware/qick) and [QubiC](https://ieeexplore.ieee.org/document/9552516) leverage FPGAs and pulse-level radio-frequency signals for faster operation.
 
 ![Photomask layout and chip design with KQCircuits for superconducting circuit-based processors.](/images/2024_open_hardware_kqcircuits.png)
-
+**Photomask layout and chip design with KQCircuits for superconducting circuit-based processors.**
 
 As detailed in the [review article](https://pubs.aip.org/aip/apq/article/1/1/011501/3267254/Open-hardware-solutions-in-quantum-technology), the number of projects and open hardware solutions varies broadly depending on the qubit architecture: The most represented one is superconducting circuits.
 
