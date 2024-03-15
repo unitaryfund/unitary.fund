@@ -89,7 +89,7 @@ Output:
 Unmitigated result 0.788
 Mitigated result 0.967
 ```
-The mitigated result is noticeably closer to the noiseless result compared to the result without mitigation.
+The mitigated result is noticeably closer to the noiseless result compared to the result without mitigation. You can find a [tutorial](https://mitiq.readthedocs.io/en/latest/examples/qibo-noisy-simulation.html) in the Mitiq documentation.
 
 ## About the contribution 
 This contribution to Mitiq is the outcome of my internship at the Barcelona Supercomputing Center, conducted from October 2023 to February 2024, under the guidance of Alba Cervera-Lierta. This intership was part of the [master's program in Quantum Science and Technology](https://quantummasterbarcelona.eu/) based in Barcelona.
