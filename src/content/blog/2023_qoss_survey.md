@@ -1,5 +1,5 @@
 ---
-title: The 2023 QOSS Survey is here!
+title: The 2023 QOSS Survey is here! 
 author: Unitary Fund Team
 day: 27
 month: 9
@@ -7,6 +7,8 @@ year: 2023
 ---
 
 The ***2023 Quantum Open Source Software (QOSS) Survey*** is here! 
+
+**[Update: Survey is now closed]**
 
 This annual survey is a ***state of the community & industry snapshot***, from the bottom up. It is a chance for anyone who codes, or wants to code, for and with quantum technologies, to share their voice in the development of our field. The survey covers information on demographics, experience, community, research, tech stacks and more.
 
