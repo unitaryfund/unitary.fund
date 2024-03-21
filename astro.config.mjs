@@ -6,6 +6,8 @@ import { defineConfig } from 'astro/config';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 import remarkOembed from 'remark-oembed';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import {
   imageDirective,
   gistDirective,
@@ -49,10 +51,12 @@ export default defineConfig({
         },
       ],
       remarkDirective,
+      remarkMath,
       imageDirective,
       gistDirective,
       socialDirective,
     ],
+    rehypePlugins: [rehypeKatex],
   },
   vite: {
     plugins: [svgr()],
