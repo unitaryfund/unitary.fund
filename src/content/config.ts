@@ -179,5 +179,5 @@ export const collections = {
   supporter: supporterCollection,
   advisor: advisorCollection,
   team: teamCollection,
-  director: directorCollection,
+  director: directorCollection
 };

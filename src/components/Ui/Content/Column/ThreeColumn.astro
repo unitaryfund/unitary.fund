@@ -9,9 +9,9 @@ const { className, columnGap = 'small' } = Astro.props;
 
 <div
   class:list={[
-    'flex justify-between flex-wrap direct-child:w-full direct-child:flex-grow gap-y-5',
-    columnGap === 'small' && 'gap-x-3 md:direct-child:w-[calc(30%-theme(spacing.3))]',
-    columnGap === 'medium' && 'gap-x-14 md:direct-child:w-[calc(30%-theme(spacing.7))]',
+    'flex justify-between flex-wrap direct-child:flex-grow gap-y-5',
+    columnGap === 'small' && 'gap-x-3 md:direct-child:w-[calc(33%-theme(spacing.3))]',
+    columnGap === 'medium' && 'gap-x-14 md:direct-child:w-[calc(33%-theme(spacing.7))]',
     className,
   ]}>
   <slot />
