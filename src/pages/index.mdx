@@ -14,9 +14,11 @@ import {
   HomeSection,
   Column,
   TwoColumn,
+  ThreeColumn,
   SupportersList,
   AdvisorsList,
   TeamList,
+  DirectorsList,
   Quote,
   BlogSlider,
   ButtonLink,
@@ -121,12 +123,15 @@ import {
 </HomeSection>
 
 <HomeSection topSpacing="none" bottomSpacing="large">
-  <TwoColumn>
+  <ThreeColumn>
     <Column title="Advisors" isCollapsible={true}>
       <AdvisorsList columns={2} />
     </Column>
     <Column title="Unitary Fund Team" isCollapsible={true}>
       <TeamList />
     </Column>
-  </TwoColumn>
+    <Column title="Board of Directors" isCollapsible={true}>
+      <DirectorsList />
+    </Column>
+  </ThreeColumn>
 </HomeSection>
