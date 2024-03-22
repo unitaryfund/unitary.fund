@@ -14,6 +14,7 @@ import {
   HomeSection,
   Column,
   TwoColumn,
+  ThreeColumn,
   SupportersList,
   AdvisorsList,
   TeamList,
@@ -122,7 +123,7 @@ import {
 </HomeSection>
 
 <HomeSection topSpacing="none" bottomSpacing="large">
-  <TwoColumn>
+  <ThreeColumn>
     <Column title="Advisors" isCollapsible={true}>
       <AdvisorsList columns={2} />
     </Column>
@@ -130,6 +131,7 @@ import {
       <TeamList />
     </Column>
     <Column title="Board of Directors" isCollapsible={true}>
+      <DirectorsList columns={1} />
     </Column>
-  </TwoColumn>
+  </ThreeColumn>
 </HomeSection>
