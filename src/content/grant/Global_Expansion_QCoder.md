@@ -8,4 +8,4 @@ tags:
   - Games
   - Quantum Education
 ---
-To **[Kein Yukiyoshi](https://www.linkedin.com/in/kein-yukiyoshi/), [Adam Siegel](https://www.linkedin.com/in/adam-siegel-89a795171/)** and **[Tyson Jones](https://www.linkedin.com/in/tysonrayjones/)** to further develop **[Global Expansion of QCoder](https://github.com/mit-han-lab/torchquantum)**, a quantum programming contest platform.
+To **[Kein Yukiyoshi](https://www.linkedin.com/in/kein-yukiyoshi/), [Adam Siegel](https://www.linkedin.com/in/adam-siegel-89a795171/)** and **[Tyson Jones](https://www.linkedin.com/in/tysonrayjones/)** to further develop **[Global Expansion of QCoder](https://www.qcoder.jp/)**, a quantum programming contest platform.
