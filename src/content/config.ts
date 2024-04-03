@@ -152,6 +152,24 @@ const teamCollection = defineCollection({
   schema: teamSchema,
 });
 
+/**
+ * Directors
+ */
+
+export const directorSchema = z.object({
+  directors: z.array(
+    z.object({
+      title: z.string(),
+      url: z.string().url().optional(),
+    })
+  ),
+});
+
+const directorCollection = defineCollection({
+  type: 'data',
+  schema: directorSchema,
+});
+
 export const collections = {
   navigation: navigationCollection,
   blog: blogCollection,
@@ -161,4 +179,5 @@ export const collections = {
   supporter: supporterCollection,
   advisor: advisorCollection,
   team: teamCollection,
+  director: directorCollection
 };
