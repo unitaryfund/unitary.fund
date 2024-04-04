@@ -12,6 +12,10 @@ tags:
 - converter
 ---
 
+<p align="center">
+    <img src='../images/2023_qiskit_qulacs/qiskit_qulacs_logo_extended.png' alt='Qiskit-Qulacs Logo' width=800/>
+</p>
+
 
 [Qiskit](https://github.com/Qiskit/qiskit) is a popular choice among developers and researchers working in the field of quantum computing. It offers a wide range of functionalities and has useful extensions for algorithms, chemistry etc. On the other hand, [Qulacs](https://github.com/qulacs/qulacs) is known for its efficient quantum circuit simulation. Qiskit-Qulacs aims to act as a bridge between these two libraries. In this article, we'll explore how the Qiskit-Qulacs offers users the best of both worlds.
 
