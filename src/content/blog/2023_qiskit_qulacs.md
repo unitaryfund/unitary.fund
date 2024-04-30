@@ -13,7 +13,7 @@ tags:
 ---
 
 <p align="center">
-    <img src='../images/2023_qiskit_qulacs/qiskit_qulacs_logo_extended.png' alt='Qiskit-Qulacs Logo' width=800/>
+    <img src='../../images/2023_qiskit_qulacs/qiskit_qulacs_logo_extended.png' alt='Qiskit-Qulacs Logo' width=800/>
 </p>
 
 
@@ -49,7 +49,7 @@ plt.show()
 ```
 
 <p align="center">
-    <img src='../images/2023_qiskit_qulacs/ghz_state.png' alt='Histogram of 3 qubit GHZ state' width=500/>
+     <img src='../../images/2023_qiskit_qulacs/ghz_state.png' alt='Histogram of 3 qubit GHZ state' width=500/>
 </p>
 
 
@@ -111,7 +111,7 @@ plt.show()
 ```
 
 <p align="center">
-    <img src='../images/2023_qiskit_qulacs/qulacs_sampler_histogram.png' alt='Qulacs Sampler Histogram' width=500/>
+     <img src='../../images/2023_qiskit_qulacs/qulacs_sampler_histogram.png' alt='Qulacs Sampler Histogram' width=500/>
 </p>
 
 
@@ -130,7 +130,7 @@ plt.show()
 ```
 
 <p align="center">
-    <img src='../images/2023_qiskit_qulacs/qulacs_vis.png' alt='Qulacs circuit visualization' width=800/>
+     <img src='../../images/2023_qiskit_qulacs/qulacs_vis.png' alt='Qulacs circuit visualization' width=800/>
 </p>
 
 
