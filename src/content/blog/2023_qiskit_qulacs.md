@@ -13,7 +13,7 @@ tags:
 ---
 
 <p align="center">
-    <img src='../images/2023_qiskit_qulacs/qiskit_qulacs_logo_extended.png' alt='Qiskit-Qulacs Logo' width=800/>
+    ![Qiskit-Qulacs Logo](../../images/qiskit_qulacs_logo_extended.png)
 </p>
 
 
