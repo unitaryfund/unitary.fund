@@ -1,5 +1,5 @@
 ---
-title: An Introdction to GA-QAS
+title: An Introduction to GA-QAS
 author: Vu Tuan Hai
 day: 21
 month: 5
@@ -109,7 +109,7 @@ env_metadata = EEnvironmentMetadata(
         prob_mutate # Mutation probability, usually as small as 0.01 (1%)
 )
 ```
-Then, you need to create an `Environment `object, the important parameter is `fitness_func`, which is the function name that we declared above:
+Then, you need to create an `Environment` object, the important parameter is `fitness_func`, which is the function name that we declared above:
 
 ```
 from qoop.evolution.environment import EEnvironment
@@ -118,7 +118,7 @@ env = EEnvironment(
      fitness_func = fitnessW,
 )
 ```
-The object EEnvironment has other parameters such as `selection_func`, `crossover_func`, `mutate_func`, `threshold_func` which can be imported from below sub-module:
+The object `EEnvironment` has other parameters such as `selection_func`, `crossover_func`, `mutate_func`, `threshold_func` which can be imported from below sub-module:
 
 ```
 from qoop.evolution import crossover, mutate, selection, threshold
