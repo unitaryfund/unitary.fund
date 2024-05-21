@@ -19,11 +19,13 @@ In various quantum optimization problems, choosing the right ansatz is a critica
 
 <img alt ='' src="/public/images/ga-qas/ga-qas1.png">
 
-_**Fig 1**. (a) State preparation scheme based on quantum compilation technique, where_ $U(\theta)$, $V^{\dagger}$ _are ansatz and state that need to prepare [1][2] (b) Some default ansatz, such as hyper-graph._
+_**Fig 1**. (a) State preparation scheme based on quantum compilation technique, where_ $U(\theta)$, $V^{\dagger}$ _are ansatz and state that need to prepare **[1][2]** (b) Some default ansatz, such as hyper-graph._
 
 In this post, we will use a Python package named $\langle qo|op \rangle$, which is a core package for our various research, including this research. You can download it via:
 
-`!git clone https://github.com/vutuanhai237/qoop.git`
+```
+!git clone https://github.com/vutuanhai237/qoop.git
+```
 
 Note that you should put it on the same level as your Python/Jupyter Notebook file. The best is:
 
@@ -84,13 +86,14 @@ def fitnessW(qc: qiskit.QuantumCircuit):
 
 _**Fig 2**. The general pipeline of GA-QAS_ 
 
-A genetic algorithm (GA) is a heuristic algorithm based on a genetic combination process. GA processes include Selection, Cross-over, and Mutation. We treat ansatz as an individual in the population (where gates are its genes).
+A genetic algorithm (GA) is a heuristic algorithm based on a genetic combination process. GA processes include Fitness evaluation, Selection, Cross-over, and Mutation. We treat ansatz as an individual in the population (where gates are its genes).
 
 |   Process  |                                                     Method                                                    |
 |:----------:|:-------------------------------------------------------------------------------------------------------------:|
-| Population generation | A $n$ ansatz is initialized from a pool gate (Clifford+$R_i$+$CR_i$, $i\in\{x,y,z\}$) with certain provided metadata|
-|  Selection | Get fitness value from the fitness function; simply sort from high to low and take the first half part |
-| Cross-over | Divide 2 ansatz into four parts, then combine each two parts into 2 new ansatz |
+| Population generation | A $n$ ansatz is initialized from a pool gate (Clifford$+R_i+CR_i, i\in\{x,y,z\}$) with certain provided metadata|
+| Fitness evaluation | Evaluate each ansatz by calling `fitness_func(ansatz)`|
+| Selection | Get fitness value from the fitness evaluation; simply sort from high to low and take the first half part |
+| Cross-over | Divide two ansatz $qc_1$ and $qc_2$ into four parts $\{qc_{11}, qc_{12}, qc_{21}, qc_{22}\}$, then combine each two parts into two new ansatz $qc_1^*=qc_{11}\vert qc_{22}$ and $qc_2^{*}=qc_{12}\vert qc_{21}$ |
 | Mutation   | Each gate on ansatz has a small probability of mutating to another gate (with the same number of qubits) in the pool |
 
 _**Tab 1**. Detail of each operation in GA-QAS._
@@ -132,7 +135,7 @@ or defined by yourself.
 | mutate_func | mutate.layerflip_mutate | $f$: qiskit.QuantumCircuit $\rightarrow$ qiskit.QuantumCircuit |
 | threshold_func | threshold.compilation_threshold | $f$: $\mathbb{R} \rightarrow$ {0,1} |
 
-_**Table 2**: Functions for GA-QAS_
+_**Table 2**: Parameter functions for GA-QAS._
 
 # Step 3. Run GA-QAS
 
