@@ -15,7 +15,7 @@ For more information, read our hacker guide and check out what happened in [unit
 
 Make sure you [register](https://unitaryhack.dev/register/) to be eligible to claim your bounties!
 
-Ready to get hacking? Check out all of our [live bounties](https://unitaryhack.dev/bounties/) from all of the projects! 
+**Ready to get hacking? Check out all of our [live bounties](https://unitaryhack.dev/bounties/)!**
 
 ## Thank you to our supporters and maintainers who make this event possible!  
 
