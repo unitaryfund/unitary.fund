@@ -1,12 +1,12 @@
 ---
-title: "unitaryHACK 2024: The Unitary Fund hackathon supporting quantum open source projects is happening now!"
+title: "unitaryHACK 2024 is Live: Contribute to Quantum Open-Source!"
 author: Unitary Fund Team
 day: 30
 month: 5
 year: 2024
 ---
 
-[unitaryHACK](https://unitaryhack.dev/) is a virtual event encouraging people to make contributions to the open source quantum ecosystem. The event will run **May 29-June 12, 2024**, and hackers have the opportunity to win cash bounties! unitaryHACK is unique to many quantum hackathon-style events for two big reasons:
+The Unitary Fund hackathon supporting quantum open source projects is happening now! [unitaryHACK](https://unitaryhack.dev/) is a virtual event encouraging people to make contributions to the open source quantum ecosystem. The event will run **May 29-June 12, 2024**, and hackers have the opportunity to win cash bounties! unitaryHACK is unique to many quantum hackathon-style events for two big reasons:
 
 - Hackers support existing quantum computing projects. 
 - Hackers get paid for their work while building professional skills such as working on open source projects, and contributing to create a more functional, and featured, quantum computing stack.
