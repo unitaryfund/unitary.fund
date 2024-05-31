@@ -22,6 +22,14 @@ Make sure you [register](https://unitaryhack.dev/register/) to be eligible to cl
 
 **Ready to get hacking? Check out all of our [live bounties](https://unitaryhack.dev/bounties/)!**
 
+## Hacking IRL
+This is the first year our amazing global community is hosting in-person meetups at various locations, so if you're somewhere near, you can attend:
+
+- May 31: Aalto University CS in Helsinki, Finland, starting at 18:00 for 24 hours. Pizza available!
+- May 31: Auditorio Raúl J. Marsal, Ciudad Universitaria, UNAM in Mexico City, Mexico, at 16 HRS UTC-6!
+- June 11: University of Washington HUB 145, Seattle, WA, USA, from 9 am to 5 pm, food will be available! 
+
+If you'd like to host an event at your university, drop us a line at hack@unitary.fund, and we'll spread the word! 
 ## Thank you to our supporters and maintainers who make this event possible!  
 
 **Core Members:** [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), [OQD](https://openquantumdesign.org/), and [Scientifica](https://www.scientifica.vc/); 
