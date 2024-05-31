@@ -11,6 +11,11 @@ The Unitary Fund hackathon supporting quantum open source projects is happening 
 - Hackers support existing quantum computing projects. 
 - Hackers get paid for their work while building professional skills such as working on open source projects, and contributing to create a more functional, and featured, quantum computing stack.
 
+unitaryHACK 2024 is the largest edition yet, hosting [**50 amazing open-source projects**](https://unitaryhack.dev/projects/): AI-inspired Classification of Quantum Computers, Amazon Braket Default Simulator, Amazon Braket SDK, AutoQASM, Azure Quantum Development Kit, bloqade-python, BQSKit, Braket.jl, BraketAHS.jl, BraketSimulator.jl, Cirq, Cirq Classiq Library, CUDA-Q, Fusion Blossom, graphix, HierarQcal, Ion(Q) Thruster, KQCircuits, lambeq, Metriq, Mitiq, OpenQAOA, OpenQASM 3 Parser, PennyLane, PennyLane Plugin for Amazon Braket, Perceval, Piccolo.jl, PyClifford, Qadence, qBraid-QIR, qBraid-SDK, Qiskit, Qiskit Aer, Qiskit Provider for Amazon Braket, qlasskit, Qrack, Quantum Machines QUA-to-Qiskit compiler and simulator, Quantum Open Source Foundation (QOSF), Quantum Universal Education, QuantumToolbox.jl, Qublitz, QuTiP Tutorials, rustworkx, scqubits, Tangelo
+TensorCircuit
+toqito
+TorchQuantum
+
 For more information, read our hacker guide and check out what happened in [unitaryHACK 2023](https://unitary.fund/posts/unitaryhack_wrap/) and get connected on our [Discord server](http://discord.unitary.fund)!
 
 Make sure you [register](https://unitaryhack.dev/register/) to be eligible to claim your bounties!
