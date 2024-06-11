@@ -1,7 +1,7 @@
 {
   "supporters": [
     {
-      "title": "Agnosic",
+      "title": "Agnostiq",
       "url": "https://agnostiq.ai/",
       "imageId": "agnostiq_jxnqyt"
     },
@@ -43,6 +43,11 @@
       "title": "qyber",
       "url": "https://www.qyber.ai/",
       "imageId": "qybar_ju4ip6"
+    },
+    {
+      "title": "SandboxAQ",
+      "url": "https://www.sandboxaq.com/",
+      "imageId": "crdrjgdw5jndh7ro2nfa"
     }
   ]
 }
