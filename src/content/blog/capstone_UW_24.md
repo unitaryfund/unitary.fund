@@ -20,8 +20,11 @@ I'm Alexandros Peltekis, a first year Ph.D. student in Chemistry at the Universi
 ## Our Project
 ### The Process
 Week 1-2: Diving into Mitiq and Quantum Computing We started by familiarizing ourselves with Mitiq’s architecture and functionalities. This involved reading documentation, playing around with some of the error mitigations and asking many questions.
+
 Week 3-5: Executors, MetaData, and the GUI These weeks we became accustomed with Mitiq’s executor functions, implemented Mitiq’s ZNE into our pipeline, set up metadata generation, and started GUI integration.
+
 Week 6-8: Testing and Refining With the core components in place, we spent this time implementing other Quantum Error Mitigation methods such as Probabilistic error cancellation (PEC).
+
 Week 9-10: Finalizing and Presentation In the final weeks, we added finishing touches to the pipeline and Gui and prepared for their presentations. We participated in Unitary Fund’s Quantum Wednesday and presented at a couple of our university’s poster sessions.
 
 ### Results
