@@ -8,7 +8,7 @@ year: 2024
 
 The Unitary Fund's microgrant program recently marked an incredible milestone: over 100 microgrants awarded! This achievement highlights the program's pivotal role in advancing open source quantum computing projects globally. Through strategic grants and open-source ecosystem development, Unitary Fund fosters a flourishing, multiplying effect within the broader quantum ecosystem. These small but impactful investments drive accessible and transparent progress, essential for unlocking the full potential of quantum computing.
 
-Thank you to our sponsors for making these microgrants possible! Core Members: [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), [OQD](https://openquantumdesign.org/), and [Scientifica](https://www.scientifica.vc/); Supporting Members: [AWS](https://aws.amazon.com/braket/), [Microsoft](https://www.microsoft.com/), [Pasqal](https://www.pasqal.com/), [QC Ware](https://www.qcware.com/), and [SandboxAQ](https://www.sandboxaq.com/). 
+Thank you to our sponsors for making these microgrants possible! Core Members: [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), [OQD](https://openquantumdesign.org/), and [Scientifica](https://www.scientifica.vc/); Supporting Members: [AWS](https://aws.amazon.com/braket/), [Microsoft](https://www.microsoft.com/), [Pasqal](https://www.pasqal.com/), [QC Ware](https://www.qcware.com/), [IonQ](https://ionq.com/) and [SandboxAQ](https://www.sandboxaq.com/). 
 
 To commemorate this event, we spoke with our current and former grant recipients to gauge the impact and reach of their supported projects. Here’s what we found.
 
