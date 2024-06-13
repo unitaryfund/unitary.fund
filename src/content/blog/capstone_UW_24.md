@@ -6,18 +6,18 @@ month: 6
 year: 2024
 ---
 
-We are a group of graduate students at the University of Washington who spent the last ten weeks working with the Unitary Fund as participants in UW’s Accelerating Quantum-Enabled Technologies (AQET) capstone course. AQET is an interdisciplinary traineeship program involving a unique curriculum in quantum information science and engineering, including the capstone course which pairs students  with industry professionals and academic mentors for a quarter-long project.  . We worked with the Unitary Fund to create a pipeline and GUI using the Mitiq library, with the hopes of providing users a streamlined tool to compare the overhead requirements and effectiveness of various quantum error mitigation methods that Mitiq implements. 
+We are a group of graduate students at the University of Washington (UW) who spent the last ten weeks working with the Unitary Fund as participants in UW’s Accelerating Quantum-Enabled Technologies (AQET) capstone course. AQET is an interdisciplinary traineeship program involving a unique curriculum in quantum information science and engineering, including the capstone course which pairs students  with industry professionals and academic mentors for a quarter-long project. We worked with the Unitary Fund to create a pipeline and GUI using the Mitiq library, with the hopes of providing users a streamlined tool to compare the overhead requirements and effectiveness of various quantum error mitigation methods that Mitiq implements. 
 
 ## About Us
 
-### Ella
-My name is Ella Carlander, I am a second year PhD student in the Physics Department at UW, where I work in Armita Nourmohammad’s lab. Our group is broadly interested in statistical biophysics, and my research is focused on using machine learning models to investigate predictors of function in immune system proteins. My interest in quantum information is very tangential to this work, so I am grateful for the opportunity to participate in AQET and further develop that interest.
+### Ella Carlander
+I am a second year PhD student in the Physics Department at UW, where I work in Armita Nourmohammad’s lab. Our group is broadly interested in statistical biophysics, and my research is focused on using machine learning models to investigate predictors of function in immune system proteins. My interest in quantum information is very tangential to this work, so I am grateful for the opportunity to participate in AQET and further develop that interest.
 
-### Ruhee
-My name is Ruhee Nirodi. I’m a second year PhD student in the physics department at UW, working with Professor David Cobden. Our focus is probing and measuring fundamental quantum phenomena in 2D materials such as graphene and recently, WTe2. I have been interested in quantum information since college, and was super excited to work with the Unitary Fund to learn more about the field.
+### Ruhee Nirodi
+I’m a second year PhD student in the physics department at UW, working with Professor David Cobden. Our focus is probing and measuring fundamental quantum phenomena in 2D materials such as graphene and recently, WTe2. I have been interested in quantum information since college, and was super excited to work with the Unitary Fund to learn more about the field.
 
-### Alexandros
-I am Alexandros Peltekis, a first year Ph.D. student in Chemistry at the University of Washington. I work in the Xiaosong Li Group. I do research relating to Quantum Chemistry and am helping in the development of the group’s open-source software package called Chronus Quantum.
+### Alexandros Peltekis
+I'm a first-year PhD student in Chemistry at the UW and am researching with the Xiaosong Li Group. The group focuses on electrionic structure theory. I research how "freezing" certain aspects of detailed molecular models affects the balance between computational speed and accuracy. I also am supporting the development of Chronus Quantum, our group’s open-source software. This project with the Unitary Fund provided a great opportunity to apply my skills i've learned from the AQET program to a practical problem in the world of error mitigation.
 
 
 ## Project Background
