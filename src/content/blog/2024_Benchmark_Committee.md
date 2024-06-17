@@ -1,6 +1,6 @@
 ---
 title: Introducing the Open Quantum Benchmark Committee with Metriq
-author: Kallie Ferguson, Nathan Shammah, Vincent Russo, Dan Strano
+author: Kallie Ferguson
 day: 14
 month: 6
 year: 2024
