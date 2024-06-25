@@ -17,7 +17,7 @@ In various quantum optimization problems, choosing the right ansatz is a critica
 
 # Step 1. Define problem (W state preparation)
 
-<img alt ='' src="/public/images/ga-qas/ga-qas1.png">
+<img alt ='' src="/images/ga-qas/ga-qas1.png">
 
 _**Fig 1**. (a) State preparation scheme based on quantum compilation technique, where_ $U(\theta)$, $V^{\dagger}$ _are ansatz and state that need to prepare **[1][2]** (b) Some default ansatz, such as hyper-graph._
 
