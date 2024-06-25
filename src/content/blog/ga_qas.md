@@ -21,7 +21,8 @@ In various quantum optimization problems, choosing the right ansatz is a critica
 
 _**Fig 1**. (a) State preparation scheme based on quantum compilation technique, where_ $U(\theta)$, $V^{\dagger}$ _are ansatz and state that need to prepare **[1][2]** (b) Some default ansatz, such as hyper-graph._
 
-In this post, we will use a Python package named $\langle qo|op \rangle$, which is a core package for our various research, including this research. You can download it via:
+In this post, we will use a Python package named $\langle qo|op \rangle$, which is a core package for developing quantum circuit optimization frameworks.
+You can download it via `git` as:
 
 ```
 !git clone https://github.com/vutuanhai237/qoop.git
