@@ -13,13 +13,23 @@ tags:
 
 In various quantum optimization problems, choosing the right ansatz is a critical point that will affect the accuracy of the result. Many template ansatzes have been proposed, such as Graph Ansatz and EffecientSU2, … but they are limited in their applicability. Hence, we've created a search engine called **GA-QAS** (Genetic Algorithm for Quantum Architecture Search) to aid in the discovery of the right ansatz. In this post, we will guide you on how to use it efficiently.
 
+Required package:
+- qiskit 1.0+
+- matplotlib
+- tdqm
+
 ## Now, let’s start!
 
 # Step 1. Define problem (W state preparation)
 
-<img alt ='' src="/images/ga-qas/ga-qas1.png">
 
-_**Fig 1**. (a) State preparation scheme based on quantum compilation technique, where_ $U(\theta)$, $V^{\dagger}$ _are ansatz and state that need to prepare **[1][2]** (b) Some default ansatz, such as hyper-graph._
+
+<figure>
+    <img src='/public/images/ga-qas/ga-qas1.png' alt='description' />
+    <figcaption>
+    Fig 1. (a) State preparation scheme based on quantum compilation technique, where U, V are ansatz and state that need to prepare[1][2]. (b) Some default ansatz, such as hyper-graph.
+    </figcaption>
+</figure>
 
 In this post, we will use a Python package named $\langle qo|op \rangle$, which is a core package for developing quantum circuit optimization frameworks.
 You can download it via `git` as:
@@ -41,14 +51,7 @@ folder_name
 │       │   ...
 ```
 
-If not, you should include this line to config the path:
-
-```
-import sys
-sys.path.insert(..)
-```
-
-The required packages are qiskit, matplotlib, and tdqm. First, we define the problem, take example quantum state preparation, more easier W state preparation. 3-qubit W state is defined as:
+First, we define the problem, take example quantum state preparation, more easier W state preparation. 3-qubit W state is defined as:
 
 $$
 |W_3\rangle=V|000\rangle=\frac{1}{\sqrt{3}}(|001\rangle+|010\rangle+|100\rangle)
@@ -83,9 +86,11 @@ def fitnessW(qc: qiskit.QuantumCircuit):
 
 # Step 2. Configuration for genetic algorithm
 
-<img alt="" src="/public/images/ga-qas/ga-qas2.png">
+<figure>
+    <img src='/public/images/ga-qas/ga-qas2.png' alt='description' />
+    <figcaption>Fig 2. The general pipeline of GA-QAS</figcaption>
+</figure>
 
-_**Fig 2**. The general pipeline of GA-QAS_ 
 
 A genetic algorithm (GA) is a heuristic algorithm based on a genetic combination process. GA processes include Fitness evaluation, Selection, Cross-over, and Mutation. We treat ansatz as an individual in the population (where gates are its genes).
 
@@ -157,9 +162,12 @@ Currently, we support plotting fitness values against a number of generations. I
 env.plot()
 ```
 
-<img alt="" src="/public/images/ga-qas/ga-qas3.png">
+<figure>
+    <img src='/public/images/ga-qas/ga-qas3.png' alt='description' />
+    <figcaption>Fig 3. Fitness values versus number of generations</figcaption>
+</figure>
 
-_Fig 3. Fitness values versus number of generations._
+
 
 The result is saved in a folder; the default folder name is based on the fitness function name. We care about a file named `best_circuit.qpy`, which is our final solution. Then, we can load it by $\langle qo|op\rangle$ and put it into fitness again to test:
 
@@ -192,7 +200,7 @@ Thanks for reading! Please do not hesitate to ask us any questions via e-mail: v
 
 # Appendix: Full code
 
-The Jupyter notebook which contains the above code can be found [here](https://github.com/vutuanhai237/GA-QAS/blob/main/example/w_preparation.ipynb)
+The Jupyter notebook which contains the above code can be found [here](https://github.com/vutuanhai237/GA-QAS/blob/694ff6a509df9acc7d3e8053ab89ccfd7d3127c0/example/w_preparation.ipynb)
 
 ```
 import qiskit
