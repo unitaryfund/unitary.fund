@@ -112,7 +112,7 @@ env_metadata = EEnvironmentMetadata(
         prob_mutate # Mutation probability, usually as small as 0.01 (1%)
 )
 ```
-Then, you need to create an `Environment` object, the important parameter is `fitness_func`, which is the function name that we declared above:
+Then, you need to create an `EEnvironment` object, the important parameter is `fitness_func`, which is the function name that we declared above:
 
 ```
 from qoop.evolution.environment import EEnvironment
