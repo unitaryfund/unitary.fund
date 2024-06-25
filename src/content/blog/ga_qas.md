@@ -25,7 +25,7 @@ In this post, we will use a Python package named $\langle qo|op \rangle$, which 
 You can download it via `git` as:
 
 ```
-!git clone https://github.com/vutuanhai237/qoop.git
+git clone https://github.com/vutuanhai237/qoop.git
 ```
 
 Note that you should put it on the same level as your Python/Jupyter Notebook file. The best is:
