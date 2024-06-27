@@ -30,7 +30,7 @@ We will use a Python package named <a href="https://github.com/vutuanhai237/qoop
 git clone https://github.com/vutuanhai237/qoop.git
 ```
 
-Note that you should put it on the same level as your Python/Jupyter Notebook file. The best is:
+**Note**: You should put the repo on the same level as your Python/Jupyter Notebook file.
 
 ```
 folder_name
