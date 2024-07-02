@@ -46,7 +46,7 @@ folder_name
 # Step 1. Define problem (W state preparation)
 
 <figure>
-    <img src='/public/images/ga-qas/ga-qas_scheme.png' width="600" style="margin: auto" alt='' />
+    <img src='/images/ga-qas/ga-qas_scheme.png' width="600" style="margin: auto" alt='' />
     <figcaption>
     Fig 1. (a) State preparation scheme based on quantum compilation technique, where U, V are ansatz and state that need to prepare[1][2]. (b) Some default ansatz, such as hyper-graph.
     </figcaption>
@@ -74,7 +74,7 @@ compiler.plot() # Plot optimization process
 ```
 
 <figure>
-    <img src='/public/images/ga-qas/ga-qas_example_plot_preparew.png' style="margin: auto" alt='' />
+    <img src='/images/ga-qas/ga-qas_example_plot_preparew.png' style="margin: auto" alt='' />
     <figcaption>Fig 2. Metrics of W-state preparation process. Loss/Trace distance and Trace fidelity should small and larger as much as possible, respectively.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ def fitnessW(qc: qiskit.QuantumCircuit):
 # Step 2. Configuration for genetic algorithm
 
 <figure>
-    <img src='/public/images/ga-qas/ga-qas_pipeline.png' style="margin: auto" alt='' />
+    <img src='/images/ga-qas/ga-qas_pipeline.png' style="margin: auto" alt='' />
     <figcaption>Fig 3. The general pipeline of GA-QAS</figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ env.plot()
 ```
 
 <figure>
-    <img src='/public/images/ga-qas/ga-qas_example_plot.png' style="margin: auto" alt='' />
+    <img src='/images/ga-qas/ga-qas_example_plot.png' style="margin: auto" alt='' />
     <figcaption>Fig 4. Fitness values versus number of generations</figcaption>
 </figure>
 
