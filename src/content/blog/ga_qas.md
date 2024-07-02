@@ -153,7 +153,7 @@ env.plot()
 ```
 
 <figure>
-    <img src='/images/ga-qas/ga-qas_example_plot.png' style="margin: auto" alt='' />
+    <img src='/images/ga-qas/ga-qas_example_plot_evolution.png' style="margin: auto" alt='' />
     <figcaption>Fig 4. Fitness values versus number of generations</figcaption>
 </figure>
 
