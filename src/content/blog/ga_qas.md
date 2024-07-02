@@ -167,7 +167,7 @@ fitness_value = fitnessW(best_circuit)
 
 # Conclusion
 
-In this post, we have introduced a way to use GA-QAS, just define your own problem (fitness function) and it will help you find best ansatz automatically. For more information and documentation, explore the following links:
+In this post, we have demonstrated how to use GA-QAS. Simply define your own problem (fitness function) and the package will help you find the best ansatz automatically. For more information and documentation, explore the following links:
 
 - $\langle qo|op\rangle$: core package for GA-QAS.
   - [Github](https://github.com/vutuanhai237/qoop)
