@@ -18,4 +18,4 @@ Other topics covered in the summer school include general software engineering p
 We look forward to presenting topics including quantum error mitigation (QEM) core concepts and techniques, Mitiq structure and interface, and deep dive into the techniques of Zero Noise Extrapolation and Digital Dynamical Decoupling.
 In the later part of the session, we will explore QEM on simulated noisy backends with benchmarks and calibration.
 The workshop will conclude in the evening with a Mitiq hackathon.
-To learn more about [Mitiq](https://unitary.fund/research/mitiq/), an open source quantum error mitigation compiler with over 100k downloads and developed by the Unitary Fund technical team with a community of over 50 contributors worldwide, see the [Mitiq documentation](https://mitiq.readthedocs.io/en/stable/).
+To learn more about [Mitiq](https://unitary.fund/research/mitiq/), an open source quantum error mitigation compiler with over 100k downloads and developed by the Unitary Fund technical team with a community of over 70 contributors worldwide, see the [Mitiq documentation](https://mitiq.readthedocs.io/en/stable/).
