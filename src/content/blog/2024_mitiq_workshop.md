@@ -12,9 +12,9 @@ tags:
 
 **We are pleased to announce the first in-person workshop for the Mitiq project.**
 
+The workshop will be held as part of the [Numerical Methods in Quantum Information Science (QIS) Summer School](https://qnumerics.org/) at the Mount Ida campus of University of Massachusetts Amherst.
 
 ## About the QNumerics Summer School
-The workshop will be held as part of the [Numerical Methods in Quantum Information Science (QIS) Summer School](https://qnumerics.org/) at the Mount Ida campus of University of Massachusetts Amherst.** 
 
 The School spans through August 12-18, 2024, with Saturday, August 17, 2024 fully dedicated to Mitiq and quantum error mitigation.
 
@@ -38,5 +38,5 @@ The Qnumerics Summer school lecturers include Stefan Krastanov (U. Mass. Amherst
 > At JuliaCon 2023 Katharine and I were discussing how much of the opensource tooling created in the field is still underutilized and thought why not do something about it. The NSF Center for Quantum Networks (and now also the Unitary Fund) seemed to have agreed with us and were eager to sponsor a hacker-oriented summer school rife with late-night hackathons. We are all particularly excited that what we teach the students will be a force multiplier for their domain-specific skills, leading to rapid research progress into the many low-hanging fruits still present in the field of quantum information science. We are hopeful that quite a few research papers will start at our hackathons.
 
 
-# A milestone for the Mitiq community
+## A milestone for the Mitiq community
 This workshop marks an important milestone for the growth of [Mitiq](https://unitary.fund/research/mitiq/), the open source quantum error mitigation compiler developed by the Unitary Fund technical team with a global community. To date, Mitiq has over 140k downloads on PyPI and over 70 contributors worldwide on Github. To learn more about error mitigation, you can read the [Mitiq documentation and tutorials](https://mitiq.readthedocs.io/en/stable/). Mitiq's open source ecosystem growth is accelerated by the National Science Foundation (NSF) POSE program (Phase II) [awarded](https://unitary.fund/posts/2023_mitiq_nsf_pose/) to Unitary Fund.
