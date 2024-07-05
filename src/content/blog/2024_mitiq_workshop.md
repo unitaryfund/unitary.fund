@@ -19,7 +19,7 @@ The workshop will be held as part of the [Numerical Methods in Quantum Informati
 The School spans through August 12-18, 2024, with Saturday, August 17, 2024 fully dedicated to Mitiq and quantum error mitigation.
 
 <p align="center">
-  <img width="600" src="/images/qnumerics_logo.png" />
+  <img width="300" src="/images/qnumerics_logo.png" />
 </p>
 
 The Summer school program is designed for community members "with QIS expertise and baseline programming skills searching to significantly expand them," including graduate students, postdocs and professionals, as well as exceptional undergraduates and "hackers" - builders who are passionate about open quantum technology. This openness in accepting applicants with various backgrounds and professional career is important for removing barriers towards an accelerated workforce development and a broader impact on continuous learning.
