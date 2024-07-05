@@ -10,7 +10,16 @@ tags:
   - nsf
 ---
 
-We are pleased to announce the first in-person Mitiq workshop, which will be held as part of the [Numerical Methods in Quantum Information Science (QIS) Summer School](https://qnumerics.org/) at the Mount Ida campus of University of Massachusetts Amherst. The School spans through August 12-18, 2024, with Saturday, August 17, 2024 fully dedicated to Mitiq and quantum error mitigation.
+**We are pleased to announce the first in-person workshop for the Mitiq project.**
+
+
+![](/images/qnumerics_logo.png)
+
+## About the QNumerics Summer School
+The workshop will be held as part of the [Numerical Methods in Quantum Information Science (QIS) Summer School](https://qnumerics.org/) at the Mount Ida campus of University of Massachusetts Amherst.** 
+
+The School spans through August 12-18, 2024, with Saturday, August 17, 2024 fully dedicated to Mitiq and quantum error mitigation.
+
 The Summer school program is designed for community members "with QIS expertise and baseline programming skills searching to significantly expand them," including graduate students, postdocs and professionals, as well as exceptional undergraduates and "hackers" - builders who are passionate about open quantum technology. This openness in accepting applicants with various backgrounds and professional career is important for removing barriers towards an accelerated workforce development and a broader impact on continuous learning.
 
 The program's focus on practical, experiential learning with an emphasis on programming skills and hackathon-style sessions each evening made it a natural fit for hosting the Mitiq workshop.
