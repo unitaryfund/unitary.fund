@@ -7,6 +7,7 @@ year: 2024
 tags: 
   - mitiq
   - workshop
+  - nsf
 ---
 
 We are pleased to announce the first in-person Mitiq workshop, which will be held as part of the [Numerical Methods in Quantum Information Science (QIS) Summer School](https://qnumerics.org/) at the Mount Ida campus of University of Massachusetts Amherst. The School spans through August 12-18, 2024, with Saturday, August 17, 2024 fully dedicated to Mitiq and quantum error mitigation.
