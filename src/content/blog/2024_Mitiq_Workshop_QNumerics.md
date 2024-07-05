@@ -25,6 +25,7 @@ The Summer school program is designed for community members "with QIS expertise 
 The program's focus on practical, experiential learning with an emphasis on programming skills and hackathon-style sessions each evening made it a natural fit for hosting the Mitiq workshop.
 Other topics covered in the Summer school include general software engineering practices and cluster computing tools, advanced general scientific programming, GPU programming, fast general purpose wavefunction simulation, tensor networks for faster approximate quantum simulations, stabilizer formalism for quantum error correction, discrete event simulations, quantum chemistry, symbolic computer algebra basics, optimal control of quantum hardware, APIs for control of commercial quantum hardware. 
 
+## A focus on open-source scientific tools for quantum programming
 A focus of the QNumerics School is placed on [Julia](https://julialang.org/) as a transparent and efficient programming language designed for science. At Unitary Fund we're proud to support [several Julia projects](https://unitary.fund/grants/) (and sponsor this [JuliaCon 2024](https://juliacon.org/2024/)). 
 
 We look forward to presenting topics including quantum error mitigation (QEM) core concepts and techniques, Mitiq structure and interface, and deep dive into the techniques of Zero Noise Extrapolation and Digital Dynamical Decoupling.
