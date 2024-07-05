@@ -1,7 +1,7 @@
 ---
-title: Announcing the Mitiq Workshop at the Numerical Methods in Quantum Information Science Summer School
-author: Misty Wahl, Nathan Shammah
-day: 3
+title: Announcing the Mitiq Workshop at the QNumerics Summer School
+author: Misty Wahl and Nathan Shammah
+day: 5
 month: 7
 year: 2024
 tags: 
