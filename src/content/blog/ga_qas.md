@@ -77,16 +77,20 @@ compiler.plot() # Plot optimization process
 
 <figure>
     <img src='/images/ga-qas/ga-qas_example_plot_preparew.png' style="margin: auto" alt='' />
-    <figcaption>Fig 2. Metrics of W-state preparation process. Loss/Trace distance and Trace fidelity should small and larger as much as possible, respectively.</figcaption>
+    <figcaption>Fig 2. Metrics of W-state preparation process versus iteration when running the example code. Note that loss_fubini_study is overlapped by trace distances. loss_fubini_study should be near 0 as much as possible.</figcaption>
 </figure>
 
 ```py
 import qiskit
+from qoop.compilation.qsp import QuantumStatePreparation
+from qoop.core import ansatz, state
+
 def fitnessW(qc: qiskit.QuantumCircuit):
     qsp = QuantumStatePreparation(
         u = qc,
         target_state = state.w(num_qubits = 3).inverse()
     ).fit()
+    # qsp.plot() # Plot optimization process as Fig. 2.
     return 1 - qsp.compiler.metrics['loss_fubini_study'][-1] # Fitness value
 ```
 
