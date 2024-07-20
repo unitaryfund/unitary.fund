@@ -52,17 +52,19 @@ folder_name
     </figcaption>
 </figure>
 
-First, we define the problem, take example quantum state preparation, more easier W state preparation. 3-qubit W state is defined as:
+First, we define the problem, take example quantum state preparation, such as W state preparation. A 3-qubit W state is defined as:
 
 $$
 |W_3\rangle = V|000\rangle = \frac{1}{\sqrt{3}}(|001\rangle + |010\rangle + |100\rangle)
 $$
 
-And so on for a larger number of qubits. If we want to prepare such a state, we will need to care about the unitary operator $V$, but in some cases, $V$ requires large resources (such as large depth and number of gates). Then, we want to find another unitary $U(\theta)$ that is approximate to $V$, $U(\theta)$ requires fewer resources than $V$ but consumes an initial to optimize $\theta$. The problem comes from here: the structure of $U$, or ansatz $U$, affects how "hard" and "large" this optimization process is.
+If we want to prepare such state, we will need an unitary operator $V$, but in some cases, $V$ requires large resources (such as large depth and number of gates). Then, we want to find another unitary $U(\theta)$ that is approximate to $V$, $U(\theta)$ requires fewer resources than $V$ but consumes an initial to optimize $\theta$. 
 
-You can try to prepare 3-qubit W state by using $\langle qo|op \rangle$, a wiki can be found [here](https://github.com/vutuanhai237/qoop/wiki/Advance:-Custom-state-preparation):
+The problem comes from here: the structure of $U$, or ansatz $U$, affects how "hard" and "large" this optimization process is. Then, we need to find the "best" $U$ automatically. This is known as the "quantum architecture search" problem. 
 
-```py
+<!-- You can try to prepare 3-qubit W state by using $\langle qo|op \rangle$, a wiki can be found [here](https://github.com/vutuanhai237/qoop/wiki/Advance:-Custom-state-preparation): -->
+
+<!-- ```py
 from qoop.compilation.qsp import QuantumStatePreparation
 from qoop.core import ansatz, state
 
@@ -71,14 +73,12 @@ compiler = QuantumStatePreparation(
     target_state = state.w(num_qubits = 3).inverse()
 ).fit(num_steps = 100) # Define the optimization process and begin to optimize in 100 iterations
 compiler.plot() # Plot optimization process
-```
+``` -->
 
 <figure>
     <img src='/images/ga-qas/ga-qas_example_plot_preparew.png' style="margin: auto" alt='' />
     <figcaption>Fig 2. Metrics of W-state preparation process. Loss/Trace distance and Trace fidelity should small and larger as much as possible, respectively.</figcaption>
 </figure>
-
-**Make sure** that you can run the above code. We wrap it into a function $f: U \rightarrow \mathbb{R}$, the return value of this function is the (1 - cost value) of the optimization process, which means near 1 is good.
 
 ```py
 import qiskit
@@ -89,6 +89,11 @@ def fitnessW(qc: qiskit.QuantumCircuit):
     ).fit()
     return 1 - qsp.compiler.metrics['loss_fubini_study'][-1] # Fitness value
 ```
+
+**Make sure** that you can run the above code. We wrap the quantum state preparation problem into a function $f: U \rightarrow \mathbb{R}$, the return value of this function is $(1 - \text{last loss value})$, which means near 1 is good.
+
+Let's move to the next step!
+
 
 # Step 2. Configuration for genetic algorithm
 
@@ -135,14 +140,18 @@ Default folder result will be set as `{num_qubit}+{fitness function}+{datetime}`
 You can call the method `evol()` to start running GA-QAS.
 
 ```py
+env.evol()
+```
+
+<!-- ```py
 env.evol(
    verbose = 1,
    auto_save = True
 )
-```
+``` -->
 
-There are only two parameters: the first is verbose in running process (1 means print process bar, 0 means no print anything), and the second is the saving option.
-The saving result's folder is detailed on [GA-QAS: folder result](https://github.com/vutuanhai237/qoop/wiki/GA%E2%80%90QAS:-folder-result).
+<!-- There are only two parameters: the first is verbose in running process (1 means print process bar, 0 means no print anything), and the second is the saving option.
+The saving result's folder is detailed on [GA-QAS: folder result](https://github.com/vutuanhai237/qoop/wiki/GA%E2%80%90QAS:-folder-result). -->
 
 # Step 4. Plot result
 
