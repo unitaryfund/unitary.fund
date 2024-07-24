@@ -96,8 +96,6 @@ def fitnessW(qc: qiskit.QuantumCircuit):
 
 **Make sure** that you can run the above code. We wrap the quantum state preparation problem into a function $f: U \rightarrow \mathbb{R}$, the return value of this function is $(1 - \text{last loss value})$, which means a value near 1 is desired.
 
-Let's move to the next step!
-
 
 # Step 2. Configuration for genetic algorithm
 
