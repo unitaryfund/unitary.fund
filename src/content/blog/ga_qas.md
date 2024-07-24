@@ -52,28 +52,19 @@ folder_name
     </figcaption>
 </figure>
 
-First, we define the problem, take example quantum state preparation, such as W state preparation. A 3-qubit W state is defined as:
+Quantum state preparation (QSP) is a process that
+uses a trainable unitary operator to transform the initial state into a desired target state. This process is crucial for quantum computation and information processing. Example: in a quantum machine learning application, if you want to put an image into the quantum circuit for training, you must flat the image as a vector and then use QSP!
+
+First, we define the problem, take example W - state preparation. A 3-qubit W state is defined as:
 
 $$
 |W_3\rangle = V|000\rangle = \frac{1}{\sqrt{3}}(|001\rangle + |010\rangle + |100\rangle)
 $$
 
-If we want to prepare such state, we will need an unitary operator $V$, but in some cases, $V$ requires large resources (such as large depth and number of gates). Then, we want to find another unitary $U(\theta)$ that is approximate to $V$, $U(\theta)$ requires fewer resources than $V$ but consumes an initial to optimize $\theta$. 
+To prepare a W state (or other states), we will need a unitary operator $V$ generated systematically. Normally, $V$ requires large resources (such as large depth and number of gates). Therefore, we need to find another unitary $U(\theta)$ (trainable) that is approximate to $V$ but requires fewer resources than $V$.
 
 The problem comes from here: the structure of $U$, or ansatz $U$, affects how "hard" and "large" this optimization process is. Then, we need to find the "best" $U$ automatically. This is known as the "quantum architecture search" problem. 
 
-<!-- You can try to prepare 3-qubit W state by using $\langle qo|op \rangle$, a wiki can be found [here](https://github.com/vutuanhai237/qoop/wiki/Advance:-Custom-state-preparation): -->
-
-<!-- ```py
-from qoop.compilation.qsp import QuantumStatePreparation
-from qoop.core import ansatz, state
-
-compiler = QuantumStatePreparation(
-    u = ansatz.g2(num_qubits = 3, num_layers = 1),
-    target_state = state.w(num_qubits = 3).inverse()
-).fit(num_steps = 100) # Define the optimization process and begin to optimize in 100 iterations
-compiler.plot() # Plot optimization process
-``` -->
 
 <figure>
     <img src='/images/ga-qas/ga-qas_example_plot_preparew.png' style="margin: auto" alt='' />
@@ -86,10 +77,11 @@ from qoop.compilation.qsp import QuantumStatePreparation
 from qoop.core import ansatz, state
 
 def fitnessW(qc: qiskit.QuantumCircuit):
+    # Create a quantum state preparation optimizer based on a given trainable unitary (u) and target unitary.
     qsp = QuantumStatePreparation(
         u = qc,
         target_state = state.w(num_qubits = 3).inverse()
-    ).fit()
+    ).fit() # Begin to optimize trainable unitary
     # qsp.plot() # Plot optimization process as Fig. 2.
     return 1 - qsp.compiler.metrics['loss_fubini_study'][-1] # Fitness value
 ```
@@ -185,9 +177,9 @@ In this post, we have demonstrated how to use GA-QAS. Simply define your own pro
   - [Wiki](https://github.com/vutuanhai237/qoop/wiki)
   - [Paper](https://doi.org/10.1016/j.softx.2024.101726)
 - GA-QAS:
-  - Paper: Coming soon.
   - [Wiki](https://github.com/vutuanhai237/qoop/wiki/GA%E2%80%90QAS:-folder-result): Load folder result and continue to evol()
-  - [Wiki](https://github.com/vutuanhai237/qoop/wiki/GA%E2%80%90QAS:-Full-pipeline): Full pipeline.
+  - [Wiki](https://github.com/vutuanhai237/qoop/wiki/GA%E2%80%90QAS:-Full-pipeline): Full pipeline
+  - [Paper](https://arxiv.org/abs/2407.01010)
 
 Thanks for reading! Please do not hesitate to ask us any questions via e-mail: vutuanhai237@gmail.com or [LinkedIn](https://www.linkedin.com/in/vutuanhai237/).
 
