@@ -205,7 +205,7 @@ The Jupyter notebook which contains the above code can be found [here](https://g
 
 ```py
 import qiskit
-from qoop.core import state, metric, ansatz
+from qoop.core import state
 from qoop.compilation.qsp import QuantumStatePreparation
 from qoop.evolution.environment import EEnvironmentMetadata
 from qoop.evolution.environment import EEnvironment
