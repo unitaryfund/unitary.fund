@@ -83,7 +83,7 @@ compiler.plot() # Plot optimization process
 ```py
 import qiskit
 from qoop.compilation.qsp import QuantumStatePreparation
-from qoop.core import ansatz, state
+from qoop.core import state
 
 def fitnessW(qc: qiskit.QuantumCircuit):
     qsp = QuantumStatePreparation(
