@@ -74,7 +74,7 @@ The problem comes from here: the structure of $U$, or ansatz $U$, affects how "h
 ```py
 import qiskit
 from qoop.compilation.qsp import QuantumStatePreparation
-from qoop.core import ansatz, state
+from qoop.core import state
 
 def fitnessW(qc: qiskit.QuantumCircuit):
     # Create a quantum state preparation optimizer based on a given trainable unitary (u) and target unitary.
