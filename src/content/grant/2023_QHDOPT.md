@@ -5,8 +5,8 @@ month: 6
 day: 26
 country: US
 tags:
-  - gradient descent
-  - quantum
+  - hamiltonian
+  - optimization
   - python
 ---
 

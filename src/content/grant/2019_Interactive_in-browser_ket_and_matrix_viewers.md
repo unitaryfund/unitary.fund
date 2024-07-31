@@ -5,7 +5,7 @@ month: 12
 day: 21
 country: PL
 tags:
-  - quantum education
+  - education
   - visualization
   - game
 ---
