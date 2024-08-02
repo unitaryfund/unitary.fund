@@ -6,6 +6,7 @@ day: 25
 country: US
 tags:
   - python
-  - software
+  - toqito
+  - follow-up grant
 ---
 To **Purva Thakre** to grow **[Toqito](https://github.com/purva-thakre)**, toward a mature open-source project and utilize it for further research in unextendible product bases.

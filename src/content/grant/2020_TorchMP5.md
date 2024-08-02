@@ -6,5 +6,6 @@ day: 16
 country: US
 tags:
   - python
+  - machine learning
 ---
 To [Jacob Miller](http://jemisjoky.com/) for a PyTorch toolbox for matrix product state models.

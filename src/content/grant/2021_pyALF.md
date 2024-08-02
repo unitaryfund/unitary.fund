@@ -6,7 +6,6 @@ day: 26
 country: DE
 tags:
   - python
-  - quantum
   - simulation
   - fermion
 ---

@@ -5,7 +5,7 @@ month: 7
 day: 24
 country: CA
 tags:
-  - quantum error correction
+  - error correction
   - tensor network
   - python
 ---

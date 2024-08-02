@@ -6,7 +6,8 @@ day: 22
 country: US
 tags:
   - python
-  - QML
-  - software
+  - machine learning
+  - optimization
+  - simulator
 ---
 To [Owen Lockwood](https://github.com/lockwo) to develop a software package using classical deep reinforcement learning to improve quantum optimization, both for quantum simulations and hardware integration.
