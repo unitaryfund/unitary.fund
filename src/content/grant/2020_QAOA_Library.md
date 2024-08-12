@@ -5,7 +5,7 @@ month: 3
 day: 24
 country: PL
 tags:
-  - algorithm
+  - quantum algorithms
   - Q#
   - qaoa
 ---
