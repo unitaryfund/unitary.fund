@@ -5,7 +5,8 @@ month: 3
 day: 24
 country: PL
 tags:
-  - quantum algorithm
+  - quantum algorithms
   - Q#
+  - qaoa
 ---
 To [Dariusz Lasecki](https://dlasecki.github.io/) to build an open source QAOA library and examples using Q#.

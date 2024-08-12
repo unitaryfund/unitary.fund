@@ -7,7 +7,7 @@ country: DE
 tags:
   - python
   - GPU
-  - Simulation
-  - HPC
+  - simulation
+  - hpc
 ---
 To **[Kevin Mato](https://www.linkedin.com/in/kevin-mato-quantum/)** to further develop **[MQT Qudits](https://github.com/cda-tum/mqt-qudits)**, a quantum open-source software framework for mixed-dimensional quantum computing.

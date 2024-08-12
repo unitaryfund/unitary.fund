@@ -7,6 +7,7 @@ country: US
 tags:
   - python
   - simulator
-  - quantum
+  - pytorch
+  - machine learning
 ---
 To **Hanrui Wang** to further develop **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)**, a Quantum classical simulation framework based on PyTorch.
