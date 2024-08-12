@@ -6,7 +6,7 @@ day: 10
 country: AU
 tags:
   - quantum algorithm
-  - VQA
+  - vqa
   - qutip
 ---
 To [Ben Braham](https://benbraham.com/), to develop a framework to define and run variational quantum algorithms in QuTiP, leveraging quantum optimal control to parametrize control pulses.
