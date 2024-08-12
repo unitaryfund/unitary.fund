@@ -5,7 +5,6 @@ month: 9
 day: 26
 country: US
 tags:
-  - Machine Learning
-  - Quantum
+  - machine learning
 ---
 To **[Omid Khosravani](https://twitter.com/omidkhosravaniq)** to develop adaptive quantum process tomography techniques through the use of reinforcement learning.

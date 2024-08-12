@@ -6,7 +6,7 @@ day: 8
 country: US
 tags:
   - python
-  - intern
+  - internship
   - metriq
 ---
 
