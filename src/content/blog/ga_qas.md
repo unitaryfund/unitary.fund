@@ -8,7 +8,7 @@ tags:
   - quantum architecture search
   - python
   - qiskit
-  - genetic-algorithm
+  - genetic algorithm
 ---
 
 In various quantum optimization problems, choosing the right ansatz is a critical point that will affect the accuracy of the result. Many template ansatzes have been proposed, such as Graph Ansatz and EffecientSU2, ..., etc. Yet these examples can be limited in their applicability. Hence, we've created a search engine called **GA-QAS** (Genetic Algorithm for Quantum Architecture Search) to aid in the discovery of the right ansatz. In this post, we will guide you on how to use it efficiently.
