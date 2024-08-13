@@ -1,5 +1,5 @@
 ---
-title: An Introduction to GA-QAS
+title: An Introduction to Genetic Algorithms for Quantum Architecture Search
 author: Vu Tuan Hai
 day: 21
 month: 5
