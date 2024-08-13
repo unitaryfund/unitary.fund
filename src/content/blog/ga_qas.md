@@ -11,7 +11,10 @@ tags:
   - genetic algorithm
 ---
 
-In various quantum optimization problems, choosing the right ansatz is a critical point that will affect the accuracy of the result. Many template ansatzes have been proposed, such as Graph Ansatz and EffecientSU2, ..., etc. Yet these examples can be limited in their applicability. Hence, we've created a search engine called **GA-QAS** (Genetic Algorithm for Quantum Architecture Search) to aid in the discovery of the right ansatz. In this post, we will guide you on how to use it efficiently.
+In various quantum optimization problems, choosing the right ansatz is a critical point that will affect the accuracy of the result. For example, in Variational Quantum Eigensolver, many template ansatzes have been proposed, such as Graph Ansatz and EffecientSU2, etc. An ansatz [1] is the structure of quantum gates, deciding how many and what type of gates will be used, for easier imagination, it's equivalent to the model's architecture in a deep learning model.
+
+
+Yet the above example ansatzes can be limited in their applicability. Hence, we've created a search engine called **GA-QAS** (Genetic Algorithm for Quantum Architecture Search) to aid in the discovery of the right ansatz. In this post, we will guide you on how to use it efficiently.
 
 ## Now, let’s start!
 
@@ -47,7 +50,7 @@ folder_name
 <figure>
     <img src='/images/ga-qas/ga-qas_scheme.png' width="600" style="margin: auto" alt='' />
     <figcaption>
-    Fig 1. (a) State preparation scheme based on quantum compilation technique, where U, V are ansatz and state that need to prepare[1][2]. (b) Some default ansatz, such as hyper-graph.
+    Fig 1. (a) State preparation scheme based on quantum compilation technique, where U, V are ansatz and state that need to prepare[2][3]. (b) Some default ansatz, such as hyper-graph.
     </figcaption>
 </figure>
 
@@ -189,9 +192,11 @@ Thanks for reading! Please do not hesitate to ask us any questions via e-mail at
 
 # References
 
-[1] Hai, V. T., Viet, N. T., & Ho, L. B. (2023). Variational preparation of entangled states on quantum computers. arXiv preprint arXiv:2306.17422.
+[1] https://pennylane.ai/qml/glossary/circuit_ansatz/
 
-[2] Khatri, S., LaRose, R., Poremba, A., Cincio, L., Sornborger, A. T., & Coles, P. J. (2019). Quantum-assisted quantum compiling. Quantum, 3, 140.
+[2] Hai, V. T., Viet, N. T., & Ho, L. B. (2023). Variational preparation of entangled states on quantum computers. arXiv preprint arXiv:2306.17422.
+
+[3] Khatri, S., LaRose, R., Poremba, A., Cincio, L., Sornborger, A. T., & Coles, P. J. (2019). Quantum-assisted quantum compiling. Quantum, 3, 140.
 
 # Appendix: Full code
 
