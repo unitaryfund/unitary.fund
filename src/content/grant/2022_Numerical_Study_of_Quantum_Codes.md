@@ -6,6 +6,7 @@ day: 28
 country: US
 tags:
   - rust
-  - QEC
+  - qec
 ---
+
 To **[Lev Stambler](https://github.com/Lev-Stambler)** to write a highly performant decoder in Rust for quantum error correction.
