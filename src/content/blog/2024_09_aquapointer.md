@@ -1,7 +1,7 @@
 ---
 title: "Aquapointer, a software package for quantum biology applications" 
 author: Misty Wahl
-day: 8
+day: 6
 month: 9
 year: 2024
 tags: 
@@ -15,8 +15,8 @@ The library is designed to be a computational tool used in pharmaceutical develo
 Proteins are complex molecules with cavities that can be occupied by water molecules, particularly in living tissue.
 The presence of water molecules influences the binding of small molecules called ligands to specific protein sites, a problem of interest in drug discovery.
 Protein solvation effects can be studied either by modeling the interactions experimentally, which is generally a costly and relatively inefficient process, or by using numerical models.
-Classical numerical methods, such as Monte Carlo or molecular dynamics, can give some insight but the computational complexity of these methods are too large for certain hard cases. 
-An alternative approach is to find first the density distribution of water molecules, through methods such as the [3D Reference Interactive Site Model (3D-RISM)](). 
+Classical numerical methods, such as Monte Carlo or molecular dynamics, can give some insight but the computational complexity of these methods can be too large for certain hard cases. 
+An alternative approach is to find first the density distribution of water molecules, through methods such as the [3D Reference Interactive Site Model (3D-RISM)](https://pubmed.ncbi.nlm.nih.gov/23675899/). 
 By looking at 2D slices of the 3D-RISM density function, we can define a discrete optimization problem (per slice) whose solutions correspond to positions of water molecules.
 
 Aquapointer generates 2D slices of an input 3D-RISM density function, maps the slices to a QUBO problem, translates the QUBO to an analog pulse sequence or a digital circuit, and then calls the backend API and processes the results.
