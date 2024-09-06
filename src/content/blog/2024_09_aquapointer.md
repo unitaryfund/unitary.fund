@@ -23,10 +23,7 @@ Aquapointer generates 2D slices of an input 3D-RISM density function, maps the s
 The analog workflow in Aquapointer uses [Pulser](https://github.com/pasqal-io/Pulser) for intermediate representations (IR) of the pulse sequences and for interfacing to supported backends, e.g. QuTip
 The digital workflow uses Qiskit for IR and simulated backends.
 
-<p align="center">
-  <img src="/images/aquapointer_analogflow.png" alt="Aquapointer analog workflow diagram" style="width: 75%; display: inline-block;"/>
-</p>
-
+![image demonstating the analog workflow in Aquapointer](/images/aquapointer_analogflow.png)
 
 ```python
 water_postions = find_water_positions(canvases, executor, MockDevice, pulse_settings)
@@ -36,12 +33,10 @@ Since we first introduced Aquapointer, we have upgraded it to include 3D-RISM de
 The `slicing` module takes a 3D-RISM density file and transforms it into 2D slices along user-specified planes. 
 The `densitycanvas` module contains classes and functions for transforming the 2D slices or generating them from a probability distribution and mapping the density distributions into a QUBO formulation.
 
-<p align="center">
-  <img src="/images/aquapointer_slicing.png" alt="Aquapointer slicing workflow diagram" style="width: 75%; display: inline-block;"/>
-</p>
+![image demonstating the slicing workflow in Aquapointer](/images/aquapointer_slicing.png)
 
 ```python
-canvases = density_slices_by_planes(grid, slicing_points)
+canvases = canvases = density_slices_by_planes(grid, slicing_points)
 for canvas in canvases:
     canvas.filter_density(filter_settings={"filter_function": filter_fn, "sigma": sigma})
     canvas.crop_canvas(center, size) 
