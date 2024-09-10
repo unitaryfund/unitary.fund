@@ -2,7 +2,7 @@
 name: Documentation for QuantumToolbox.jl
 year: 2024
 month: 8
-day: 24
+day: 26
 country: CH
 tags:
   - python
