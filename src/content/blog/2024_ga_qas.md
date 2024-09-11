@@ -1,12 +1,11 @@
 ---
 title: An Introduction to Genetic Algorithms for Quantum Architecture Search
 author: Vu Tuan Hai
-day: 21
-month: 5
+day: 11
+month: 9
 year: 2024
 tags:
   - quantum architecture search
-  - python
   - qiskit
   - genetic algorithm
 ---
