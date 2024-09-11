@@ -1706,8 +1706,8 @@ packages:
     peerDependencies:
       react: '>=16.12.0'
 
-  dset@3.1.2:
-    resolution: {integrity: sha512-g/M9sqy3oHe477Ar4voQxWtaPIFw1jTdKZuomOjhCcBx9nHUNn0pu6NopuFFrTh/TRZIKEj+76vLWFu9BNKk+Q==}
+  dset@3.1.4:
+    resolution: {integrity: sha512-2QF/g9/zTaPDc3BjNcVTGoBbXBgYfMTTceLaYcFJ/W9kggFUkhxD/hMEeuLKbugyef9SqAx8cpgwlIP/jinUTA==}
     engines: {node: '>=4'}
 
   eastasianwidth@0.2.0:
@@ -3646,7 +3646,7 @@ snapshots:
       ci-info: 3.8.0
       debug: 4.3.4
       dlv: 1.1.3
-      dset: 3.1.2
+      dset: 3.1.4
       is-docker: 3.0.0
       is-wsl: 2.2.0
       undici: 5.28.4
@@ -5237,7 +5237,7 @@ snapshots:
       react-is: 17.0.2
       tslib: 2.5.0
 
-  dset@3.1.2: {}
+  dset@3.1.4: {}
 
   eastasianwidth@0.2.0: {}
 
