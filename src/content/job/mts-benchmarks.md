@@ -3,7 +3,6 @@ title: Member of Technical Staff - Quantum Benchmarking Lead, Full Time, Remote
 ---
 Posted on September 11th, 2024. 
 
-Posted on September 6th, 2024
 Full-time role.
 
 Unitary Fund is a non-profit research group helping build a quantum technology industry that benefits the most people. We support the community, e.g., running a grant program to support the development of new open source quantum software, and we do our own research and technology development for the ecosystem.
