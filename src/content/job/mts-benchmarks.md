@@ -25,7 +25,7 @@ Work with the technical team to design and develop features in the benchmarking 
 Support the product and related projects, growing the community of users and contributors.  
 
 ## SKILLS & QUALIFICATIONS
-- We will expect you have 2+ years of paid or voluntary experience relevant to:
+We will expect you have 2+ years of paid or voluntary experience relevant to:
 - Software engineering work experience (not necessarily quantum related) OR 2+ years of research experience in quantum information such as in a PhD program
 - Track record of building and launching software that other people use with small teams
 - Excited to make quantum technologies better, easier, and more accessible
