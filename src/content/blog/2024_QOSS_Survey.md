@@ -1,8 +1,8 @@
 ---
 title: The 2024 QOSS Survey is open!
 author: Kallie Ferguson
-day: 9
-month: 16
+day: 16
+month: 9
 year: 2024
 tags: 
   - Survey
