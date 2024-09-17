@@ -21,7 +21,7 @@ importers:
         specifier: 2.2.1
         version: 2.2.1(@types/react-dom@18.2.4)(@types/react@18.2.6)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@astrojs/rss':
-        specifier: ^4.0.5
+        specifier: ^4.0.7
         version: 4.0.7
       '@astrojs/tailwind':
         specifier: 3.1.3

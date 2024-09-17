@@ -23,11 +23,12 @@ export async function get(context: SiteContext) {
     title: 'Unitary Fund blog',
     description: 'Unitary Fund blog',
     site: context.site,
-    items: posts.map((post) => ({
-      title: post.data.title,
-      link: `/posts/${post.slug}/`,
-      pubDate: getDateFromPost(post),
-      content: sanitizeHtml(parser.render(post.body)),
+    items: sortedPosts
+      .map((post) => ({
+        title: post.data.title || 'Untitled Post',
+        link: `/posts/${post.slug}/`,
+        pubDate: getDateFromPost(post),
+        content: sanitizeHtml(parser.render(post.body)),
     })),
     customData: `<language>en-us</language>`,
   });
