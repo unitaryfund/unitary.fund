@@ -25,7 +25,7 @@ export async function get(context: SiteContext) {
     site: context.site,
     items: sortedPosts
       .map((post) => ({
-        title: post.data.title || 'Untitled Post',
+        title: post.data.title,
         link: `/posts/${post.slug}/`,
         pubDate: getDateFromPost(post),
         content: sanitizeHtml(parser.render(post.body)),
