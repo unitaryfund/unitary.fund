@@ -1,16 +1,16 @@
 ---
 title: "Aquapointer, a software package for quantum biology applications" 
 author: Misty Wahl
-day: 6
+day: 27
 month: 9
 year: 2024
 tags: 
   - Q4Bio
-  - Open source software
+  - Research
 ---
 
-[Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software package developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/) and funding from [Wellcome Leap](https://wellcomeleap.org/).
-The library is designed to be a computational tool used in pharmaceutical development, specifically for studying the placement of water molecules in protein cavities.
+[Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software package developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/) and funding from [Wellcome Leap](https://wellcomeleap.org/) through the [Q4Bio program](https://wellcomeleap.org/q4bio/), a research program with the goal of accelerating the applications of quantum computing in human health.
+Aquapointer is designed to be a computational tool used in pharmaceutical development, specifically for studying the placement of water molecules in protein cavities.
 
 Proteins are complex molecules with cavities that can be occupied by water molecules, particularly in living tissue.
 The presence of water molecules influences the binding of small molecules called ligands to specific protein sites, a problem of interest in drug discovery.
@@ -20,7 +20,7 @@ An alternative approach is to find first the density distribution of water molec
 By looking at 2D slices of the 3D-RISM density function, we can define a discrete optimization problem (per slice) whose solutions correspond to positions of water molecules.
 
 Aquapointer generates 2D slices of an input 3D-RISM density function, maps the slices to a QUBO problem, translates the QUBO to an analog pulse sequence or a digital circuit, and then calls the backend API and processes the results.
-The analog workflow in Aquapointer uses [Pulser](https://github.com/pasqal-io/Pulser) for intermediate representations (IR) of the pulse sequences and for interfacing to supported backends, e.g. QuTip
+The analog workflow in Aquapointer uses [Pulser](https://github.com/pasqal-io/Pulser) for intermediate representations (IR) of the pulse sequences and for interfacing to supported backends, e.g. QuTiP.
 The digital workflow uses Qiskit for IR and simulated backends.
 
 ![image demonstating the analog workflow in Aquapointer](/images/aquapointer_analogflow.png)
@@ -43,4 +43,4 @@ for canvas in canvases:
 ```
 
 We have also created a template script for automating the workflow from 3D-RISM input file to positions of water molecules obtained from solving the QUBO.
-Finally, we are currently in the process of upgrading Aquapointer's [documentation](https://aquapointer.readthedocs.io/en/latest/), so stay tuned for an annoucement on our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), and [LinkedIn](https://www.linkedin.com/company/unitary-fund/).
+For more information, check out Aquapointer's [documentation](https://aquapointer.readthedocs.io/en/latest/), and be sure to stay connected with Unitary Fund on our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), and [LinkedIn](https://www.linkedin.com/company/unitary-fund/).
