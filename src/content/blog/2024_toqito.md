@@ -15,21 +15,21 @@ tags:
 
 In early 2020, the humble [initial commit](https://github.com/vprusso/toqito/commit/a2f2449c4b9de81becff41cb25f1bca3fa180e8b) of the toqito project ([repo](https://github.com/vprusso/toqito)|[docs](https://toqito.readthedocs.io/en/latest/index.html)) made its way onto GitHub.
 
-![][/images/toqito_first_commit.png]
+![](/images/toqito_first_commit.png)
 
 toqito was launched as a personal research-oriented software project to help Vincent Russo perform more effective research in quantum information. A  tool like this would have been exceedingly helpful to Vincent as a PhD student as it would have allowed him to rapidly test ideas and accelerate the pace and progress of his research.
 
 In the subsequent four years since its inception, toqito has seen significant contribution, development, and usage for different problems in quantum information.
 
-![][/images/toqito_star_chart.png]
+![](/images/toqito_star_chart.png)
 
-toqito is an open-source library for studying various objects in quantum information, namely, states, channels, and measurements. toqito provides numerical tools to study problems about entanglement theory, nonlocal games, and other aspects of quantum information often associated with computer science.
+toqito is an open-source library for studying various objects in quantum information, namely, states, channels, and measurements. toqito provides numerical tools to study problems about entanglement theory, nonlocal games, and other aspects of quantum information often associated with computer science. Toqito is similar to and indeed inspired by the extensive [QETLAB]() MATLAB library. The goal was to expand on the set of functionalities offered by QETLAB and to also offer this functionality to Python programmers. This allows users to benefit from this functionality without the need of a MATLAB license. Additionally, as Python is a language that is widely used by the quantum community, using Python was a natural choice of implementation.
 
 In the early days of toqito, Vincent showed some basic functionality to co-workers with a quantum information background. One of them suggested the Unitary Fund’s [microgrant program](https://unitary.fund/grants/). To his delight, toqito was accepted as a microgrant recipient after making a short video for the application. Not only was the monetary reward a nice boost of encouragement, but the associated support from the UnitaryFund team pushed him to reach out to other scientists and researchers who may benefit from toqito and potentially guide its development. 
 
 One of the opportunities suggested by the Unitary Fund to promote toqito included a talk to the  [New York Quantum Computing Meetup group](https://www.meetup.com/new-york-quantum-computing-meetup/) participants. Vincent recorded the subsequent [first video on the UnitaryFund YouTube channel](https://www.youtube.com/watch?v=6R7qSszJwBI) that outlined the basic premise of toqito at that time. To promote toqito to a broader audience, a short [whitepaper](https://joss.theoj.org/papers/10.21105/joss.03082) was published in the Journal of Open Source Software.
 
-Later that year, the first [UnitaryHACK 2021](https://unitary.fund/posts/unitaryhack2021/) event took place. This hackathon allows maintainers of quantum open-source (QOSS)  software repositories to participate by adding a set of bountied issues to improve the participating QOSS project. This hackathon also involved some of the earliest external contributors to toqito. 
+Later that year, the first [UnitaryHACK 2021](https://unitary.fund/posts/unitaryhack2021/) event took place. This hackathon allows maintainers of quantum open-source (QOSS) software repositories to participate by adding a set of bountied issues to improve the participating QOSS project. This hackathon also involved some of the earliest external contributors to toqito. 
 
 Toqito has since continued to be a participating project at subsequent UnitaryHACKs ([2022](https://unitary.fund/posts/2022unitaryhack/), [2023](https://unitary.fund/posts/2023_unitaryhack/), and [2024](https://unitaryhack.dev/)) and has gained more users, contributors, and essential features that have been invaluable to the broader community. 
 
