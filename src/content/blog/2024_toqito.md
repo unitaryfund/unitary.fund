@@ -17,7 +17,7 @@ In early 2020, the humble [initial commit](https://github.com/vprusso/toqito/com
 
 ![][/images/toqito_first_commit.png]
 
-toqito was launched as a personal research-oriented software project to help Vincent perform more effective research in quantum information. A  tool like this would have been exceedingly helpful to Vincent as a PhD student as it would have allowed him to rapidly test ideas and accelerate the pace and progress of his research.
+toqito was launched as a personal research-oriented software project to help Vincent Russo perform more effective research in quantum information. A  tool like this would have been exceedingly helpful to Vincent as a PhD student as it would have allowed him to rapidly test ideas and accelerate the pace and progress of his research.
 
 In the subsequent four years since its inception, toqito has seen significant contribution, development, and usage for different problems in quantum information.
 
