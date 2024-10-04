@@ -21,7 +21,7 @@ toqito was launched as a personal research-oriented software project to help Vin
 
 In the subsequent four years since its inception, toqito has seen significant contribution, development, and usage for different problems in quantum information.
 
-![](/images/toqito_star_chart.png)
+![](/images/toqito_stars.png)
 
 toqito is an open-source Python library for studying various objects in quantum information, namely, states, channels, and measurements. toqito provides numerical tools to study problems about entanglement theory, nonlocal games, and other aspects of quantum information often associated with computer science. Toqito is similar to and indeed inspired by the extensive [QETLAB]() MATLAB library. The goal was to expand on the set of functionalities offered by QETLAB and to also offer this functionality to Python programmers. This allows users to benefit from this functionality without the need of a MATLAB license. Additionally, as Python is a language that is widely used by the quantum community, using Python was a natural choice of implementation.
 
