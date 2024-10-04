@@ -21,9 +21,9 @@ UnitaryCON participants received advance access to the annual [Quantum Open Sour
 
 Thank you to our members and event sponsors for making unitaryCON possible!
 
-Core Members: IBM Quantum, DoraHacks, OQD, and Scientifica
-Supporting Members: AWS, Microsoft, Pasqal, QC Ware, SandboxAQ
-Event Sponsors: [InstituteQ](https://instituteq.fi/) and [Classiq](https://www.classiq.io/)
+**Core Members:** IBM Quantum, DoraHacks, OQD, and Scientifica
+**Supporting Members:** AWS, Microsoft, Pasqal, QC Ware, SandboxAQ
+**Event Sponsors:** [InstituteQ](https://instituteq.fi/) and [Classiq](https://www.classiq.io/)
 
 A special thank you to InstituteQ for their generous sponsorship to fund travel to participate in unitaryCON.
 
