@@ -23,7 +23,21 @@ In the subsequent four years since its inception, toqito has seen significant co
 
 ![](/images/toqito_star_chart.png)
 
-toqito is an open-source library for studying various objects in quantum information, namely, states, channels, and measurements. toqito provides numerical tools to study problems about entanglement theory, nonlocal games, and other aspects of quantum information often associated with computer science. Toqito is similar to and indeed inspired by the extensive [QETLAB]() MATLAB library. The goal was to expand on the set of functionalities offered by QETLAB and to also offer this functionality to Python programmers. This allows users to benefit from this functionality without the need of a MATLAB license. Additionally, as Python is a language that is widely used by the quantum community, using Python was a natural choice of implementation.
+toqito is an open-source Python library for studying various objects in quantum information, namely, states, channels, and measurements. toqito provides numerical tools to study problems about entanglement theory, nonlocal games, and other aspects of quantum information often associated with computer science. Toqito is similar to and indeed inspired by the extensive [QETLAB]() MATLAB library. The goal was to expand on the set of functionalities offered by QETLAB and to also offer this functionality to Python programmers. This allows users to benefit from this functionality without the need of a MATLAB license. Additionally, as Python is a language that is widely used by the quantum community, using Python was a natural choice of implementation.
+
+toqito contains various functions for fundamental operations in quantum information in addition to semidefinite programs
+relying on the convex optimization module in `cvxpy`. In modules like [`states`](https://toqito.readthedocs.io/en/latest/autoapi/states/index.html), [`channels`](https://toqito.readthedocs.io/en/latest/autoapi/channels/index.html) and [`matrices`](https://toqito.readthedocs.io/en/latest/autoapi/matrices/index.html) a user can obtain quantum states, quantum channels and general matrices to utilize in their calculation. Furthermore, other submodules can apply operations ([`channel_ops`](https://toqito.readthedocs.io/en/latest/autoapi/channel_ops/index.html), [`matrix_ops`](https://toqito.readthedocs.io/en/latest/autoapi/matrix_props/index.html) etc.) to the quantum states, channels or matrices of interest as well as verify the inputs of interest satisfy certain properties ([`state_metrics`](https://toqito.readthedocs.io/en/latest/autoapi/state_metrics/index.html), [`channel_props`](https://toqito.readthedocs.io/en/latest/autoapi/channel_props/index.html), [`matrix_props`](https://toqito.readthedocs.io/en/latest/autoapi/matrix_props/index.html) etc.) 
+
+For example, if we want to verify the density matrix of some quantum state has rank 1, toqito's [`state_props`](https://toqito.readthedocs.io/en/latest/autoapi/state_props/index.html) module makes it convenient to do so. 
+
+```py
+from toqito.states import ghz
+from toqito.state_props import is_pure
+
+ghz_state = ghz(2, 3)
+rho = ghz_state @ ghz_state.conj().T
+is_pure(rho)
+```
 
 In the early days of toqito, Vincent showed some basic functionality to co-workers with a quantum information background. One of them suggested the Unitary Fund’s [microgrant program](https://unitary.fund/grants/). To his delight, toqito was accepted as a microgrant recipient after making a short video for the application. Not only was the monetary reward a nice boost of encouragement, but the associated support from the UnitaryFund team pushed him to reach out to other scientists and researchers who may benefit from toqito and potentially guide its development. 
 
@@ -40,5 +54,3 @@ In addition to being cited and used in peer-reviewed research papers on quantum 
 Toqito continues to be used and contributed to by numerous researchers and software developers in the quantum ecosystem. There are many exciting plans for [the future of toqito](https://github.com/vprusso/toqito/wiki). If you feel that toqito may enhance your research workflow or the toqito roadmap lacks a particular feature, don’t hesitate to contact the developers through the [Discord channel](https://discord.com/channels/764231928676089909/1172282184833454090). If you want to contribute to the project, consult the [contribution guide](https://toqito.readthedocs.io/en/latest/contributing.html), open a PR, or add an issue to [the board](https://github.com/vprusso/toqito/issues).
 
 We look forward to seeing where toqito goes from here!
-
-test change
