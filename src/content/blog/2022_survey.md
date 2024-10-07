@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 6
 month: 9
 year: 2022
+tags:
+- Survey
 ---
 
 We’re excited to share the first **Quantum Open Source Software (QOSS) Survey** with you all!
