@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 7
 month: 11
 year: 2022
+tags:
+- Survey
 ---
 
 We are excited to share the results for the 2022 Quantum Open Source Software (OSS) Survey organized by Unitary Fund. Collectively, over 1000 responses were provided by the community to the main software survey (Part I) and to the community survey on Diversity & Inclusion (Part II).
