@@ -4,6 +4,8 @@ author: UF Team
 day: 21
 month: 6
 year: 2022
+tags:
+- Mitiq
 ---
 
 The Unitary Fund team is excited to announce the addition of dynamical decoupling features to Mitiq, the open-source quantum toolbox in Python that mitigates errors of NISQ devices.
