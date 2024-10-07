@@ -4,6 +4,8 @@ author: Nathan Shammah
 day: 8
 month: 7
 year: 2022
+tags:
+- unitaryHACK
 ---
 
 Whether you were a participant, maintainer, bounty hacker, or community
