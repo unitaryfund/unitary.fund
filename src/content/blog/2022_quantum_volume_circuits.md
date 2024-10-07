@@ -4,6 +4,9 @@ author: Nick Gardner
 day: 31
 month: 7
 year: 2022
+tags:
+- Guest Post
+- Mitiq
 ---
 
 ## About quantum volume
