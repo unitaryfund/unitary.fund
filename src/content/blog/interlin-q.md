@@ -4,6 +4,9 @@ author: "Guest post: Stephen DiAdamo"
 day: 17
 month: 9
 year: 2021
+tags:
+- Guest Post
+- Microgrant
 ---
 
 This post was originally published on [Medium](https://medium.com/@stephen.diadamo/distributed-quantum-computing-1c5d38a34c50), and is being syndicated here.
