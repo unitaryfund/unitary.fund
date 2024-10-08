@@ -4,6 +4,9 @@ author: Francesc Sabater
 day: 29
 month: 2
 year: 2024
+tags:
+- Guest Post
+- Mitiq
 ---
 
 **In the latest Mitiq release, [v0.34.0](https://github.com/unitaryfund/mitiq/discussions/2194), support for [Qibo](https://qibo.science/) has been announced as a newly integrated frontend.** 
