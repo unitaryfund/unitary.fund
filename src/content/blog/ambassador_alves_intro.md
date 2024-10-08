@@ -4,6 +4,8 @@ author: Andre Alves
 day: 25
 month: 1
 year: 2022
+tags:
+- Guest Post
 ---
 
 Having a somewhat unorthodox background, my introduction into the quantum computing space actually began with a TikTok video.
