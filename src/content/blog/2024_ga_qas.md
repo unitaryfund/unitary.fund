@@ -5,9 +5,9 @@ day: 11
 month: 9
 year: 2024
 tags:
-  - quantum architecture search
-  - qiskit
-  - genetic algorithm
+  - Qiskit
+  - Guest Post
+  - Microgrant
 ---
 
 In various quantum optimization problems, choosing the right ansatz is a critical point that will affect the accuracy of the result. For example, in Variational Quantum Eigensolver, many template ansatzes have been proposed, such as Graph Ansatz and EffecientSU2, etc. An ansatz [1] is the structure of quantum gates, deciding how many and what type of gates will be used, for easier imagination, it's equivalent to the model's architecture in a deep learning model.
