@@ -4,6 +4,9 @@ author: Simon Cross
 day: 11
 month: 4
 year: 2022
+tags:
+- Guest Post
+- Microgrant
 ---
 
 Earlier this year the QuTiP Admin Team conducted its annual review.
