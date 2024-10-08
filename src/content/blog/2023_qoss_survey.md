@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 27
 month: 9
 year: 2023
+tags:
+- Survey
 ---
 
 The ***2023 Quantum Open Source Software (QOSS) Survey*** is here! 
