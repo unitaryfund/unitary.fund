@@ -4,6 +4,9 @@ author: Christoph Kirsch and Stefanie Muroya Lei
 day: 3
 month: 2
 year: 2023
+tags:
+- Guest Post
+- Microgrant
 ---
 
 Bounded Model Checking (BMC) is a well-established technique used to ensure the correctness of critical software. Some examples are verifying properties of software systems and malware detection. However BMC techniques do not generally scale. Thereafter, the aim of our project is to develop a compiler that encodes efficiently classical programs so that quantum computers can help accelerating bounded model checking even in the NISQ-era.
