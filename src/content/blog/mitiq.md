@@ -4,6 +4,8 @@ author: Andrea Mari, Nathan Shammah, Peter Karalekas, Ryan LaRose, Will Zeng
 day: 10
 month: 9
 year: 2022
+tags: 
+- Mitiq
 ---
 
 We're excited to introduce [**Mitiq**](https://www.github.com/unitaryfund/mitiq), a toolchain that helps reduce errors in noisy quantum computers.
