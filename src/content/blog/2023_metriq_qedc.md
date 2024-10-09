@@ -4,6 +4,8 @@ author: Metriq Team
 day: 28
 month: 2
 year: 2023
+tags:
+- Metriq
 ---
 
 We are excited to announce the integration of an automated pipeline to add
