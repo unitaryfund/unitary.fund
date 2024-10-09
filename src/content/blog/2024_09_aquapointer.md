@@ -12,14 +12,18 @@ tags:
 [Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software library developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/).
 The project was funded by [Wellcome Leap](https://wellcomeleap.org/) through the [Q4Bio program](https://wellcomeleap.org/q4bio/), a research program with the goal of accelerating the applications of quantum computing in human health. 
 The Aquapointer library is a generalized, automated version of the framework developed over the course of the project, detailed in a recently published paper [^1]: _Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery_.
-Aquapointer is designed as a computational tool for use in the pharmaceutical discovery and development process, specifically for leveraging quantum computing resources to predict the locations of water molecules in protein cavities.
+Aquapointer is designed as a computational tool for use in the pharmaceutical discovery and development process, specifically for leveraging quantum computing resources in the prediction of the locations of water molecules in protein cavities.
 
 Proteins are complex molecules with cavities that can be occupied by water molecules, particularly in living tissue.
 The presence of water molecules influences the binding of small molecules called ligands to specific protein sites, a problem of interest in drug discovery.
 Protein solvation effects can be studied either by modeling the interactions experimentally, which is generally a costly and relatively inefficient process, or by using numerical models.
 Classical numerical methods, such as Monte Carlo or molecular dynamics, can give some insight but the computational complexity of these methods can be too large for certain hard cases. 
-An alternative approach is to find first the density distribution of water molecules, through methods such as the [3D Reference Interactive Site Model (3D-RISM)](https://pubmed.ncbi.nlm.nih.gov/23675899/). 
+
+An alternative approach to finding the locations of water molecules is to perform classical simulations first to find the density distribution of water molecules, through methods such as the [3D Reference Interactive Site Model (3D-RISM)](https://pubmed.ncbi.nlm.nih.gov/23675899/). 
 By looking at 2D slices of the 3D-RISM density function, we can define a discrete optimization problem (per slice) whose solutions correspond to positions of water molecules.
+It turns out that the best known formulation of the discrete optimization problem with solutions corresponding to positions of water molecules is a [quadratic unconstrained binary optimization (QUBO)](https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization) problem.
+The QUBO problem is a combinatorial optimization problem with numerous applications across a broad array of disciplines, including finance, economics, physics, and computer aided design [2], as well as in the medical field, such as in diagnostic image classification [3].
+Furthermore, the close connection between the QUBO problem formulation and the Ising model make it a promising application for analog computation.
 
 Aquapointer generates 2D slices of an input 3D-RISM density function, maps the slices to a QUBO problem, translates the QUBO to an analog pulse sequence or a digital circuit, and then calls the backend API and processes the results.
 The analog workflow in Aquapointer uses [Pulser](https://github.com/pasqal-io/Pulser) for intermediate representations (IR) of the pulse sequences and for interfacing to supported backends, e.g. QuTiP.
@@ -50,4 +54,5 @@ For more information, check out Aquapointer's [documentation](https://aquapointe
 ------------------------------------------------------
 
 [^1]: Mauro D'Arcangelo, Louis-Paul Henry, Loic Henriet, Daniele Loco, Nicolai Gouraud, Stanislas Angebault, Jules Sueiro, Jerome Foret, Pierre Monmarche, and Jean-Philip Piquemal. Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery. _Phys. Rev. Res_, (2024) (https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.6.043020)).
-
+[^2]:
+[^3]:
