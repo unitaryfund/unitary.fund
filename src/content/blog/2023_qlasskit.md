@@ -5,10 +5,8 @@ day: 13
 month: 12
 year: 2023
 tags: 
-- python 
-- compiler
-- qiskit 
-- quantum algorithms 
+- Guest Post
+- Microgrant
 ---
 
 Traditionally, creating quantum circuits requires specialized knowledge in quantum programming. This requirement holds true when encoding a classical algorithm inside a quantum circuit, for instance, for an oracle or a black-box component of a quantum algorithm. This often becomes a time wasting job, since we almost always already have a classical implementation in a traditional high level language.
