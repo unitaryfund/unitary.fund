@@ -24,15 +24,17 @@ import {
   ButtonLink,
 } from '~/components/Ui';
 
-// Add banner for the Quantum Open Source Software Survey
-<HomeSection title="The Unitary Fund 2024 Quantum Open Source Software Survey is here!" topSpacing="extra-large" bottomSpacing="large" titleStyle="primary">
-  <IntroText>
-    Take the survey now to help shape the future of quantum open source software!
-  </IntroText>
-  <ButtonLink url="https://unitaryfund.typeform.com/to/quantum-survey?typeform-source=unitary.fund">
-    Take the Survey Now
-  </ButtonLink>
-</HomeSection>
+const HomePage = () => {
+  return (
+    <>
+      <HomeSection title="The Unitary Fund 2024 Quantum Open Source Software Survey is here!" topSpacing="extra-large" bottomSpacing="large" titleStyle="primary">
+        <IntroText>
+          Take the survey now to help shape the future of quantum open source software!
+        </IntroText>
+        <ButtonLink url="https://unitaryfund.typeform.com/to/quantum-survey?typeform-source=unitary.fund">
+          Take the Survey Now
+        </ButtonLink>
+      </HomeSection>
 
 <AboveTheFold>
   <PreIntroText>
@@ -161,3 +163,9 @@ import {
     </Column>
   </ThreeColumn>
 </HomeSection>
+
+  </>
+  );
+};
+
+export default HomePage;
