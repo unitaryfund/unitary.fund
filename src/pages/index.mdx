@@ -5,49 +5,6 @@ bodyClassName: home
 metaDescription: Unitary Fund is a 501(c)(3) non-profit helping create a quantum technology ecosystem that benefits the most people.
 ---
 
-import React from 'react';
-import { ButtonLink } from '~/components/Ui'; // Assuming ButtonLink is a component for rendering links as buttons
-
-const SurveyBanner = () => {
-  return (
-    <div style={styles.bannerContainer}>
-      <p style={styles.bannerText}>
-        The Unitary Fund 2024 Quantum Open Source Software Survey is here!{' '}
-        <ButtonLink url="https://www.surveymonkey.com/r/qosssurvey24" style={styles.bannerButton}>
-          Take the survey now!
-        </ButtonLink>
-      </p>
-    </div>
-  );
-};
-
-const styles = {
-  bannerContainer: {
-    backgroundColor: '#f7d02c', // Gold background
-    padding: '20px',
-    textAlign: 'center',
-    borderRadius: '8px',
-    marginBottom: '20px',
-  },
-  bannerText: {
-    fontSize: '18px',
-    fontWeight: 'bold',
-    color: '#000', // Black text
-  },
-  bannerButton: {
-    marginLeft: '10px',
-    fontSize: '16px',
-    backgroundColor: '#007bff', // Blue button
-    color: '#fff',
-    padding: '10px 20px',
-    borderRadius: '5px',
-    textDecoration: 'none',
-  },
-};
-
-export default SurveyBanner;
-
-
 import {
   ReducedWidth,
   AboveTheFold,
@@ -66,6 +23,16 @@ import {
   BlogSlider,
   ButtonLink,
 } from '~/components/Ui';
+
+// Add banner for the Quantum Open Source Software Survey
+<HomeSection title="The Unitary Fund 2024 Quantum Open Source Software Survey is here!" topSpacing="extra-large" bottomSpacing="large" titleStyle="primary">
+  <IntroText>
+    Take the survey now to help shape the future of quantum open source software!
+  </IntroText>
+  <ButtonLink url="https://unitaryfund.typeform.com/to/quantum-survey?typeform-source=unitary.fund">
+    Take the Survey Now
+  </ButtonLink>
+</HomeSection>
 
 <AboveTheFold>
   <PreIntroText>
