@@ -4,6 +4,8 @@ author: Nate Stemen and Nathan Shammah
 day: 7
 month: 7
 year: 2023
+tags:
+- unitaryHACK
 ---
 
 Thanks to all that took part in unitaryHACK 2023; Unitary Fund's

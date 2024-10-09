@@ -4,6 +4,9 @@ author: Matt Lourens
 day: 06
 month: 3
 year: 2024
+tags:
+- Guest Post
+- Microgrant
 ---
 
 We've made some improvements to [Hierarqcal](https://github.com/matt-lourens/hierarqcal) since its initial release [last year](https://unitary.fund/posts/2023_hierarqcal/). I hope to summarise the notable ones in this post and give some examples.  The biggest change of all being a new logo:

@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 3
 month: 10
 year: 2022
+tags:
+- Mitiq
 ---
 
 <img src="/images/bqskit.png" alt="BQSKit and Mitiq logo in tandom" width="400"/>

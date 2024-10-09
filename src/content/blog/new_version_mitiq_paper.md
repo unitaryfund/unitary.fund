@@ -4,6 +4,9 @@ author: Unitary Fund Team
 day: 15
 month: 7
 year: 2021
+tags:
+- Mitiq
+- Research
 ---
 
 About a year ago, in September 2020, we released [Mitiq 0.1.0](https://unitary.fund/posts/mitiq.html) and posted its associated [white paper](https://arxiv.org/abs/2009.04417v1). This was the first “stable” version of an open-source Python package for [quantum error mitigation](https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html) on near-term quantum computers. **Mitiq was officially born.**

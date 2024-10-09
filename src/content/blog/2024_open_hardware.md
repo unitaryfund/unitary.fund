@@ -4,6 +4,8 @@ author: Nathan Shammah
 day: 7
 month: 3
 year: 2024
+tags:
+- Research
 ---
 
 **The software stack in quantum computing is widely open source. Now tools and frameworks related to quantum hardware are progressively getting open.**

@@ -4,6 +4,8 @@ author: Dan Strano, Vincent Russo, Ben Castanon, Frances Joy Poblete
 day: 21
 month: 12
 year: 2022
+tags:
+- Metriq
 ---
 
 Metriq is an open source platform for tracking and sharing benchmarks in quantum technologies. A metric “task” compares performance of “methods” across the same workload of interest. Metriq’s mission is to make transparent, accessible benchmarks available to everyone in the quantum computing community.

@@ -4,6 +4,8 @@ author: Maria Maryam
 day: 22
 month: 8
 year: 2022
+tags:
+- Guest Post
 ---
 
 I was introduced to the Unitary Fund through [The Coding School’s](https://the-cs.org/)- [Qubit x Qubit](https://www.qubitbyqubit.org/) Early Quantum Career Immersion Program for undergraduate students. In June 2022, After three weeks of rigorous quantum computing training with Qubit x Qubit, I began my seven-week internship with the Unitary Fund.  When I applied to the program and began learning about quantum computing, I had very little knowledge and experience in both quantum and classical computing. After learning the basics of quantum computing, I was eager to start my work with Unitary Fund and learn even more through hands-on work. 

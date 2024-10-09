@@ -4,6 +4,10 @@ author: Gerald Fux and Dominic Gribben
 day: 7
 month: 2
 year: 2022
+tags:
+- Microgrant
+- Guest Post
+- Research
 ---
 
 When an open quantum system is strongly coupled to a structured environment, describing the dynamics of that system becomes a challenging problem.  Moreover, traditional approaches, based on time evolution of the reduced density matrix are generally not able to correctly calculate higher-order or multi-time correlations. In the past few years efficient tensor network-based techniques based on an influence functional approach have been developed to address both these issues [1-5]. With the development of the OQuPy (**O**pen **Qu**antum Systems in **Py**thon) package we hoped to open up these methods to a much wider audience by placing the complex algorithms behind a user-friendly and intuitive interface.

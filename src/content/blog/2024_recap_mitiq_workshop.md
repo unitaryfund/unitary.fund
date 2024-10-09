@@ -5,9 +5,7 @@ day: 28
 month: 8
 year: 2024
 tags: 
-  - mitiq
-  - workshop
-  - nsf
+  - Mitiq
 ---
 
 **Unitary Fund held the first in-person workshop for the Mitiq project on August 17.**
