@@ -24,11 +24,11 @@ Classical numerical methods, such as Monte Carlo or molecular dynamics, can give
 ## Solving the protein cavity solvation problem
 
 An alternative approach to finding the locations of water molecules is to perform classical simulations first to find the density distribution of water molecules, through methods such as the [3D Reference Interactive Site Model (3D-RISM)](https://pubmed.ncbi.nlm.nih.gov/23675899/). 
-By looking at 2D slices of the 3D-RISM density function, we can define a discrete optimization problem (per slice) whose solutions correspond to positions of water molecules.
+Using the 3D-RISM density function obtained in the previous step, we can define a discrete optimization problem (per slice) whose solutions correspond to positions of water molecules.
 ![image depicting the high-level mapping from continous density distribution to discrete atomic coordinates](/images/aquapointer_3DRISM_motivation.png)
 
 We found that the best formulation of the discrete optimization problem with solutions corresponding to positions of water molecules is a [quadratic unconstrained binary optimization (QUBO)](https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization) problem, as shown in the diagram below.
-The QUBO problem is a combinatorial optimization problem with numerous applications across a broad array of disciplines, including finance, economics, physics, and computer aided design [2], as well as in the medical field, such as in diagnostic image classification [3].
+The QUBO problem is a combinatorial optimization problem with numerous applications across a broad array of disciplines, including finance, economics, physics, and computer aided design [^2], as well as in the medical field, such as in diagnostic image classification [^3].
 Furthermore, the close connection between the QUBO problem formulation and the Ising model make it a promising application for analog quantum computers.
 
 ![image depicting mapping the problem to a QUBO formulation](/images/aquapointer_QUBO.png)
