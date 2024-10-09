@@ -1,16 +1,18 @@
 ---
 title: "Aquapointer, a software package for quantum biology applications" 
 author: Misty Wahl
-day: 27
-month: 9
+day: 11
+month: 10
 year: 2024
 tags: 
   - Q4Bio
   - Research
 ---
 
-[Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software package developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/) and funding from [Wellcome Leap](https://wellcomeleap.org/) through the [Q4Bio program](https://wellcomeleap.org/q4bio/), a research program with the goal of accelerating the applications of quantum computing in human health.
-Aquapointer is designed to be a computational tool used in pharmaceutical development, specifically for studying the placement of water molecules in protein cavities.
+[Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software library developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/).
+The project was funded by [Wellcome Leap](https://wellcomeleap.org/) through the [Q4Bio program](https://wellcomeleap.org/q4bio/), a research program with the goal of accelerating the applications of quantum computing in human health. 
+The Aquapointer library is a generalized, automated version of the framework developed over the course of the project, detailed in a recently published paper [^1]: _Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery_.
+Aquapointer is designed as a computational tool for use in the pharmaceutical discovery and development process, specifically for leveraging quantum computing resources to predict the locations of water molecules in protein cavities.
 
 Proteins are complex molecules with cavities that can be occupied by water molecules, particularly in living tissue.
 The presence of water molecules influences the binding of small molecules called ligands to specific protein sites, a problem of interest in drug discovery.
@@ -44,3 +46,8 @@ for canvas in canvases:
 
 We have also created a template script for automating the workflow from 3D-RISM input file to positions of water molecules obtained from solving the QUBO.
 For more information, check out Aquapointer's [documentation](https://aquapointer.readthedocs.io/en/latest/), and be sure to stay connected with Unitary Fund on our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), and [LinkedIn](https://www.linkedin.com/company/unitary-fund/).
+
+------------------------------------------------------
+
+[^1]: Mauro D'Arcangelo, Louis-Paul Henry, Loic Henriet, Daniele Loco, Nicolai Gouraud, Stanislas Angebault, Jules Sueiro, Jerome Foret, Pierre Monmarche, and Jean-Philip Piquemal. Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery. _Phys. Rev. Res_, (2024) (https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.6.043020)).
+
