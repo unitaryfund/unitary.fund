@@ -25,11 +25,15 @@ Classical numerical methods, such as Monte Carlo or molecular dynamics, can give
 
 An alternative approach to finding the locations of water molecules is to perform classical simulations first to find the density distribution of water molecules, through methods such as the [3D Reference Interactive Site Model (3D-RISM)](https://pubmed.ncbi.nlm.nih.gov/23675899/). 
 By looking at 2D slices of the 3D-RISM density function, we can define a discrete optimization problem (per slice) whose solutions correspond to positions of water molecules.
-We found that the best formulation of the discrete optimization problem with solutions corresponding to positions of water molecules is a [quadratic unconstrained binary optimization (QUBO)](https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization) problem.
+![image depicting the high-level mapping from continous density distribution to discrete atomic coordinates](/images/aquapointer_3DRISM_motivation.png)
+
+We found that the best formulation of the discrete optimization problem with solutions corresponding to positions of water molecules is a [quadratic unconstrained binary optimization (QUBO)](https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization) problem, as shown in the diagram below.
 The QUBO problem is a combinatorial optimization problem with numerous applications across a broad array of disciplines, including finance, economics, physics, and computer aided design [2], as well as in the medical field, such as in diagnostic image classification [3].
 Furthermore, the close connection between the QUBO problem formulation and the Ising model make it a promising application for analog quantum computers.
 
-## Aquapointer automates the 3D-RISM to water molecule location pipeline
+![image depicting mapping the problem to a QUBO formulation](/images/aquapointer_QUBO.png)
+
+## Aquapointer automates the pipeline of 3D-RISM density distribution to water molecule locations
 
 To find the locations of water molecules in a protein cavity of interest, Aquapointer generates 2D slices of an input 3D-RISM density function, maps the slices to a QUBO problem, translates the QUBO to an analog pulse sequence or a digital circuit, and then calls the backend API and processes the results.
 The analog workflow in Aquapointer uses [Pulser](https://github.com/pasqal-io/Pulser) for intermediate representations (IR) of the pulse sequences and for interfacing to supported backends, e.g. QuTiP.
