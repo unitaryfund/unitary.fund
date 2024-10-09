@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 24
 month: 5
 year: 2022
+tags:
+- unitaryHACK
 ---
 
 Unitary Fund is glad to announce the 2022 edition of **[unitaryHACK](https://unitaryhack.dev/), which will be hosted from June 3rd to June 17th, 2022**.
