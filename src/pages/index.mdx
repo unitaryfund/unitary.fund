@@ -24,18 +24,6 @@ import {
   ButtonLink,
 } from '~/components/Ui';
 
-const HomePage = () => {
-  return (
-    <>
-      <HomeSection title="The Unitary Fund 2024 Quantum Open Source Software Survey is here!" topSpacing="extra-large" bottomSpacing="large" titleStyle="primary">
-        <IntroText>
-          Take the survey now to help shape the future of quantum open source software!
-        </IntroText>
-        <ButtonLink url="https://unitaryfund.typeform.com/to/quantum-survey?typeform-source=unitary.fund">
-          Take the Survey Now
-        </ButtonLink>
-      </HomeSection>
-
 <AboveTheFold>
   <PreIntroText>
     Because evolution is unitary.
@@ -59,6 +47,15 @@ const HomePage = () => {
 
   </NumberPoints>
 </AboveTheFold>
+
+ <HomeSection title="The Unitary Fund 2024 Quantum Open Source Software Survey is here!" topSpacing="extra-large" bottomSpacing="large" titleStyle="primary">
+        <IntroText>
+          Take the survey now to help shape the future of quantum open source software!
+        </IntroText>
+        <ButtonLink url="https://www.surveymonkey.com/r/qosssurvey24">
+          Take the Survey Now
+        </ButtonLink>
+      </HomeSection>
 
 <HomeSection
   title="We give $4k cash grants to <mark>quantum tech projects</mark>"
@@ -163,9 +160,3 @@ const HomePage = () => {
     </Column>
   </ThreeColumn>
 </HomeSection>
-
-  </>
-  );
-};
-
-export default HomePage;
