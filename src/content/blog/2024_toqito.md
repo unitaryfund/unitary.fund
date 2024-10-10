@@ -13,7 +13,7 @@ tags:
 
 ![](/images/toqito_logo.png)
 
-# The Origins of toqito
+## The Origins of toqito
 In early 2020, the humble [initial
 commit](https://github.com/vprusso/toqito/commit/a2f2449c4b9de81becff41cb25f1bca3fa180e8b) of the toqito project
 ([repo](https://github.com/vprusso/toqito)|[docs](https://toqito.readthedocs.io/en/latest/index.html)) made its way onto
@@ -27,7 +27,7 @@ alike.
 
 ![](/images/toqito_stars.png)
 
-# Expanding Quantum Research with toqito
+## Expanding Quantum Research with toqito
 toqito has grown significantly in the past four years. It allows users to study fundamental objects in quantum
 information: [quantum states](https://toqito.readthedocs.io/en/latest/intro_tutorial.html#states), 
 [quantum channels](https://toqito.readthedocs.io/en/latest/intro_tutorial.html#channels), and 
@@ -65,12 +65,12 @@ certain problems in quantum information. A collection of these can be seen here
 
 - [![a](https://img.shields.io/static/v1?label=arXiv&message=2206.08313&color=inactive&style=flat-square)](https://arxiv.org/abs/2206.08313) Russo, Vincent and Sikora, Jamie "Inner products of pure states and their antidistinguishability", Physical Review A, Vol. 107, No. 3, (2023).
 
-# Core Concepts: Quantum States, Channels, and Measurements
+## Core Concepts: Quantum States, Channels, and Measurements
 In quantum information science, quantum states represent the fundamental objects we manipulate, quantum channels
 describe the transformations applied to these states, and quantum measurements allow us to extract information from
 states.
 
-## Example: Defining and Analyzing a Quantum State
+### Example: Defining and Analyzing a Quantum State
 In this example, we calculate the fidelity between two quantum states—-a fundamental task in quantum state comparison.
 
 For example, in the event where we calculate the fidelity between states that are identical, we should obtain the value
@@ -90,7 +90,7 @@ of 1. This can be observed in toqito as follows.
 1.0
 ```
 
-## Quantum State Discrimination
+### Quantum State Discrimination
 A more engaging example is quantum state discrimination, a widely applicable problem in cryptography and quantum
 computing. The goal is to distinguish between different quantum states in an optimal way. This is typically formulated
 as a convex optimization problem.
@@ -117,7 +117,7 @@ Quantum distinguishability is a rich field of research and having the ability to
 determine the probability of distinguishing a set of quantum states is a useful technique for rapidly iterating on
 research in this domain.
 
-# Unitary Fund accelerates toqito
+## Unitary Fund accelerates toqito
 
 In the early days of toqito, Vincent showed some basic functionality to co-workers with a quantum information
 background. One of them suggested the Unitary Fund’s [microgrant program](https://unitary.fund/grants/). To his delight,
@@ -153,7 +153,7 @@ QuantumInsider](https://thequantuminsider.com/2022/06/14/top-63-quantum-computer
 projects judged on clean code, good project structure, etc. Furthermore, as of September 2024, toqito is now an
 [affiliated project of NumFOCUS](https://numfocus.medium.com/august-september-project-updates-e3dac6f86aa8).
 
-# The future of toqito
+## The future of toqito
 
 The toqito project continues to be used and contributed to by numerous researchers and software developers in the
 quantum ecosystem. For instance, another UF microgrant was recently awarded to [Aidan
