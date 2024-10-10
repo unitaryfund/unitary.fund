@@ -164,18 +164,18 @@ We look forward to seeing where toqito goes from here!
 
 ------------------------------------------------------
 
-[^1]: Bandyopadhyay, Somshubhro and Russo, Vincent, _Distinguishing a maximally entangled basis using LOCC and shared entanglement_(2024) [arXiv:2406.13430](https://arxiv.org/abs/2406.13430).  
+[^1]: Bandyopadhyay, Somshubhro and Russo, Vincent, _Distinguishing a maximally entangled basis using LOCC and shared entanglement_ (2024) [arXiv:2406.13430](https://arxiv.org/abs/2406.13430).  
 
-[^2]: Tavakoli, Armin and Pozas-Kerstjens, Alejandro and Brown, Peter and Araújo, Mateus. _Semidefinite programming relaxations for quantum correlations_(2023) [arXiv:2307.02551](https://arxiv.org/abs/2307.02551).
+[^2]: Tavakoli, Armin and Pozas-Kerstjens, Alejandro and Brown, Peter and Araújo, Mateus. _Semidefinite programming relaxations for quantum correlations_ (2023) [arXiv:2307.02551](https://arxiv.org/abs/2307.02551).
 
-[^3]: Johnston, Nathaniel and Russo, Vincent and Sikora, Jamie, _Tight bounds for antidistinguishability and circulant sets of pure quantum states_(2023) [arXiv:2311.17047]((https://arxiv.org/abs/2311.17047))
+[^3]: Johnston, Nathaniel and Russo, Vincent and Sikora, Jamie, _Tight bounds for antidistinguishability and circulant sets of pure quantum states_ (2023) [arXiv:2311.17047]((https://arxiv.org/abs/2311.17047))
 
-[^4]: Pelofske, Elijah and Bartschi, Andreas and Eidenbenz, Stephan and Garcia, Bryan and Kiefer, Boris, _Probing Quantum Telecloning on Superconducting Quantum Processors_(2023) [arXiv:2308.15579](https://arxiv.org/abs/2308.15579)
+[^4]: Pelofske, Elijah and Bartschi, Andreas and Eidenbenz, Stephan and Garcia, Bryan and Kiefer, Boris, _Probing Quantum Telecloning on Superconducting Quantum Processors_ (2023) [arXiv:2308.15579](https://arxiv.org/abs/2308.15579)
 
-[^5]: Philip, Aby and Rethinasamy, Soorya and Russo, Vincent and Wilde, Mark, _Quantum Steering Algorithm for Estimating Fidelity of Separability_(2023) [arXiv:2303.07911](https://arxiv.org/abs/2303.07911)
+[^5]: Philip, Aby and Rethinasamy, Soorya and Russo, Vincent and Wilde, Mark, _Quantum Steering Algorithm for Estimating Fidelity of Separability_ (2023) [arXiv:2303.07911](https://arxiv.org/abs/2303.07911)
 
-[^6]: Miszczak, Jarosław Adam, _Symbolic quantum programming for supporting applications of quantum computing technologies_(2023) [arXiv:2302.09401](https://arxiv.org/abs/2302.09401)
+[^6]: Miszczak, Jarosław Adam, _Symbolic quantum programming for supporting applications of quantum computing technologies_   (2023) [arXiv:2302.09401](https://arxiv.org/abs/2302.09401)
 
-[^7]:  Casalé, Balthazar and Di Molfetta, Giuseppe and Anthoine, Sandrine and Kadri, Hachem, _Large-Scale Quantum Separability Through a Reproducible Machine Learning Lens_(2023) [arXiv:2306.09444](https://arxiv.org/abs/2306.09444)
+[^7]:  Casalé, Balthazar and Di Molfetta, Giuseppe and Anthoine, Sandrine and Kadri, Hachem, _Large-Scale Quantum Separability Through a Reproducible Machine Learning Lens_ (2023) [arXiv:2306.09444](https://arxiv.org/abs/2306.09444)
 
-[^8]: Russo, Vincent and Sikora, Jamie, _Inner products of pure states and their antidistinguishability_(2023) [arXiv:2206.08313](https://arxiv.org/abs/2206.08313)
+[^8]: Russo, Vincent and Sikora, Jamie, _Inner products of pure states and their antidistinguishability_ (2023) [arXiv:2206.08313](https://arxiv.org/abs/2206.08313)
