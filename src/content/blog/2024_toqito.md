@@ -42,28 +42,21 @@ scientific ecosystem.
 There have also been a number of academic publications that have made used of `toqito` to numerically define and analyze
 certain problems in quantum information. A collection of these can be seen here
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2406.13430&color=inactive&style=flat-square)](https://arxiv.org/abs/2406.13430) Bandyopadhyay, Somshubhro and Russo, Vincent
-"Distinguishing a maximally entangled basis using LOCC and shared entanglement", (2024).
+- Bandyopadhyay, Somshubhro and Russo, Vincent, _Distinguishing a maximally entangled basis using LOCC and shared entanglement_[^1]
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2307.2551&color=inactive&style=flat-square)](https://arxiv.org/abs/2307.02551) Tavakoli, Armin and Pozas-Kerstjens, Alejandro and Brown, Peter and Araújo, Mateus
-"Semidefinite programming relaxations for quantum correlations", (2023).
+- Tavakoli, Armin and Pozas-Kerstjens, Alejandro and Brown, Peter and Araújo, Mateus, _Semidefinite programming relaxations for quantum correlations_[^2]
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2311.17047&color=inactive&style=flat-square)](https://arxiv.org/abs/2311.17047) Johnston, Nathaniel and Russo, Vincent and Sikora, Jamie
-"Tight bounds for antidistinguishability and circulant sets of pure quantum states", (2023).
+- Johnston, Nathaniel and Russo, Vincent and Sikora, Jamie, _Tight bounds for antidistinguishability and circulant sets of pure quantum states_[^3]
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2308.15579&color=inactive&style=flat-square)](https://arxiv.org/abs/2308.15579) Pelofske, Elijah and Bartschi, Andreas and Eidenbenz, Stephan and Garcia, Bryan and Kiefer, Boris
-"Probing Quantum Telecloning on Superconducting Quantum Processors", (2023).
+- Pelofske, Elijah and Bartschi, Andreas and Eidenbenz, Stephan and Garcia, Bryan and Kiefer, Boris, _Probing Quantum Telecloning on Superconducting Quantum Processors_[^4]
  
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2303.07911&color=inactive&style=flat-square)](https://arxiv.org/abs/2303.07911) Philip, Aby and Rethinasamy, Soorya and Russo, Vincent and Wilde, Mark. 
-"Quantum Steering Algorithm for Estimating Fidelity of Separability.", Quantum 8, 1366, (2023).
+- Philip, Aby and Rethinasamy, Soorya and Russo, Vincent and Wilde, Mark, _Quantum Steering Algorithm for Estimating Fidelity of Separability_[^5]
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2302.09401&color=inactive&style=flat-square)](https://arxiv.org/abs/2302.09401) Miszczak, Jarosław Adam. 
-"Symbolic quantum programming for supporting applications of quantum computing technologies.", (2023).
+- Miszczak, Jarosław Adam, _Symbolic quantum programming for supporting applications of quantum computing technologies_[^6]
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2306.09444&color=inactive&style=flat-square)](https://arxiv.org/abs/2306.09444) Casalé, Balthazar and Di Molfetta, Giuseppe and Anthoine, Sandrine and Kadri, Hachem. 
-"Large-Scale Quantum Separability Through a Reproducible Machine Learning Lens.", (2023).
+- Casalé, Balthazar and Di Molfetta, Giuseppe and Anthoine, Sandrine and Kadri, Hachem, _Large-Scale Quantum Separability Through a Reproducible Machine Learning Lens_[^7]
 
-- [![a](https://img.shields.io/static/v1?label=arXiv&message=2206.08313&color=inactive&style=flat-square)](https://arxiv.org/abs/2206.08313) Russo, Vincent and Sikora, Jamie "Inner products of pure states and their antidistinguishability", Physical Review A, Vol. 107, No. 3, (2023).
+- Russo, Vincent and Sikora, Jamie, _Inner products of pure states and their antidistinguishability_[^8]
 
 ## Core Concepts: Quantum States, Channels, and Measurements
 In quantum information science, quantum states represent the fundamental objects we manipulate, quantum channels
@@ -168,3 +161,21 @@ guide](https://toqito.readthedocs.io/en/latest/contributing.html), open a PR, or
 board](https://github.com/vprusso/toqito/issues).
 
 We look forward to seeing where toqito goes from here!
+
+------------------------------------------------------
+
+[^1]: Bandyopadhyay, Somshubhro and Russo, Vincent, _Distinguishing a maximally entangled basis using LOCC and shared entanglement_(2024) [arXiv:2406.13430](https://arxiv.org/abs/2406.13430).  
+
+[^2]: Tavakoli, Armin and Pozas-Kerstjens, Alejandro and Brown, Peter and Araújo, Mateus. _Semidefinite programming relaxations for quantum correlations_(2023) [arXiv:2307.02551](https://arxiv.org/abs/2307.02551).
+
+[^3]: Johnston, Nathaniel and Russo, Vincent and Sikora, Jamie, _Tight bounds for antidistinguishability and circulant sets of pure quantum states_(2023) [arXiv:2311.17047]((https://arxiv.org/abs/2311.17047))
+
+[^4]: Pelofske, Elijah and Bartschi, Andreas and Eidenbenz, Stephan and Garcia, Bryan and Kiefer, Boris, _Probing Quantum Telecloning on Superconducting Quantum Processors_(2023) [arXiv:2308.15579](https://arxiv.org/abs/2308.15579)
+
+[^5]: Philip, Aby and Rethinasamy, Soorya and Russo, Vincent and Wilde, Mark, _Quantum Steering Algorithm for Estimating Fidelity of Separability_(2023) [arXiv:2303.07911](https://arxiv.org/abs/2303.07911)
+
+[^6]: Miszczak, Jarosław Adam, _Symbolic quantum programming for supporting applications of quantum computing technologies_(2023) [arXiv:2302.09401](https://arxiv.org/abs/2302.09401)
+
+[^7]:  Casalé, Balthazar and Di Molfetta, Giuseppe and Anthoine, Sandrine and Kadri, Hachem, _Large-Scale Quantum Separability Through a Reproducible Machine Learning Lens_(2023) [arXiv:2306.09444](https://arxiv.org/abs/2306.09444)
+
+[^8]: Russo, Vincent and Sikora, Jamie, _Inner products of pure states and their antidistinguishability_(2023) [arXiv:2206.08313](https://arxiv.org/abs/2206.08313)
