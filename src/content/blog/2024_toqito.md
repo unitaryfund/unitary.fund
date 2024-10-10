@@ -25,7 +25,7 @@ toqito began as a research tool, designed by Vincent Russo to accelerate his wor
 since, it has evolved into a robust, open-source Python library providing powerful tools for researchers and enthusiasts
 alike.
 
-<p align="center"><img src="/images/toqito_stars.png" width="500" height="500"/></p>
+<p align="center"><img src="/images/toqito_stars.png" width="600" height="600"/></p>
 
 ## Expanding Quantum Research with toqito
 toqito has grown significantly in the past four years. It allows users to study fundamental objects in quantum
