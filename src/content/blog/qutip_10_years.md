@@ -4,6 +4,8 @@ author: The QuTiP Admin Team
 day: 12
 month: 7
 year: 2021
+tags:
+- Microgrant
 ---
 
 **QuTiP v. 1.0 was released 10 years ago**, on July 29th, 2011. It began as the project of two postdocs in Franco Nori’s group, Robert Johansson and Paul Nation and has since been embraced by an ever larger community of users and contributors. QuTiP is the most used software package for the simulation of open quantum systems as it’s used daily by researchers worldwide and students alike. 

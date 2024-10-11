@@ -3,6 +3,9 @@ title: Stay on the pulse of open-source quantum simulation with Pulser and QuTiP
 day: 24
 month: 1
 year: 2022
+tags:
+- Research
+- Microgrant
 ---
 
 Today two papers \[[H. Silvério & S. Grijalva *et

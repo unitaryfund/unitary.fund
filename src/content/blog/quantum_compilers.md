@@ -4,6 +4,9 @@ author: Alex McCaskey
 day: 13
 month: 1
 year: 2022
+tags:
+- Guest Post
+- Research
 ---
 
 As quantum computers mature, software systems for compilation and control will necessarily need to improve in order to enable the full performant capabilities of a heterogeneous quantum-classical compute node. We envision the need for system-level compiler toolchains akin to those we have today for classical computing --- extensible, modular systems with unified intermediate representations that enable a wide array of optimization and code-generation techniques. What is the current state-of-the-art for system-level quantum compiler technologies today, and how is the quantum computer science community organizing to deploy these novel, next-generation software systems? In this blog post, I hope to answer that question and specifically highlight two recent developments that leverage the software infrastructure from the LLVM ecosystem --- the Quantum Intermediate Representation (QIR) and the MLIR Quantum Dialect. These two projects represent the latest with respect to deploying familiar, open-source, system-level compilation toolchains for quantum-classical computing today.

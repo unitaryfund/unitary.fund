@@ -4,6 +4,8 @@ author: Jack Ceroni
 day: 21
 month: 7
 year: 2020
+tags:
+- Guest Post
 ---
 
 Over the past few years, interest in the field of quantum computing has grown dramatically, especially in communities of high school students! While lots of quantum-related educational material is scattered around the Internet, it is oftentimes difficult to find curated, accessible, and high-quality resources. This blog post aims to (hopefully) provide a comprehensive list of quantum computing-related resources and opportunities for high-schoolers. For some context, I just graduated from high school, and have been interested in quantum computing for about two years now. I have a lot of personal experience self-studying the field, and I have used/participated in some of the resources listed below!

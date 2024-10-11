@@ -4,6 +4,10 @@ author: Danny Samuel
 day: 27
 month: 10
 year: 2021
+tags:
+- Microgrant
+- Guest Post
+- Mitiq
 ---
 
 ## About Me

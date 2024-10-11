@@ -4,6 +4,8 @@ author: Alowina Yap
 day: 26
 month: 8
 year: 2022
+tags:
+- Microgrant
 ---
 
 We are very excited to share our first episodes of Unitary Fund’s Grant Winner video series! Watch to learn more about our featured grant winners, their projects, their experience after winning the grant, and what they’re working on now.

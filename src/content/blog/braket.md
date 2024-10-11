@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 4
 month: 10
 year: 2021
+tags:
+- Mitiq
 ---
 
 The Mitiq development team is excited to announce that with the latest release of Mitiq, Amazon Braket is now supported as a back-end for running verbatim circuits. To demonstrate this, we collaborated with the Braket team to benchmark the performance of the Rigetti Aspen-9 device with and without Mitiq’s zero-noise extrapolation on mirror circuits.  

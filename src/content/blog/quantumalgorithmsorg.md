@@ -4,6 +4,8 @@ author: Alessandro Luongo and Armando Bellante
 day: 9
 month: 11
 year: 2021
+tags:
+- Guest Post
 ---
 
 Have you ever tried to learn about quantum algorithms but got stranded by the lack of structured material online? We've got you covered. Now you can learn more about it on [https://quantumalgorithms.org](https://quantumalgorithms.org)!

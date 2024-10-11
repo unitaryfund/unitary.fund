@@ -4,6 +4,9 @@ author: Ella Carlander, Ruhee Nirodi, Alexandros Peltekis
 day: 12
 month: 6
 year: 2024
+tags:
+- Mitig
+- Guest Post
 ---
 
 We are a group of graduate students at the University of Washington (UW) who spent the last ten weeks working with Unitary Fund as participants in UW’s Accelerating Quantum-Enabled Technologies (AQET) capstone course. AQET is an interdisciplinary traineeship program involving a unique curriculum in quantum information science and engineering, including the capstone course which pairs students with industry professionals and academic mentors for a quarter-long project. We worked with Unitary Fund to create a benchmarking pipeline and GUI using the Mitiq library, with the hopes of providing users a streamlined tool to compare overhead requirements and the effectiveness of various quantum error mitigation methods in Mitiq. 
