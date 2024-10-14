@@ -22,7 +22,9 @@ Even if you succeed in understanding and implementing an algorithm, running it o
 
 In response to these challenges, we have developed **[QCoder](https://www.qcoder.jp/)**, a platform for quantum competitive programming.
 QCoder is the quantum counterpart to conventional competitive programming platforms such as Codeforces, Google Code Jam, and ICPC.
-It allows users to learn quantum algorithms and practice quantum programming simply by participating in competitions.
+Our platform simplifies complex quantum algorithms by breaking them down into manageable components, with each problem focusing on a specific concept.
+This progressive approach allows users to start with simpler tasks and gradually progress to more advanced challenges.
+Through competition, participants can gradually build their understanding of quantum algorithms and improve their quantum programming skills in an engaging and structured way.
 
 # Getting Started
 
