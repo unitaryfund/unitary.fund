@@ -16,7 +16,7 @@ tags:
 
 In recent years, quantum algorithms have attracted attention for their theoretical promise of significant efficiency gains.
 Shor's algorithm, for example, can factor integers with exponentially fewer queries than known classical algorithms.
-While learning about these algorithms is exciting, it can be challenging to stay motivated—especially for those without an academic background who are learning just for fun.
+Learning about these algorithms is exciting, but staying motivated can be challenging, especially for those without an academic background who are learning for fun.
 Textbooks and academic papers are often too complex for beginners, making it hard to follow along.
 Even if you succeed in understanding and implementing an algorithm, running it on today’s quantum computers in scalable settings is typically impossible.
 
