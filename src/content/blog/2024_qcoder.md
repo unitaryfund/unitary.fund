@@ -69,22 +69,16 @@ The most straight forward solution can be described as follows:
 
 First, apply the Hadamard gate to the first quantum bit.
 $$
-\begin{equation}
 \ket{000 \cdots 0} \xrightarrow{H(0)}  \frac{1}{\sqrt{2}} \lparen \ket{000 \cdots 0} + \ket{100 \cdots 0} \rparen
-\end{equation}
 $$
 Next, we transform the state $\ket{100 \cdots 0}$ to $\ket{110 \cdots 0}$.
 To achieve this, apply a controlled-X gate (CNOT gate) with the first quantum bit as the control bit and the second quantum bit as the target bit:
 $$
-\begin{equation}
 \frac{1}{\sqrt{2}} \lparen \ket{000 \cdots 0} + \ket{100 \cdots 0} \rparen \xrightarrow{CX(0,1)}  \frac{1}{\sqrt{2}} \lparen \ket{000 \cdots 0} + \ket{110 \cdots 0} \rparen
-\end{equation}
 $$
 By continuing to apply the controlled-X gate until the $n$-th qubit is the target bit, we can prepare the GHZ state.
 $$
-\begin{equation}
 \frac{1}{\sqrt{2}} \lparen \ket{000 \cdots 0} + \ket{110 \cdots 0} \rparen \xrightarrow{CX(0,2)} \, \cdots \xrightarrow{CX(0,n-1)} \frac{1}{\sqrt{2}} (\ket{0...0} + \ket{1...1})
-\end{equation}
 $$
 Summarizing these operations, we obtain the following circuit when $n = 4$:
 
