@@ -152,4 +152,4 @@ Almost the same problem was featured in the [QCoder Programming Contest 002](htt
 [QCoder](https://www.qcoder.jp/) is a quantum competitive programming platform, offering opportunities to challenge and advance your skills in quantum computing.
 We are excited to announce that our 3rd contest is scheduled for November (date TBD). We look forward to your participation!
 
-We would like to express our sincere gratitude to the Unitary Fund for supporting the internationalization of this project. We are actively seeking support to continue providing this platform to the quantum computing community. If you're interested in collaborating or offering support, please reach out to us through our <a href="https://www.qcoder.jp/contact" target="_blank">contact page</a>.
+We would like to express our sincere gratitude to the Unitary Fund for supporting the internationalization of this project. We are actively seeking support to continue providing this platform to the quantum computing community. If you're interested in collaborating or offering support, please reach out to us through our [contact page](https://www.qcoder.jp/contact).
