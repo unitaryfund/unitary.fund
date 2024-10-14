@@ -152,7 +152,7 @@ def solve(n: int) -> QuantumCircuit:
 </details>
 
 ## Note
-Almost the same problem was featured in the <a href="https://www.qcoder.jp/contests/QPC002/" target="_blank">QCoder Programming Contest 002</a>. In Problem A3, both solutions 1 and 2 are accepted. However, in Problem A5, only Solution 2 is accepted, as it meets the stricter depth constraints. If you're interested, feel free to submit your solution and see how you do!
+Almost the same problem was featured in the <a href="https://www.qcoder.jp/contests/QPC002/" target="_blank">QCoder Programming Contest 002</a>. In Problem A3, both solutions 1 and 2 are accepted. However, in Problem A5, only Solution 2 is accepted, as it meets the stricter depth constraints. If you're interested, feel free to submit your solution and see how you do! Can you find a shorter circuit?
 
 # Conclusion
 <a href="https://www.qcoder.jp/" target="_blank">QCoder</a> is a quantum competitive programming platform, offering opportunities to challenge and advance your skills in quantum computing.
