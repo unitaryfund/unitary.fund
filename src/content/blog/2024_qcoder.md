@@ -27,7 +27,7 @@ It allows users to learn quantum algorithms and practice quantum programming sim
 # Getting Started
 
 ## Step 1: Environment Setup
-we currently support [Qiskit](https://github.com/Qiskit/qiskit/) as the available quantum programming language.
+We currently support [Qiskit](https://github.com/Qiskit/qiskit/) as the available quantum programming language.
 For the best coding experience, we recommend setting up a local Qiskit environment on your computer. This setup will provide useful features such as autocompletion and linting to improve productivity and code quality.
 
 To get started, please refer to the [official Qiskit documentation](https://docs.quantum.ibm.com/guides/) for detailed installation instructions and guidelines.
