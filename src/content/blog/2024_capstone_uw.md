@@ -5,7 +5,7 @@ day: 12
 month: 6
 year: 2024
 tags:
-- Mitig
+- Mitiq
 - Guest Post
 ---
 
