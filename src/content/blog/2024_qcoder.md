@@ -110,7 +110,7 @@ def solve(n: int) -> QuantumCircuit:
 
 </details>
 
-## Solution 2
+## Solution 2 [advanced]
 <details>
 <summary>Open</summary>
 
