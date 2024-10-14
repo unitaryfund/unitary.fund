@@ -126,7 +126,7 @@ Let's examine the following example with 8 qubits.
 In this case, the operations within each block, divided by the boundaries on the quantum circuit, act on different qubits, allowing them to be executed simultaneously. Therefore, the depth of each block is 1.
 Thus, the depth of the quantum circuit above is 4.
 
-By generalizing this circuit, the depth of the quantum circuit becomes $\lceil \log_{2}{n} \rceil + 1$, which satisfies the given constraint.
+By generalizing this circuit, the depth of the quantum circuit becomes $\lceil \log_{2}{n} \rceil + 1$, which satisfies the constraint of reduced depth.
 
 Below is a sample program:
 ```python
