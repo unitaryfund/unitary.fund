@@ -26,22 +26,10 @@ Our platform simplifies complex quantum algorithms by breaking them down into ma
 This progressive approach allows users to start with simpler tasks and gradually progress to more advanced challenges.
 Through competition, participants can gradually build their understanding of quantum algorithms and improve their quantum programming skills in an engaging and structured way.
 
-# Getting Started
-
-## Step 1: Environment Setup
-We currently support [Qiskit](https://github.com/Qiskit/qiskit/) as the available quantum programming language.
-For the best coding experience, we recommend setting up a local Qiskit environment on your computer. This setup will provide useful features such as autocompletion and linting to improve productivity and code quality.
-
-To get started, please refer to the [official Qiskit documentation](https://docs.quantum.ibm.com/guides/) for detailed installation instructions and guidelines.
-
-## Step 2: User Registration
-To participate in contests and submit your solutions, you need to sign up via the [registration page](https://www.qcoder.jp/auth/signup).
-
-## Step 3: Dive In and Enjoy!
-You now have access to all the content on QCoder. We suggest starting by participating in past contests. While you may find some parts difficult initially, you'll gain a deeper understanding as you solve problems and refer to the provided editorials. QCoder offers contests for everyone, from complete beginners to seasoned experts.
-
 # Sample Problem
-To help you get started, let's walk through a sample problem. Please note that this is just one example, and we offer both easier and more challenging problems. You can explore and choose the one that suits your level by visiting [QCoder](https://www.qcoder.jp/).
+To give you a taste of what the platform offers, let's walk through an example problem.
+Please note that this is just one example, and we offer both easier and more challenging problems.
+You can explore and choose the one that suits your level by visiting [QCoder](https://www.qcoder.jp/).
 
 ## Problem Statement
 You are given an integer $n$, representing the number of qubits.
@@ -149,6 +137,21 @@ def solve(n: int) -> QuantumCircuit:
 
 ## Note
 Almost the same problem was featured in the [QCoder Programming Contest 002](https://www.qcoder.jp/contests/QPC002/). In Problem A3, both solutions 1 and 2 are accepted. However, in Problem A5, only Solution 2 is accepted, as it meets the stricter depth constraints. If you're interested, feel free to submit your solution and see how you do! Can you find a shorter circuit?
+
+# Getting Started
+If you're interested in exploring the platform, you can join by following the steps below:
+
+## Step 1: Environment Setup
+We currently support [Qiskit](https://github.com/Qiskit/qiskit/) as the available quantum programming language.
+For the best coding experience, we recommend setting up a local Qiskit environment on your computer. This setup will provide useful features such as autocompletion and linting to improve productivity and code quality.
+
+To get started, please refer to the [official Qiskit documentation](https://docs.quantum.ibm.com/guides/) for detailed installation instructions and guidelines.
+
+## Step 2: User Registration
+To participate in contests and submit your solutions, you need to sign up via the [registration page](https://www.qcoder.jp/auth/signup).
+
+## Step 3: Dive In and Enjoy!
+You now have access to all the content on QCoder. We suggest starting by participating in past contests. While you may find some parts difficult initially, you'll gain a deeper understanding as you solve problems and refer to the provided editorials. QCoder offers contests for everyone, from complete beginners to seasoned experts.
 
 # Conclusion
 [QCoder](https://www.qcoder.jp/) is a quantum competitive programming platform, offering opportunities to challenge and advance your skills in quantum computing.
