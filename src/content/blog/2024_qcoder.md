@@ -32,7 +32,7 @@ For the best coding experience, we recommend setting up a local Qiskit environme
 
 To get started, please refer to the <a href="https://docs.quantum.ibm.com/guides/" target="_blank">official Qiskit documentation</a> for detailed installation instructions and guidelines.
 
-## Step 2: User Registratoin
+## Step 2: User Registration
 To participate in contests and submit your solutions, you need to sign up via the <a href="https://www.qcoder.jp/auth/signup" target="_blank">registration page</a>.
 
 ## Step 3: Dive In and Enjoy!
