@@ -47,9 +47,7 @@ Your task is to implement a quantum circuit with minimal circuit depth that prep
 
 The GHZ state is defined as
 $$
-\begin{equation}
-\ket{\mathrm{GHZ}} = \frac{1}{\sqrt{2}} (\ket{0...0}_n - \ket{1...1}_n) \nonumber
-\end{equation}.
+\ket{\mathrm{GHZ}} = \frac{1}{\sqrt{2}} (\ket{0\cdots0}_n - \ket{1\cdots1}_n).
 $$
 
 The submitted code should follow the format below:
