@@ -5,7 +5,8 @@ day: 20
 month: 10
 year: 2024
 tags: 
-  - quantum algorithms
+  - guest post
+  - microgrant
   - qiskit
   - python
 ---
