@@ -163,7 +163,7 @@ importers:
         version: 4.5.5(@types/node@18.15.3)(sass@1.59.2)
       vite-plugin-svgr:
         specifier: ^3.2.0
-        version: 3.2.0(rollup@3.29.4)(vite@4.5.5(@types/node@18.15.3)(sass@1.59.2))
+        version: 3.2.0(rollup@3.29.5)(vite@4.5.5(@types/node@18.15.3)(sass@1.59.2))
     devDependencies:
       '@astrojs/ts-plugin':
         specifier: ^1.0.6
@@ -2999,8 +2999,8 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rollup@3.29.4:
-    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
+  rollup@3.29.5:
+    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -4642,13 +4642,13 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.21.5
 
-  '@rollup/pluginutils@5.0.2(rollup@3.29.4)':
+  '@rollup/pluginutils@5.0.2(rollup@3.29.5)':
     dependencies:
       '@types/estree': 1.0.1
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
-      rollup: 3.29.4
+      rollup: 3.29.5
 
   '@savvywombat/tailwindcss-grid-areas@3.0.1(tailwindcss@3.3.2)':
     dependencies:
@@ -7007,7 +7007,7 @@ snapshots:
 
   reusify@1.0.4: {}
 
-  rollup@3.29.4:
+  rollup@3.29.5:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -7445,9 +7445,9 @@ snapshots:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  vite-plugin-svgr@3.2.0(rollup@3.29.4)(vite@4.5.5(@types/node@18.15.3)(sass@1.59.2)):
+  vite-plugin-svgr@3.2.0(rollup@3.29.5)(vite@4.5.5(@types/node@18.15.3)(sass@1.59.2)):
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.29.4)
+      '@rollup/pluginutils': 5.0.2(rollup@3.29.5)
       '@svgr/core': 7.0.0
       '@svgr/plugin-jsx': 7.0.0
       vite: 4.5.5(@types/node@18.15.3)(sass@1.59.2)
@@ -7459,7 +7459,7 @@ snapshots:
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.31
-      rollup: 3.29.4
+      rollup: 3.29.5
     optionalDependencies:
       '@types/node': 18.15.3
       fsevents: 2.3.2
