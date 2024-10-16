@@ -38,7 +38,7 @@
     "iso-3166": "^4.2.0",
     "lucide-react": "^0.220.0",
     "markdown-it": "^14.1.0",
-    "markdown-to-jsx": "^7.2.1",
+    "markdown-to-jsx": "^7.4.0",
     "merge-refs": "^1.2.1",
     "nanostores": "^0.8.1",
     "pupa": "^3.1.0",
