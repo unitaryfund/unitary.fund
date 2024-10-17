@@ -33,7 +33,7 @@ Furthermore, the close connection between the QUBO problem formulation and the I
 To find the locations of water molecules in the protein cavity, we solve the QUBO formulation of the Gaussian mixture problem, where the center of each Gaussian corresponds to a location around which a water molecule oscillates. 
 In the image below, the QUBO formulation of the Gaussian mixture problem is illustrated by side-by-side plots of the same density distribution as color contours with each center marked by a red X, the one on the right overlaid with initial guesses for the centers of the Gaussians, each marked by a blue X.
 
-![image depicting mapping the problem to a QUBO formulation](/images/aquapointer_QUBO_plots.png.png)
+![image depicting mapping the problem to a QUBO formulation](/images/aquapointer_QUBO_plots.png)
 
 ## Aquapointer automates the pipeline of 3D-RISM density distribution to water molecule locations
 
