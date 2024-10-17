@@ -38,6 +38,9 @@ Andrea Giachero is an Associate Professor at the University of Milano-Bicocca, a
 
 Andrea Giachero has more than 20 years of experience developing hardware and software for data acquisition systems in fundamental physics. Previously, his work focused on particle physics and rare events (such as neutrinos, double beta decay, and dark matter), and he is currently working in the realm of hardware and software quantum information science. He is presently coordinating projects and working packages to develop broadband quantum limited readout chains for qubit multiplexing exploiting open-source software and hardware. With an unwavering dedication to transparency and collaboration, Andrea epitomizes the principles of open science, cultivating an inclusive atmosphere conducive to idea exchange and advancing cutting-edge technologies.
 
+**Ed Younis  (Added from Oct 16, 2024)**
+Ed is a computer systems engineer at Lawrence Berkeley National Laboratory with extensive experience developing and implementing advanced algorithms for quantum compilation, such as QFAST and QFactor. He is currently the principal engineer on the BQSKit project and has research interests in quantum synthesis, compilation, and software systems.
+
 **Eduardo Maschio**
 Eduardo Maschio builds quantum software tools and libraries for researchers and developers at Pasqal. He has also been involved in open source initiatives such as Quantum Open Source Foundation as a mentor and UnitaryFund as a grantee, developing a quantum programming language and algorithms for quantum computers and networks.
 
@@ -55,6 +58,9 @@ Olivia Di Matteo is an Assistant Professor in UBC's Electrical and Computer Engi
 
 **Paul Nation**
 Paul Nation received his Ph.D in Physics from Dartmouth College in 2010.  Since then, he has focused primarily on numerical methods for quantum systems and has worked on multiple open-source projects (e.g., Qiskit and QuTiP) along that line.  He is currently a principal research scientist at IBM, and he is focused on benchmarking quantum software and hardware.
+
+**Peter Groszkowski (Added from Oct 16, 2024)**
+Peter is a researcher at the Oak Ridge National Laboratory working in various areas of physics, with emphasis on topics related to quantum computing and information. Beyond physics, he is also interested in all aspects of software development, ranging from numerical simulations to instrumentation control. Peter is a strong advocate of the open-source development model, supporting it whenever possible.
 
 **Ryan Hill**
 Ryan is a physicist, software developer, and engineering team leader passionate about quantum computing and cloud HPC. He received his Master's in engineering physics at Cornell University, where his research focused on quantum machine learning, specifically quantum neural networks. He currently serves as CTO at qBraid, a quantum computing startup based in Chicago, Illinois. In addition to his executive role at qBraid, Ryan is a mentor at the Quantum Open Source Foundation and actively maintains and contributes to several open-source quantum software projects focusing on runtime, transpilers, and compilers.
