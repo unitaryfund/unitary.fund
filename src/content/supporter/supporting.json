@@ -1,24 +1,9 @@
 {
   "supporters": [
     {
-      "title": "Agnostiq",
-      "url": "https://agnostiq.ai/",
-      "imageId": "agnostiq_jxnqyt"
-    },
-    {
       "title": "AWS",
       "url": "https://aws.amazon.com/braket/",
       "imageId": "aws_rpfxfc"
-    },
-    {
-      "title": "CISCO",
-      "url": "https://www.cisco.com/",
-      "imageId": "cisco_tzzvle"
-    },
-    {
-      "title": "Dora Hacks",
-      "url": "https://dorahacks.io/",
-      "imageId": "dora-hacks_swgug9"
     },
     {
       "title": "Pasqal",
@@ -26,27 +11,18 @@
       "imageId": "pasqal_trepre"
     },
     {
-      "title": "Quandela",
-      "url": "https://www.quandela.com/",
-      "imageId": "quandela_hzqy7b"
-    },
-    {
-      "title": "Covalent",
-      "imageId": "covalent_tu80ua"
-    },
-    {
       "title": "Microsoft",
       "url": "https://www.microsoft.com",
       "imageId": "c8gxxazff17a9owmfxkz"
     },
     {
-      "title": "qyber",
-      "url": "https://www.qyber.ai/",
-      "imageId": "qybar_ju4ip6"
-    },
-    {
       "title": "SandboxAQ",
       "url": "https://www.sandboxaq.com/",
+      "imageId": "crdrjgdw5jndh7ro2nfa"
+    },
+    {
+      "title": "QC Ware",
+      "url": "https://www.qcware.com/",
       "imageId": "crdrjgdw5jndh7ro2nfa"
     }
   ]
