@@ -72,7 +72,7 @@ For more information, check out Aquapointer's [documentation](https://aquapointe
 ------------------------------------------------------
 
 [^1]: Mauro D'Arcangelo, Louis-Paul Henry, Loic Henriet, Daniele Loco, Nicolai Gouraud, Stanislas Angebault, Jules Sueiro, Jerome Foret, Pierre Monmarche, and Jean-Philip Piquemal. Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery. _Phys. Rev. Res_ 6(4), (2024) [online](https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.6.043020)).
-[^2] Daniel J Sindhikara and Fumio Hirata. Analysis of biomolecular solvation sites by 3D-RISM theory. _J Phys Chem B_ Jun 6;117(22):6718-23 (2013) [online](https://pubmed.ncbi.nlm.nih.gov/23675899/).
+[^2]: Daniel J Sindhikara and Fumio Hirata. Analysis of biomolecular solvation sites by 3D-RISM theory. _J Phys Chem B_ Jun 6;117(22):6718-23 (2013) [online](https://pubmed.ncbi.nlm.nih.gov/23675899/).
 [^3]: Gary Kochenberger, Jin-Kao Hao, Fred Glover, Mark Lewis, Zhipeng Lü, Haibo Wang, and Yang Wang. The unconstrained binary quadratic programming
 problem: a survey. _J Comb Optim_ 28, 58–81 (2014) [online](https://leeds-faculty.colorado.edu/glover/454%20-%20xQx%20survey%20article%20as%20published%202014.pdf).
 [^4]: Amandine Le Maitre, Mathieu Hatt, Olivier Pradier, Catherine Cheze-le Rest, and Dimitris Visvikis. Impact of the accuracy of automatic tumour functional volume delineation on radiotherapy treatment planning. _Phys Med Biol_ Sep 7;57(17), 5381-97 (2012) [online](https://pubmed.ncbi.nlm.nih.gov/22864012/).
