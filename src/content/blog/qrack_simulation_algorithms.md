@@ -12,6 +12,8 @@ Many experts divide the existing set of "well-known" quantum computer simulation
 
 Say that I ask you to simulate a circuit that produces state `|control>` from `|0>`; you do this by any means you deem fit and give me state `|experiment>` as output; I check that |`<control|experiment>`|<sup>2</sup>=1`. Why does this specifically have to occur via only state vector simulation or (von Neumann's) tensor networks? _It doesn't._
 
+![](/images/neglected_simulation_groups.png)
+
 By the way, we could even relax the |`<control|experiment>`|<sup>2</sup>=1 condition. (That is "Schrödinger picture," to grant a fair point.) In cases, we could relax the condition to say, "Simulation (or emulation) provides a reusable function that accurately generates measurement shots (without bias) from the distribution of measurement in some arbitrary but user-selected basis, from a circuit definition that should produce `|control>` (according to my full knowledge of `|control>` and that |`<control|experiment>`|<sup>2</sup>=1, following the Born rules)."
 
 While they are also "Schrödinger picture" (if we are limited in their modification and adaptation to our own purposes), at least "quantum binary decision diagrams" (QBDD) and "(near-)Clifford" families of simulation algorithms also exist, which can represent and compute on restricted or universal state spaces within a qubit Hilbert space. There are also other potential optimization approaches on Schrödinger picture that could constitute meaningful topics of study in themselves, I say as lead author of the Qrack simulation framework.
