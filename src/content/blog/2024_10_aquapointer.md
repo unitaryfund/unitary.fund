@@ -11,9 +11,9 @@ tags:
 
 ## Project overview
 
-[Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software library developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/).
+[Aquapointer](https://github.com/unitaryfund/aquapointer) is an open source software library developed by the Unitary Fund team with consortium partners [Pasqal](https://www.pasqal.com/) and [Qubit Pharmaceuticals](https://www.qubit-pharmaceuticals.com/) as part of the AQUA project.
 The project was funded by [Wellcome Leap](https://wellcomeleap.org/) through the [Q4Bio program](https://wellcomeleap.org/q4bio/), a research program with the goal of accelerating the applications of quantum computing in human health. 
-The Aquapointer library is a generalized, automated version of the framework developed over the course of the project, detailed in a recently published paper [^1]: _Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery_.
+The Aquapointer library is a generalized, automated version of the framework developed over the course of the AQUA project, which is detailed in a recently published paper [^1]: _Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery_.
 Aquapointer is designed as a computational tool for use in the pharmaceutical discovery and development process, specifically for leveraging quantum computing resources in the prediction of the locations of water molecules in protein cavities.
 
 Proteins are complex molecules with cavities that can be occupied by water molecules, particularly in living tissue.
@@ -26,6 +26,7 @@ Classical numerical methods such as Monte Carlo or molecular dynamics can give s
 An alternative approach to finding the locations of water molecules is to perform classical simulations first to find the density distribution of water molecules, as represented in the image below on the left, through methods such as the 3D Reference Interactive Site Model (3D-RISM) [^2]. 
 Using the 3D-RISM density function obtained in the previous step, we can define a discrete optimization problem whose solutions correspond to positions of water molecules, the combined results of which (3D-RISM and optimization) are depicted in the image below on the right.
 ![image depicting the high-level mapping from continous density distribution to discrete atomic coordinates](/images/aquapointer_3DRISM_motivation.png)
+Image credit: AQUA project team
 
 We found that the best formulation of the discrete optimization problem with solutions corresponding to positions of water molecules is a [quadratic unconstrained binary optimization (QUBO)](https://en.wikipedia.org/wiki/Quadratic_unconstrained_binary_optimization) problem.
 The QUBO problem is a combinatorial optimization problem with numerous applications across a broad array of disciplines, including finance, economics, physics, and computer aided design [^3], as well as in the medical field, such as in diagnostic image classification [^4].
@@ -34,6 +35,7 @@ To find the locations of water molecules in the protein cavity, we solve the QUB
 In the image below, the QUBO formulation of the Gaussian mixture problem is illustrated by side-by-side plots of the same density distribution as color contours with each center marked by a red X, the one on the right overlaid with initial guesses for the centers of the Gaussians, each marked by a blue X.
 
 ![image depicting mapping the problem to a QUBO formulation](/images/aquapointer_QUBO_plots.png)
+Image credit: AQUA project team
 
 ## Aquapointer automates the pipeline of 3D-RISM density distribution to water molecule locations
 
@@ -42,6 +44,7 @@ The analog workflow in Aquapointer uses [Pulser](https://github.com/pasqal-io/Pu
 The digital workflow uses Qiskit for IR and simulated backends.
 
 ![image demonstating the analog workflow in Aquapointer](/images/aquapointer_analogflow.png)
+Image credit: AQUA project team
 
 ```python
 water_postions = find_water_positions(canvases, executor, MockDevice, pulse_settings)
@@ -54,6 +57,7 @@ The `slicing` module takes a 3D-RISM density file and transforms it into 2D slic
 The `densitycanvas` module contains classes and functions for transforming the 2D slices or generating them from a probability distribution and mapping the density distributions into a QUBO formulation.
 
 ![image demonstating the slicing workflow in Aquapointer](/images/aquapointer_slicing.png)
+Image credit: AQUA project team
 
 ```python
 canvases = canvases = density_slices_by_planes(grid, slicing_points)
