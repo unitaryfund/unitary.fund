@@ -4,6 +4,8 @@ author: The Unitary Fund Team
 day: 8 
 month: 4
 year: 2021
+tags:
+- unitaryHACK
 ---
 It has been already a super busy year with tons of new [grants](https://www.tutorialspoint.com/grants.html), [events](https://www.tutorialspoint.com/talks.html), and friends joining our [Discord](http://discord.unitary.fund/), but we decided to do _even_ more!  
 

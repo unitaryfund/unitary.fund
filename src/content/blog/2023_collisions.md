@@ -4,6 +4,8 @@ author: Andrea Mari
 day: 8
 month: 12
 year: 2023
+tags:
+- Research
 ---
 
 **Run and measure a random quantum circuit many times and count the number of repeated outcomes. That's it.**

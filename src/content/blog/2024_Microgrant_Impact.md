@@ -4,6 +4,8 @@ author: Kallie Ferguson
 day: 11
 month: 6
 year: 2024
+tags:
+- Microgrant
 --- 
 
 The Unitary Fund's microgrant program recently marked an incredible milestone: over 100 microgrants awarded! This achievement highlights the program's pivotal role in advancing open source quantum technology projects globally. Through grants and open-source ecosystem development, Unitary Fund fosters a flourishing, multiplying effect within the broader quantum ecosystem. These small but impactful investments drive accessible and transparent progress, essential for unlocking the full potential of quantum technology.

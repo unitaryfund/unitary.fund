@@ -4,6 +4,8 @@ author: Nate Stemen
 day: 17
 month: 4
 year: 2023
+tags:
+- Mitiq
 ---
 
 # What is error mitigation calibration?

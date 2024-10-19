@@ -4,6 +4,8 @@ author: Matt Lourens
 day: 17
 month: 2
 year: 2023
+tags:
+- Guest Post
 ---
 
 A typical quantum machine learning workflow consists of various components, each influencing the next to ultimately determine model performance. For example, if you want to build a quantum model for music genre classification, a pipeline might look something like this (from [Lourens et al.](https://arxiv.org/abs/2210.15073#)):

@@ -4,6 +4,8 @@ author: Nathan Shammah and Will Zeng
 day: 21
 month: 8
 year: 2023
+tags:
+- Mitiq
 ---
 
 We are thrilled to announce that Unitary Fund has been awarded a $1.5M [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303643&HistoricalAwards=false) by the National Science Foundation (NSF) to grow the open-source ecosystem around the [Mitiq](https://mitiq.readthedocs.io/en/latest/) project. 

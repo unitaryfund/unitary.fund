@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 26
 month: 5
 year: 2023
+tags:
+- unitaryHACK
 ---
 
 Unitary Fund is happy to announce the third edition of **[unitaryHACK](https://unitaryhack.dev/), which will run from May 26th to June 13th, 2023**.

@@ -4,6 +4,8 @@ author: Unitary Fund Team
 day: 13
 month: 10
 year: 2021
+tags:
+- unitaryHACK
 ---
 
 #### We'd like to thank our sponsors [Xanadu](https://xanadu.ai/), [DoraHacks](https://dorahacks.com/), and [Pasqal](https://pasqal.io/) for helping to make this event a reality 💖

@@ -4,6 +4,8 @@ author: Srila Palanikumar
 day: 28
 month: 5
 year: 2024
+tags:
+- Guest Post
 ---
 
 As part of Qubit by Qubit’s Early Quantum Career Immersion program, I was placed as a summer 2023 intern with Unitary Fund. This program was created to give students who are underrepresented in quantum computing opportunities to advance their careers, as well as to amplify their voices and support them. The first three weeks of this program were rigorous training in concepts in quantum computing and mechanics, and the next seven were a full-time internship with UF.

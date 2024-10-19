@@ -4,6 +4,8 @@ author: Dan Strano, Vincent Russo
 day: 17
 month: 5
 year: 2022
+tags:
+- Metriq
 ---
 
 Unitary Fund is proud to announce a new open source software tool for the quantum computing community, at [https://metriq.info](https://metriq.info)!

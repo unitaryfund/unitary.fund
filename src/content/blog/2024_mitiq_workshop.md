@@ -5,9 +5,7 @@ day: 5
 month: 7
 year: 2024
 tags: 
-  - mitiq
-  - workshop
-  - nsf
+  - Mitiq
 ---
 
 **We are pleased to announce the first in-person workshop for the Mitiq project.**

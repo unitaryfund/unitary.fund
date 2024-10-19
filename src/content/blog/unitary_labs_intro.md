@@ -1,5 +1,5 @@
 ---
-title: "Introducing the Techincal Team: Unitary Labs"
+title: "Introducing the Technical Team: Unitary Labs"
 author: Nathan Shammah
 day: 24
 month: 3
