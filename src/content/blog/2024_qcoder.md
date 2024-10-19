@@ -1,7 +1,7 @@
 ---
 title: QCoder - A platform for quantum competitive programming
 author: Kein Yukiyoshi
-day: 20
+day: 21
 month: 10
 year: 2024
 tags: 
