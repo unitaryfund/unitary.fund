@@ -4,8 +4,8 @@ author: Ben Castanon and Nathan Shammah
 day: 4
 month: 12
 year: 2023
-Tags:
-- Survey
+tags:
+  - Survey
 ---
 
 We are excited to share the results for the 2023 Quantum Open Source Survey organized by Unitary Fund! A giant thanks to our supporting and core members, as well as our board and advisors for their guidance and feedback. Thank you as well to our outstanding open source community for their input, ideas and passion! 
