@@ -1,8 +1,8 @@
 ---
 title: "What algorithms exist to emulate quantum computers?"
 author: Daniel Strano
-day: 18
-month: 10
+day: 1
+month: 11
 year: 2024
 ---
 
