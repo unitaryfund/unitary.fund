@@ -39,15 +39,22 @@ Why is this important? It turns out that, depending on the underlying noise mode
 some folding techniques and some fitting techniques may perform better than others. 
 In complex noise environments, having the flexibility to choose the most effective folding and extrapolation methods can significantly improve error mitigation outcomes. The more complex the noise model is, the more impactful it is to have such a level of customization in ZNE. Should this blog post inspire you to become a better ZNE practitioner, check out [this review paper](https://arxiv.org/abs/2307.05203) for how to make the most out of all the ZNE options.
 
+One crucial aspect of how ZNE is compiled in Catalyst is that all folding transformations 
+take place while preserving the high-level structure of the original program, that is, conditionals and loops aren't unrolled. This allows the compiler to maintain a compact version
+of the program even after applying error mitigation. 
+
 ## Noisy simulation on Catalyst
-After implementing these options, it was time to test them. Catalyst programs can already be run on Amazon Braket, and error mitigation can be leveraged to attenuate the hardware noise there. Running on real hardware can be time- and money-expensive though. 
+After implementing these new folding and extrapolation options, it was time to test them.
+Catalyst programs can already be run on Amazon Braket, and error mitigation can be leveraged to
+attenuate the hardware noise there. Running on real hardware can be time- and money-expensive though.
 We needed a workflow to quickly smoke-test the new features, and for that, we turned into adding a simple depolarizing noise model to Unitary Fund's in-house simulator Qrack. If you missed Dan Strano's [post](https://unitary.fund/posts/2024_qrack_catalyst/) on Qrack integration with Catalyst, go and check it out! Qrack is now the first quantum simulator implementing a noise model, as well as integrating with a JIT compiler framework.
 
 
 ## Across the Catalyst MLIR stack
 ![Catalyst ZNE diagram.](/images/catalyst-zne-diagram.png)
 
-In order to implement all the new features, we touched across all layers of Catalyst's architectural stack, which is based on JAX and MLIR (Multi-Level Intermediate Representation) frameworks. Check out [Catalyst's architecture guide](https://docs.pennylane.ai/projects/catalyst/en/stable/dev/architecture.html) for motivations behind the stack, and how it is arguably a great fit for implementing a JIT compiler for _(hybrid)_ quantum programs, which also have support for things such as automatic differentiation.
+In order to implement all the new features, we touched across all layers of Catalyst's architectural stack, which is based on JAX and MLIR (Multi-Level Intermediate Representation) frameworks. Check out [Catalyst's architecture guide](https://docs.pennylane.ai/projects/catalyst/en/stable/dev/architecture.html) for motivations behind the stack, and how it is arguably a great fit for implementing a JIT compiler for _(hybrid)_ quantum programs, which also have support for things such as automatic differentiation. For those familiar with MLIR, an interesting note
+is that the error mitigation routines are organized in their own dialect in the Catalyst stack.
 
 Did I tell you how much we learned? For the Unitary Fund team, this project was our first venture into the JIT world and the frameworks that come with implementing it. In fact, understanding MLIR gave us deeper insights into compiler design for quantum programs in general as well. I am not going to lie; it was all a bit daunting in the beginning, but it was incredibly rewarding!
 
