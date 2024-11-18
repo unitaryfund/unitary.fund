@@ -10,7 +10,7 @@ tags:
 ---
 
 This blog post is a summary of a partnership between Unitary Fund and 
-[Xanadu](https://www.xanadu.ai/) to integrate error mitigation techniques 
+[Xanadu](https://www.xanadu.ai/) to integrate quantum error mitigation techniques
 from Unitary Fund's Mitiq into Xanadu's PennyLane Catalyst compiler.
 
 ## Just-in-time compilation
@@ -21,7 +21,7 @@ We all want faster quantum computer programs. Just as JIT compilation accelerate
 
 What we also want is more accurate quantum computer programs – accurate enough to be useful for the application or the experiment we seek to run. Quantum error correction is making significant strides, but it still introduces substantial overhead that can be impractical for near-term applications. We look at the more practical techniques of quantum error mitigation to make our quantum programs more accurate. Unitary Fund's own [Mitiq](https://github.com/unitaryfund/mitiq) project provides a Python package for applying error mitigation techniques to quantum programs. 
 
-## Just-in-time compiling error mitigation
+## Just-in-time compiling error mitigation routines
 Even though Mitiq can be used with PennyLane programs,  there was no seamless integration of error mitigation routines into the Catalyst compiler (or into any quantum JIT framework, as far as we know.) In the last few months, Unitary Fund and Xanadu have partnered to port Mitiq's error mitigation techniques onto Catalyst. The natural starting point was Zero-Noise Extrapolation (ZNE), which is the most popular error mitigation technique in Mitiq, and arguably the simplest to implement, yet it can be very effective.
 
 Romain Moyard and the Xanadu team had already implemented a basic version of ZNE in Catalyst. The Unitary Fund team took it from there, and extended it with additional options. The gist of ZNE is that it estimates the ideal result of a quantum program by 
