@@ -4,13 +4,16 @@ author: Kaitlin Gili
 day: 8
 month: 11
 year: 2024
+tags:
+  - guest post
+  - microgrant
 ---
 
 I start out every session with the question, “What does it mean to learn?”. I ask the students to raise their hands if they think they have a good grasp on what learning means. Oftentimes, students respond by timidly glancing over at their peers; perhaps in their minds, this should be an easy question. In the end, only a few tight-angled elbows eventually stretch hands into the air. 
 
 Thanks to the Unitary Fund’s financial support, I have been able to travel to high schools in Florida and Massachusetts over the past few years, giving workshops on the latest scientific developments in machine learning and quantum computing. As a researcher at the intersection of these areas, I enjoy sharing recent advances with young students. The objective of these workshops is to spark curiosity in the students. It’s not to teach them how to code up a machine learning algorithm or how to build a quantum computer; I only get 50 minutes with them - the goal is to get them excited to think about the science. 
 
-::image[b8ccxgwp5pbzdaqmlu00]
+![Teaching learning](/images/teaching_learning.jpg)
 
 To achieve this, I ask questions that probe them to make a connection between their everyday experiences and the concepts I’m presenting on. The first concept I emphasize is data - something integral to both machine learning and quantum computing. When I ask them what they think data means, I usually get a textbook definition similar to “information about something that is useful.” That’s a pretty good general definition, but when I ask them to give me examples, there are many blank stares. I then ask, “How many of you select movies to watch on Netflix?”. Hands shoot up. “How many of you get your blood pressure checked when you go to the doctor?” I see all hands up. “How many of you… speak words to each other?” I get chuckles with raised hands. Data is all around them - it’s about helping them become more aware of that. 
 
