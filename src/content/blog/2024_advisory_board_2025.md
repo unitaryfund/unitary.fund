@@ -1,13 +1,12 @@
 ---
 title: Introducing the Unitary Fund’s Advisory Board 2025
 author: Frances Poblete
-day: 21
+day: 25
 month: 11
 year: 2024
 tags: 
   - advisory board
   - members
-  - qiskit
 ---
 Each year, Unitary Fund’s advisory board, composed of experts from across the quantum technology community, works hand-in-hand with our staff to administer our microgrants. . This dedicated team plays a key role in sourcing and reviewing grant applications, mentoring groundbreaking projects, and providing invaluable technical guidance for the open source ecosystem. With expertise spanning the entire quantum technology stack—including hardware, programming languages, quantum machine learning, open quantum systems, quantum compilers, and beyond—they bring unparalleled knowledge and passion to every aspect of our mission.
 
