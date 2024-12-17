@@ -1,0 +1,26 @@
+---
+title: Unitary Fund awarded EU grant in the QLASS consortium
+author: Nathan Shammah 
+day: 17
+month: 12
+year: 2024
+tags:
+  - research
+---
+
+We're glad to announce that Unitary Fund, through its EU subsidiary, Unitary Fund France, has been awarded a 3-year grant from the European Commission as one of the beneficiaries of the QLASS project. 
+
+![The QLASS logo.](/images/qlass-logo.png)
+The QLASS project will develop next generation quantum glass-based photonic integrated circuits to explore them as a platforms for quantum computing.  
+The QLASS project has been [awarded](https://cordis.europa.eu/project/id/101135876) a 6M euro grant within the Horizon Europe program, with 600k awarded to Unitary Fund France to lead the software development efforts. 
+We will adapt algorithms to run on the specific quantum photonics hardware developed by other partners, designing an end-to-end compilation stack.  We will leverage expertise, software infrastructure and program integration from the open-source ecosystem, with a focus on compilation and quantum error mitigation capabilities. 
+UF will leverage [Mitiq](https://mitiq.readthedocs.io/en/latest/), the most widely used open-source toolkit for quantum error mitigation and ongoing projects in the compiler space.   
+
+
+The project is coordinated by Dr. Giulia Acconcia from Politecnico di Milanoo and involves as other beneficiaries Fondazione Politecnico di Milano. 
+The collaboration brings together many European players of research and development in quantum science and technology based in Italy, France, and Germany. 
+with universities and research centers involved (Politecnico di Milano, Fondazione Politecnico di Milano, University of Montpellier, CNRS, University of Rome La Sapienza) and private players (Ephos, Unitary Fund France, Pixel Photonics, Schott AG): more information in the [press release](https://www.qlass-project.eu/wp-content/uploads/2024/10/QLASS-press-release-Oct24.pdf). 
+The collaboration matches competences and capabilities from academic partners, dynamic startups and SME environments including a large industry player, all with complementary roles in the project, from the glass fabrication of the photonics chips to their characterization and operation. 
+
+
+You can keep up to date with the QLASS project by looking at [its website](https://www.qlass-project.eu/) news or following its [LinkedIn account](https://www.linkedin.com/company/qlass-project/posts/?feedView=all).
