@@ -28,7 +28,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "@unpic/react": "^0.0.27",
-    "astro": "2.8.3",
+    "astro": "4.16.17",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "date-fns": "^2.30.0",
