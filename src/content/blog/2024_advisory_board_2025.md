@@ -1,5 +1,5 @@
 ---
-title: Introducing the Unitary Fund’s Advisory Board 2025
+title: Introducing the Unitary Foundation’s Advisory Board 2025
 author: Frances Poblete
 day: 25
 month: 11
@@ -8,7 +8,7 @@ tags:
   - advisory board
   - members
 ---
-Each year, Unitary Fund’s advisory board, composed of experts from across the quantum technology community, works hand-in-hand with our staff to administer our microgrants. . This dedicated team plays a key role in sourcing and reviewing grant applications, mentoring groundbreaking projects, and providing invaluable technical guidance for the open source ecosystem. With expertise spanning the entire quantum technology stack—including hardware, programming languages, quantum machine learning, open quantum systems, quantum compilers, and beyond—they bring unparalleled knowledge and passion to every aspect of our mission.
+Each year, Unitary Foundation’s advisory board, composed of experts from across the quantum technology community, works hand-in-hand with our staff to administer our microgrants. . This dedicated team plays a key role in sourcing and reviewing grant applications, mentoring groundbreaking projects, and providing invaluable technical guidance for the open source ecosystem. With expertise spanning the entire quantum technology stack—including hardware, programming languages, quantum machine learning, open quantum systems, quantum compilers, and beyond—they bring unparalleled knowledge and passion to every aspect of our mission.
 
 We are thrilled to announce the members of the Advisory Board for 2025!
 
@@ -17,7 +17,7 @@ We are thrilled to announce the members of the Advisory Board for 2025!
 ## Meet the Advisors
 
 **Stephen DiAdamo**
-Stephen DiAdamo completed his Ph.D. at the Technical University of Munich and has received two Unitary Fund grants for his work on software for quantum networks. Before co-founding Qoro Quantum, he worked as a research scientist at Cisco, focusing on network technology.
+Stephen DiAdamo completed his Ph.D. at the Technical University of Munich and has received two Unitary Foundation grants for his work on software for quantum networks. Before co-founding Qoro Quantum, he worked as a research scientist at Cisco, focusing on network technology.
 
 **Sonika Johri**
 Sonika Johri has worked in the quantum industry for over a decade and has authored > 30 publications in leading peer-reviewed journals. She was a Principal Researcher at IonQ, where she ran the quantum applications research group, and prior to that a Research Scientist at Intel. She holds a PhD in theoretical physics from Princeton University. Her work centers around translating the rapidly expanding capabilities of quantum hardware into measurable advantages for end users of quantum computing. She is currently founder of the startup Coherent Computing Inc which is building software to enable cutting-edge quantum applications.
@@ -44,4 +44,4 @@ Ryan Shaffer is an applied science manager at Amazon Web Services, where he lead
 Sukin (Dylan) Sim is a Senior Quantum Applications Architect at PsiQuantum, where they develop techniques and software for compiling algorithms for fault-tolerant quantum computers. More generally, they are interested in developing ways, usually through simple toy-model simulations, to more easily explain and understand difficult concepts in quantum computing.
 
 **Christa Zoufal**
-Dr. Christa Zoufal is a quantum applications researcher in the Quantum Technology group at Quantum. In 2021 she received her PhD in Physics from ETH Zurich for a thesis on Generative Quantum Machine Learning. In her current research she focuses on advancing algorithmic and verification methods for quantum machine learning and quantum simulation both from a theoretical and from an empirical point of view. Additionally, she has served as advisor to the Unitary Fund Microgrant program since 2020.
+Dr. Christa Zoufal is a quantum applications researcher in the Quantum Technology group at Quantum. In 2021 she received her PhD in Physics from ETH Zurich for a thesis on Generative Quantum Machine Learning. In her current research she focuses on advancing algorithmic and verification methods for quantum machine learning and quantum simulation both from a theoretical and from an empirical point of view. Additionally, she has served as advisor to the Unitary Foundation Microgrant program since 2020.

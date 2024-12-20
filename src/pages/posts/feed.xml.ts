@@ -20,8 +20,8 @@ export async function get(context: SiteContext) {
     return getDateFromPost(b).getTime() - getDateFromPost(a).getTime();
   });
   return rss({
-    title: 'Unitary Fund blog',
-    description: 'Unitary Fund blog',
+    title: 'Unitary Foundation blog',
+    description: 'Unitary Foundation blog',
     site: context.site,
     items: sortedPosts
       .map((post) => ({

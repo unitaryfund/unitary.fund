@@ -10,7 +10,7 @@ tags:
 
 Having a somewhat unorthodox background, my introduction into the quantum computing space actually began with a TikTok video.
 Like any other computer engineering student in their mid-30s stuck at home during a pandemic lockdown, the app seemed like a fun way to pass some boredom. 
-I was later introduced to Unitary Fund through my participation in the [Quantum Open Source Foundation's](https://qosf.org/) Quantum [Mentorship Program](https://qosf.org/qc_mentorship/), where the project I chose to undertake was to make a meaningful contribution to Unitary Fund's error-mitigation toolkit [Mitiq](https://github.com/unitaryfund/mitiq).
+I was later introduced to Unitary Foundation through my participation in the [Quantum Open Source Foundation's](https://qosf.org/) Quantum [Mentorship Program](https://qosf.org/qc_mentorship/), where the project I chose to undertake was to make a meaningful contribution to Unitary Foundation's error-mitigation toolkit [Mitiq](https://github.com/unitaryfund/mitiq).
 
 ## Discovering Quantum Computing
 
@@ -35,19 +35,19 @@ I liken it to having the opportunity to get involved in learning about classical
 But the major difference between then and now is that in the 1950s, most people did not have access to those computers.
 Meanwhile today, anyone with a laptop and an internet connection can not only [learn about quantum computing](https://stem.mitre.org/quantum/), but they can even [run code on real quantum hardware for free](https://quantum-computing.ibm.com/)!
 
-## Getting Involved with Unitary Fund
+## Getting Involved with Unitary Foundation
 
 I participated in the [third cohort](https://qosf.org/mentorship_cohort_3/) of the Quantum Open Source Foundation's Quantum Mentorship Program, where my mentor Tom Lubowe suggested making a contribution to Mitiq as a good project for me.
 To apply for the mentorship program, QOSF required applicants to choose a challenge from a list of options and submit their unique solution along with their application.
 Consequently, I built a small, Python-based [quantum simulator](https://github.com/andre-a-alves/QOSF-Mentorship-Submission-Quantum-Simulator).
 Although I had already learned to code in C and Java, that simulator was my first Python project and the vehicle by while I learned that programming language, which I have since used for several open-source contributions as well as work, school, and personal projects.
 
-Once I started attending the weekly Mitiq meetings (every Friday at 17:00 UTC on [discord](http://discord.unitary.fund/)) to understand what was going on, I was amazed at the open and welcoming community I found at Unitary Fund.
+Once I started attending the weekly Mitiq meetings (every Friday at 17:00 UTC on [discord](http://discord.unitary.foundation/)) to understand what was going on, I was amazed at the open and welcoming community I found at Unitary Foundation.
 Along with that sense of community, following along during the meetings helped me understand what were priority issues, and I decided to tackle creating [decorators for PEC](https://mitiq.readthedocs.io/en/stable/apidoc.html#mitiq.pec.pec.pec_decorator), a quantum error mitigation technique available in Mitiq.
 Decorators already existed for ZNE at the time, so this task was essentially making it so users could have the same or similar options for how to implement both techniques within their programs.
 In addition to that contribution, I made a few others that were mostly focused on organizing testing and improving documentation.
 
-While I was working on my contributions to Mitiq, I found out about Unitary Fund’s [Unitary Hack 2021](https://unitaryfund.github.io/unitaryhack/) quantum hackathon and started learning about what other projects existed.
+While I was working on my contributions to Mitiq, I found out about Unitary Foundation’s [Unitary Hack 2021](https://unitaryfund.github.io/unitaryhack/) quantum hackathon and started learning about what other projects existed.
 Having done a bunch of work with networking back when I was in the military, [QuNetSim](https://github.com/tqsd/QuNetSim), a quantum-enabled network simulator, caught my eye.
 As part of the hackathon, I improved the template used to generate a default network, and I improved upon and expanded another hacker’s contribution to automatically generate standard topologies.
 
@@ -99,7 +99,7 @@ I hope to improve the explanations and references with time, as well as potentia
 ### QuNetSim Graphical User Interface
 
 During Unitary Hack 2021, there was an open issue tied to a bounty that involved creating a user interface for QuNetSim.
-I got in touch with QuNetSim’s creator and Unitary Fund micrograntee [Stephen DiAdamo](https://scholar.google.ca/citations?user=k9O1vSwAAAAJ&hl=en) about what he had in mind for such an interface.
+I got in touch with QuNetSim’s creator and Unitary Foundation micrograntee [Stephen DiAdamo](https://scholar.google.ca/citations?user=k9O1vSwAAAAJ&hl=en) about what he had in mind for such an interface.
 While it was outside the scope of what I could accomplish during the hackathon, I pitched my friend and UI/UX designer [Frances Poblete](http://francespoblete.com) to help design the UI, and she agreed.
 Her design looks great, and the prototype will form the basis for building the UI.
 

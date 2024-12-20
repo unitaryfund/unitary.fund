@@ -11,7 +11,7 @@ tags:
 About Us
 --------
 
-We are both PhD students (one recently finished) in the Keeling/Lovett groups at the University of St Andrews where our work has focused on building tensor network algorithms to simulate non-Markovian open quantum systems. We began developing the [OQuPy](https://oqupy.readthedocs.io) package to open up these methods to a much wider audience by placing the complex algorithms behind a simple and intuitive interface. We applied to the Unitary Fund to help support the extension of [OQuPy](https://oqupy.readthedocs.io) to include a few new tools for open quantum systems analysis recently developed in our groups. We'll get on to those but first a brief background on the key ideas.
+We are both PhD students (one recently finished) in the Keeling/Lovett groups at the University of St Andrews where our work has focused on building tensor network algorithms to simulate non-Markovian open quantum systems. We began developing the [OQuPy](https://oqupy.readthedocs.io) package to open up these methods to a much wider audience by placing the complex algorithms behind a simple and intuitive interface. We applied to the Unitary Foundation to help support the extension of [OQuPy](https://oqupy.readthedocs.io) to include a few new tools for open quantum systems analysis recently developed in our groups. We'll get on to those but first a brief background on the key ideas.
 
 About OQuPy
 -----------
@@ -26,7 +26,7 @@ Beyond the core functionality there have been a number of extensions developed i
 1.  Calculation of bath correlations from system correlations
 2.  Non-perturbative simulation of a system coupled to multiple environments
 
-We decided to add these to the [OQuPy](https://oqupy.readthedocs.io) package with hope that they would further attract new users who might find some use of these in their own research. The first of these allows further characterisation of the behaviour of an open quantum system by giving insight into the specific role of the environment which can become increasingly significant in cases of strong coupling. The second gives the user the possibility to account for strong coupling to multiple environments and examine the effect of their interplay on the system’s evolution. Thanks to the Unitary Fund we were able to support the implementation of these to [OQuPy](https://oqupy.readthedocs.io). We will now briefly cover the background to both these features and how they currently fit into the package.
+We decided to add these to the [OQuPy](https://oqupy.readthedocs.io) package with hope that they would further attract new users who might find some use of these in their own research. The first of these allows further characterisation of the behaviour of an open quantum system by giving insight into the specific role of the environment which can become increasingly significant in cases of strong coupling. The second gives the user the possibility to account for strong coupling to multiple environments and examine the effect of their interplay on the system’s evolution. Thanks to the Unitary Foundation we were able to support the implementation of these to [OQuPy](https://oqupy.readthedocs.io). We will now briefly cover the background to both these features and how they currently fit into the package.
 
 ### Bath Dynamics
 

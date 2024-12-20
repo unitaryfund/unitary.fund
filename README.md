@@ -1,25 +1,25 @@
-# Unitary Fund
+# Unitary Foundation
 
-Unitary Fund is a non-profit that supports the open development of the quantum technology ecosystem.
+Unitary Foundation is a non-profit that supports the open development of the quantum technology ecosystem.
 
-Learn more about what we do at [`unitary.fund`](https://unitary.fund).
+Learn more about what we do at [`unitary.foundation`](https://unitary.foundation).
 
-## Adding a Unitary Fund Badge
+## Adding a Unitary Foundation Badge
 
-If you are a project affiliated with Unitary Fund you can add the badge to your GitHub project using the following snippet:
+If you are a project affiliated with Unitary Foundation you can add the badge to your GitHub project using the following snippet:
 
 ```
-[![Unitary Fund](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](https://unitary.fund)
+[![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
 ```
 
 This will be rendered as:
 
-[![Unitary Fund](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](https://unitary.fund)
+[![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
 
 ## Writing a blog post
 
 To add a blog post, create a new markdown file (`YYYY_your_title.md`) in the `src/content/blog/` directory.
-The following template post can be used to start from scratch, or check out one of the existing blog posts ([markdown example](src/content/blog/2023_members.md), [live render](https://unitary.fund/posts/2023_members/)).
+The following template post can be used to start from scratch, or check out one of the existing blog posts ([markdown example](src/content/blog/2023_members.md), [live render](https://unitary.foundation/posts/2023_members/)).
 
 ````
 ---
@@ -36,7 +36,7 @@ tags:
 
 # This is a heading style one
 
-**This is a featured paragraph it cannot contain bold text but can contain [links](https://www.unitary.fund).**
+**This is a featured paragraph it cannot contain bold text but can contain [links](https://www.unitary.foundation).**
 
 More text
 
@@ -113,8 +113,8 @@ tags:
 To **Hanrui Wang** to further develop **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)**, a Quantum classical simulation framework based on PyTorch.
 ```
 ### Open a PR to add the file on a new grant
-If you have a Github account, you can directly add a new markdown file to add a new grant by [clicking here](https://github.com/unitaryfund/unitary.fund/new/main/src/content/grant) and then opening a pull request (PR). 
+If you have a Github account, you can directly add a new markdown file to add a new grant by [clicking here](https://github.com/unitaryfund/unitary.foundation/new/main/src/content/grant) and then opening a pull request (PR). 
 
 ## Run the website locally
 
-Information on how to run the website locally are given in the [developer docs](https://github.com/unitaryfund/unitary.fund/wiki/Developer-docs) wiki.
+Information on how to run the website locally are given in the [developer docs](https://github.com/unitaryfund/unitary.foundation/wiki/Developer-docs) wiki.

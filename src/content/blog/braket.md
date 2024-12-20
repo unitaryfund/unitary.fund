@@ -1,6 +1,6 @@
 ---
 title: New support for Mitiq on Amazon Braket
-author: Unitary Fund Team
+author: Unitary Foundation Team
 day: 4
 month: 10
 year: 2021

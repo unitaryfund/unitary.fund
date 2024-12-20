@@ -6,8 +6,8 @@ month: 6
 year: 2022
 ---
 
-The Unitary Fund team and Advisory Board often get asked this question: “How can I run programs on quantum computers?”
-Today there are a lot of options for free cloud-access to quantum computing services and we’ve taken a shot at summarizing some of the well known ones. If you know of platforms or programs that we have missed then please do reach out to info@unitary.fund
+The Unitary Foundation team and Advisory Board often get asked this question: “How can I run programs on quantum computers?”
+Today there are a lot of options for free cloud-access to quantum computing services and we’ve taken a shot at summarizing some of the well known ones. If you know of platforms or programs that we have missed then please do reach out to info@unitary.foundation
 
 
 # IBM Quantum
@@ -15,7 +15,7 @@ IBM Quantum regularly releases free to access hardware on an a-la-carte selectio
 There are also special access programs for [educators](https://quantum-computing.ibm.com/programs/educators) and [researchers](https://quantum-computing.ibm.com/programs/researchers).
 
 # AWS Braket
-AWS Braket is fully integrated in the AWS dashboard as one of its existing services and has many devices. It provides one hour per month of free credits for simulation but not yet a default mechanism to access QPUs or free credits for QPUs. They run a wider [cloud credit for research program](https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/) that includes quantum, although you need to be full-time in academia to apply. Unitary Fund obtained several credits by asking, so it is always worth trying to contact the Braket team.
+AWS Braket is fully integrated in the AWS dashboard as one of its existing services and has many devices. It provides one hour per month of free credits for simulation but not yet a default mechanism to access QPUs or free credits for QPUs. They run a wider [cloud credit for research program](https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/) that includes quantum, although you need to be full-time in academia to apply. Unitary Foundation obtained several credits by asking, so it is always worth trying to contact the Braket team.
 
 # Azure Quantum
 Azure Quantum provides $500 free per each provider (IonQ, Quantinuum, etc.) upon signing in + more credits for approved [research projects](https://docs.microsoft.com/en-us/azure/quantum/credits-faq).
