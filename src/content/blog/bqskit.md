@@ -1,6 +1,6 @@
 ---
 title: Combining Circuit Compilation and Error Mitigation
-author: Unitary Fund Team
+author: Unitary Foundation Team
 day: 3
 month: 10
 year: 2022
@@ -20,7 +20,7 @@ While we hope one day to run error corrected codes that find and fix errors as t
 To this end error mitigation can make the computation of existing quantum computers more accurate and is believed to be a necessary stack also in the near term.
 
 Both circuit compilation and error mitigation are increasingly important in building a full stack experience for near-term quantum computers, and hence it's important to understand how these two technologies interact.
-For this purpose, the Unitary Fund technical staff, working on the [Mitiq](https://mitiq.readthedocs.io/en/latest/index.html) error mitigation toolkit, teamed up with the team at Lawrence Berkeley National Laboratory who is developing the Berkeley Quantum Synthesis Toolkit---often written [BQSKit](https://bqskit.lbl.gov/) for short---which is a compiler aimed at reducing circuit depth by reducing CNOT gate count.
+For this purpose, the Unitary Foundation technical staff, working on the [Mitiq](https://mitiq.readthedocs.io/en/latest/index.html) error mitigation toolkit, teamed up with the team at Lawrence Berkeley National Laboratory who is developing the Berkeley Quantum Synthesis Toolkit---often written [BQSKit](https://bqskit.lbl.gov/) for short---which is a compiler aimed at reducing circuit depth by reducing CNOT gate count.
 In the BQSKit team's research, they have been able to show their compiler reduces CNOT gate count up to 80% for specific quantum algorithms [1].
 
 To begin to understand this tool's interplay with [Mitiq](https://mitiq.readthedocs.io/) we have written a tutorial which can be found in our [documentation](https://mitiq.readthedocs.io/en/latest/examples/bqskit.html) that describes a workflow of using the BQSKit compiler together with Zero-Noise Extrapolation, one of the quantum error mitigation techniques available through Mitiq.

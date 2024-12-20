@@ -11,7 +11,7 @@ tags:
 
 I start out every session with the question, “What does it mean to learn?”. I ask the students to raise their hands if they think they have a good grasp on what learning means. Oftentimes, students respond by timidly glancing over at their peers; perhaps in their minds, this should be an easy question. In the end, only a few tight-angled elbows eventually stretch hands into the air. 
 
-Thanks to the Unitary Fund’s financial support, I have been able to travel to high schools in Florida and Massachusetts over the past few years, giving workshops on the latest scientific developments in machine learning and quantum computing. As a researcher at the intersection of these areas, I enjoy sharing recent advances with young students. The objective of these workshops is to spark curiosity in the students. It’s not to teach them how to code up a machine learning algorithm or how to build a quantum computer; I only get 50 minutes with them - the goal is to get them excited to think about the science. 
+Thanks to the Unitary Foundation’s financial support, I have been able to travel to high schools in Florida and Massachusetts over the past few years, giving workshops on the latest scientific developments in machine learning and quantum computing. As a researcher at the intersection of these areas, I enjoy sharing recent advances with young students. The objective of these workshops is to spark curiosity in the students. It’s not to teach them how to code up a machine learning algorithm or how to build a quantum computer; I only get 50 minutes with them - the goal is to get them excited to think about the science. 
 
 ![Teaching learning](/images/teaching_learning.jpg)
 

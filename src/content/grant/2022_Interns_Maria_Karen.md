@@ -10,4 +10,4 @@ tags:
   - metriq
 ---
 
- To **[Maria Maryam](https://unitary.fund/posts/intern_maria_maryam_post.html)** and **[Karen Rezkalla](https://unitary.fund/posts/2022_karen_intern_post.html)**, to improve the database and develop the Python client API of **[Metriq](https://metriq.info/)**, as part of the [Qubit x Qubit](https://www.qubitbyqubit.org/) Early Quantum Career Immersion Program.
+ To **[Maria Maryam](https://unitary.foundation/posts/intern_maria_maryam_post.html)** and **[Karen Rezkalla](https://unitary.foundation/posts/2022_karen_intern_post.html)**, to improve the database and develop the Python client API of **[Metriq](https://metriq.info/)**, as part of the [Qubit x Qubit](https://www.qubitbyqubit.org/) Early Quantum Career Immersion Program.

@@ -54,7 +54,7 @@ Unfortunately, many of the programs that will be discussed have already closed t
     
 *   [QWorld QJunior](http://qworld.lu.lv/index.php/qjunior/)
     
-    QWorld (a Unitary Fund grant winner!) runs workshops that teach high school students the basics of quantum programming.
+    QWorld (a Unitary Foundation grant winner!) runs workshops that teach high school students the basics of quantum programming.
     
 *   [University of Maryland Advanced Summer Girls Program](https://umdphysics.umd.edu/events/summer-programs/advanced-summer-girls-program.html)
     

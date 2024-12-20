@@ -1,1 +1,1 @@
-Join us on the **Unitary Fund Discord!**
+Join us on the **Unitary Foundation Discord!**

@@ -61,7 +61,7 @@ And here is a quick gif to highlight the design process:
 
 ![](/images/2023_hierarqcal_code.gif)
 
-That's it for now, a big shout out to the [Unitary Fund](https://unitary.fund/) that made all of this possible! If you have any questions or comments, feel free to reach out to me on twitter [MeMattLourens](https://twitter.com/MeMattLourens).
+That's it for now, a big shout out to the [Unitary Foundation](https://unitary.foundation/) that made all of this possible! If you have any questions or comments, feel free to reach out to me on twitter [MeMattLourens](https://twitter.com/MeMattLourens).
 
 Useful Links:
 

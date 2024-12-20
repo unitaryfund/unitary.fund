@@ -1,6 +1,6 @@
 ---
 title: The 2023 QOSS Survey is here! 
-author: Unitary Fund Team
+author: Unitary Foundation Team
 day: 27
 month: 9
 year: 2023
@@ -20,8 +20,8 @@ If you are a user or developer of software for any kind of quantum technology, w
 
 ![Take the Quantum Open Source Software Survey](/images/2023QOSSSurvey.png)
 
-All anonymized results will be shared publicly later this year, so that the survey can be a resource for anyone who wants a better understanding of the quantum computing community’s needs. Unitary Fund will also analyze the data, report our filings and publish the aggregated results on our website. 
+All anonymized results will be shared publicly later this year, so that the survey can be a resource for anyone who wants a better understanding of the quantum computing community’s needs. Unitary Foundation will also analyze the data, report our filings and publish the aggregated results on our website. 
 
-***A very large and heartfelt thank you*** to all the Unitary Fund community members, advisors, and partners who continue to help us provide this survey as a resource, including work in designing, testing and providing general feedback.
+***A very large and heartfelt thank you*** to all the Unitary Foundation community members, advisors, and partners who continue to help us provide this survey as a resource, including work in designing, testing and providing general feedback.
 
 Fill out the QOSS Survey [here](https://www.surveymonkey.com/r/QuantumSurvey2023)

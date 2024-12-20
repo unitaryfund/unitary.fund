@@ -1,22 +1,22 @@
 ---
-title: "Unitary Fund Welcomes New Advisory Board"
-author: Unitary Fund Team
+title: "Unitary Foundation Welcomes New Advisory Board"
+author: Unitary Foundation Team
 day: 22
 month: 6
 year: 2020
 ---
 
-Unitary Fund has grown quickly since its inception as a small microgrant program. We’ve now awarded more than 22 project grants across 14 countries and 4 continents, resulting in 6 publications, more than 11 open source libraries, a venture funded startup, and several folks working full time in the field who got their start with a Unitary Fund grant. Open source projects supported by Unitary Fund have more than 31 contributors, 570 stars and 95 forks on github. All this has happened on just the $40k so far granted.  
+Unitary Foundation has grown quickly since its inception as a small microgrant program. We’ve now awarded more than 22 project grants across 14 countries and 4 continents, resulting in 6 publications, more than 11 open source libraries, a venture funded startup, and several folks working full time in the field who got their start with a Unitary Foundation grant. Open source projects supported by Unitary Foundation have more than 31 contributors, 570 stars and 95 forks on github. All this has happened on just the $40k so far granted.  
   
-We believe that these results speak for themselves, and we’re ready to grow them further. To help with this, **we have invited 15 members of the quantum technology community to join our volunteer advisory board.** Many of them have already been helping behind the scenes at Unitary Fund, reviewing applications and mentoring projects. The group also includes Ntwali and Michał, who themselves were some of the first of our grant winners.  
+We believe that these results speak for themselves, and we’re ready to grow them further. To help with this, **we have invited 15 members of the quantum technology community to join our volunteer advisory board.** Many of them have already been helping behind the scenes at Unitary Foundation, reviewing applications and mentoring projects. The group also includes Ntwali and Michał, who themselves were some of the first of our grant winners.  
   
 They are all experts in their fields, and they bring experience across the quantum technology stack: various hardware, programming languages etc. They work at academic research centers, national labs, corporate research divisions, and startups, both collaborating on large open source projects and having authored personal projects. Importantly, they all share our commitment to growing the community of open science and technology.  
   
-The advisory board will help source and review grant applications, mentor projects, and provide technical advice on Unitary Fund’s research program.  
+The advisory board will help source and review grant applications, mentor projects, and provide technical advice on Unitary Foundation’s research program.  
   
 We are grateful for their help and are excited to bring them on board to recognize their contribution.  
   
-**The Unitary Fund Advisory Board:**  
+**The Unitary Foundation Advisory Board:**  
   
 **Alex McCaskey** is a research scientist in the Computer Science and Mathematics Division at Oak Ridge National Laboratory. He serves as the Software Lead for the Quantum Computing Institute at ORNL and is the Project Lead for the XACC quantum framework and the QCOR quantum-classical C++ compiler. He received his Masters in Physics from Virginia Tech and BS degrees in Physics and Mathematics from the University of Tennessee.  
   
@@ -46,5 +46,5 @@ We are grateful for their help and are excited to bring them on board to recogni
   
 **Tomas Babej** is co-founder and CTO at ProteinQure and one of the founders of the Quantum Open Source Foundation (QOSF). He is a contributor to several open-source libraries in science, such as Astropy, and has worked as a software engineer for RedHat.  
   
-**Travis L. Scholten** is a quantum computing applications researcher at IBM Quantum, where he also works on collaborations for the IBM Quantum Network. He received his PhD on quantum characterization, validation, and verification from University of New Mexico and a BS in Physics from Caltech. He has been advising the Unitary Fund's grant program since its inception.  
+**Travis L. Scholten** is a quantum computing applications researcher at IBM Quantum, where he also works on collaborations for the IBM Quantum Network. He received his PhD on quantum characterization, validation, and verification from University of New Mexico and a BS in Physics from Caltech. He has been advising the Unitary Foundation's grant program since its inception.  
   

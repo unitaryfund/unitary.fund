@@ -10,7 +10,7 @@ image: ik0x5uamssk49hfcbp
 
 ## About the talk
 
-[Verifrodo](https://github.com/xvzcf/VeriFrodo) is an open-source package implementing a lattice-based quantum-resistant cryptographic algorithms in Jasmin within the Open Quantum Safe project. This talk will provide an overview of post-quantum cryptography and its use in internet protocols and software applications, as well as place our Unitary Fund project, VeriFrodo, in this context.
+[Verifrodo](https://github.com/xvzcf/VeriFrodo) is an open-source package implementing a lattice-based quantum-resistant cryptographic algorithms in Jasmin within the Open Quantum Safe project. This talk will provide an overview of post-quantum cryptography and its use in internet protocols and software applications, as well as place our Unitary Foundation project, VeriFrodo, in this context.
 
   
 ## About the speaker

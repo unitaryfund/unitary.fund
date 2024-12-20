@@ -52,4 +52,4 @@ Although the Mirror Circuits implementation was the main result of my research, 
 
 ## Final Thoughts
 
-I have learned very much about Error Mitigation throughout the course of this project while being able to contribute to Mitiq and the field as a whole. I want to thank the Unitary Fund team for their continued help and support. I’d especially like to thank Ryan LaRose for being my advisor throughout this project and consistently guiding me and providing advice.
+I have learned very much about Error Mitigation throughout the course of this project while being able to contribute to Mitiq and the field as a whole. I want to thank the Unitary Foundation team for their continued help and support. I’d especially like to thank Ryan LaRose for being my advisor throughout this project and consistently guiding me and providing advice.

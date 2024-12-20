@@ -12,7 +12,7 @@ Today two papers \[[H. Silvério & S. Grijalva *et
 al.*](https://quantum-journal.org/papers/q-2022-01-24-629/), [B.
 Li *et
 al.*](https://quantum-journal.org/papers/q-2022-01-24-630/)\] on
-quantum open source software projects supported by the Unitary Fund are
+quantum open source software projects supported by the Unitary Foundation are
 published in the open-access, community-driven journal
 [*Quantum*](https://quantum-journal.org/). The papers provide
 information on **Pulser** and **qutip-qip**, two Python packages for the
