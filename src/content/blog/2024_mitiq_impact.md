@@ -10,7 +10,7 @@ tags:
   - community
 ---
 
-As we approach the 5 year anniversary since the Mitiq project has begun, we're starting to see how the project has played a role in shaping the ecosystem.
+As we approach the five-year anniversary of the Mitiq project, I'd like to reflect on the progress we've made and celebrate its ongoing role in shaping the quantum computing ecosystem.
 Mitiq was created in early 2020 with the intention to *make error mitigation easily available to everyone running programs on quantum computers.*
 Have we acheived this goal?
 Making QEM easily available to **everyone** is an ambitious target, but as the adoption metrics below demonstrate, Mitiq has significantly lowered the barrier to using Quantum Error Mitigation (QEM) protocols.
@@ -21,11 +21,11 @@ In his [talk at Q2B 2024](https://preskill.caltech.edu/talks/Preskill-Q2B-2024.p
 
 > <p style="font-size: 24px;">Error mitigation will continue to be useful in the Megaquop era and beyond.</p>
 
-Preskill’s remarks underscore the enduring importance of error mitigation and highlight the need for an open-source, platform-agnostic tool like Mitiq to support the growing quantum ecosystem.
-When Mitiq was first introduced in 2020, the landscape of QEM tools was nascent, with early efforts like pyquil’s measurement error mitigation and Qiskit Ignis paving the way.
+Preskill's remarks underscore the enduring importance of error mitigation and highlight the need for an open-source, platform-agnostic tool like Mitiq to support the growing quantum ecosystem.
+When Mitiq was first introduced in 2020, the landscape of QEM tools was nascent, with early efforts like pyquil's measurement error mitigation and Qiskit Ignis paving the way.
 Since then, the ecosystem has expanded, with Mitiq leading the charge by implementing nine QEM techniques and offering official support for 6 quantum SDKs (and un-official support for more).
 
-Let’s take a closer look at how Mitiq has shaped the field and grown over time.
+Let's take a closer look at how Mitiq has shaped the field and grown over time.
 
 
 ## Adoption and Community Growth
@@ -33,11 +33,11 @@ Let’s take a closer look at how Mitiq has shaped the field and grown over time
 At the core of making QEM available to all, is building a platform-agnostic tool.
 Whether you're writing your quantum program with Qiskit, Cirq, PyQuil, Qibo, Braket, ..., you can use Mitiq!
 This has been a major driving force behind the growth and adoption of the project, and allows for users to write QEM code once with the flexibility of running on any (gate-based) hardware.
-As the only SDK-agnostic QEM tool[^2], Mitiq’s adoption metrics provide a clear measure of its utility and impact.
+As the only SDK-agnostic QEM tool[^2], Mitiq's adoption metrics provide a clear measure of its utility and impact.
 
-[^2]: To create such a tool in the ever-changing quantum software landscape that does not have an established IR, is, to say the least, a lot of work. In particular the **maintenance** overhead required to stay up to date with $n$ SDKs is quadratic.
+[^2]: To create such a tool in the ever-changing quantum software landscape that does not have an established IR, is, to say the least, a lot of work. In particular the **maintenance** required to stay up to date with $n$ SDKs and conversions between.
 
-- **Downloads:** Over 195,000 downloads (and counting!).
+- **Downloads:** Over 195,000 total downloads (and counting!).
 - **GitHub Engagement:** Mitiq has accumulated over 350 stars, 160 forks, and contributions from 76 developers worldwide.
 - **Scientific Reach:** Researchers have cited Mitiq over 120 times since 2020 when the [whitepaper](https://arxiv.org/abs/2009.04417) was put online.
 
@@ -49,20 +49,21 @@ As the only SDK-agnostic QEM tool[^2], Mitiq’s adoption metrics provide a clea
 </div>
 
 The thriving Mitiq community is a testament to the importance of open-source collaboration.
-From first-time contributors to seasoned quantum researchers, everyone has played a role in making Mitiq a vital tool for error mitigation.
+From first-time contributors to experienced quantum researchers, everyone has played a role in elevating Mitiq to the tool it is today.
 
 ## Driving Research and Innovation
 
-Mitiq has been cited in over 120 peer-reviewed research papers, enabling progress in areas such as condensed matter, quantum simulation, and benchmarking.
-Some notable examples from the past 4 years include:
+Mitiq has been an instrumental tool in advancing research across diverse areas of quantum computing, including benchmarking, quantum simulation, and QEM research.
+Its easy-to-use API, combined with extensive documentation, has empowered researchers from fields like condensed matter and many-body physics to explore techniques that push the boundary of what's possible on today's quantum hardware.
+Notable examples include:
 
-- [**Computational physics:**](https://arxiv.org/abs/2112.12654) Researchers used Mitiq's ZNE functionality to mitigate noise in quantum simulations of Heisenberg spin chains, enhancing fidelity and extending simulations beyond hardware coherence times.
-- [**Statistical physics:**](https://quantum-journal.org/papers/q-2022-09-08-796/) researchers used Mitiq to demonstrate a reduction in noise during quantum simulations of Bethe eigenstates. Their experiments, the authors say,
+- **Computational physics:** Researchers used Mitiq's ZNE functionality to mitigate noise in quantum simulations of Heisenberg spin chains, enhancing fidelity and extending simulations beyond hardware coherence times. [[*Quantum dynamics simulations beyond the coherence time on NISQ hardware by variational Trotter compression*](https://arxiv.org/abs/2112.12654)]
+- **Statistical physics:** Researchers used Mitiq to demonstrate a reduction in noise during quantum simulations of Bethe eigenstates. Their experiments, the authors (of [*Algebraic Bethe Circuits*](https://quantum-journal.org/papers/q-2022-09-08-796/)) say,
     > highlight the utility of error mitigation. In particular [our experiments] show further evidence that learning based error mitigation is practically useful in reducing the effects of hardware noise."
-- [**Condensed matter:**](https://arxiv.org/abs/2109.15065) Researchers used Mitiq's ZNE functionality to mitigate noise in quantum simulations of lattice gauge models, improving the accuracy of observables on noisy hardware.
-- [**QEM research:**](https://arxiv.org/abs/2411.06422) researchers used Mitiq to implement and benchmark error mitigation techniques, including standard PEC and a novel optimization designed for noise-biased qubits.
-- [**Machine learning:**](https://arxiv.org/abs/2404.07802) researchers compare ML based approaches for QEM against Mitiq's ZNE.
-- [**Benchmarking:**](https://arxiv.org/abs/2210.07194) Unitary Fund researchers benchmarked Mitiq (ZNE and PEC) across hardware platforms and vendors. Mitiq is currently the only tool available to facilitate a study like this.
+- **Condensed matter:** Researchers used Mitiq's ZNE functionality to mitigate noise in quantum simulations of lattice gauge models, improving the accuracy of observables on noisy hardware. [[*Towards the real-time evolution of gauge-invariant $\mathbb{Z}_2$ and $U(1)$ quantum link models on NISQ Hardware with error-mitigation*](https://arxiv.org/abs/2109.15065)]
+- **QEM research:** Researchers used Mitiq to implement and benchmark error mitigation techniques, including standard PEC and a novel optimization designed for noise-biased qubits. [[*Low bit-flip rate probabilistic error cancellation*](https://arxiv.org/abs/2411.06422)]
+- **Machine learning:** Researchers compare ML based approaches for QEM against Mitiq's ZNE. [[*Synergy between noisy quantum computers and scalable classical deep learning*](https://arxiv.org/abs/2404.07802)]
+- **Benchmarking:** Unitary Fund researchers benchmarked Mitiq (ZNE and PEC) across hardware platforms and vendors. Mitiq is currently the only tool available to facilitate such a study. [[*Testing platform-independent quantum error mitigation on noisy quantum computers*](https://arxiv.org/abs/2210.07194)]
 
 By providing an easy-to-use interface for applying error mitigation techniques, Mitiq has significantly reduced the barrier to both use **and** study error mitigation protocols.
 
@@ -137,11 +138,11 @@ If this sounds like something you're interested in, I encourage you to get invol
 
 ## Join the Mitiq Community
 
-Whether you’re a researcher, educator, or software engineer, or quantum tinkerer, there’s a place for you in the Mitiq community.
+Whether you're a researcher, educator, or software engineer, or quantum tinkerer, there's a place for you in the Mitiq community.
 
 - Check out the [`mitiq`](https://github.com/unitaryfund/mitiq) GitHub repository and contribute by opening issues, asking questions, or making a pull request. If you have a QEM technique you'd like to use, let us know! Feature requests are always appreciated, and encouraged.
 - Join our [Discord community](http://discord.unitary.fund) to connect with me and all the other wonderful Mitiq developers and quantum enthusiasts.
-- Sign up to recieve the [Mitiq Newsletter](https://forms.gle/6UcUjSawHyweXhQV7) to stay up to date with the latest happenings.
+- Sign up to receive the [Mitiq Newsletter](https://forms.gle/6UcUjSawHyweXhQV7) to stay up to date with the latest happenings.
 
 Happy holidays and happy new year!
-Here’s to 2025&mdash;a year of fewer errors, and better tools.
+Here's to 2025&mdash;a year of fewer errors, and better tools.
