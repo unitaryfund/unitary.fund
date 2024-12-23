@@ -23,7 +23,7 @@ In his [talk at Q2B 2024](https://preskill.caltech.edu/talks/Preskill-Q2B-2024.p
 
 Preskill's remarks underscore the enduring importance of error mitigation and highlight the need for an open-source, platform-agnostic tool like Mitiq to support the growing quantum ecosystem.
 When Mitiq was first introduced in 2020, the landscape of QEM tools was nascent, with early efforts like pyquil's measurement error mitigation and Qiskit Ignis paving the way.
-Since then, the ecosystem has expanded, with Mitiq leading the charge by implementing nine QEM techniques and offering official support for 6 quantum SDKs (and un-official support for more).
+Since then, the ecosystem has expanded, with Mitiq leading the charge by implementing nine QEM techniques and offering official support for 6 quantum SDKs (and unofficial support for more).
 
 Let's take a closer look at how Mitiq has shaped the field and grown over time.
 
@@ -38,7 +38,7 @@ As the only SDK-agnostic QEM tool[^2], Mitiq's adoption metrics provide a clear 
 [^2]: To create such a tool in the ever-changing quantum software landscape that does not have an established IR, is, to say the least, a lot of work. In particular the **maintenance** required to stay up to date with $n$ SDKs and conversions between.
 
 - **Downloads:** Over 195,000 total downloads (and counting!).
-- **GitHub Engagement:** Mitiq has accumulated over 350 stars, 160 forks, and contributions from 76 developers worldwide.
+- **GitHub Engagement:** Mitiq has accumulated over 360 stars, 160 forks, and contributions from 76 developers worldwide.
 - **Scientific Reach:** Researchers have cited Mitiq over 120 times since 2020 when the [whitepaper](https://arxiv.org/abs/2009.04417) was put online.
 
 <div style="display: flex; justify-content: center; align-items: center;" class="side-by-side">
