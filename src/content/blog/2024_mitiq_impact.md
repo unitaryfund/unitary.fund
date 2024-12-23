@@ -1,5 +1,5 @@
 ---
-title: The impact of Mitiq
+title: "Five Years of Mitiq: Reflecting on Impact and the Future of QEM"
 author: nate stemen
 day: 24
 month: 12
