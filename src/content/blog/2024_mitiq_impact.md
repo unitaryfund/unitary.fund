@@ -1,5 +1,5 @@
 ---
-title: Reflecting on the Impact of Mitiq and the Future of Quantum Error Mitigation
+title: On the Impact of Mitiq and its Future
 author: nate stemen
 day: 24
 month: 12
@@ -10,7 +10,7 @@ tags:
   - community
 ---
 
-**Five years since Mitiq's inception and much progress has been made, but still with many opportunities for new and exciting work.**
+**It’s been five years since Mitiq’s journey began&mdash;there’s a lot to celebrate, and still so much more to explore.**
 
 As we approach the five-year anniversary of the Mitiq project in January 2025, I'd like to reflect on the progress we've made and celebrate its ongoing role in shaping the quantum computing ecosystem.
 Mitiq was created in early 2020 with the intention to *make error mitigation easily available to everyone running programs on quantum computers.*
@@ -25,7 +25,7 @@ In a [talk at Q2B 2024](https://preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf
 > <p style="font-size: 24px;">Error mitigation will continue to be useful in the Megaquop era and beyond.</p>
 
 Preskill's statement underscores the importance of error mitigation and highlight the need for an open-source, platform-agnostic tool like Mitiq to support the growing quantum ecosystem.
-When Mitiq was first introduced in 2020, the landscape of QEM tools was nascent, with early efforts like pyQuil's measurement error mitigation and Qiskit Ignis paving the way.
+When Mitiq was first introduced in 2020, the landscape of QEM tools was nascent, with early efforts like [pyQuil's measurement error mitigation](https://github.com/rigetti/pyquil/releases/tag/v2.5.0) and [Qiskit Ignis](https://github.com/qiskit-community/qiskit-ignis) paving the way.
 Since then, the ecosystem has expanded, with Mitiq leading the charge by implementing nine QEM techniques and offering official support for 6 quantum SDKs (and unofficial support for more).
 
 Let's take a closer look at how Mitiq has shaped the field and grown over time.
@@ -59,12 +59,12 @@ From first-time contributors to experienced quantum researchers, everyone has pl
 ## Driving Research and Innovation
 
 Mitiq has been an instrumental tool in advancing research across diverse areas of quantum computing, including benchmarking, quantum simulation, and QEM research.
-Its easy-to-use API, combined with extensive documentation, has empowered researchers from fields like condensed matter and many-body physics to explore techniques that push the boundary of what's possible on today's quantum hardware.
+Its easy-to-use [API](https://mitiq.readthedocs.io/en/stable/apidoc.html), combined with [extensive documentation](https://mitiq.readthedocs.io/en/stable/guide/guide.html), has empowered researchers from fields like condensed matter and many-body physics to explore techniques that push the boundary of what's possible on today's quantum hardware.
 Notable examples include:
 
 - **Computational physics:** Researchers used Mitiq's Zero-Noise Extrapolation (ZNE) functionality to mitigate noise in quantum simulations of Heisenberg spin chains, enhancing fidelity and extending simulations beyond hardware coherence times. [[*Quantum dynamics simulations beyond the coherence time on NISQ hardware by variational Trotter compression*](https://arxiv.org/abs/2112.12654)]
-- **Statistical physics:** Researchers used Mitiq to demonstrate a reduction in noise during quantum simulations of Bethe eigenstates. Their experiments, the authors (of [*Algebraic Bethe Circuits*](https://quantum-journal.org/papers/q-2022-09-08-796/)) say,
-    > highlight the utility of error mitigation. In particular [our experiments] show further evidence that learning based error mitigation is practically useful in reducing the effects of hardware noise.
+- **Statistical physics:** Researchers used Mitiq to demonstrate a reduction in noise during quantum simulations of Bethe eigenstates. To quote the authors (of [*Algebraic Bethe Circuits*](https://quantum-journal.org/papers/q-2022-09-08-796/)):
+    > [Our experiments] highlight the utility of error mitigation. In particular [our experiments] show further evidence that learning based error mitigation is practically useful in reducing the effects of hardware noise.
 - **Condensed matter:** Researchers used Mitiq's ZNE functionality to mitigate noise in quantum simulations of lattice gauge models, improving the accuracy of observables on noisy hardware. [[*Towards the real-time evolution of gauge-invariant $\mathbb{Z}_2$ and $U(1)$ quantum link models on NISQ Hardware with error-mitigation*](https://arxiv.org/abs/2109.15065)]
 - **QEM research:** Researchers used Mitiq to implement and benchmark error mitigation techniques, including Probabilistic Error Cancellation (PEC) and a novel optimization designed for noise-biased qubits. [[*Low bit-flip rate probabilistic error cancellation*](https://arxiv.org/abs/2411.06422)]
 - **Machine learning:** Researchers compare ML based approaches for QEM against Mitiq's ZNE. [[*Synergy between noisy quantum computers and scalable classical deep learning*](https://arxiv.org/abs/2404.07802)]
@@ -83,7 +83,7 @@ We pride ourselves on maintaining a well-documented project (even for developer 
 Our industry needs talent, and Mitiq has played a key role in onboarding individuals with essential skills—such as software development, research, and technical writing—into the field.
 Some of the key ways that we work to encourage this include:
 
-- **Documentation:** Mitiq has over 100 pages of documentation for our QEM techniques, showing both the theory and practice of applying QEM on real devices. This includes 35 examples to base your next project on as well as a [short video explainer](https://www.youtube.com/watch?v=47GWi4h7TWM) of our latest technique.
+- **Documentation:** Mitiq has over 100 pages of documentation for our QEM techniques, showing both the theory and practice of applying QEM on real devices. This includes [35 examples](https://mitiq.readthedocs.io/en/stable/examples/examples.html) to base your next project on as well as a [short video explainer](https://www.youtube.com/watch?v=47GWi4h7TWM) of our latest technique.
 - **Presentations:** Since Mitiq's inception, Unitary Fund staff, alongside Mitiq contributors have delivered over 50 talks to the scientific and programming communities. This year we presented at the APS March meeting, IEEE QCE, and unitaryCON.
 - **Mitiq workshop:** This year we [hosted a workshop](https://unitary.fund/posts/2024_recap_mitiq_workshop/) dedicated solely to teaching people how to use, contribute to, and experiment with Mitiq in conjunction with the [QNumerics summer school](https://qnumerics.org/).
 - **Project mentorship:** We've continued to grow our connections with students by mentoring QEM projects through [QRISE](https://www.quantumcoalition.io/qrise), the [University of Washington's capstone course](https://unitary.fund/posts/2024_capstone_uw/), and a new project coming soon in conjuction with the University of Amsterdam.
