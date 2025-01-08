@@ -18,7 +18,7 @@ import svgr from 'vite-plugin-svgr';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://unitary.foundation',
+  site: 'https://unitary.fund',
   redirects: {
     '/faq': '/faqs',
     '/faq.html': '/faqs',
