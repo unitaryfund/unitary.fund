@@ -8,7 +8,7 @@ tags:
   - Unitary Foundation
 ---
 
-Unitary Fund got started in June 2018 with a [blogpost](https://medium.com/@wjzeng/the-unitary-fund-get-2-000-for-your-open-source-quantum-computing-project-d4b4c76ba177), $6k, and a microgrant program. At the time the quantum industry was just emerging. I wrote:
+Unitary Fund got started in June 2018 with a [blogpost](https://medium.com/@wjzeng/the-unitary-fund-get-2-000-for-your-open-source-quantum-computing-project-d4b4c76ba177), $6k, and a microgrant program. At the time, the quantum industry was just emerging. I wrote:
 
 > <p style="font-size: 24px;">Quantum computing also remains a place where small teams and open research projects can make a big difference… My thesis for what’s happening here is that we are codifying, in open source software, the mathematics of quantum computing that have been developed over the last few decades. This makes the field more accessible and interactive. It allows us to progress faster, together. It is much more effective to stand on the shoulders of giants when you can import them as an API.</p>
 
