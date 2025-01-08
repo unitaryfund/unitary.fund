@@ -3,7 +3,7 @@ import type { Plugin } from 'unified';
 import type { Root } from 'mdast';
 import { visit } from 'unist-util-visit';
 import { Resize } from '@cloudinary/url-gen/actions/resize';
-import { cld } from '../util/cloudinary';
+// import { cld } from '../util/cloudinary';
 import socialLinks from '../data/social.json';
 
 export const imageDirective: Plugin<[], Root> = () => {
@@ -20,13 +20,13 @@ export const imageDirective: Plugin<[], Root> = () => {
 
         if (node.children?.length === 1 && node.children[0].type === 'text') {
           const imageId = node.children[0].value?.trim();
-          const image = cld.image(imageId);
-          image.resize(Resize.scale().width(800));
+          // const image = cld.image(imageId);
+          // image.resize(Resize.scale().width(800));
 
-          data.hName = 'img';
-          data.hProperties = {
-            src: image.toURL(),
-          };
+          // data.hName = 'img';
+          // data.hProperties = {
+          //   src: image.toURL(),
+          // };
           node.children = [];
         }
       }

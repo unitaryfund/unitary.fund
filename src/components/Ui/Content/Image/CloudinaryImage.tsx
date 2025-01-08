@@ -1,5 +1,5 @@
 import { Image, ImageProps } from '@unpic/react';
-import { cld } from '~/util/cloudinary';
+// import { cld } from '~/util/cloudinary';
 import type { SetOptional } from 'type-fest';
 import type { CloudinaryImage as CloudinaryImageType } from '@cloudinary/url-gen';
 
@@ -13,14 +13,15 @@ export function CloudinaryImage({
   alterImage,
   ...props
 }: CloudinaryImageProps) {
-  let image = cld.image(id);
+  // let image = cld.image(id);
 
-  if (alterImage) {
-    image = alterImage(image);
-  }
+  // if (alterImage) {
+  //   image = alterImage(image);
+  // }
 
   return (
     // eslint-disable-next-line jsx-a11y/alt-text
-    <Image src={image.toURL()} {...props} />
+    // <Image src={image.toURL()} {...props} />
+    <Image {...props} />
   );
 }
