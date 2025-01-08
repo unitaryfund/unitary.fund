@@ -41,7 +41,7 @@ A special thank you to InstituteQ for their generous sponsorship to fund travel 
 > 
 > *“Getting this many quantum software people in a room is awesome!”*
 > 
-> *“I feel it is a great initiative by unitary.foundation and the people here are amazing. I really like the informal nature of the conference without compromising on the quality of the content and presentations. I hope it stays like this in the future too.”*
+> *“I feel it is a great initiative by unitary fund and the people here are amazing. I really like the informal nature of the conference without compromising on the quality of the content and presentations. I hope it stays like this in the future too.”*
 > 
 > *“Keep doing great work!”*
 
