@@ -29,7 +29,7 @@ To better represent our growth, we are re-branding as Unitary Foundation: [https
 
 **Unitary Foundation: creating a quantum technology ecosystem that benefits the most people.**
 
-Want to join us on this mission? Email: [partners@unitary.foundation](mailto:partners@unitary.foundation)
+Want to join us on this mission? Email us at: [partners@unitary.foundation](mailto:partners@unitary.foundation)
 
 <div style="display: flex; justify-content: center; align-items: center;" class="side-by-side">
   <figure style="text-align: center;">
