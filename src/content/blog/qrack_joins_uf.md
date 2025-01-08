@@ -21,6 +21,6 @@ PyQrack has a commanding performance lead on this benchmark compared to other po
 
 Qrack is a collection of stacking and interchangeable optimization layers, which include OpenCL-based, scalable multi-device GPU, CPU, and GPU/CPU hybrid state vector simulation at base, hybrid stabilizer simulation with full and transparent recourse to state vector representation as fallback, an auxiliary quantum binary decision tree layer, and Schmidt decomposition techniques layered over stabilizer and state vector simulation for proactively and reactively identifying separable cuts in qubit subsystem representations to reduce memory footprint and improve execution speed. Floating point precision options available from source build include half, float, and double, with even limited support for quad math. By design, most users don’t need to worry about complicated custom configuration of the layers and settings at all; just instantiate a default C++11 QInterface or Python QrackSimulator class and go! The highly-optimized default layer stack will automatically leverage hybrid stabilizer simulation for a Clifford circuit or preamble, for example.
 
-![](https://github.com/tghp/unitary.foundation/blob/main/public/images/qrack_qft_full_width.png)
+![](https://github.com/tghp/unitary-fund/blob/main/public/images/qrack_qft_full_width.png)
 
 [Check out the repositories](https://github.com/unitaryfund/qrack) on the Unitary Fund GitHub organization, star and share, and get Qrackin’! You rock!

@@ -17,7 +17,7 @@ Individual sections of the report are linked to below:
 
 - [Community Events & Projects](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#community-events-and-projects)
 - [Downloads and Use](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#downloads-and-use)
-- [Unitary Fund Grants to QuTiP projects](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#unitary.foundation-support)
+- [Unitary Fund Grants to QuTiP projects](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#unitary-fund-support)
 - [Jobs](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#jobs)
 - [Papers](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#papers)
 - [Major improvements](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#major-improvements)

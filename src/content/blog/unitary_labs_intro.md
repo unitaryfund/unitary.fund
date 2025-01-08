@@ -22,7 +22,7 @@ I then moved on to help coordinate the community project in many directions, **
   
 These experiences have convinced me that **we’re witnessing the rise of communities** over products or other deliverables. I’d been looking for ways to pursue both my passion for quantum technologies and open source community building.  
   
-I was thus delighted by the opportunity to join Unitary Fund. Unitary Fund was [launched](https://medium.com/@wjzeng/the-unitary.foundation-get-2-000-for-your-open-source-quantum-computing-project-d4b4c76ba177) as a way to support open-source software in quantum computing, with a no-strings attached micro-grant program that anyone can apply to. This is a blessing in an academic world that is experiencing skyrocketing bureaucracy.  
+I was thus delighted by the opportunity to join Unitary Fund. Unitary Fund was [launched](https://medium.com/@wjzeng/the-unitary-fund-get-2-000-for-your-open-source-quantum-computing-project-d4b4c76ba177) as a way to support open-source software in quantum computing, with a no-strings attached micro-grant program that anyone can apply to. This is a blessing in an academic world that is experiencing skyrocketing bureaucracy. 
   
 Having worked with the QuTiP community, I saw the value of open-source software and gained the skills to contribute it. Unitary Fund gives me a platform to do this on a broader scale.  
   
