@@ -1,6 +1,6 @@
 ---
-title: Announcing the 2023 Unitary Foundation Members
-author: Unitary Foundation Team
+title: Announcing the 2023 Unitary Fund Members
+author: Unitary Fund Team
 day: 7
 month: 2
 year: 2023
@@ -18,7 +18,7 @@ in its first year; unitaryHACK; our open-access community calls; and
 Unitary Lab's projects which offer new and accessible tools to move the
 field forward.
 
-Unitary Foundation is proud to list supporters involved in all aspects of
+Unitary Fund is proud to list supporters involved in all aspects of
 quantum technology: Those developing quantum hardware and quantum
 software, startups and enterprises, domestic and international
 organizations, all contributing to the open source ecosystem.
@@ -26,11 +26,11 @@ organizations, all contributing to the open source ecosystem.
 "We could not grow a quantum technology ecosystem that benefits the most
 people without the ongoing support and dedication of this member
 community. It is through their leadership that anyone around the world
-can access and benefit from Unitary Foundation\'s programming, resources, and
+can access and benefit from Unitary Fund\'s programming, resources, and
 networks. We are thrilled to be working with this cohort to continue
 accelerating the arrival of quantum technologies and to ensure that
 their benefits are open and accessible," said ***Will Zeng***, President
-at Unitary Foundation.
+at Unitary Fund.
 
 We are excited to announce the 2023 Member cohort!
 
@@ -50,7 +50,7 @@ We are excited to announce the 2023 Member cohort!
 ![](/images/2023_supporting_members.png)
 
 We would also like to thank the following organizations for their
-support of Unitary Foundation's mission:
+support of Unitary Fund's mission:
 
 ![[Atom Computing](https://atom-computing.com/), [Boston
 Consulting Group](https://www.bcg.com/), [IQT
@@ -63,7 +63,7 @@ Ware](https://www.qcware.com/),
 
 ***Testimonials from our Members***:
 
-"The mission of the Unitary Foundation to establish an open quantum software
+"The mission of the Unitary Fund to establish an open quantum software
 ecosystem is of vital importance to IBM Quantum and Qiskit. We are
 thrilled to be a part of this initiative which has already demonstrated
 its value to the broader quantum community" said ***Luciano Bello***,
@@ -71,11 +71,11 @@ Developer Advocacy Lead at **IBM Quantum**.
 
 "Democratizing quantum technologies will take a diverse village -- from
 PhDs through software developers and beyond. While Amazon Braket is a
-town square for hardware providers, Unitary Foundation provides a unique role
+town square for hardware providers, Unitary Fund provides a unique role
 on the path to democratization by establishing a community for quantum
 software developers, said ***Sebastian Hassinger***, worldwide business
 development and go-to-market strategy for quantum computing at **AWS**.
-"Microgrants like those provided by Unitary Foundation open the aperture even
+"Microgrants like those provided by Unitary Fund open the aperture even
 further for those who want to experiment with quantum computing projects
 through the lens of their expertise and without having to think about
 equations. This will be key for helping the industry move from theory
@@ -87,17 +87,17 @@ if we want to make quantum processors useful. UF\'s vision to support
 new and innovative open source projects has already proved to be
 instrumental to accelerate its growth."
 
-"Unitary Foundation is a medium that provides an equal opportunity for anyone
+"Unitary Fund is a medium that provides an equal opportunity for anyone
 with an idea related to quantum technology, science, and education to
-create and innovate. Both the Unitary Foundation microgrant program and the
+create and innovate. Both the Unitary Fund microgrant program and the
 active community play an important role in enabling the largest group of
 people to contribute and collaborate in meaningful ways. Not only that,
 but for those who are new to the quantum field, it provides a starting
 point to ask questions and discover," noted ***Stephen DiAdamo***,
-research scientist on the Quantum Systems team at **Cisco**. "Unitary Foundation
+research scientist on the Quantum Systems team at **Cisco**. "Unitary Fund
 reduces the challenging entry barrier to quantum science allowing the
 quantum ecosystem to flourish. Cisco being a supporting member allows us
-to contribute to and support the Unitary Foundation community, and moreover
+to contribute to and support the Unitary Fund community, and moreover
 allows us to open new learning opportunities for those interested in
 quantum communication and networks."
 
@@ -106,17 +106,17 @@ computing can potentially solve many challenges we face today. While
 quantum computing hardware develops, it is important to build a strong
 and inclusive ecosystem that allows people to innovate with quantum
 technology. Open source developer communities and open source public
-goods are critical to achieve this goal. Unitary Foundation has funded many
+goods are critical to achieve this goal. Unitary Fund has funded many
 talents via microgrants and unitaryHack. We are glad to continue
-supporting Unitary Foundation this year and build a thriving open source
+supporting Unitary Fund this year and build a thriving open source
 quantum ecosystem together.\"
 
 *To find out how to get involved in our member program, email
-info\@unitary.foundation.*
+info\@unitary.fund.*
 
-#### **About Unitary Foundation**
+#### **About Unitary Fund**
 
-Unitary Foundation is a 501(c)(3) non-profit whose mission is to create a
+Unitary Fund is a 501(c)(3) non-profit whose mission is to create a
 quantum technology ecosystem that benefits the people around the world.
 We believe that expanding the pool of people working on quantum
 technologies is a way to ensure that the benefits of these tools are

@@ -11,13 +11,13 @@ tags:
 
 Earlier this year the QuTiP Admin Team conducted its annual review.
 
-We happy to report that 2021 was a busy, productive and successful year for QuTiP with many new features, bugs fixed, contributions from the community, and, of course, lots of support from the Unitary Foundation.
+We happy to report that 2021 was a busy, productive and successful year for QuTiP with many new features, bugs fixed, contributions from the community, and, of course, lots of support from the Unitary Fund.
 
 Individual sections of the report are linked to below:
 
 - [Community Events & Projects](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#community-events-and-projects)
 - [Downloads and Use](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#downloads-and-use)
-- [Unitary Foundation Grants to QuTiP projects](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#unitary-fund-support)
+- [Unitary Fund Grants to QuTiP projects](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#unitary-fund-support)
 - [Jobs](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#jobs)
 - [Papers](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#papers)
 - [Major improvements](https://github.com/qutip/governance/blob/main/annual-reports/report-2021.md#major-improvements)

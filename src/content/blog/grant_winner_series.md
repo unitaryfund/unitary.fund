@@ -8,7 +8,7 @@ tags:
 - Microgrant
 ---
 
-We are very excited to share our first episodes of Unitary Foundation’s Grant Winner video series! Watch to learn more about our featured grant winners, their projects, their experience after winning the grant, and what they’re working on now.
+We are very excited to share our first episodes of Unitary Fund’s Grant Winner video series! Watch to learn more about our featured grant winners, their projects, their experience after winning the grant, and what they’re working on now.
 
 Hosted by UF Technical Staff Member Misty Wahl– our first video features Pedro Rivero, author of QRAND and our second video is with Lia Yeh, Samanvay Sharma, and Alberto Maldonado with PIQUE.
 
@@ -18,4 +18,4 @@ Hosted by UF Technical Staff Member Misty Wahl– our first video features Pedro
 
 Learn more about <a href="https://youtu.be/LSOCHWSPvUc">QRAND</a>, <a href="https://youtu.be/wSFmtkS-AP8">PIQUE</a>, and stay tuned for more videos!
 
-Do you have an idea for a project in quantum technology? You can apply to a Unitary Foundation Grant! Learn more here: <a href="https://unitary.foundation">https://unitary.foundation</a>
+Do you have an idea for a project in quantum technology? You can apply to a Unitary Fund Grant! Learn more here: <a href="https://unitary.fund">https://unitary.fund</a>

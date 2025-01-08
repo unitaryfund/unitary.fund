@@ -16,7 +16,7 @@ member: Thank you for participating in [unitaryHACK](https://unitaryhack.dev/) 2
 
 It's been great to host a [**kick-off
 party**](https://www.youtube.com/playlist?list=PL-VMs2BCTI_lhMY4SxVkJQpwwQL-wi14F)
-on Twitch, hosted by **Misty Wahl**, from the Unitary Foundation technical
+on Twitch, hosted by **Misty Wahl**, from the Unitary Fund technical
 staff and a Mitiq maintainer
 \[[Video](https://www.youtube.com/watch?v=kQJugFdIfqA&list=PL-VMs2BCTI_lhMY4SxVkJQpwwQL-wi14F&index=4)\],
 together with other project maintainers and community leaders,
@@ -50,8 +50,8 @@ push some of my first contributions into the quantum open source
 ecosystem! Thank you unitaryHACK ❤️"
 
 **Gregory Vargese**, aka \@WingCode, the participant with most hacks:
-**8 bounties completed**. In the wrap-up party on [**Unitary Foundation's
-Discord**](http://discord.unitary.foundation/), all the three of them
+**8 bounties completed**. In the wrap-up party on [**Unitary Fund's
+Discord**](http://discord.unitary.fund/), all the three of them
 were featured in the community call, together with maintainers from
 **PyQIR**, **QuTiP**, **Qiskit**, **Mitiq**, **Qrack**, **Toqito** and
 many participants.
@@ -89,9 +89,9 @@ hackers**. More stats and graphics are below:
 
 Once again, unitaryHACK would not be possible without the support of
 generous donors including **Microsoft Azure Quantum**, **DoraHacks**,
-**Jens Koch**, and **Unitary Foundation's members**, including IBM, Accenture,
+**Jens Koch**, and **Unitary Fund's members**, including IBM, Accenture,
 Xanadu, IonQ, Boston Consulting Group, Pasqal, IQM, DoraHacks, and
 Agnostiq.
 
-See you in 2023 with unitaryHACK and sooner on the [Unitary Foundation
-Discord server](http://discord.unitary.foundation/).
+See you in 2023 with unitaryHACK and sooner on the [Unitary Fund
+Discord server](http://discord.unitary.fund/).

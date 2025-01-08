@@ -1,6 +1,6 @@
 ---
-title: "unitaryHACK 2023: The Unitary Foundation hackathon supporting quantum open source projects returns!"
-author: Unitary Foundation Team
+title: "unitaryHACK 2023: The Unitary Fund hackathon supporting quantum open source projects returns!"
+author: Unitary Fund Team
 day: 26
 month: 5
 year: 2023
@@ -8,7 +8,7 @@ tags:
 - unitaryHACK
 ---
 
-Unitary Foundation is happy to announce the third edition of **[unitaryHACK](https://unitaryhack.dev/), which will run from May 26th to June 13th, 2023**.
+Unitary Fund is happy to announce the third edition of **[unitaryHACK](https://unitaryhack.dev/), which will run from May 26th to June 13th, 2023**.
 
 <!--- ![unitaryHACK](https://res.cloudinary.com/dcz4ywuer/image/upload/v1690842150/tvf5ssrooxe25xxziua4.gif) --->
 <div align="center">
@@ -58,6 +58,6 @@ You can find the [full list here](https://unitaryhack.dev/projects/), which incl
 - [Yao](https://unitaryhack.dev/projects/yao/)
 - [ZX Live](https://unitaryhack.dev/projects/zx-live/)
 
-unitaryHACK is made possible by the **maintainers** volunteering time to review pull requests and engage with the community on our [Discord server](http://discord.unitary.foundation).
+unitaryHACK is made possible by the **maintainers** volunteering time to review pull requests and engage with the community on our [Discord server](http://discord.unitary.fund).
 
-unitaryHACK is **supported by generous donations**: from AWS and Classiq; from Unitary Foundation members - IBM and Scientifica, as core members - and Agnostiq, AWS, Cisco, DoraHacks, Pasqal, Quandela, and Qyber, as supporting members.
+unitaryHACK is **supported by generous donations**: from AWS and Classiq; from Unitary Fund members - IBM and Scientifica, as core members - and Agnostiq, AWS, Cisco, DoraHacks, Pasqal, Quandela, and Qyber, as supporting members.

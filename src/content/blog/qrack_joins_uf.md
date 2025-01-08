@@ -1,15 +1,15 @@
 ---
-title: "Qrack and PyQrack join the Unitary Foundation Organization"  
+title: "Qrack and PyQrack join the Unitary Fund Organization"  
 author: Daniel Strano
 day: 1
 month: 8
 year: 2022
 ---
-We announce with great pleasure and excitement that the quantum computer simulator libraries [vm6502q/qrack](https://github.com/unitaryfund/qrack/) and [vm6502q/pyqrack](https://github.com/unitaryfund/pyqrack/) have officially joined the Unitary Foundation GitHub organization of open source quantum computing repositories! Get started with Qrack from the docs [here](https://qrack.readthedocs.io/en/latest/).
+We announce with great pleasure and excitement that the quantum computer simulator libraries [vm6502q/qrack](https://github.com/unitaryfund/qrack/) and [vm6502q/pyqrack](https://github.com/unitaryfund/pyqrack/) have officially joined the Unitary Fund GitHub organization of open source quantum computing repositories! Get started with Qrack from the docs [here](https://qrack.readthedocs.io/en/latest/).
 
-Started by Daniel Strano (technical staff member of Unitary Foundation) and Benn Bollay (CTO of Fusebit) in 2017 and winner of a Unitary Foundation microgrant in 2019, Qrack is a quantum computer gate model simulator written in C++11, released under LGPL-3.0. Qrack is intended to provide maximum performance and minimum memory footprint for quantum computing workloads run on classical computer hardware. PyQrack is Qrack’s dependency-free Python ctypes wrapper, to expose Qrack shared library binaries directly for just-in-time (JIT) execution via a Python interpreter. Plugins and providers are available for [Qiskit](https://github.com/vm6502q/qiskit-qrack-provider), [XACC](https://github.com/eclipse/xacc/tree/master/quantum/plugins/qrack), and even [the Unity video game engine](https://github.com/vm6502q/OpenRelativity), with plans to expand plugin support to virtually every major quantum open source framework in the global ecosystem. Supported platforms include all available Original Electronic Manufacturer combinations of x86_64, x86, ARMv7, and ARM64 instruction sets with Linux, Windows, Mac, iOS, and Android operating systems, as well as WebAssembly (Wasm).
+Started by Daniel Strano (technical staff member of Unitary Fund) and Benn Bollay (CTO of Fusebit) in 2017 and winner of a Unitary Fund microgrant in 2019, Qrack is a quantum computer gate model simulator written in C++11, released under LGPL-3.0. Qrack is intended to provide maximum performance and minimum memory footprint for quantum computing workloads run on classical computer hardware. PyQrack is Qrack’s dependency-free Python ctypes wrapper, to expose Qrack shared library binaries directly for just-in-time (JIT) execution via a Python interpreter. Plugins and providers are available for [Qiskit](https://github.com/vm6502q/qiskit-qrack-provider), [XACC](https://github.com/eclipse/xacc/tree/master/quantum/plugins/qrack), and even [the Unity video game engine](https://github.com/vm6502q/OpenRelativity), with plans to expand plugin support to virtually every major quantum open source framework in the global ecosystem. Supported platforms include all available Original Electronic Manufacturer combinations of x86_64, x86, ARMv7, and ARM64 instruction sets with Linux, Windows, Mac, iOS, and Android operating systems, as well as WebAssembly (Wasm).
 
-[Given Qrack’s support for Wasm](https://qrack.net/), we’ve joked at the Unitary Foundation that Qrack can theoretically run on literal [internet-of-things enabled smart refrigerators](https://deviceatlas.com/blog/which-devices-have-browsers), but [open an issue ticket on the repository](https://github.com/unitaryfund/qrack/issues/) if we’re blowing smoke and you still need developer support for your smart fridge, seriously!
+[Given Qrack’s support for Wasm](https://qrack.net/), we’ve joked at the Unitary Fund that Qrack can theoretically run on literal [internet-of-things enabled smart refrigerators](https://deviceatlas.com/blog/which-devices-have-browsers), but [open an issue ticket on the repository](https://github.com/unitaryfund/qrack/issues/) if we’re blowing smoke and you still need developer support for your smart fridge, seriously!
 
 **QFT Benchmark**
 
@@ -23,4 +23,4 @@ Qrack is a collection of stacking and interchangeable optimization layers, which
 
 ![](https://github.com/tghp/unitary-fund/blob/main/public/images/qrack_qft_full_width.png)
 
-[Check out the repositories](https://github.com/unitaryfund/qrack) on the Unitary Foundation GitHub organization, star and share, and get Qrackin’! You rock!
+[Check out the repositories](https://github.com/unitaryfund/qrack) on the Unitary Fund GitHub organization, star and share, and get Qrackin’! You rock!

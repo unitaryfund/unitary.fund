@@ -28,10 +28,10 @@ In the paper, we show how to improve the performance of real quantum processors,
 
 To begin with, we've focused on zero-noise extrapolation, an error mitigation technique that has already been tested in the lab. We show how to use zero-noise extrapolation even if you don't have low-level laboratory access to your QPU. Instead, you can implement [**digital zero noise extrapolation**](https://arxiv.org/abs/2005.10921).
 
-If you're interested in Mitiq and in quantum error mitigation, you can find information on usage and additional references in **Mitiq's documentation** at [**mitiq.readthedocs.io**](https://mitiq.readthedocs.io/en/stable/). To keep up to date with Mitiq's development, you can sign up for Unitary Foundation's mailing list.
+If you're interested in Mitiq and in quantum error mitigation, you can find information on usage and additional references in **Mitiq's documentation** at [**mitiq.readthedocs.io**](https://mitiq.readthedocs.io/en/stable/). To keep up to date with Mitiq's development, you can sign up for Unitary Fund's mailing list.
 
 We're looking forward to the feedback of the quantum software community: from fixing bugs to proposing enhancements in zero-noise extrapolation to additional quantum error-mitigation techniques. We're keeping a list of [**events**](https://github.com/unitaryfund/mitiq/wiki/Mitiq-Talks-and-Events) where members of the Unitary Labs team will be attending.
 
 Best wishes,
 
-Unitary Labs – the Engineering team at Unitary Foundation (Andrea Mari, Nathan Shammah, Peter Karalekas, Ryan LaRose, and Will Zeng)
+Unitary Labs – the Engineering team at Unitary Fund (Andrea Mari, Nathan Shammah, Peter Karalekas, Ryan LaRose, and Will Zeng)

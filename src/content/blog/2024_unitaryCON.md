@@ -8,11 +8,11 @@ tags:
   - unitaryCON
 ---
 
-This September we wrapped up our second annual [unitaryCON](https://unitary.foundation/community/unitaryCON/), an invitation-only collaborative workshop for the extended Unitary Foundation community. The workshop is an opportunity to share ongoing projects, connect with collaborators and supporters, and work with our community to advance the quantum open-source software ecosystem with the leading contributors from around the world.
+This September we wrapped up our second annual [unitaryCON](https://unitary.fund/community/unitaryCON/), an invitation-only collaborative workshop for the extended Unitary Fund community. The workshop is an opportunity to share ongoing projects, connect with collaborators and supporters, and work with our community to advance the quantum open-source software ecosystem with the leading contributors from around the world.
 
-With the help of Dr. Alexandru Paler, unitaryCON 2024 was hosted at Aalto University in Espoo, Finland. UnitaryCON provided a unique opportunity for Unitary Foundation advisors, grantees, staff, ambassadors and friends to gather, talk, learn, and share ideas about how to move the field forward. 
+With the help of Dr. Alexandru Paler, unitaryCON 2024 was hosted at Aalto University in Espoo, Finland. UnitaryCON provided a unique opportunity for Unitary Fund advisors, grantees, staff, ambassadors and friends to gather, talk, learn, and share ideas about how to move the field forward. 
 
-UnitaryCON featured talks and interactive activities revolving around various topics in open source software for quantum computing and quantum technologies, including compilers, error mitigation and error correction toolkits, platforms for quantum computing, SDKs, cloud platforms, and open hardware in quantum tech. More detailed information about the talks and slides can be [found here](https://unitary.foundation/community/unitaryCON/). 
+UnitaryCON featured talks and interactive activities revolving around various topics in open source software for quantum computing and quantum technologies, including compilers, error mitigation and error correction toolkits, platforms for quantum computing, SDKs, cloud platforms, and open hardware in quantum tech. More detailed information about the talks and slides can be [found here](https://unitary.fund/community/unitaryCON/). 
 
 Talks included sessions from companies engaged in the open source ecosystem such as IBM, Xanadu, NVIDIA, Pascal, and QBraid. This year’s unitaryCON also added sessions on open quantum hardware from Carnegie Mellon University, [Open Quantum Design](https://openquantumdesign.org/), and [OpenQuantum](https://www.open-quantum.org/). In addition, popular open source software packages such as [BQSKit](https://bqskit.lbl.gov/), [QuTiP](https://qutip.org/), [Qibo](https://qibo.science/), and [QuEST](https://github.com/QuEST-Kit/QuEST) were also featured. 
 
@@ -33,7 +33,7 @@ A special thank you to InstituteQ for their generous sponsorship to fund travel 
 
 > *“I love the event! Thanks guys for the good work and organization in this year's event. I'm always happy to see you :)”*
 >
-> *“Unitary Foundation's place in the rest of the quantum ecosystem (as an open-source focused org) attracts a great set of folks for this conference.”*
+> *“Unitary Fund's place in the rest of the quantum ecosystem (as an open-source focused org) attracts a great set of folks for this conference.”*
 >
 > *“[People] found this year's uCON very insightful and inspiring and that they are already excited for next year!”*
 >

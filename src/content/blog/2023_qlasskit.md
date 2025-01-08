@@ -11,7 +11,7 @@ tags:
 
 Traditionally, creating quantum circuits requires specialized knowledge in quantum programming. This requirement holds true when encoding a classical algorithm inside a quantum circuit, for instance, for an oracle or a black-box component of a quantum algorithm. This often becomes a time wasting job, since we almost always already have a classical implementation in a traditional high level language.
 
-**Qlasskit**, an open-source Python library developed with the support of a Unitary Foundation microgrant, addresses this challenge head-on by allowing direct translation of standard Python code into invertible quantum circuits without any modification to the original code. Furthermore, *qlasskit* implements some well-known quantum algorithms and offers a comprehensive interface for implementing new ones.
+**Qlasskit**, an open-source Python library developed with the support of a Unitary Fund microgrant, addresses this challenge head-on by allowing direct translation of standard Python code into invertible quantum circuits without any modification to the original code. Furthermore, *qlasskit* implements some well-known quantum algorithms and offers a comprehensive interface for implementing new ones.
 
 *Qlasskit* adopts a distinctive method where it constructs a *single boolean expression* for each output qubit of the entire function, rather than translating individual operations into quantum circuits and then combining them. This approach enables advanced optimization by leveraging boolean algebraic properties.
 
@@ -141,7 +141,7 @@ print(hex(hash_simp.original_f((12,12))))
 ![](/images/2023-qlasskit/result.png)
 
 
-A special thanks to the [Unitary Foundation](https://unitary.foundation/) that funded this idea. If you have any questions or comments, feel free to reach out to me on twitter [dagide](https://twitter.com/dagide), linkedin [Davide Gessa](https://linkedin.com/in/davide-gessa-71798b80) and medium [@dakk](https://medium.com/@dakk).
+A special thanks to the [Unitary Fund](https://unitary.fund/) that funded this idea. If you have any questions or comments, feel free to reach out to me on twitter [dagide](https://twitter.com/dagide), linkedin [Davide Gessa](https://linkedin.com/in/davide-gessa-71798b80) and medium [@dakk](https://medium.com/@dakk).
 
 
 Useful Links:

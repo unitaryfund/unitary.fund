@@ -1,5 +1,5 @@
 ---
-title: "Unitary Foundation launches Metriq"
+title: "Unitary Fund launches Metriq"
 author: Dan Strano, Vincent Russo
 day: 17
 month: 5
@@ -8,7 +8,7 @@ tags:
 - Metriq
 ---
 
-Unitary Foundation is proud to announce a new open source software tool for the quantum computing community, at [https://metriq.info](https://metriq.info)!
+Unitary Fund is proud to announce a new open source software tool for the quantum computing community, at [https://metriq.info](https://metriq.info)!
 
 Metriq’s mission is to make transparent, accessible benchmarks available to everyone in the quantum computing community.
 
@@ -39,15 +39,15 @@ Metriq already includes more than 150 submissions across quantum computing appli
 
 **Metriq organizes benchmark information transparently, by and for the community.**
 
-The full source code of all components of Metriq app are free and public via the Unitary Foundation GitHub organization, including [web front end](https://github.com/unitaryfund/metriq-app), [REST API back end](https://github.com/unitaryfund/metriq-api), and [PostgreSQL database schema creation scripts](https://github.com/unitaryfund/metriq-postgres). Code is provided under [Apache License 2.0](https://github.com/unitaryfund/metriq-app/blob/main/LICENSE), and content is contributed under (Creative Commons) [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+The full source code of all components of Metriq app are free and public via the Unitary Fund GitHub organization, including [web front end](https://github.com/unitaryfund/metriq-app), [REST API back end](https://github.com/unitaryfund/metriq-api), and [PostgreSQL database schema creation scripts](https://github.com/unitaryfund/metriq-postgres). Code is provided under [Apache License 2.0](https://github.com/unitaryfund/metriq-app/blob/main/LICENSE), and content is contributed under (Creative Commons) [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Metriq is endorsed by a growing group of partners from across startups, national labs, research groups, and deep tech investors including IQT Labs, USRA, RIKEN, the SQMS quantum research center, Cambridge Quantum, Strangeworks, Agnostiq, Super.Tech, Quantonation, and Unitary Foundation.
+Metriq is endorsed by a growing group of partners from across startups, national labs, research groups, and deep tech investors including IQT Labs, USRA, RIKEN, the SQMS quantum research center, Cambridge Quantum, Strangeworks, Agnostiq, Super.Tech, Quantonation, and Unitary Fund.
 
-If you would like to be part of supporting Metriq then reach out to: metriq@unitary.foundation.
+If you would like to be part of supporting Metriq then reach out to: metriq@unitary.fund.
 
 <div style="text-align: center;">
     <a href='https://www.iqt.org/'><img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/r1touj7f8nr9rf0v3ooy.png" alt='IQT partner logo' style='display: inline-block; width: 140px; height: auto; max-width: 180px; max-height: 180px; padding: 12px;' /></a>
-    <a href='https://unitary.foundation/'><img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/qaitkvubseyn0oasinko.png" alt='UF partner logo' style='display: inline-block; width: 140px; height: auto; max-width: 180px; max-height: 180px; padding: 12px;' /></a>
+    <a href='https://unitary.fund/'><img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/qaitkvubseyn0oasinko.png" alt='UF partner logo' style='display: inline-block; width: 140px; height: auto; max-width: 180px; max-height: 180px; padding: 12px;' /></a>
     <a href='https://riacs.usra.edu/quantum/nisqc-nl'><img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/ivtg9hqbkbvhrlwic9pp.png" alt='USRA partner logo' style='display: inline-block; width: 140px; height: auto; max-width: 180px; max-height: 180px; padding: 12px;' /></a><br />
     <a href='https://cambridgequantum.com/'><img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/lp80k7qb6pamjrpimhu6.png" alt='Cambridge Quantum Computing partner logo' style='display: inline-block; width: 140px; height: auto; max-width: 180px; max-height: 180px; padding: 12px;' /></a>
     <a href='https://www.riken.jp/en/'><img src="https://res.cloudinary.com/dcz4ywuer/image/upload/v1690841822/w5ahq5qov7dbvdqh2akx.png" alt='Riken University logo' style='display: inline-block; width: 140px; height: auto; max-width: 180px; max-height: 180px; padding: 12px;' /></a>
@@ -60,7 +60,7 @@ If you would like to be part of supporting Metriq then reach out to: metriq@unit
 
 Whether you are a professional quantum hardware researcher, a quantum software developer, or a hobbyist eager to learn more about progress in the field, Metriq is free and open to community contributions. Come see how the latest quantum technologies measure up!
 
-If you’d like to learn more or have help making a submission then reach out to us at metriq@unitary.foundation.
+If you’d like to learn more or have help making a submission then reach out to us at metriq@unitary.fund.
 
 <div style="text-align: center;">
     <a href="https://metriq.info/"><img src="../images/metriq_logo_primary_blue_inverted.png" alt='Metriq logo' /></a>

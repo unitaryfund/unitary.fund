@@ -234,5 +234,5 @@ For more information, tutorials, and documentation, explore the following links:
 - [PyPi](https://pypi.org/project/qiskit-qulacs/).
 - Progress documented in the microgrant duration for Phase [I](https://drive.google.com/file/d/1KscskIwvh1ClKsGGJCNTQo0TgZw9SpCM/view) and [II](https://drive.google.com/file/d/1IYXOSlHiVySBu8bQ-7XMey8XJr9jZBDw/view).
 
-We extend our gratitude to the Unitary Foundation for supporting this project with the microgrant program, and we're excited to be part of the [Qiskit Ecosystem](https://qiskit.github.io/ecosystem/). Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/gopald27/) if you have any questions or comments.
+We extend our gratitude to the Unitary Fund for supporting this project with the microgrant program, and we're excited to be part of the [Qiskit Ecosystem](https://qiskit.github.io/ecosystem/). Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/gopald27/) if you have any questions or comments.
 

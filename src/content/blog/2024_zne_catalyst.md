@@ -9,9 +9,9 @@ tags:
 - Partnership
 ---
 
-This blog post is a summary of a partnership between Unitary Foundation and 
+This blog post is a summary of a partnership between Unitary Fund and 
 [Xanadu](https://www.xanadu.ai/) to integrate quantum error mitigation techniques
-from Unitary Foundation's Mitiq into Xanadu's PennyLane Catalyst compiler.
+from Unitary Fund's Mitiq into Xanadu's PennyLane Catalyst compiler.
 
 ## Just-in-time compilation
 
@@ -19,12 +19,12 @@ We all want faster computer programs. Just-in-time (JIT) compilation has been a 
 
 We all want faster quantum computer programs. Just as JIT compilation accelerates classical programs, similar techniques can be applied to quantum computing for boosting performance.   [Catalyst](https://github.com/PennyLaneAI/catalyst) is a JIT compiler framework developed by Xanadu to speed up quantum programs written with their PennyLane library. If you have a PennyLane program, you can easily decorate it with some simple Catalyst syntax and, in many cases, you have a faster quantum computer program.
 
-What we also want is more accurate quantum computer programs – accurate enough to be useful for the application or the experiment we seek to run. Quantum error correction is making significant strides, but it still introduces substantial overhead that can be impractical for near-term applications. We look at the more practical techniques of quantum error mitigation to make our quantum programs more accurate. Unitary Foundation's own [Mitiq](https://github.com/unitaryfund/mitiq) project provides a Python package for applying error mitigation techniques to quantum programs. 
+What we also want is more accurate quantum computer programs – accurate enough to be useful for the application or the experiment we seek to run. Quantum error correction is making significant strides, but it still introduces substantial overhead that can be impractical for near-term applications. We look at the more practical techniques of quantum error mitigation to make our quantum programs more accurate. Unitary Fund's own [Mitiq](https://github.com/unitaryfund/mitiq) project provides a Python package for applying error mitigation techniques to quantum programs. 
 
 ## Just-in-time compiling error mitigation routines
-Even though Mitiq can be used with PennyLane programs,  there was no seamless integration of error mitigation routines into the Catalyst compiler (or into any quantum JIT framework, as far as we know.) In the last few months, Unitary Foundation and Xanadu have partnered to port Mitiq's error mitigation techniques onto Catalyst. The natural starting point was Zero-Noise Extrapolation (ZNE), which is the most popular error mitigation technique in Mitiq, and arguably the simplest to implement, yet it can be very effective.
+Even though Mitiq can be used with PennyLane programs,  there was no seamless integration of error mitigation routines into the Catalyst compiler (or into any quantum JIT framework, as far as we know.) In the last few months, Unitary Fund and Xanadu have partnered to port Mitiq's error mitigation techniques onto Catalyst. The natural starting point was Zero-Noise Extrapolation (ZNE), which is the most popular error mitigation technique in Mitiq, and arguably the simplest to implement, yet it can be very effective.
 
-Romain Moyard and the Xanadu team had already implemented a basic version of ZNE in Catalyst. The Unitary Foundation team took it from there, and extended it with additional options. The gist of ZNE is that it estimates the ideal result of a quantum program by 
+Romain Moyard and the Xanadu team had already implemented a basic version of ZNE in Catalyst. The Unitary Fund team took it from there, and extended it with additional options. The gist of ZNE is that it estimates the ideal result of a quantum program by 
 - **Stage 1**: Executing the program at increased noise levels
 - **Stage 2**: Extrapolating back to the zero-noise regime.
 
@@ -47,7 +47,7 @@ of the program even after applying error mitigation.
 After implementing these new folding and extrapolation options, it was time to test them.
 Catalyst programs can already be run on Amazon Braket, and error mitigation can be leveraged to
 attenuate the hardware noise there. Running on real hardware can be time- and money-expensive though.
-We needed a workflow to quickly smoke-test the new features, and for that, we turned into adding a simple depolarizing noise model to Unitary Foundation's in-house simulator Qrack. If you missed Dan Strano's [post](https://unitary.foundation/posts/2024_qrack_catalyst/) on Qrack integration with Catalyst, go and check it out! Qrack is now the first quantum simulator implementing a noise model, as well as integrating with a JIT compiler framework.
+We needed a workflow to quickly smoke-test the new features, and for that, we turned into adding a simple depolarizing noise model to Unitary Fund's in-house simulator Qrack. If you missed Dan Strano's [post](https://unitary.fund/posts/2024_qrack_catalyst/) on Qrack integration with Catalyst, go and check it out! Qrack is now the first quantum simulator implementing a noise model, as well as integrating with a JIT compiler framework.
 
 
 ## Across the Catalyst MLIR stack
@@ -56,7 +56,7 @@ We needed a workflow to quickly smoke-test the new features, and for that, we tu
 In order to implement all the new features, we touched across all layers of Catalyst's architectural stack, which is based on JAX and MLIR (Multi-Level Intermediate Representation) frameworks. Check out [Catalyst's architecture guide](https://docs.pennylane.ai/projects/catalyst/en/stable/dev/architecture.html) for motivations behind the stack, and how it is arguably a great fit for implementing a JIT compiler for _(hybrid)_ quantum programs, which also have support for things such as automatic differentiation. For those familiar with MLIR, an interesting note
 is that the error mitigation routines are organized in their own dialect in the Catalyst stack.
 
-Did I tell you how much we learned? For the Unitary Foundation team, this project was our first venture into the JIT world and the frameworks that come with implementing it. In fact, understanding MLIR gave us deeper insights into compiler design for quantum programs in general as well. I am not going to lie; it was all a bit daunting in the beginning, but it was incredibly rewarding!
+Did I tell you how much we learned? For the Unitary Fund team, this project was our first venture into the JIT world and the frameworks that come with implementing it. In fact, understanding MLIR gave us deeper insights into compiler design for quantum programs in general as well. I am not going to lie; it was all a bit daunting in the beginning, but it was incredibly rewarding!
 
 Of course, there are always more options and more error mitigation techniques that we want to bring to Catalyst and to JIT compilation. We also want to expand Qrack with 
 more sophisticated noise models. This is just the start, and stay tuned on this blog for updates.

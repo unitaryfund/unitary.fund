@@ -36,4 +36,4 @@ Our goal with creating this module is twofold:
 
 Futher documentation related to this feature can be found in our [user guide](https://mitiq.readthedocs.io/en/latest/guide/calibrators.html), as well as a new tutorial demonstrating the [module in action on a fake Qiskit device](https://mitiq.readthedocs.io/en/latest/examples/calibration-tutorial.html) (along with a [video walkthrough](https://www.youtube.com/watch?v=dB_3R84ewig) of the tutorial).
 Since this module is still relatively new, we'd love to hear your feedback!
-Whether it's a bug, feature request, or comment, feel free to get in contact at [nate@unitary.foundation](mailto:nate@unitary.foundation), or [open an issue](https://github.com/unitaryfund/mitiq/issues/new)!
+Whether it's a bug, feature request, or comment, feel free to get in contact at [nate@unitary.fund](mailto:nate@unitary.fund), or [open an issue](https://github.com/unitaryfund/mitiq/issues/new)!

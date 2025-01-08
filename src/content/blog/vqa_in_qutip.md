@@ -11,7 +11,7 @@ tags:
 
 ## About me 
 
-I'm an undergraduate student at the University of Sydney, studying Physics and Computer Science. I've worked on a few quantum computing projects in the past and was really excited to be awarded a microgrant by the Unitary Foundation to work on this project. My personal website is available at [benbraham.com](https://benbraham.com).
+I'm an undergraduate student at the University of Sydney, studying Physics and Computer Science. I've worked on a few quantum computing projects in the past and was really excited to be awarded a microgrant by the Unitary Fund to work on this project. My personal website is available at [benbraham.com](https://benbraham.com).
 
 ## Background
 
@@ -112,4 +112,4 @@ This project has laid the foundations for a very general set of tools to define 
 
 Throughout my work on this project, I've been privileged to have the supervision of A/Prof. Daniel Burgarth and Dr. Mattias Johnsson at Macquarie University.
 
-Thanks to the Unitary Foundation for supporting my project, and for all the advice and chats along the way!
+Thanks to the Unitary Fund for supporting my project, and for all the advice and chats along the way!

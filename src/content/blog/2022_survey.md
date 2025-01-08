@@ -1,6 +1,6 @@
 ---
 title: Announcing the Quantum Open Source Software Survey
-author: Unitary Foundation Team
+author: Unitary Fund Team
 day: 6
 month: 9
 year: 2022
@@ -24,11 +24,11 @@ The survey covers information on demographics, experience, community, research, 
 Please take a couple of minutes to fill out the QOSS Diversity & Inclusion Survey [here](https://www.surveymonkey.com/r/qoss_diversity)
 
 
-Once we collect all the responses, we will analyze this data based on each subsection, report our findings, and publish the aggregated results on the Unitary Foundation website.
+Once we collect all the responses, we will analyze this data based on each subsection, report our findings, and publish the aggregated results on the Unitary Fund website.
 
 If you are a user or developer of software for any kind of quantum technology, we kindly encourage you to take this 5-10 minute survey. **You have time only until September 23rd, 2022** to fill them out:
 
 Fill out the QOSS Survey [here](https://www.surveymonkey.com/r/qoss)
 Fill out the QOSS Diversity and Inclusion Survey [here](https://www.surveymonkey.com/r/qoss_diversity).
 
-We thank all the community members that helped design, test and provide general feedback for this survey, from Unitary Foundation advisors to Unitary Foundation members and partners.
+We thank all the community members that helped design, test and provide general feedback for this survey, from Unitary Fund advisors to Unitary Fund members and partners.

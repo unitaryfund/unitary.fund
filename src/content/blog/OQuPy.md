@@ -19,7 +19,7 @@ Beyond the core functionality there have been a number of extensions developed i
 1. Calculation of bath correlations from system correlations
 2. Non-perturbative simulation of a system coupled to multiple environments
 
-We decided to add these to the OQuPy package with hope that they would further attract new users who might find some use of these in their own research. The first of these allows further characterisation of the behaviour of an open quantum system by giving insight into the specific role of the environment which can become increasingly significant in cases of strong coupling. The second gives the user the possibility to account for strong coupling to multiple environments and examine the effect of their interplay on the system's evolution. Thanks to the Unitary Foundation we were able to support the implementation of these to OQuPy. We will now briefly cover the background to both these features and how they currently fit into the package.
+We decided to add these to the OQuPy package with hope that they would further attract new users who might find some use of these in their own research. The first of these allows further characterisation of the behaviour of an open quantum system by giving insight into the specific role of the environment which can become increasingly significant in cases of strong coupling. The second gives the user the possibility to account for strong coupling to multiple environments and examine the effect of their interplay on the system's evolution. Thanks to the Unitary Fund we were able to support the implementation of these to OQuPy. We will now briefly cover the background to both these features and how they currently fit into the package.
 
 ### Bath Dynamics
 

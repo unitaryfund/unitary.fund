@@ -9,7 +9,7 @@ tags:
 - Microgrant
 ---
 
-We've made some improvements to [Hierarqcal](https://github.com/matt-lourens/hierarqcal) since its initial release [last year](https://unitary.foundation/posts/2023_hierarqcal/). I hope to summarise the notable ones in this post and give some examples.  The biggest change of all being a new logo:
+We've made some improvements to [Hierarqcal](https://github.com/matt-lourens/hierarqcal) since its initial release [last year](https://unitary.fund/posts/2023_hierarqcal/). I hope to summarise the notable ones in this post and give some examples.  The biggest change of all being a new logo:
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
     <div style="display: flex; flex-direction: column; align-items: center;">
@@ -46,7 +46,7 @@ But, there are other changes too, we have:
   - [Overview of the representation and application to Quantum Phase Recognition](https://www.nature.com/articles/s41534-023-00747-z)
   - [Application in generating circuits for pulsar classification](https://arxiv.org/pdf/2309.15592.pdf)
 
-For a quick overview, I'll share these interactive slides which was presented at [unitaryCON](https://unitary.foundation/posts/2024_looking-back-at-unitarycon/) and [QTML 2023](https://qtml-2023.web.cern.ch/). It showcases a lot of the new functionality and provides some step by step examples (select the frame and use up, down, left and right arrows). If you're interested, you can find the full set of slides [online](https://matt-lourens.github.io/talk_2023_hierarqcal/#/1).
+For a quick overview, I'll share these interactive slides which was presented at [unitaryCON](https://unitary.fund/posts/2024_looking-back-at-unitarycon/) and [QTML 2023](https://qtml-2023.web.cern.ch/). It showcases a lot of the new functionality and provides some step by step examples (select the frame and use up, down, left and right arrows). If you're interested, you can find the full set of slides [online](https://matt-lourens.github.io/talk_2023_hierarqcal/#/1).
 <div style="display:flex; align-items: center;justify-content: space-around;">
     <iframe src="https://matt-lourens.github.io/talk_2023_hierarqcal?slides=16,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,68,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,97,98,99,100,101" width="100%" height="600" frameborder="0" allowfullscreen, style="border:1px solid black"></iframe>
 </div>

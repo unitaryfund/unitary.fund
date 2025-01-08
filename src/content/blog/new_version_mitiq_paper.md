@@ -1,6 +1,6 @@
 ---
 title: "A new version of the Mitiq white paper"
-author: Unitary Foundation Team
+author: Unitary Fund Team
 day: 15
 month: 7
 year: 2021
@@ -9,7 +9,7 @@ tags:
 - Research
 ---
 
-About a year ago, in September 2020, we released [Mitiq 0.1.0](https://unitary.foundation/posts/mitiq.html) and posted its associated [white paper](https://arxiv.org/abs/2009.04417v1). This was the first “stable” version of an open-source Python package for [quantum error mitigation](https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html) on near-term quantum computers. **Mitiq was officially born.**
+About a year ago, in September 2020, we released [Mitiq 0.1.0](https://unitary.fund/posts/mitiq.html) and posted its associated [white paper](https://arxiv.org/abs/2009.04417v1). This was the first “stable” version of an open-source Python package for [quantum error mitigation](https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html) on near-term quantum computers. **Mitiq was officially born.**
 
 At that time, only one error mitigation technique was implemented in Mitiq: **[zero-noise extrapolation](https://mitiq.readthedocs.io/en/stable/guide/guide-error-mitigation.html#zero-noise-extrapolation)**, which was (and still is) contained in the package module **mitiq.zne**.
 
@@ -32,7 +32,7 @@ Since then, Mitiq has developed at a rate of approximately one release per month
 
 These new features, together with all the additional changes that are reported in the Mitiq [changelog](https://mitiq.readthedocs.io/en/v0.9.3/changelog.html), provided a strong motivation for re-submitting a **[new updated version of the Mitiq paper](https://arxiv.org/abs/2009.04417v2)** on the arXiv server.
 
-**However, there was another important motivation too.** We are excited to give proper credit to the many people, beyond the Unitary Foundation team, that provided a significant contribution to the development of the library. In alphabetical order, they are:
+**However, there was another important motivation too.** We are excited to give proper credit to the many people, beyond the Unitary Fund team, that provided a significant contribution to the development of the library. In alphabetical order, they are:
 
 - Andre A. Alves,
 - Piotr Czarnik,
