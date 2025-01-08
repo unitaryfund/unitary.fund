@@ -35,13 +35,13 @@ We look forward to seeing the participants continue to engage with the open quan
 ![](/images/2024_mitiq_workshop_attendees.jpeg)
 
 ## Growing the Mitiq community
-This workshop marked an important achievement for the growth of [Mitiq](https://unitary.fund/research/mitiq/), moving from virtual collaboration to an in-person focused session with new and existing users of the software.
+This workshop marked an important achievement for the growth of [Mitiq](https://unitary.foundation/research/mitiq/), moving from virtual collaboration to an in-person focused session with new and existing users of the software.
 Mitiq is the open source quantum error mitigation compiler developed by the Unitary Fund technical team with a global community.
 To date, Mitiq has over 140k downloads on PyPI and over 70 contributors worldwide on Github.
 The [Mitiq documentation and tutorials](https://mitiq.readthedocs.io/en/stable/) contains more information about error mitigation and supported techniques.
-Mitiq's open source ecosystem growth is accelerated by the National Science Foundation (NSF) POSE program (Phase II) [awarded](https://unitary.fund/posts/2023_mitiq_nsf_pose/) to Unitary Fund.
+Mitiq's open source ecosystem growth is accelerated by the National Science Foundation (NSF) POSE program (Phase II) [awarded](https://unitary.foundation/posts/2023_mitiq_nsf_pose/) to Unitary Fund.
 
 Our thanks to the organizers Stefan Krastanov (U. Mass. Amherst), Katharine Hyatt (AWS Quantum) and Roger Luo (QuEra) for enthusiastically including us and producing an excellent program, and to the sponsors of the school.
 ![](/images/qnumerics_supporters.png)
 
-To learn about future events and exciting developments at Unitary Fund, make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary-fund/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com).
+To learn about future events and exciting developments at Unitary Fund, make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary.foundation/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com).

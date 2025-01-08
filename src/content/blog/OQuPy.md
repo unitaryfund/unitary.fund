@@ -41,7 +41,7 @@ Beyond the features covered above a module was recently added which allows the u
 
 We sum up the current functionality of OQuPy in the following graphic:
 
-![](/home/dominic/Dropbox/Unitary_Fund/unitary-fund/images/oqupy_logo.png)
+![](/home/dominic/Dropbox/Unitary_Fund/unitary.foundation/images/oqupy_logo.png)
 
 
 

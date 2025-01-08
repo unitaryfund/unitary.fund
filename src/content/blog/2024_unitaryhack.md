@@ -18,7 +18,7 @@ TensorCircuit
 toqito
 TorchQuantum
 
-For more information, read our hacker guide and check out what happened in [unitaryHACK 2023](https://unitary.fund/posts/unitaryhack_wrap/) and get connected on our [Discord server](http://discord.unitary.fund)!
+For more information, read our hacker guide and check out what happened in [unitaryHACK 2023](https://unitary.foundation/posts/unitaryhack_wrap/) and get connected on our [Discord server](http://discord.unitary.foundation)!
 
 Make sure you [register](https://unitaryhack.dev/register/) to be eligible to claim your bounties!
 
@@ -31,7 +31,7 @@ This is the first year our amazing global community is hosting in-person meetups
 - May 31: Auditorio Raúl J. Marsal, Ciudad Universitaria, UNAM in Mexico City, Mexico, at 16 HRS UTC-6!
 - June 11: University of Washington HUB 145, Seattle, WA, USA, from 9 am to 5 pm, food will be available! 
 
-If you'd like to host an event at your university, drop us a line at hack@unitary.fund, and we'll spread the word! 
+If you'd like to host an event at your university, drop us a line at hack@unitary.foundation, and we'll spread the word! 
 ## Thank you to our supporters and maintainers who make this event possible!  
 
 **Core Members:** [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), [OQD](https://openquantumdesign.org/), and [Scientifica](https://www.scientifica.vc/); 

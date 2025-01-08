@@ -7,7 +7,7 @@ year: 2022
 ---
 
 The Unitary Fund team and Advisory Board often get asked this question: “How can I run programs on quantum computers?”
-Today there are a lot of options for free cloud-access to quantum computing services and we’ve taken a shot at summarizing some of the well known ones. If you know of platforms or programs that we have missed then please do reach out to info@unitary.fund
+Today there are a lot of options for free cloud-access to quantum computing services and we’ve taken a shot at summarizing some of the well known ones. If you know of platforms or programs that we have missed then please do reach out to info@unitary.foundation
 
 
 # IBM Quantum

@@ -51,7 +51,7 @@ ecosystem! Thank you unitaryHACK ❤️"
 
 **Gregory Vargese**, aka \@WingCode, the participant with most hacks:
 **8 bounties completed**. In the wrap-up party on [**Unitary Fund's
-Discord**](http://discord.unitary.fund/), all the three of them
+Discord**](http://discord.unitary.foundation/), all the three of them
 were featured in the community call, together with maintainers from
 **PyQIR**, **QuTiP**, **Qiskit**, **Mitiq**, **Qrack**, **Toqito** and
 many participants.
@@ -94,4 +94,4 @@ Xanadu, IonQ, Boston Consulting Group, Pasqal, IQM, DoraHacks, and
 Agnostiq.
 
 See you in 2023 with unitaryHACK and sooner on the [Unitary Fund
-Discord server](http://discord.unitary.fund/).
+Discord server](http://discord.unitary.foundation/).

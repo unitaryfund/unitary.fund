@@ -10,7 +10,7 @@ tags:
 
 #### We'd like to thank our sponsors [Xanadu](https://xanadu.ai/), [DoraHacks](https://dorahacks.com/), and [Pasqal](https://pasqal.io/) for helping to make this event a reality 💖
 
-At Unitary Fund, we help those interested in contributing to open quantum projects learn and practice the skills they need to do so. In May 2021, we organized [unitaryHACK](https://unitaryfund.github.io/unitaryhack/), a distributed quantum open source hackathon with 4k USD in bounties, physical and digital swag, and 20 participating projects. Working with open source project maintainers, we helped community members with a wide variety of backgrounds make meaningful contributions to their projects. Maintainers as well as Unitary Fund staff were on hand on our [Discord](http://discord.unitary.fund) to help out with questions about the quantum technologies as well as the tools they use like git, GitHub, and a variety of languages and platforms used in the quantum space (Python, Julia, Q#, C++, Ruby, etc.)
+At Unitary Fund, we help those interested in contributing to open quantum projects learn and practice the skills they need to do so. In May 2021, we organized [unitaryHACK](https://unitaryfund.github.io/unitaryhack/), a distributed quantum open source hackathon with 4k USD in bounties, physical and digital swag, and 20 participating projects. Working with open source project maintainers, we helped community members with a wide variety of backgrounds make meaningful contributions to their projects. Maintainers as well as Unitary Fund staff were on hand on our [Discord](http://discord.unitary.foundation) to help out with questions about the quantum technologies as well as the tools they use like git, GitHub, and a variety of languages and platforms used in the quantum space (Python, Julia, Q#, C++, Ruby, etc.)
 
 ![unitaryHACK digital swag](../images/unitaryHACK-swag.png)
 
@@ -25,9 +25,9 @@ Over 370 attendees registered for the hackathon, many of whom were new to open s
 > 
 > **—Josh Izaac at Xanadu**
 
-All in all, it was a great way to introduce lots of folks to open source quantum projects, and grow the community of quantum developers. That’s all for now, but stay tuned to our [Discord](http://discord.unitary.fund), [Twitter](https://twitter.com/untiaryfund), [LinkedIn](https://www.linkedin.com/company/unitary-fund/), [mailing list](https://unitary.fund/), and [community calendar](http://events.unitary.fund) and join one of the most influential communities in quantum technologies.
+All in all, it was a great way to introduce lots of folks to open source quantum projects, and grow the community of quantum developers. That’s all for now, but stay tuned to our [Discord](http://discord.unitary.foundation), [Twitter](https://twitter.com/untiaryfund), [LinkedIn](https://www.linkedin.com/company/unitary.foundation/), [mailing list](https://unitary.foundation/), and [community calendar](http://events.unitary.foundation) and join one of the most influential communities in quantum technologies.
 
 ![unitaryHACK results card](../images/unitaryHACK-results.png)
 
   
-_Would you like to help support future iterations of unitaryHACK? [Get in touch with us](mailto:info@unitary.fund), and we would love to collaborate!_
+_Would you like to help support future iterations of unitaryHACK? [Get in touch with us](mailto:info@unitary.foundation), and we would love to collaborate!_

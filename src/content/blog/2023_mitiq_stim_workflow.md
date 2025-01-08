@@ -14,7 +14,7 @@ While QEM and QEC are typically thought of as separate approaches to dealing wit
 In this example, ZNE is applied with noise scaling by global unitary folding on logical randomized benchmarking (RB) circuits, and the use of Mitiq with the Stim stabilizer simulator as the backend is introduced.
 
 ## About Mitiq
-[Mitiq](https://unitary.fund/research/mitiq/) is the leading quantum error mitigation compiler, with over 100k downloads.
+[Mitiq](https://unitary.foundation/research/mitiq/) is the leading quantum error mitigation compiler, with over 100k downloads.
 Because quantum computers have high error rates, compiling for error robustness is critical for useful applications [4].
 Mitiq is an open source project developed by the Unitary Fund technical team, along with a community of over 50 contributors worldwide.
 For more information, see the [Mitiq documentation](https://mitiq.readthedocs.io/en/stable/).
@@ -52,4 +52,4 @@ It also motivated a new connection between two powerful open quantum software to
 
  [^3]: Misty A. Wahl, Andrea Mari, Nathan Shammah, William J. Zeng, and Gokul Subramanian Ravi. Zero noise extrapolation on logical qubits by scaling the error correction code distance. (2023). arXiv:2304.14985.
 
- [^4]: Will Zeng and Nathan Shammah, Making quantum error mitigation practical, 2023. URL: https://unitary.fund/posts/2023_qem/
+ [^4]: Will Zeng and Nathan Shammah, Making quantum error mitigation practical, 2023. URL: https://unitary.foundation/posts/2023_qem/

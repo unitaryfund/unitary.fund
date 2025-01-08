@@ -58,6 +58,6 @@ You can find the [full list here](https://unitaryhack.dev/projects/), which incl
 - [Yao](https://unitaryhack.dev/projects/yao/)
 - [ZX Live](https://unitaryhack.dev/projects/zx-live/)
 
-unitaryHACK is made possible by the **maintainers** volunteering time to review pull requests and engage with the community on our [Discord server](http://discord.unitary.fund).
+unitaryHACK is made possible by the **maintainers** volunteering time to review pull requests and engage with the community on our [Discord server](http://discord.unitary.foundation).
 
 unitaryHACK is **supported by generous donations**: from AWS and Classiq; from Unitary Fund members - IBM and Scientifica, as core members - and Agnostiq, AWS, Cisco, DoraHacks, Pasqal, Quandela, and Qyber, as supporting members.
