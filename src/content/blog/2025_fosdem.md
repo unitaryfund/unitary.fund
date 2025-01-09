@@ -44,7 +44,7 @@ We hope to see you in Brussels!
 
 ## Organizers
 
-If you have a specific request or question, or if you run into any technical difficulties during submission, you can reach out directly to the organizers:
+If you have a specific request or question, you can reach out directly to the organizers:
 
 - quantum-devroom-manager@fosdem.org
 - Alessandro Cosentino (cosenal [at] gmail.com)
