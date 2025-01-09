@@ -15,7 +15,7 @@ import Navigation from './Header/Navigation.astro';
     </div>
     <div
       class:list={[
-        'max-h-[calc(var(--logo-height)+var(--header-pt))] col-start-1 w-0 row-start-1 row-span-full bleed-bg-l bleed-yellow-400 -mt-[--header-pt] z-20',
+        'max-h-[calc(var(--logo-height)+var(--header-pt))] col-start-1 w-0 row-start-1 row-span-full bleed-bg-l bleed-yellow-400 -mt-[--header-pt] z-10',
         'max-lg:hidden nav-mobile:hidden',
       ]}>
     </div>
@@ -39,7 +39,7 @@ import Navigation from './Header/Navigation.astro';
     </a>
     <Navigation
       className={[
-        'grid-in-nav grid grid-areas-navigation grid-cols-navigation h-full w-11/12 border-t-yellow-400 border-t-[length:--header-pt]',
+        'grid-in-nav grid grid-areas-navigation grid-cols-navigation h-full w-full border-t-yellow-400 border-t-[length:--header-pt]',
         'nav-desktop:grid-rows-navigation-desktop',
         'nav-mobile:grid-rows-navigation-mobile nav-mobile:overflow-hidden',
       ]}
