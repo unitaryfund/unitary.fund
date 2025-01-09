@@ -40,7 +40,7 @@ We hope to see you in Brussels!
 - [FOSDEM Practical Information including transporation](https://fosdem.org/2025/practical/)
 - [Quantum Computing devroom](https://fosdem.org/2025/schedule/track/quantum/)
 - [FOSDEM Code of Conduct](https://fosdem.org/2025/practical/conduct/)
-- [Unitary Fund](https://unitary.fund/)
+- [Unitary Foundation](https://unitary.fund/)
 
 ## Organizers
 
