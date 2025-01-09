@@ -5,7 +5,7 @@ day: 10
 month: 1
 year: 2025
 tags: 
-  - Quantum Ecosystem
+  - Community
 ---
 
 **After five years, the Quantum Computing devroom returns to FOSDEM.**
