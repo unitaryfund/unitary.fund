@@ -13,7 +13,9 @@ tags:
 FOSDEM (Free and Open Source Software Developers' European Meeting) is a conference scheduled for 1-2 February 2025 at the ULB (Université libre de Bruxelles) Solboch Campus in Brussels, Belgium. The Quantum Computing devroom is slated for the second half of 2 February 2025.
 
 <p align="center">
-  <img src="/images/fosdem_25.png" />
+  <a href="https://fosdem.org/2025/schedule/"> 
+    <img src="/images/fosdem_25.png" />
+  </a>
 </p>
 
 
