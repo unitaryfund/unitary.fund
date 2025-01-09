@@ -23,4 +23,4 @@ Picking our first Ambassadors was a hard job, with so many amazing folks contrib
 - Purva Thakre | [GitHub](https://github.com/purva-thakre)
 - Misty Wahl | [GitHub](https://github.com/Misty-W) [LinkedIn](https://www.linkedin.com/in/misty-wahl)
 
-We will be hosting blog posts from all the Ambassadors in the coming weeks, so stay tuned right here! Join our [newsletter](https://mailchi.mp/46a677be77cd/uf) to get updates about this blog in your inbox, follow us on [Twitter](https://twitter.com/unitaryfund), or join our [Discord](http://discord.unitary.fund) to hang out with the open quantum community 💛🌴.
+We will be hosting blog posts from all the Ambassadors in the coming weeks, so stay tuned right here! Join our [newsletter](https://mailchi.mp/46a677be77cd/uf) to get updates about this blog in your inbox, follow us on [Twitter](https://twitter.com/unitaryfund), or join our [Discord](http://discord.unitary.foundation) to hang out with the open quantum community 💛🌴.

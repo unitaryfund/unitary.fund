@@ -112,7 +112,7 @@ supporting Unitary Fund this year and build a thriving open source
 quantum ecosystem together.\"
 
 *To find out how to get involved in our member program, email
-info\@unitary.fund.*
+info\@unitary.foundation.*
 
 #### **About Unitary Fund**
 

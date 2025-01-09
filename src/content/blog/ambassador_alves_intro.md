@@ -42,7 +42,7 @@ To apply for the mentorship program, QOSF required applicants to choose a challe
 Consequently, I built a small, Python-based [quantum simulator](https://github.com/andre-a-alves/QOSF-Mentorship-Submission-Quantum-Simulator).
 Although I had already learned to code in C and Java, that simulator was my first Python project and the vehicle by while I learned that programming language, which I have since used for several open-source contributions as well as work, school, and personal projects.
 
-Once I started attending the weekly Mitiq meetings (every Friday at 17:00 UTC on [discord](http://discord.unitary.fund/)) to understand what was going on, I was amazed at the open and welcoming community I found at Unitary Fund.
+Once I started attending the weekly Mitiq meetings (every Friday at 17:00 UTC on [discord](http://discord.unitary.foundation/)) to understand what was going on, I was amazed at the open and welcoming community I found at Unitary Fund.
 Along with that sense of community, following along during the meetings helped me understand what were priority issues, and I decided to tackle creating [decorators for PEC](https://mitiq.readthedocs.io/en/stable/apidoc.html#mitiq.pec.pec.pec_decorator), a quantum error mitigation technique available in Mitiq.
 Decorators already existed for ZNE at the time, so this task was essentially making it so users could have the same or similar options for how to implement both techniques within their programs.
 In addition to that contribution, I made a few others that were mostly focused on organizing testing and improving documentation.

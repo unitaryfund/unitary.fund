@@ -7,9 +7,9 @@ year: 2021
 tags:
 - unitaryHACK
 ---
-It has been already a super busy year with tons of new [grants](https://www.tutorialspoint.com/grants.html), [events](https://www.tutorialspoint.com/talks.html), and friends joining our [Discord](http://discord.unitary.fund/), but we decided to do _even_ more!  
+It has been already a super busy year with tons of new [grants](https://www.tutorialspoint.com/grants.html), [events](https://www.tutorialspoint.com/talks.html), and friends joining our [Discord](http://discord.unitary.foundation/), but we decided to do _even_ more!  
 
-### 🥁 Announcing [unitaryHACK 2021](http://hack2021.unitary.fund/)! 🥁
+### 🥁 Announcing [unitaryHACK 2021](http://hack2021.unitary.foundation/)! 🥁
 
 
 <!--- ![unitaryHACK](https://res.cloudinary.com/dcz4ywuer/image/upload/v1690842430/nbupxcdy6lbcoggzdapd.png) --->
@@ -23,7 +23,7 @@ It has been already a super busy year with tons of new [grants](https://www.tuto
 Quantum computing isn’t just unitary, it’s open source!
 
   
-The Unitary Fund is proud to host our first [quantum open source hackathon](http://hack2021.unitary.fund/) with SWAG and BOUNTIES on **May 14-30th**!  
+The Unitary Fund is proud to host our first [quantum open source hackathon](http://hack2021.unitary.foundation/) with SWAG and BOUNTIES on **May 14-30th**!  
 
 - Over $2K in bounties for tagged issues in quantum open source projects
   
@@ -37,4 +37,4 @@ The Unitary Fund is proud to host our first [quantum open source hackathon](http
 
   
   
-_Would you like to help us support more contributors and projects? [Get in touch with us](mailto:sarah@unitary.fund), and we would love to collaborate!_
+_Would you like to help us support more contributors and projects? [Get in touch with us](mailto:sarah@unitary.foundation), and we would love to collaborate!_

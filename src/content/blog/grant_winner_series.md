@@ -18,4 +18,4 @@ Hosted by UF Technical Staff Member Misty Wahl– our first video features Pedro
 
 Learn more about <a href="https://youtu.be/LSOCHWSPvUc">QRAND</a>, <a href="https://youtu.be/wSFmtkS-AP8">PIQUE</a>, and stay tuned for more videos!
 
-Do you have an idea for a project in quantum technology? You can apply to a Unitary Fund Grant! Learn more here: <a href="https://unitary.fund">https://unitary.fund</a>
+Do you have an idea for a project in quantum technology? You can apply to a Unitary Fund Grant! Learn more here: <a href="https://unitary.foundation">https://unitary.foundation</a>

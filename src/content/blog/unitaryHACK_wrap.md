@@ -31,7 +31,7 @@ awarded.
 Gessa**, aka dakk following up with 9 bounties. A full leaderboard of
 hacks is available [_here_](https://unitaryhack.dev/leaderboard/). In
 the kick-off and wrap-up party on [**_Unitary Fund's
-Discord_**](http://discord.unitary.fund/), over 70 enthusiasts joined
+Discord_**](http://discord.unitary.foundation/), over 70 enthusiasts joined
 the celebrations.
 
 This year 33 projects were featured, with the help of 45 maintainers!
@@ -81,7 +81,7 @@ Congratulations to all for making such awesome contributions, it's really been w
 Thanks so much to all the unitaryHACK supporters:
 [_AWS_](https://aws.amazon.com/braket/),
 [_Classiq_](https://www.classiq.io/), and the [_Unitary
-Fund_](https://unitary.fund/) members -- Core Members: [_IBM
+Fund_](https://unitary.foundation/) members -- Core Members: [_IBM
 Quantum_](https://www.ibm.com/quantum) and
 [_Scientifica_](https://www.scientifica.vc/); Supporting Members:
 [_Agnostiq_](https://agnostiq.ai/),
@@ -91,4 +91,4 @@ Quantum_](https://www.ibm.com/quantum) and
 [_Quandela_](https://www.quandela.com/),
 [_Qyber_](https://www.qyber.ai/). Thank you all! 🙏Hope to see you next
 year, or even sooner on our [_community
-discord_](http://discord.unitary.fund).
+discord_](http://discord.unitary.foundation).

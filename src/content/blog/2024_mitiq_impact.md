@@ -19,7 +19,7 @@ Making QEM easily available to **everyone** is an ambitious target, but as the a
 
 As the field of Quantum Error Mitigation has matured, Mitiq has gained recognition as an important component of the quantum computing stack.
 While some argue that Quantum Error Correction (QEC) could eventually render QEM obsolete, the two techniques *can* work in tandem.
-For example, see [Unitary Fund's work](https://unitary.fund/posts/2023_mitiq_stim_workflow/) demonstrating an approach using Mitiq together with a leading QEC tool, Stim.
+For example, see [Unitary Fund's work](https://unitary.foundation/posts/2023_mitiq_stim_workflow/) demonstrating an approach using Mitiq together with a leading QEC tool, Stim.
 In a [talk at Q2B 2024](https://preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf) John Preskill emphasized that the two approaches will complement one another, even in the long term.
 
 > <p style="font-size: 24px;">Error mitigation will continue to be useful in the Megaquop era and beyond.</p>
@@ -33,7 +33,7 @@ Let's take a closer look at how Mitiq has shaped the field and grown over time.
 ## Adoption and Community Growth
 
 At the core of making QEM available to all, is building a platform-agnostic tool.
-Whether you're writing your quantum program with Qiskit, Cirq, PyQuil, [Qibo](https://unitary.fund/posts/adding_qibo/), [Braket](https://unitary.fund/posts/braket/), ..., you can use Mitiq!
+Whether you're writing your quantum program with Qiskit, Cirq, PyQuil, [Qibo](https://unitary.foundation/posts/adding_qibo/), [Braket](https://unitary.foundation/posts/braket/), ..., you can use Mitiq!
 This has been a major driving force behind the growth and adoption of the project, and allows for users to write QEM code once with the flexibility of running on any (gate-based) hardware.
 As the only SDK-agnostic QEM tool[^2], Mitiq's adoption metrics provide a clear measure of its utility and impact.
 
@@ -69,7 +69,7 @@ Notable examples include:
 - **QEM research:** Researchers used Mitiq to implement and benchmark error mitigation techniques, including Probabilistic Error Cancellation (PEC) and a novel optimization designed for noise-biased qubits. [[*Low bit-flip rate probabilistic error cancellation*](https://arxiv.org/abs/2411.06422)]
 - **Machine learning:** Researchers compare ML based approaches for QEM against Mitiq's ZNE. [[*Synergy between noisy quantum computers and scalable classical deep learning*](https://arxiv.org/abs/2404.07802)]
 - **Benchmarking:** Unitary Fund researchers benchmarked Mitiq (ZNE and PEC) across hardware platforms and vendors. Mitiq is currently the only tool available to facilitate such a study. [[*Testing platform-independent quantum error mitigation on noisy quantum computers*](https://arxiv.org/abs/2210.07194)]
-- **Software:** The Mitiq team faced a new challenge this year in [porting ZNE functionality](https://unitary.fund/posts/2024_zne_catalyst/) to Catalyst, an experimental compiler framework based on MLIR developed by Xanadu. Projects like this help us stay at the forefront of both cutting-edge research and advancements in quantum software.
+- **Software:** The Mitiq team faced a new challenge this year in [porting ZNE functionality](https://unitary.foundation/posts/2024_zne_catalyst/) to Catalyst, an experimental compiler framework based on MLIR developed by Xanadu. Projects like this help us stay at the forefront of both cutting-edge research and advancements in quantum software.
 
 By providing an easy-to-use interface for applying error mitigation techniques, Mitiq has significantly reduced the barrier to both use **and** study error mitigation protocols.
 
@@ -77,7 +77,7 @@ By providing an easy-to-use interface for applying error mitigation techniques, 
 
 Mitiq has not only advanced research but also contributed to education and training in quantum computing.
 In January 2024 I had the pleasure to interview more than 50 people across the quantum computing industry to discuss the challenges they faced in using quantum computers.
-This was part of our homework after receiving an [NSF POSE award](https://unitary.fund/posts/2023_mitiq_nsf_pose/) in order to better understand Mitiq's positioning in the larger software/hardware ecosystem, and to identify gaps in tooling.
+This was part of our homework after receiving an [NSF POSE award](https://unitary.foundation/posts/2023_mitiq_nsf_pose/) in order to better understand Mitiq's positioning in the larger software/hardware ecosystem, and to identify gaps in tooling.
 One thing that was touched on by nearly all interviewees who had contributed to Mitiq at some point was how easy it was to get started.
 We pride ourselves on maintaining a well-documented project (even for developer workflows) and offering informal mentorship opportunities.
 Our industry needs talent, and Mitiq has played a key role in onboarding individuals with essential skills—such as software development, research, and technical writing—into the field.
@@ -85,8 +85,8 @@ Some of the key ways that we work to encourage this include:
 
 - **Documentation:** Mitiq has over 100 pages of documentation for our QEM techniques, showing both the theory and practice of applying QEM on real devices. This includes [35 examples](https://mitiq.readthedocs.io/en/stable/examples/examples.html) to base your next project on as well as a [short video explainer](https://www.youtube.com/watch?v=47GWi4h7TWM) of our latest technique.
 - **Presentations:** Since Mitiq's inception, Unitary Fund staff, alongside Mitiq contributors have delivered over 50 talks to the scientific and programming communities. This year we presented at the APS March meeting, IEEE QCE, and unitaryCON.
-- **Mitiq workshop:** This year we [hosted a workshop](https://unitary.fund/posts/2024_recap_mitiq_workshop/) dedicated solely to teaching people how to use, contribute to, and experiment with Mitiq in conjunction with the [QNumerics summer school](https://qnumerics.org/).
-- **Project mentorship:** We've continued to grow our connections with students by mentoring QEM projects through [QRISE](https://www.quantumcoalition.io/qrise), the [University of Washington's capstone course](https://unitary.fund/posts/2024_capstone_uw/), and a new project coming soon in conjuction with the University of Amsterdam.
+- **Mitiq workshop:** This year we [hosted a workshop](https://unitary.foundation/posts/2024_recap_mitiq_workshop/) dedicated solely to teaching people how to use, contribute to, and experiment with Mitiq in conjunction with the [QNumerics summer school](https://qnumerics.org/).
+- **Project mentorship:** We've continued to grow our connections with students by mentoring QEM projects through [QRISE](https://www.quantumcoalition.io/qrise), the [University of Washington's capstone course](https://unitary.foundation/posts/2024_capstone_uw/), and a new project coming soon in conjuction with the University of Amsterdam.
 
 An encouraging indicator of our success in maintaining an easy-to-contribute-to project is Mitiq’s relatively high ratio of contributors to users. With nearly 200,000 downloads and 77 contributors, Mitiq stands out compared to other projects: QuTiP, for instance, has 167 contributors for 2 million downloads, and Qiskit has 592 contributors for 8.5 million downloads.
 
@@ -135,7 +135,7 @@ A gap that we hope to (at least start to) fill in the coming year.
 
 [^1]: Unitary Fund staff, in collaboration with researchers at Yale and Iowa State, [put forth a method](https://arxiv.org/abs/2210.08611) to use noise characterization data to inform QEM with tooling available [here](https://github.com/benmcdonough20/AutomatedPERTools). More recently, IBM recently released the a new API: [`NoiseLearner`](https://docs.quantum.ibm.com/api/qiskit-ibm-runtime/qiskit_ibm_runtime.noise_learner.NoiseLearner). These are both excellent examples of using noise characterization to inform runtime, with more work to ensure generality and usability across the quantum stack needed.
 
-In addition to noise characterization making [QEM more practical](https://unitary.fund/posts/2023_qem/), we've seen two other needs from our community.
+In addition to noise characterization making [QEM more practical](https://unitary.foundation/posts/2023_qem/), we've seen two other needs from our community.
 
 1. On the software side, tooling is needed for QEM technique comparison and combination, and
 2. on the research side, the industry needs a better understanding of how QEM will interplay with QEC.
@@ -149,7 +149,7 @@ If this sounds like something you're interested in, I encourage you to get invol
 Whether you're a researcher, educator, or software engineer, or quantum tinkerer, there's a place for you in the Mitiq community.
 
 - Check out the [`mitiq`](https://github.com/unitaryfund/mitiq) GitHub repository and contribute by opening issues, asking questions, or making a pull request. If you have a QEM technique you'd like to use, let us know! Feature requests are always appreciated, and encouraged.
-- Join our [Discord community](http://discord.unitary.fund) to connect with me and all the other wonderful Mitiq developers and quantum enthusiasts.
+- Join our [Discord community](http://discord.unitary.foundation) to connect with me and all the other wonderful Mitiq developers and quantum enthusiasts.
 - Sign up to receive the [Mitiq Newsletter](https://forms.gle/6UcUjSawHyweXhQV7) to stay up to date with the latest happenings.
 
 Happy holidays and happy new year!

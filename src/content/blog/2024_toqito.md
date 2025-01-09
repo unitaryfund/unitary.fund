@@ -113,7 +113,7 @@ research in this domain.
 ## Unitary Fund accelerates toqito
 
 In the early days of toqito, Vincent showed some basic functionality to co-workers with a quantum information
-background. One of them suggested the Unitary Fund’s [microgrant program](https://unitary.fund/grants/). To his delight,
+background. One of them suggested the Unitary Fund’s [microgrant program](https://unitary.foundation/grants/). To his delight,
 toqito was accepted as a microgrant recipient after making a short video for the application. Not only was the monetary
 reward a nice boost of encouragement, but the associated support from the UnitaryFund team pushed him to reach out to
 other scientists and researchers who may benefit from toqito and potentially guide its development. 
@@ -124,17 +124,17 @@ subsequent [first video on the UnitaryFund YouTube channel](https://www.youtube.
 the basic premise of toqito at that time. To promote toqito to a broader audience, a short
 [whitepaper](https://joss.theoj.org/papers/10.21105/joss.03082) was published in the Journal of Open Source Software.
 
-Later that year, the first [UnitaryHACK 2021](https://unitary.fund/posts/unitaryhack2021/) event took place. This
+Later that year, the first [UnitaryHACK 2021](https://unitary.foundation/posts/unitaryhack2021/) event took place. This
 hackathon allows maintainers of quantum open-source (QOSS) software repositories to participate by adding a set of
 bountied issues to improve the participating QOSS project. This hackathon also involved some of the earliest external
 contributors to toqito. 
 
 toqito has since continued to be a participating project at subsequent UnitaryHACKs
-([2022](https://unitary.fund/posts/2022unitaryhack/), [2023](https://unitary.fund/posts/2023_unitaryhack/), and
+([2022](https://unitary.foundation/posts/2022unitaryhack/), [2023](https://unitary.foundation/posts/2023_unitaryhack/), and
 [2024](https://unitaryhack.dev/)) and has gained more users, contributors, and essential features that have been
 invaluable to the broader community. 
 
-As toqito continued to gain usage and traction, another [UF microgrant](https://unitary.fund/grants/) to further develop
+As toqito continued to gain usage and traction, another [UF microgrant](https://unitary.foundation/grants/) to further develop
 the project was awarded to a prior contributor of UnitaryHACK 2023 ([Purva Thakre](https://github.com/purva-thakre)).
 These funds allowed dedicated time to delve into some of the more in-depth feature requests and continue to improve
 additional aspects of the project, such as thorough testing, documentation, CI/CD, and tutorials.

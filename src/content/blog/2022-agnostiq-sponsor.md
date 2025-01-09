@@ -12,7 +12,7 @@ We are excited to share that <a href="https://agnostiq.ai/" target="_blank" clas
 
 > “We need better hardware, better software and a strong collaborative community for quantum computing to succeed. Agnostiq’s partnership with Unitary Fund is another step towards building a strong ecosystem to build better software tools" said Ian Buckley, Community & Partnerships Lead at Agnostiq.
 
-We're excited to move forward and further both of our missions together. To learn more about our new member program, email [info@unitary.fund](mailto:info@unitary.fund).
+We're excited to move forward and further both of our missions together. To learn more about our new member program, email [info@unitary.foundation](mailto:info@unitary.foundation).
 
 ![](/images/agnostiq-announce.png)
 

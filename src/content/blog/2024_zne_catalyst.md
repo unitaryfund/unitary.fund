@@ -47,7 +47,7 @@ of the program even after applying error mitigation.
 After implementing these new folding and extrapolation options, it was time to test them.
 Catalyst programs can already be run on Amazon Braket, and error mitigation can be leveraged to
 attenuate the hardware noise there. Running on real hardware can be time- and money-expensive though.
-We needed a workflow to quickly smoke-test the new features, and for that, we turned into adding a simple depolarizing noise model to Unitary Fund's in-house simulator Qrack. If you missed Dan Strano's [post](https://unitary.fund/posts/2024_qrack_catalyst/) on Qrack integration with Catalyst, go and check it out! Qrack is now the first quantum simulator implementing a noise model, as well as integrating with a JIT compiler framework.
+We needed a workflow to quickly smoke-test the new features, and for that, we turned into adding a simple depolarizing noise model to Unitary Fund's in-house simulator Qrack. If you missed Dan Strano's [post](https://unitary.foundation/posts/2024_qrack_catalyst/) on Qrack integration with Catalyst, go and check it out! Qrack is now the first quantum simulator implementing a noise model, as well as integrating with a JIT compiler framework.
 
 
 ## Across the Catalyst MLIR stack

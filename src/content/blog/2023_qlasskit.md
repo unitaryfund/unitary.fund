@@ -141,7 +141,7 @@ print(hex(hash_simp.original_f((12,12))))
 ![](/images/2023-qlasskit/result.png)
 
 
-A special thanks to the [Unitary Fund](https://unitary.fund/) that funded this idea. If you have any questions or comments, feel free to reach out to me on twitter [dagide](https://twitter.com/dagide), linkedin [Davide Gessa](https://linkedin.com/in/davide-gessa-71798b80) and medium [@dakk](https://medium.com/@dakk).
+A special thanks to the [Unitary Fund](https://unitary.foundation/) that funded this idea. If you have any questions or comments, feel free to reach out to me on twitter [dagide](https://twitter.com/dagide), linkedin [Davide Gessa](https://linkedin.com/in/davide-gessa-71798b80) and medium [@dakk](https://medium.com/@dakk).
 
 
 Useful Links:
