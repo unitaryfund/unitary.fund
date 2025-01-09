@@ -28,18 +28,18 @@ import Navigation from './Header/Navigation.astro';
     <a
       href="/"
       class:list={[
-        'h-[--logo-height-mobile] w-[--logo-width-mobile] svg-child:svg-scale-v grid-in-logo z-20 !filter-order-logo',
+        'h-[--logo-height-mobile] w-[--logo-width-mobile] svg-child:svg-scale-v grid-in-logo z-20 !filter-order-logo z-10',
         'max-md:!-ml-6 lg:-ml-6',
         'md:h-[--logo-height] md:w-[--logo-width]',
         'nav-mobile:-ml-10 nav-mobile:h-[--logo-height-mobile] nav-mobile:w-[--logo-width-mobile]',
         'nav-mobile-open:invert nav-mobile-open:invert nav-mobile-open:saturate-0 nav-mobile-open:brightness-[0.8] nav-mobile-open:mix-blend-luminosity',
       ]}
       aria-label="Unitary Foundation Homepage">
-      <Svg name="logo" class:list={[ 'z-10' ]} />
+      <Svg name="logo" />
     </a>
     <Navigation
       className={[
-        'grid-in-nav grid grid-areas-navigation grid-cols-navigation h-full w-full border-t-yellow-400 border-t-[length:--header-pt]',
+        'grid-in-nav grid grid-areas-navigation grid-cols-navigation h-full w-full border-t-yellow-400 border-t-[length:--header-pt] z-15',
         'nav-desktop:grid-rows-navigation-desktop',
         'nav-mobile:grid-rows-navigation-mobile nav-mobile:overflow-hidden',
       ]}
