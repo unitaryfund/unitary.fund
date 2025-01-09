@@ -15,7 +15,7 @@ import Navigation from './Header/Navigation.astro';
     </div>
     <div
       class:list={[
-        'max-h-[calc(var(--logo-height)+var(--header-pt))] col-start-1 w-0 row-start-1 row-span-full bleed-bg-l bleed-yellow-400 -mt-[--header-pt] z-10',
+        'max-h-[calc(var(--logo-height)+var(--header-pt))] col-start-1 w-0 row-start-1 row-span-full bleed-bg-l bleed-yellow-400 -mt-[--header-pt] z-20',
         'max-lg:hidden nav-mobile:hidden',
       ]}>
     </div>
@@ -35,7 +35,7 @@ import Navigation from './Header/Navigation.astro';
         'nav-mobile-open:invert nav-mobile-open:invert nav-mobile-open:saturate-0 nav-mobile-open:brightness-[0.8] nav-mobile-open:mix-blend-luminosity',
       ]}
       aria-label="Unitary Foundation Homepage">
-      <Svg name="logo" />
+      <Svg name="logo" class:list={[ 'z-10' ]} />
     </a>
     <Navigation
       className={[
