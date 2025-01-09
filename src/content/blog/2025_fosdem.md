@@ -42,7 +42,7 @@ We hope to see you in Brussels!
 - [FOSDEM Practical Information including transporation](https://fosdem.org/2025/practical/)
 - [Quantum Computing devroom](https://fosdem.org/2025/schedule/track/quantum/)
 - [FOSDEM Code of Conduct](https://fosdem.org/2025/practical/conduct/)
-- [Unitary Foundation](https://unitary.fund/)
+- [Unitary Foundation](https://unitary.foundation/)
 
 ## Organizers
 
@@ -50,5 +50,5 @@ If you have a specific request or question, you can reach out directly to the or
 
 - quantum-devroom-manager@fosdem.org
 - Alessandro Cosentino (cosenal [at] gmail.com)
-- Nate Stemen (nate [at] unitary.fund)
+- Nate Stemen (nate [at] unitary.foundation)
 - Purva Thakre (purva.athakre [at] gmail.com)
