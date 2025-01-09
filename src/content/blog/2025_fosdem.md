@@ -17,9 +17,9 @@ FOSDEM (Free and Open Source Software Developers' European Meeting) is a confere
 </p>
 
 
-FOSDEM serves as a venue for open-source developers around the world to meet and facilitate conversations about the open-source ecosystem. This year, we hope to foster connections between the classical and quantum open-source ecosystems. Talks and presentations in each devroom (developer room) are suited to a particular topic of interest. In late 2024, we [put out a call](https://unitary.fund/community/FOSDEM_2025/) for the quantum devroom on talks related to: quantum software, quantum compilation, quantum programming languages, securing quantum communications, etc. People with any or zero familiarity with quantum computing are welcome!
+FOSDEM serves as a venue for open-source developers around the world to meet and facilitate conversations about the open-source ecosystem. This year, we hope to foster connections between the classical and quantum open-source ecosystems. Talks and presentations in each devroom (developer room) are suited to a particular topic of interest. In late 2024, we [put out a call](https://unitary.fund/community/FOSDEM_2025/) for the quantum devroom on talks related to: quantum software, quantum compilation, quantum programming languages, securing quantum communications, etc. 
 
-The full schedule is available [here](https://fosdem.org/2025/schedule/track/quantum/). After the event, recorded talks will be available at the same link.
+The full schedule is available [here](https://fosdem.org/2025/schedule/track/quantum/). People with any or zero familiarity with quantum computing are welcome! After the event, recorded talks will be available at the same link.
 
 Accepted talks will focus on:
 - Implementing a programming language for an analog quantum computer
