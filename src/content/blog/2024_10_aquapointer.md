@@ -67,7 +67,7 @@ for canvas in canvases:
 ```
 
 We have also created a template script for automating the workflow from 3D-RISM input file to positions of water molecules obtained from solving the QUBO.
-For more information, check out Aquapointer's [documentation](https://aquapointer.readthedocs.io/en/latest/), and be sure to stay connected with Unitary Fund on our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), and [LinkedIn](https://www.linkedin.com/company/unitary.foundation/).
+For more information, check out Aquapointer's [documentation](https://aquapointer.readthedocs.io/en/latest/), and be sure to stay connected with Unitary Fund on our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), and [LinkedIn](https://www.linkedin.com/company/unitary-fund/).
 
 ------------------------------------------------------
 

@@ -44,4 +44,4 @@ Mitiq's open source ecosystem growth is accelerated by the National Science Foun
 Our thanks to the organizers Stefan Krastanov (U. Mass. Amherst), Katharine Hyatt (AWS Quantum) and Roger Luo (QuEra) for enthusiastically including us and producing an excellent program, and to the sponsors of the school.
 ![](/images/qnumerics_supporters.png)
 
-To learn about future events and exciting developments at Unitary Fund, make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary.foundation/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com).
+To learn about future events and exciting developments at Unitary Fund, make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary-fund/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com).

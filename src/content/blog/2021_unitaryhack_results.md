@@ -25,7 +25,7 @@ Over 370 attendees registered for the hackathon, many of whom were new to open s
 > 
 > **—Josh Izaac at Xanadu**
 
-All in all, it was a great way to introduce lots of folks to open source quantum projects, and grow the community of quantum developers. That’s all for now, but stay tuned to our [Discord](http://discord.unitary.foundation), [Twitter](https://twitter.com/untiaryfund), [LinkedIn](https://www.linkedin.com/company/unitary.foundation/), [mailing list](https://unitary.foundation/), and [community calendar](http://events.unitary.foundation) and join one of the most influential communities in quantum technologies.
+All in all, it was a great way to introduce lots of folks to open source quantum projects, and grow the community of quantum developers. That’s all for now, but stay tuned to our [Discord](http://discord.unitary.foundation), [Twitter](https://twitter.com/untiaryfund), [LinkedIn](https://www.linkedin.com/company/unitary-fund/), [mailing list](https://unitary.foundation/), and [community calendar](http://events.unitary.foundation) and join one of the most influential communities in quantum technologies.
 
 ![unitaryHACK results card](../images/unitaryHACK-results.png)
 

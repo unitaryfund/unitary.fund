@@ -56,4 +56,4 @@ The success of these projects is a testament to the creativity, dedication, and 
 
 Join Us: Whether you’re a researcher, developer, or enthusiast, get involved with the Unitary Fund’s initiatives and be part of the growing ecosystem. Together, we can achieve more!
 
-[Apply here](https://unitaryfund.typeform.com/to/j0kAOd?typeform-source=unitary.foundation) for a microgrant and make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary.foundation/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com) for all the latest updates!
+[Apply here](https://unitaryfund.typeform.com/to/j0kAOd?typeform-source=unitary.foundation) for a microgrant and make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary-fund/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com) for all the latest updates!

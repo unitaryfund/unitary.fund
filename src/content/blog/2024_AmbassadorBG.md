@@ -34,4 +34,4 @@ The Unitary Fund Quantum Ambassadors program recognizes individuals that are dir
 
 Anyone is eligible to become an ambassador, and winners are nominated by the Unitary Fund team on a rolling basis. We expect that ambassadors exemplify Unitary Fund values and conduct themselves with respect whenever they engage with others within and outside the open quantum community.
 
-Join our newsletter to get updates about this blog in your inbox, follow us on [Linkedin](https://www.linkedin.com/company/unitary.foundation) or [X](https://twitter.com/unitaryfund), or join our Discord to hang out with the open quantum community.
+Join our newsletter to get updates about this blog in your inbox, follow us on [Linkedin](https://www.linkedin.com/company/unitary-fund) or [X](https://twitter.com/unitaryfund), or join our Discord to hang out with the open quantum community.

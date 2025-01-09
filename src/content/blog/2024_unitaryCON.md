@@ -47,4 +47,4 @@ A special thank you to InstituteQ for their generous sponsorship to fund travel 
 
 We can’t wait to see you all next year for unitaryCON 2025! 
 
-Make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary.foundation/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com) to stay up to date on upcoming events and news!
+Make sure to follow our [Discord](https://discord.com/invite/JqVGmpkP96), [X](https://twitter.com/unitaryfund), [LinkedIn](https://www.linkedin.com/company/unitary-fund/), and our [Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_mgqdq6hj2isi4d6h467kfqvg60@group.calendar.google.com) to stay up to date on upcoming events and news!
