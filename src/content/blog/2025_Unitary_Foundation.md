@@ -1,7 +1,7 @@
 ---
 title: Announcing Unitary Foundation
 author: Will Zeng
-day: 8
+day: 10
 month: 1
 year: 2025
 tags:
@@ -31,12 +31,10 @@ To better represent our growth, we are re-branding as Unitary Foundation: [https
 
 Want to join us on this mission? Email us at: [partners@unitary.foundation](mailto:partners@unitary.foundation)
 
+- Will Zeng, Founder and President at Unitary Foundation
+
 <div style="display: flex; justify-content: center; align-items: center;" class="side-by-side">
   <figure style="text-align: center;">
     <img src="/images/UFoundation.png" width="600" alt="Unitary Foundation.">
   </figure>
 </div>
-
-- Will Zeng
-
-
