@@ -1,6 +1,6 @@
 # Unitary Foundation
 
-Unitary Foundation is a non-profit that supports the open development of the quantum technology ecosystem.
+Unitary Foundation is a non-profit that supports the open development of the quantum technology ecosystem. 
 
 Learn more about what we do at [`unitary.foundation`](https://unitary.foundation).
 
