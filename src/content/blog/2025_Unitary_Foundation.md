@@ -1,7 +1,7 @@
 ---
 title: Announcing Unitary Foundation
 author: Will Zeng
-day: 8
+day: 10
 month: 1
 year: 2025
 tags:
