@@ -9,12 +9,12 @@ Learn more about what we do at [`unitary.foundation`](https://unitary.foundation
 If you are a project affiliated with Unitary Foundation you can add the badge to your GitHub project using the following snippet:
 
 ```
-[![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
+[![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FOUNDATION-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
 ```
 
 This will be rendered as:
 
-[![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
+[![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FOUNDATION-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
 
 ## Writing a blog post
 
