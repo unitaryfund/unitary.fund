@@ -20,7 +20,7 @@ The Quantum Computing devroom is slotted for the second half of Sunday 2 Februar
   </a>
 </p>
 
-The full schedule is available [here](https://fosdem.org/2025/schedule/track/quantum/). People with any or zero familiarity with quantum computing are welcome! If you are at FOSDEM for a "classical" track on Saturday and you are curious to know more about Quantum Computing, join our devroom on Sunday! After the event, recorded talks will be available at the same link.
+The full schedule is available [here](https://fosdem.org/2025/schedule/track/quantum/). Whether you're completely new to quantum computing or already familiar with it, everyone is welcome! If you're attending a "classical" track at FOSDEM on Saturday and are curious to explore Quantum Computing, be sure to visit our devroom on Sunday. After the event, recorded talks will be available at the same link.
 
 We hope to see you in Brussels!
 
