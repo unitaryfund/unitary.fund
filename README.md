@@ -118,3 +118,4 @@ If you have a Github account, you can directly add a new markdown file to add a 
 ## Run the website locally
 
 Information on how to run the website locally are given in the [developer docs](https://github.com/unitaryfund/unitary.foundation/wiki/Developer-docs) wiki.
+
