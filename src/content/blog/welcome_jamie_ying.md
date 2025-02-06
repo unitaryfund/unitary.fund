@@ -16,4 +16,4 @@ Unitary Foundation is delighted to announce that we have added two new members t
 
 Dr. Friel and Dr. Mao have joined our illustrious committee of advisors who support UF’s [microgrant program](https://unitary.foundation/grants/) through participation in applicant review meetings as well as the championing and mentoring of accepted grantees. Welcome both!
 
-![J.Friel](/images/jamie_friel.jpeg) ![Y.Mao](/images/ying_mao.jpg)
+![Dr. Jamie Friel & Dr. Ying Mao](/images/jamie_yao.png)
