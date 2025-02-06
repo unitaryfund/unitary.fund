@@ -14,6 +14,6 @@ Unitary Foundation is delighted to announce that we have added two new members t
 
 **Ying** is an associate professor and associate chair for Undergraduate Studies in the Department of Computer and Information Science at Fordham University in New York City. He earned his Ph.D. from the University of Massachusetts Boston. His current research focuses on distributed quantum computing, qubit mapping, circuit optimization, and quantum cloud computing systems. His projects have been supported by various public and private organizations, including the National Science Foundation, Google Research, and NVIDIA.
 
-Jamie and Ying have joined our illustrious committee of advisors who support UF’s [microgrant program](https://unitary.foundation/grants/) through participation in applicant review meetings as well as the championing and mentoring of accepted grantees. Welcome both!
+Dr. Friel and Dr. Mao have joined our illustrious committee of advisors who support UF’s [microgrant program](https://unitary.foundation/grants/) through participation in applicant review meetings as well as the championing and mentoring of accepted grantees. Welcome both!
 
 ![J.Friel](/images/jamie_friel.jpeg) ![Y.Mao](/images/ying_mao.jpg)
