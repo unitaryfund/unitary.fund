@@ -8,4 +8,4 @@ tags:
   - education
   - quantum
 ---
-To **Abbey Pint and Thomas Cervoni** to further develop **Quantum Picturalism Website**, which has a mission to expand Quantum Picturalism resources to make quantum math more accessible and inclusive.
+To **Abbey Pint and Thomas Cervoni** to further develop the **Quantum Picturalism Website**, which has a mission to expand Quantum Picturalism resources to make quantum math more accessible and inclusive.
