@@ -9,7 +9,7 @@ tags:
   - community
 ---
 
-Hundreds of people crammed into a classroom at Université Libre de Bruxelles, eager to discuss quantum computing and open-source.
+Hundreds of people crammed into a classroom at Université Libre de Bruxelles on the first Sunday of February, eager to discuss quantum computing and open-source.
 Some had to be turned away for safety reasons.
 This was the reality of the Quantum Computing devroom at FOSDEM 2025—our first time actively organizing it, and a whirlwind experience.
 We left Belgium buzzing with ideas, enthusiasm for open-source quantum computing, and a renewed appreciation for the power of community-driven development.
@@ -23,7 +23,7 @@ We left Belgium buzzing with ideas, enthusiasm for open-source quantum computing
   </div>
 </div>
 
-We learned a lot from the event.
+We learned a lot.
 Both from our amazing cast of speakers 👏, but also from organizing the event.
 Before we dive into our recap and lessons learned, a huge shoutout and thank you is in order to all the FOSDEM organizers and volunteers who come together to put on this event every year.
 There's nothing like it.
@@ -47,13 +47,13 @@ This year we had the honor of organizing it, and we worked to put together a Cal
 FOSDEM is massive, and running a devroom is no small task.
 These might be obvious to more seasoned devroom organizers, but we would have benefited from these ahead of time!
 
-- **Collating an awesome lineup** -- Many quantum folks don't have FOSDEM on their radar (yet). If you want a strong lineup, individual solicitations are key to having an exceptional speaker lineup.
-- **Day of logistics** -- Purva (our third co-organizer) couldn't make it to Bruxelles, and two people on-site was barely enough. Managing the video stream, helping the speakers with the projector, moderating Q&A, handling the flow of people entering the room—it was controlled chaos. Big shoutout to [Harshit](https://github.com/TheGupta2012/) for stepping in to help!
+- **Collating an awesome lineup** -- Many quantum folks don't have FOSDEM on their radar (yet). If you want a strong lineup, individual solicitations are key to having an exceptional speaker lineup. This year we plan to advertise at our own events to ensure our community is more aware.
+- **Day of logistics** -- [Purva](https://github.com/purva-thakre) (our third co-organizer) couldn't make it to Bruxelles, and two people on-site was barely enough. Managing the video stream, helping the speakers with the projector, moderating Q&A, handling the flow of people entering the room—it was controlled chaos. Big shoutout to [Harshit](https://github.com/TheGupta2012/) for stepping in to help!
 - **Prepare for overflow** -- The room filled up fast, and we had to turn people away. It was sad to turn people around, or kick them out, but necessary to ensure FOSDEM can continue into the future. Hopefully next year we can get a bigger room.
 - **Meet speakers beforehand** -- We met most of the speakers 5 minutes before their talk while they were already standing in front of the room, with a laptop in their hands. A pre-event gathering could warm up the room and foster more community among speakers and attendees alike.
 - **Organizer t-shirts** -- (ok, this one is minor) We picked up our organizer t-shirts right before the devroom start on Sunday, and there were only XL and XXL sizes left.
 
-## What we’ll do differently next time 🎯
+## What we’ll do differently next time 🐞
 
 Was our organization of the devroom perfect? No!
 Are we going to organize it again? Absolutely yes!
@@ -61,13 +61,13 @@ Next iteration, we want to try some ideas.
 Again, these may not sound like new ideas to more seasoned devroom organizers, but they are things we didn't think of implementing this year.
 
 - **Fix the schedule gaps** -- We scheduled five-minute breaks between talks to ensure we had ample time for transitions, but it ended up feeling more awkward than useful. More back-to-back talks or lightning sessions would be better.
-- **Promote the livestream** -- Sharing a link to watch online earlier on forums and chats, as well as reminding people in our community will allow more people to participate.
-- **Monitor the Element chat** -- In all honesty, we completely forgot to check the chat about the chat until half-way through the schedule. At the end of the day, everything was fine, because there wasn't much engagement there, but here is a note to ourselves to monitor the chat next year.
-- **A Quantum Fringe Event** -- A hackathon, meetup, or social event could allow more people to get involved in quantum, especially since some couldn't make it in the door!
-- **More Club-Mate** -- We definitely didn't drink enough. FOSDEM requires high energy and Club-Mate provides: plus it's vegan and gluten-free (not sponsored, but reach out if you work at Club-Mate 😅).
-- **More tourism** -- And we don't mean seeing more of Bruxelles attractions (although that would be nice too), but attending more of other devroom's talks, and submerging ourselves more in the spirit of the event.
+- **Promote the livestream** -- FOSDEM devrooms have a livestream for people who can't attend in person. Next time, we want to share a link to the livestream on the usual quantum forums and chats ahead of time.
+- **Monitor the Element chat** -- In all honesty, we completely forgot to check the chat until half-way through the schedule. At the end of the day, everything was fine, because there wasn't much engagement there, but here is a note to ourselves to monitor the chat next year.
+- **A Quantum Fringe Event** -- A hackathon, meetup, or social event ahead of the devroom could allow more people to get involved in quantum, especially since some couldn't make it in the door!
+- **More Club-Mate** -- We definitely didn't drink enough. FOSDEM requires high energy and [Club-Mate](https://en.wikipedia.org/wiki/Club-Mate) provides: plus it's vegan and gluten-free (not sponsored, but reach out if you work at Club-Mate 😅).
+- **More tourism** -- And we don't mean seeing more of Bruxelles attractions (although that would be nice too), but attending more of other devroom's talks, and submerging ourselves more in the spirit of the event. We attended some great keynotes and a few talks in other devrooms, but I wish we had time to watch more.
 
-## What went well 🎉
+## What went well 🎯
 
 It's easy to focus on all the things we missed, or we can do better next year, but a majority of items passed over smoothly.
 Is this in large part due to the amazing infrastructure FOSDEM has set up?
@@ -79,7 +79,7 @@ We can take some minor credit too.
 - **Welcome slides** -- Alessandro got the room warmed up with a brief history of the quantum devroom at FOSDEM and a (very) brief introduction to quantum computing. Since this is such a new field with many newcomers, this was very important to ensure the following talks could hit the ground running.
 - **Fringe events** -- While at FOSDEM, we got to meet awesome people through FOSDEM fringe events (Google Summer of Code meetup, GitHub maintainers social, and of course a FOSDEM favorite: Delirium cafè). In retrospect, we are very happy we found the will to go to these night events.
 - **Audio & Visual** -- Besides a small hiccup getting Mac's to connect to the projector, everything provided from FOSDEM worked like a charm. Read the documentation ahead of your devroom, and you're all set to go. The audio&video volunteer staff sitting in front of the room gave us a crisp debrief before we started, which was very helpful.
-- **Balancing theory and practice** -- We believe the schedule had a good balance of theoretical and more practical talks, but we would like to hear more about this from the audience.
+- **Balancing theory and practice** -- We believe the devroom schedule had a good balance of theoretical and more practical talks, but we would like to hear more feedback about this from the audience. If you attended in person, or watched the livestream, let us know by email or in the comments below what you thought.
 - **No cancellation** -- Perhaps this was just luck, but we are still glad none of the speakers had to cancel.
 
 ## Quantum-specific challenges 🧩
