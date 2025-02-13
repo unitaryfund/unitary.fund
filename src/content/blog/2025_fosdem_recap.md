@@ -30,7 +30,7 @@ There's nothing like it.
 
 ## Wait, what's FOSDEM? 🤔
 
-For those not familiar with FOSDEM (many people in quantum don't know about it---more on that later), it's a non-commercial, volunteer-organized European event centered on free and open-source software development.
+For those not familiar with FOSDEM (many people in quantum don't know about it -- more on that later), it's a non-commercial, volunteer-organized European event centered on free and open-source software development.
 This year was the 25th edition, and in each of the latest editions, there have been more than 8,000 visitors.
 
 Each year there are **a lot** of devrooms (the equivalent of a track at a research conference), and the Quantum Computing devroom was organized in two past editions in 2019 and 2020 by the Quantum Open Source Foundation, namely by Tomas Babej and Mark Fingerhuth.
